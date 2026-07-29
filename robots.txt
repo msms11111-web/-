@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://msms11111-web.github.io/-/sitemap.xml

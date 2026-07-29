@@ -1,0 +1,36 @@
+{
+  "name": "قطرة — موسوعة القهوة",
+  "short_name": "قطرة",
+  "description": "موسوعة عربية عالمية تروي رحلة القهوة من الأرض إلى الكوب.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f1e7",
+  "theme_color": "#123629",
+  "categories": ["education", "food", "books"],
+  "icons": [
+    {
+      "src": "assets/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
