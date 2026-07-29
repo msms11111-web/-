@@ -46,6 +46,28 @@
   };
 
   const normalize = (s) => fold(s).text.trim();
+
+  /* أسماء تُكتب بالرسمين: المصادر لاتينية والقارئ يكتب بالعربية.
+     بدون هذا لا تجد «يونسكو» صفحةً تكتبها UNESCO. */
+  const ALIASES = [
+    ["يونسكو", "unesco"],
+    ["هاريو", "hario"],
+    ["اثيوبيا", "ethiopia"],
+    ["قوجي", "guji"],
+    ["ديجا", "ديغا", "dega", "deiga"],
+    ["ارابيكا", "arabica"],
+    ["جازان", "jazan", "jizan"],
+    ["خولاني", "khawlani"],
+    ["جما", "jimma", "jma"],
+    ["اوروميا", "oromia"],
+  ].map((group) => group.map(normalize));
+
+  // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة
+  const expand = (word) => {
+    for (const group of ALIASES) if (group.includes(word)) return group;
+    return [word];
+  };
+
   const terms = (s) => normalize(s).split(" ").filter(Boolean);
 
   const escape = (s) =>
@@ -116,21 +138,24 @@
 
     const FIELDS = [["title", 6], ["headings", 3], ["desc", 2], ["text", 1]];
 
-    const score = (page, words) => {
+    const score = (page, groups) => {
       let total = 0;
-      for (const w of words) {
-        // الكلمات القصيرة تُقبل عند بداية كلمة فقط، وإلا امتلأت النتائج بمطابقات عابرة
-        const needWord = w.length <= 3;
-        let sum = 0;
-        let matched = false;
-        for (const [field, weight] of FIELDS) {
-          const r = findIn(page.n[field], w);
-          if (!r.any || (needWord && !r.atWord)) continue;
-          matched = true;
-          sum += weight * (r.atWord ? 2 : 1);
+      for (const group of groups) {
+        // تكفي صيغة واحدة من صيغ الكلمة، لكن كل كلمة مطلوبة
+        let best = 0;
+        for (const w of group) {
+          // الكلمات القصيرة تُقبل عند بداية كلمة فقط، وإلا امتلأت النتائج بمطابقات عابرة
+          const needWord = w.length <= 3;
+          let sum = 0;
+          for (const [field, weight] of FIELDS) {
+            const r = findIn(page.n[field], w);
+            if (!r.any || (needWord && !r.atWord)) continue;
+            sum += weight * (r.atWord ? 2 : 1);
+          }
+          if (sum > best) best = sum;
         }
-        if (!matched) return 0; // كل الكلمات مطلوبة
-        total += sum;
+        if (!best) return 0; // لا صيغة من هذه الكلمة موجودة
+        total += best;
       }
       // الرئيسية تلمّح إلى كل شيء فتتصدر كل بحث، وهي صفحة هبوط لا مدخل موسوعي
       return page.url === "" ? total * 0.45 : total;
@@ -147,9 +172,10 @@
       if (empty) empty.hidden = true;
     };
 
-    const renderResults = (words) => {
+    const renderResults = (groups) => {
+      const words = groups.flat(); // التعليم يشمل كل الصيغ، فتُبرز الصيغة الموجودة فعلًا
       const hits = index
-        .map((page) => ({ page, s: score(page, words) }))
+        .map((page) => ({ page, s: score(page, groups) }))
         .filter((x) => x.s > 0)
         .sort((a, b) => b.s - a.s);
 
@@ -183,7 +209,7 @@
     const run = () => {
       const words = terms(input.value);
       if (!words.length) return showBrowse();
-      if (index && panel) renderResults(words);
+      if (index && panel) renderResults(words.map(expand));
       else filterCards(words);
     };
 
