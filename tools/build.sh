@@ -47,6 +47,7 @@ if [ -z "$URL" ]; then
 fi
 
 python3 tools/set-site-url.py "$URL"
+python3 tools/build-search-index.py
 
 # معاينات الفروع يجب ألا تُؤرشف، وإلا نافست الإنتاج في نتائج البحث
 if [ "$BRANCH" != "$PRODUCTION_BRANCH" ]; then
