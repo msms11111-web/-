@@ -14,3 +14,7 @@
 # الأصول ثابتة الأسماء: تخزين قصير مع إعادة تحقق
 /assets/*
   Cache-Control: public, max-age=3600, must-revalidate
+
+# الخطوط لا تتغير عمليًا، وتحميلها يؤخر أول رسم للنص
+/assets/fonts/*
+  Cache-Control: public, max-age=2592000
