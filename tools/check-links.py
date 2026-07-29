@@ -13,9 +13,17 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parent.parent
-SITE_URL = "https://msms11111-web.github.io/-/"
-BASE_PATH = "/" + SITE_URL.split("/", 3)[3]
 REF = re.compile(r'(?:href|src)="([^"]+)"')
+CANONICAL = re.compile(r'<link rel="canonical" href="([^"]+)"')
+
+
+def base_path() -> str:
+    """يستنتج مسار الموقع من وسم canonical، فلا يحتاج تعديلًا عند تغيير النطاق."""
+    match = CANONICAL.search((ROOT / "index.html").read_text(encoding="utf-8"))
+    return urlsplit(match.group(1)).path if match else "/"
+
+
+BASE_PATH = base_path()
 
 
 def resolve(page: Path, ref: str) -> Path | None:

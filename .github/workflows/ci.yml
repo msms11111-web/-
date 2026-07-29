@@ -1,0 +1,19 @@
+name: فحص الموقع
+
+# النشر تتولاه الاستضافة (Cloudflare Pages أو Netlify أو Vercel) عند كل دفعة.
+# دور GitHub هنا هو التحقق فقط: ألا يصل رابط مكسور إلى الفرع الرئيسي.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: التحقق من الروابط الداخلية
+        run: python3 tools/check-links.py

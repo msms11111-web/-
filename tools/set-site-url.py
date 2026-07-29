@@ -34,14 +34,33 @@ START = "<!--qatra:meta-->"
 END = "<!--/qatra:meta-->"
 BLOCK = re.compile(re.escape(START) + ".*?" + re.escape(END), re.S)
 
+# يسجل الأساس المطبَّق على صفحة 404، ليُزال قبل تطبيق أساس جديد
+BASE_MARK = re.compile(r"<!--qatra:base=([^>]*)-->")
+
 
 def page_url(base: str, path: str) -> str:
     return base + path
 
 
-def meta_block(base: str, url: str, prefix: str) -> str:
+def json_ld(base: str) -> str:
+    """بيانات منظمة للصفحة الرئيسية. تُولَّد هنا كي لا تتعارض مع canonical."""
+    return (
+        '<script type="application/ld+json">'
+        '{"@context":"https://schema.org","@type":"WebSite",'
+        '"name":"قطرة","alternateName":"موسوعة القهوة العربية",'
+        '"description":"موسوعة عربية عالمية تروي رحلة القهوة من الأرض إلى الكوب.",'
+        f'"url":"{base}","inLanguage":"ar",'
+        '"potentialAction":{"@type":"SearchAction",'
+        f'"target":{{"@type":"EntryPoint","urlTemplate":"{base}encyclopedia/?q={{search_term_string}}"}},'
+        '"query-input":"required name=search_term_string"}}'
+        "</script>"
+    )
+
+
+def meta_block(base: str, url: str, prefix: str, home: bool = False) -> str:
     return (
         f"{START}"
+        f"{json_ld(base) if home else ''}"
         f'<link rel="canonical" href="{url}">'
         f'<meta property="og:url" content="{url}">'
         f'<meta property="og:site_name" content="قطرة">'
@@ -58,19 +77,35 @@ def meta_block(base: str, url: str, prefix: str) -> str:
     )
 
 
-def patch_html(file: Path, base: str, url: str, prefix: str) -> None:
+def patch_html(file: Path, base: str, url: str, prefix: str, home: bool = False) -> None:
     html = file.read_text(encoding="utf-8")
     html = BLOCK.sub("", html)
-    html = html.replace("</head>", meta_block(base, url, prefix) + "</head>", 1)
+    html = html.replace("</head>", meta_block(base, url, prefix, home) + "</head>", 1)
     file.write_text(html, encoding="utf-8")
 
 
 def patch_404(base_path: str) -> None:
-    """صفحة 404 تُعرض من أي مسار، فلا تصلح فيها الروابط النسبية."""
+    """صفحة 404 تُعرض من أي مسار، فلا تصلح فيها الروابط النسبية.
+
+    يُسجَّل الأساس المطبَّق داخل الصفحة، لتُعاد الروابط إلى صيغتها النسبية
+    قبل تطبيق أساس جديد. بدون ذلك يتراكم الأساس القديم عند تغيير النطاق.
+    """
     file = ROOT / "404.html"
     html = file.read_text(encoding="utf-8")
+
+    previous = BASE_MARK.search(html)
+    if previous:
+        old = previous.group(1)
+        html = re.sub(
+            rf'(href|src)="{re.escape(old)}([^"]*)"',
+            lambda m: f'{m.group(1)}="{m.group(2) or "index.html"}"',
+            html,
+        )
+        html = BASE_MARK.sub("", html)
+
     html = re.sub(r'(href|src)="(?!https?:|//|/|#|data:)([^"]+)"', rf'\1="{base_path}\2"', html)
     html = html.replace(f'href="{base_path}index.html"', f'href="{base_path}"')
+    html = html.replace("</head>", f"<!--qatra:base={base_path}--></head>", 1)
     file.write_text(html, encoding="utf-8")
 
 
@@ -90,7 +125,7 @@ def main() -> int:
     for path, _ in PAGES:
         file = ROOT / path / "index.html"
         depth = path.count("/")
-        patch_html(file, base, page_url(base, path), "../" * depth)
+        patch_html(file, base, page_url(base, path), "../" * depth, home=(path == ""))
 
     patch_html(ROOT / "404.html", base, base + "404.html", "")
     patch_404(base_path)

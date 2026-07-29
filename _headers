@@ -1,0 +1,16 @@
+# ترويسات HTTP لـ Netlify و Cloudflare Pages (كلاهما يقرأ هذا الملف).
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'self'
+
+# الصفحات تتغير مع تحديث المحتوى، فتُراجَع في كل زيارة
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+# الأصول ثابتة الأسماء: تخزين قصير مع إعادة تحقق
+/assets/*
+  Cache-Control: public, max-age=3600, must-revalidate
