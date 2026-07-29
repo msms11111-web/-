@@ -9,10 +9,12 @@
 السكربت آمن للتشغيل أكثر من مرة.
 """
 
+import json
 import re
 import sys
 from datetime import date
 from pathlib import Path
+from urllib.parse import urljoin
 
 ROOT = Path(__file__).resolve().parent.parent
 
@@ -57,10 +59,83 @@ def json_ld(base: str) -> str:
     )
 
 
-def meta_block(base: str, url: str, prefix: str, home: bool = False) -> str:
+def meta(html: str, name: str) -> str:
+    match = re.search(rf'<meta name="{name}" content="([^"]*)"', html)
+    return match.group(1) if match else ""
+
+
+def text_of(html: str, pattern: str) -> str:
+    """نص أول مطابقة بعد إزالة الوسوم."""
+    match = re.search(pattern, html, re.S)
+    if not match:
+        return ""
+    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", match.group(1))).strip()
+
+
+def breadcrumbs(url: str, html: str) -> list[dict]:
+    """مسار التنقل مأخوذ من فتات الصفحة الظاهر، لا مُخمَّنًا من المسار."""
+    block = re.search(r'<div class="crumbs">(.*?)</div>', html, re.S)
+    if not block:
+        return []
+    items = []
+    for link, name in re.findall(r"""<a href=['"]([^'"]+)['"]>([^<]+)</a>""", block.group(1)):
+        target = urljoin(url, link)
+        if target.endswith("/index.html"):
+            target = target[: -len("index.html")]
+        items.append({"name": name.strip(), "item": target})
+    current = re.search(r"<b>([^<]+)</b>", block.group(1))
+    if current:
+        items.append({"name": current.group(1).strip(), "item": url})
+    return items
+
+
+def page_schema(base: str, url: str, path: str, html: str) -> str:
+    """مقال موسوعي ومسار تنقل لكل صفحة محتوى."""
+    title = text_of(html, r"<h1[^>]*>(.*?)</h1>") or text_of(html, r"<title>(.*?)</title>")
+    kind = "CollectionPage" if path == "encyclopedia/" else "Article"
+
+    blocks = [
+        {
+            "@context": "https://schema.org",
+            "@type": kind,
+            "headline": title,
+            "name": title,
+            "description": meta(html, "description"),
+            "url": url,
+            "inLanguage": "ar",
+            "isPartOf": {"@type": "WebSite", "name": "قطرة", "url": base},
+        }
+    ]
+
+    trail = breadcrumbs(url, html)
+    if trail:
+        blocks.append(
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {"@type": "ListItem", "position": i, "name": c["name"], "item": c["item"]}
+                    for i, c in enumerate(trail, 1)
+                ],
+            }
+        )
+
+    return "".join(
+        '<script type="application/ld+json">'
+        + json.dumps(b, ensure_ascii=False, separators=(",", ":"))
+        + "</script>"
+        for b in blocks
+    )
+
+
+def meta_block(
+    base: str, url: str, prefix: str, home: bool = False, schema: str = "", noindex: bool = False
+) -> str:
+    robots = '<meta name="robots" content="noindex">' if noindex else ""
     return (
         f"{START}"
-        f"{json_ld(base) if home else ''}"
+        f"{json_ld(base) if home else schema}"
+        f"{robots}"
         f'<link rel="canonical" href="{url}">'
         f'<meta property="og:url" content="{url}">'
         f'<meta property="og:site_name" content="قطرة">'
@@ -71,16 +146,26 @@ def meta_block(base: str, url: str, prefix: str, home: bool = False) -> str:
         f'<meta property="og:image:alt" content="قطرة — موسوعة القهوة العربية">'
         f'<meta name="twitter:card" content="summary_large_image">'
         f'<meta name="twitter:image" content="{base}assets/og-image.png">'
+        # بدون تحميل مسبق يُرسم النص بخط بديل ثم يقفز عند وصول الخط، فينزاح
+        # التصميم (قيس 0.0627 قبل، و0.0001 بعد). crossorigin لازم للخطوط
+        # حتى على النطاق نفسه.
+        f'<link rel="preload" href="{prefix}assets/fonts/amiri-700.woff2" as="font" type="font/woff2" crossorigin>'
+        f'<link rel="preload" href="{prefix}assets/fonts/plex-ar-400.woff2" as="font" type="font/woff2" crossorigin>'
         f'<link rel="apple-touch-icon" href="{prefix}assets/apple-touch-icon.png">'
         f"<noscript><style>.fade{{opacity:1;transform:none}}</style></noscript>"
         f"{END}"
     )
 
 
-def patch_html(file: Path, base: str, url: str, prefix: str, home: bool = False) -> None:
+def patch_html(
+    file: Path, base: str, url: str, prefix: str, home: bool = False, path: str = "", noindex: bool = False
+) -> None:
     html = file.read_text(encoding="utf-8")
     html = BLOCK.sub("", html)
-    html = html.replace("</head>", meta_block(base, url, prefix, home) + "</head>", 1)
+    # صفحة 404 ليست مقالًا، فلا مخطط لها
+    schema = "" if home or noindex else page_schema(base, url, path, html)
+    block = meta_block(base, url, prefix, home, schema, noindex)
+    html = html.replace("</head>", block + "</head>", 1)
     file.write_text(html, encoding="utf-8")
 
 
@@ -125,9 +210,10 @@ def main() -> int:
     for path, _ in PAGES:
         file = ROOT / path / "index.html"
         depth = path.count("/")
-        patch_html(file, base, page_url(base, path), "../" * depth, home=(path == ""))
+        patch_html(file, base, page_url(base, path), "../" * depth, home=(path == ""), path=path)
 
-    patch_html(ROOT / "404.html", base, base + "404.html", "")
+    # الخادم يردّ 404 فلا تُفهرس عادةً، لكنها ملف حقيقي يردّ 200 لمن يطلبه مباشرة
+    patch_html(ROOT / "404.html", base, base + "404.html", "", noindex=True)
     patch_404(base_path)
 
     today = date.today().isoformat()
