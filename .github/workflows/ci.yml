@@ -17,3 +17,9 @@ jobs:
 
       - name: التحقق من الروابط الداخلية
         run: python3 tools/check-links.py
+
+      # المصادر الخارجية تُفحص هنا لأن بيئة التطوير قد لا تصل إلى الإنترنت.
+      # موقع مصدر يسقط لا يمنع النشر، لكنه يجب أن يُرى في سجل الفحص.
+      - name: التحقق من المصادر الخارجية
+        continue-on-error: true
+        run: python3 tools/check-external-links.py
