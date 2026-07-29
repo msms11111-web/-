@@ -18,9 +18,26 @@ set -e
 BRANCH="${CF_PAGES_BRANCH:-main}"
 PRODUCTION_BRANCH="${PRODUCTION_BRANCH:-main}"
 
-if [ "$BRANCH" = "$PRODUCTION_BRANCH" ] && [ -n "$SITE_URL" ]; then
-  URL="$SITE_URL"
+# CF_PAGES_URL يعطي عنوان النشرة الواحدة (hash.project.pages.dev) وبادئته
+# تتغير مع كل دفعة. العنوان الثابت للمشروع هو project.pages.dev، فتُحذف
+# البادئة عند وجودها. أي مضيف آخر (نطاق مخصص) يُترك كما هو.
+stable_url() {
+  host=$(printf '%s' "$1" | sed -e 's|^https\{0,1\}://||' -e 's|/.*$||')
+  case "$host" in
+    *.pages.dev)
+      if [ "$(printf '%s\n' "$host" | tr '.' '\n' | wc -l)" -ge 4 ]; then
+        host="${host#*.}"
+      fi
+      ;;
+  esac
+  printf 'https://%s/' "$host"
+}
+
+if [ "$BRANCH" = "$PRODUCTION_BRANCH" ]; then
+  # النطاق المخصص يتقدم دائمًا، لأن Cloudflare لا يمرره في أي متغير
+  URL="${SITE_URL:-$(stable_url "${CF_PAGES_URL:-$1}")}"
 else
+  # المعاينات تبقى على عنوانها الفعلي، وهي ممنوعة من الأرشفة أصلًا
   URL="${CF_PAGES_URL:-${SITE_URL:-$1}}"
 fi
 

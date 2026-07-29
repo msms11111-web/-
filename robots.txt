@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qatra.example/sitemap.xml
+Sitemap: https://qatra-9tb.pages.dev/sitemap.xml
