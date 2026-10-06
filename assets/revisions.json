@@ -26,24 +26,26 @@
   },
   "encyclopedia/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
    "approximate": false
   },
   "evaluation/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
+   "url": "evaluation/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "approximate": false
   },
   "": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
    "url": "",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
    "approximate": false
   },
   "methodology/": {
@@ -62,6 +64,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
+  "origins/yemen/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "processes/natural/": {
    "date": "2026-10-06",
    "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
@@ -79,10 +87,12 @@
    "approximate": false
   },
   "roasting/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
+   "url": "roasting/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "approximate": false
   },
   "saudi-coffee/": {
    "date": "2026-10-06",
@@ -91,6 +101,18 @@
    "url": "saudi-coffee/",
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
+  },
+  "saudi-coffee/khawlani/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "saudi-coffee/ritual/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "varieties/dega/": {
    "date": "2026-10-06",
@@ -118,6 +140,18 @@
     "regions/guji/",
     "saudi-coffee/",
     "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "pages": [
+    "",
+    "encyclopedia/",
+    "evaluation/",
+    "roasting/"
    ]
   },
   {

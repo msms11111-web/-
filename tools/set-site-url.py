@@ -22,6 +22,7 @@ PAGES = [
     ("", "الرئيسية"),
     ("encyclopedia/", "فهرس الموسوعة"),
     ("origins/ethiopia/", "إثيوبيا"),
+    ("origins/yemen/", "اليمن"),
     ("regions/guji/", "قوجي"),
     ("varieties/dega/", "ديجا"),
     ("processes/natural/", "المعالجة المجففة"),
@@ -32,6 +33,8 @@ PAGES = [
     ("methodology/", "منهج قطرة"),
     ("changelog/", "سجل التغييرات"),
     ("saudi-coffee/", "القهوة السعودية"),
+    ("saudi-coffee/khawlani/", "البن الخولاني"),
+    ("saudi-coffee/ritual/", "الدلة والفنجان"),
 ]
 
 # كل ما يضيفه السكربت يوضع بين هذين العلامتين ليمكن استبداله لاحقًا
