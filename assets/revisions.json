@@ -1,82 +1,82 @@
 {
  "brewing/v60/": {
-  "date": "2026-07-29",
-  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
-  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "brewing/v60/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "crops/guji-dega-natural/": {
-  "date": "2026-07-29",
-  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
-  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "crops/guji-dega-natural/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "encyclopedia/": {
-  "date": "2026-07-29",
-  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
-  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "encyclopedia/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "": {
-  "date": "2026-07-29",
-  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
-  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "",
-  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "methodology/": {
-  "date": "2026-07-29",
-  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
-  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "methodology/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "origins/ethiopia/": {
-  "date": "2026-07-29",
-  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
-  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "origins/ethiopia/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "processes/natural/": {
-  "date": "2026-07-29",
-  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
-  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "processes/natural/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "regions/guji/": {
-  "date": "2026-07-29",
-  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
-  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "regions/guji/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "saudi-coffee/": {
-  "date": "2026-07-29",
-  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
-  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "saudi-coffee/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  },
  "varieties/dega/": {
-  "date": "2026-07-29",
-  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
-  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "date": "2026-10-06",
+  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
   "url": "varieties/dega/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
   "approximate": false
  }
 }

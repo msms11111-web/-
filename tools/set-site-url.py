@@ -77,7 +77,7 @@ def rev_note(entry: dict) -> str:
             f' <a href="{link}" target="_blank" rel="noopener noreferrer">'
             f"عرض التغيير<span aria-hidden=\"true\"> ↗</span></a>"
         )
-    return REV_START + body + "</p>" + REV_END
+    return body + "</p>"
 
 
 def page_url(base: str, path: str) -> str:
@@ -204,6 +204,28 @@ def meta_block(
     )
 
 
+def place_note(html: str, note: str) -> str:
+    """يضع سطر المراجعة في نهاية جسم المقال.
+
+    لا يصلح الاكتفاء بأول «</article>»: الصفحة الرئيسية تستخدم <article>
+    لبطاقاتها، فيُحقن السطر داخل أول بطاقة. فيُبحث عن مغلق مقال الصفحة
+    تحديدًا، وإن لم يوجد وُضع في آخر المحتوى.
+    """
+    if not note:
+        return html
+    start = html.find('<article class="article">')
+    if start >= 0:
+        close = html.find("</article>", start)
+        if close >= 0:
+            marked = REV_START + note + REV_END
+            return html[:close] + marked + html[close:]
+    if "</main>" in html:
+        # العلامتان تحيطان بالغلاف أيضًا، وإلا بقي الغلاف بعد الإزالة وتراكم
+        marked = f'{REV_START}<div class="container">{note}</div>{REV_END}'
+        return html.replace("</main>", marked + "</main>", 1)
+    return html
+
+
 def patch_html(
     file: Path, base: str, url: str, prefix: str, home: bool = False, path: str = "",
     noindex: bool = False, rev: dict | None = None,
@@ -215,9 +237,7 @@ def patch_html(
     schema = "" if home or noindex else page_schema(base, url, path, html, rev)
     block = meta_block(base, url, prefix, home, schema, noindex)
     html = html.replace("</head>", block + "</head>", 1)
-    note = rev_note(rev) if rev else ""
-    if note and "</article>" in html:
-        html = html.replace("</article>", note + "</article>", 1)
+    html = place_note(html, rev_note(rev) if rev else "")
     file.write_text(html, encoding="utf-8")
 
 

@@ -28,6 +28,7 @@ GENERATED = [
     re.compile(r"<!--qatra:meta-->.*?<!--/qatra:meta-->", re.S),
     re.compile(r"<!--qatra:base=[^>]*-->"),
     re.compile(r"<!--qatra:rev-->.*?<!--/qatra:rev-->", re.S),
+    re.compile(r"<!--qatra:rel-->.*?<!--/qatra:rel-->", re.S),
 ]
 
 
