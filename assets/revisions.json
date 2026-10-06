@@ -1,0 +1,82 @@
+{
+ "brewing/v60/": {
+  "date": "2026-07-29",
+  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "url": "brewing/v60/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "approximate": false
+ },
+ "crops/guji-dega-natural/": {
+  "date": "2026-07-29",
+  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
+  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "url": "crops/guji-dega-natural/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "approximate": false
+ },
+ "encyclopedia/": {
+  "date": "2026-07-29",
+  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
+  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "url": "encyclopedia/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "approximate": false
+ },
+ "": {
+  "date": "2026-07-29",
+  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
+  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "url": "",
+  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "approximate": false
+ },
+ "methodology/": {
+  "date": "2026-07-29",
+  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
+  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "url": "methodology/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "approximate": false
+ },
+ "origins/ethiopia/": {
+  "date": "2026-07-29",
+  "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
+  "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+  "url": "origins/ethiopia/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+  "approximate": false
+ },
+ "processes/natural/": {
+  "date": "2026-07-29",
+  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "url": "processes/natural/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "approximate": false
+ },
+ "regions/guji/": {
+  "date": "2026-07-29",
+  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "url": "regions/guji/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "approximate": false
+ },
+ "saudi-coffee/": {
+  "date": "2026-07-29",
+  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "url": "saudi-coffee/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "approximate": false
+ },
+ "varieties/dega/": {
+  "date": "2026-07-29",
+  "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+  "url": "varieties/dega/",
+  "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+  "approximate": false
+ }
+}

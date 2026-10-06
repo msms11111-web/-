@@ -31,3 +31,9 @@ footer{background:#0c241b;color:#d8d2c8;padding:62px 0 26px}.foot{display:grid;g
 .search:focus-within{border-color:var(--gold);box-shadow:0 0 0 3px rgba(180,137,66,.3)}
 /* عنوان متاح لقارئات الشاشة دون أثر بصري */
 .vh{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* سطر آخر مراجعة: تنفيذ التزام المنهج بألا تُعدَّل الصفحات بصمت */
+.revnote{margin:34px 0 0;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px;line-height:1.8}
+.revnote time{font-variant-numeric:tabular-nums}
+.revnote a{color:var(--gold-ink);text-decoration:underline;text-underline-offset:3px}
+.revnote a:hover{color:var(--forest)}

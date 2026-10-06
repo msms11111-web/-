@@ -39,6 +39,46 @@ BLOCK = re.compile(re.escape(START) + ".*?" + re.escape(END), re.S)
 # يسجل الأساس المطبَّق على صفحة 404، ليُزال قبل تطبيق أساس جديد
 BASE_MARK = re.compile(r"<!--qatra:base=([^>]*)-->")
 
+# سطر آخر مراجعة، يُستبدل في كل بناء ويُستبعد من حساب بصمة المحتوى
+REV_START = "<!--qatra:rev-->"
+REV_END = "<!--/qatra:rev-->"
+REV_BLOCK = re.compile(re.escape(REV_START) + ".*?" + re.escape(REV_END), re.S)
+
+
+def revisions() -> dict:
+    """تواريخ المراجعة المستخرجة من تاريخ المستودع، إن وُجدت."""
+    file = ROOT / "assets" / "revisions.json"
+    if not file.exists():
+        return {}
+    try:
+        return json.loads(file.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
+def rev_note(entry: dict) -> str:
+    """سطر «آخر مراجعة»: تاريخها وما تغيّر ورابط التغيير نفسه.
+
+    منهج الموقع يلتزم بألا تُعدَّل الصفحات بصمت، وهذا تنفيذ ذلك الالتزام.
+    """
+    if not entry or not entry.get("date"):
+        return ""
+    about = entry.get("subject", "").strip()
+    link = entry.get("commit", "")
+    qualifier = "تقريبًا " if entry.get("approximate") else ""
+    body = (
+        f'<p class="revnote">آخر مراجعة لهذه الصفحة: {qualifier}'
+        f'<time datetime="{entry["date"]}" dir="ltr">{entry["date"]}</time>'
+    )
+    if about:
+        body += f" — {about}"
+    if link:
+        body += (
+            f' <a href="{link}" target="_blank" rel="noopener noreferrer">'
+            f"عرض التغيير<span aria-hidden=\"true\"> ↗</span></a>"
+        )
+    return REV_START + body + "</p>" + REV_END
+
 
 def page_url(base: str, path: str) -> str:
     return base + path
@@ -89,7 +129,7 @@ def breadcrumbs(url: str, html: str) -> list[dict]:
     return items
 
 
-def page_schema(base: str, url: str, path: str, html: str) -> str:
+def page_schema(base: str, url: str, path: str, html: str, rev: dict | None = None) -> str:
     """مقال موسوعي ومسار تنقل لكل صفحة محتوى."""
     title = text_of(html, r"<h1[^>]*>(.*?)</h1>") or text_of(html, r"<title>(.*?)</title>")
     kind = "CollectionPage" if path == "encyclopedia/" else "Article"
@@ -106,6 +146,8 @@ def page_schema(base: str, url: str, path: str, html: str) -> str:
             "isPartOf": {"@type": "WebSite", "name": "قطرة", "url": base},
         }
     ]
+    if rev and rev.get("date"):
+        blocks[0]["dateModified"] = rev["date"]
 
     trail = breadcrumbs(url, html)
     if trail:
@@ -158,14 +200,19 @@ def meta_block(
 
 
 def patch_html(
-    file: Path, base: str, url: str, prefix: str, home: bool = False, path: str = "", noindex: bool = False
+    file: Path, base: str, url: str, prefix: str, home: bool = False, path: str = "",
+    noindex: bool = False, rev: dict | None = None,
 ) -> None:
     html = file.read_text(encoding="utf-8")
     html = BLOCK.sub("", html)
+    html = REV_BLOCK.sub("", html)
     # صفحة 404 ليست مقالًا، فلا مخطط لها
-    schema = "" if home or noindex else page_schema(base, url, path, html)
+    schema = "" if home or noindex else page_schema(base, url, path, html, rev)
     block = meta_block(base, url, prefix, home, schema, noindex)
     html = html.replace("</head>", block + "</head>", 1)
+    note = rev_note(rev) if rev else ""
+    if note and "</article>" in html:
+        html = html.replace("</article>", note + "</article>", 1)
     file.write_text(html, encoding="utf-8")
 
 
@@ -207,18 +254,24 @@ def main() -> int:
         base += "/"
     base_path = "/" + base.split("/", 3)[3] if len(base.split("/", 3)) > 3 else "/"
 
+    revs = revisions()
     for path, _ in PAGES:
         file = ROOT / path / "index.html"
         depth = path.count("/")
-        patch_html(file, base, page_url(base, path), "../" * depth, home=(path == ""), path=path)
+        patch_html(file, base, page_url(base, path), "../" * depth, home=(path == ""),
+                   path=path, rev=revs.get(path))
 
     # الخادم يردّ 404 فلا تُفهرس عادةً، لكنها ملف حقيقي يردّ 200 لمن يطلبه مباشرة
     patch_html(ROOT / "404.html", base, base + "404.html", "", noindex=True)
     patch_404(base_path)
 
+    # تاريخ كل صفحة من آخر مراجعة فعلية. وضع تاريخ اليوم للجميع في كل بناء
+    # يخبر الزواحف بأن الموقع كله تغيّر، فتتعلم ألا تثق بالخريطة.
     today = date.today().isoformat()
     urls = "\n".join(
-        f"  <url><loc>{page_url(base, p)}</loc><lastmod>{today}</lastmod></url>" for p, _ in PAGES
+        f"  <url><loc>{page_url(base, p)}</loc>"
+        f"<lastmod>{(revs.get(p) or {}).get('date') or today}</lastmod></url>"
+        for p, _ in PAGES
     )
     (ROOT / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
