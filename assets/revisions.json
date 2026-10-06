@@ -26,10 +26,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-06",
-   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
-   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
+   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
    "approximate": false
   },
   "evaluation/": {
@@ -65,10 +65,12 @@
    "approximate": false
   },
   "origins/yemen/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "url": "origins/yemen/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "approximate": false
   },
   "processes/natural/": {
    "date": "2026-10-06",
@@ -103,12 +105,28 @@
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
+   "date": "2026-10-06",
+   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "url": "saudi-coffee/khawlani/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "approximate": false
+  },
+  "saudi-coffee/ritual/": {
+   "date": "2026-10-06",
+   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "url": "saudi-coffee/ritual/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "approximate": false
+  },
+  "species/arabica/": {
    "date": "",
    "sha": "",
    "subject": "",
    "approximate": true
   },
-  "saudi-coffee/ritual/": {
+  "species/canephora/": {
    "date": "",
    "sha": "",
    "subject": "",
@@ -121,6 +139,18 @@
    "url": "varieties/dega/",
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
+  },
+  "varieties/geisha/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "varieties/typica-bourbon/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   }
  },
  "history": [
@@ -170,6 +200,18 @@
     "regions/guji/",
     "saudi-coffee/",
     "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "pages": [
+    "encyclopedia/",
+    "origins/yemen/",
+    "saudi-coffee/khawlani/",
+    "saudi-coffee/ritual/"
    ]
   },
   {
