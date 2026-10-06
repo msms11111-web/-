@@ -26,6 +26,8 @@ PAGES = [
     ("varieties/dega/", "ديجا"),
     ("processes/natural/", "المعالجة المجففة"),
     ("crops/guji-dega-natural/", "قوجي — ديجا — مجففة"),
+    ("roasting/", "التحميص"),
+    ("evaluation/", "التقييم"),
     ("brewing/v60/", "وصفة V60"),
     ("methodology/", "منهج قطرة"),
     ("changelog/", "سجل التغييرات"),

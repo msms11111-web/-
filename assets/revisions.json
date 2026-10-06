@@ -32,6 +32,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
+  "evaluation/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "": {
    "date": "2026-10-06",
    "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
@@ -71,6 +77,12 @@
    "url": "regions/guji/",
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
+  },
+  "roasting/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "saudi-coffee/": {
    "date": "2026-10-06",
