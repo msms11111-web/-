@@ -100,7 +100,9 @@ def weak_focus(pg, steps=30):
 with sync_playwright() as p:
     chrome = os.environ.get("CHROME_PATH")
     b = p.chromium.launch(**({"executable_path": chrome} if chrome else {}))
-    pg = b.new_page(viewport={"width": 1280, "height": 900})
+    scheme = os.environ.get("SCHEME", "light")
+    pg = b.new_page(viewport={"width": 1280, "height": 900}, color_scheme=scheme)
+    print(f"— الوضع: {scheme}")
     totals = {"low": 0, "skips": 0, "labels": 0, "focus": 0}
     for path in PAGES:
         pg.goto(f"{os.environ.get('SITE', 'http://localhost:8099')}/{path}", wait_until="networkidle")

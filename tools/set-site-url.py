@@ -178,6 +178,11 @@ def meta_block(
         f"{START}"
         f"{json_ld(base) if home else schema}"
         f"{robots}"
+        # يُطبَّق الاختيار المحفوظ قبل أول رسم، وإلا ومضت الصفحة بيضاء ثم أظلمت
+        f"<script>try{{var t=localStorage.getItem('qatra-theme');"
+        f"if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>"
+        f'<meta name="theme-color" content="#f7f1e7" media="(prefers-color-scheme: light)">'
+        f'<meta name="theme-color" content="#14110d" media="(prefers-color-scheme: dark)">'
         f'<link rel="canonical" href="{url}">'
         f'<meta property="og:url" content="{url}">'
         f'<meta property="og:site_name" content="قطرة">'
@@ -194,7 +199,7 @@ def meta_block(
         f'<link rel="preload" href="{prefix}assets/fonts/amiri-700.woff2" as="font" type="font/woff2" crossorigin>'
         f'<link rel="preload" href="{prefix}assets/fonts/plex-ar-400.woff2" as="font" type="font/woff2" crossorigin>'
         f'<link rel="apple-touch-icon" href="{prefix}assets/apple-touch-icon.png">'
-        f"<noscript><style>.fade{{opacity:1;transform:none}}</style></noscript>"
+        f"<noscript><style>.fade{{opacity:1;transform:none}}.theme{{display:none}}</style></noscript>"
         f"{END}"
     )
 

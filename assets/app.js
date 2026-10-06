@@ -3,6 +3,40 @@
   const SCRIPT_DIR = new URL(".", (document.currentScript && document.currentScript.src) || location.href);
   const SITE_ROOT = new URL("../", SCRIPT_DIR);
 
+  /* تبديل الوضع الليلي. الاختيار المحفوظ يُطبَّق في رأس الصفحة قبل أول رسم،
+     وهنا تُضبط الأيقونة ويُتابَع تغيّر تفضيل النظام ما لم يختر القارئ يدويًا. */
+  const themeBtn = document.querySelector("[data-theme-toggle]");
+  if (themeBtn) {
+    const icon = themeBtn.querySelector("[data-theme-icon]");
+    const system = window.matchMedia("(prefers-color-scheme: dark)");
+    const stored = () => {
+      try {
+        return localStorage.getItem("qatra-theme");
+      } catch (e) {
+        return null;
+      }
+    };
+    const isDark = () => (stored() || (system.matches ? "dark" : "light")) === "dark";
+    const paint = () => {
+      const dark = isDark();
+      if (icon) icon.textContent = dark ? "☀" : "☾";
+      themeBtn.setAttribute("aria-pressed", String(dark));
+      themeBtn.title = dark ? "التحويل إلى الوضع النهاري" : "التحويل إلى الوضع الليلي";
+    };
+    themeBtn.addEventListener("click", () => {
+      const next = isDark() ? "light" : "dark";
+      document.documentElement.dataset.theme = next;
+      try {
+        localStorage.setItem("qatra-theme", next);
+      } catch (e) {}
+      paint();
+    });
+    system.addEventListener("change", () => {
+      if (!stored()) paint();
+    });
+    paint();
+  }
+
   // القائمة الجانبية على الشاشات الصغيرة
   const menuBtn = document.querySelector("[data-menu]");
   const drawer = document.querySelector("[data-drawer]");
