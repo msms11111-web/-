@@ -29,6 +29,7 @@ GENERATED = [
     re.compile(r"<!--qatra:base=[^>]*-->"),
     re.compile(r"<!--qatra:rev-->.*?<!--/qatra:rev-->", re.S),
     re.compile(r"<!--qatra:rel-->.*?<!--/qatra:rel-->", re.S),
+    re.compile(r"<!--qatra:log-->.*?<!--/qatra:log-->", re.S),
 ]
 
 
@@ -66,55 +67,87 @@ def repo_url() -> str:
     return "https://github.com/msms11111-web/qatra"
 
 
-def last_content_change(path: str) -> dict | None:
-    """أحدث التزام تغيّر فيه محتوى الصفحة، لا كتلتها المولَّدة."""
+def content_changes(path: str) -> list[dict]:
+    """كل التزام تغيّر فيه محتوى الصفحة، من الأحدث إلى الأقدم.
+
+    يُقارن بصمة المحتوى بين كل التزام وسابقه، فلا تُحتسب إعادة كتابة الكتل
+    المولَّدة. وأول ظهور للصفحة يُحتسب تغييرًا، فهو إنشاؤها.
+    """
     log = git("log", "--format=%H%x1f%ad%x1f%s", "--date=short", "--", path)
     commits = [line.split("\x1f") for line in log.strip().splitlines() if line]
-    if not commits:
-        return None
 
-    newer = None
+    seen = []
     for sha, date, subject in commits:
         blob = git("show", f"{sha}:{path}")
-        if not blob:
-            continue
-        current = content_hash(blob)
-        if newer is None:
-            newer = (sha, date, subject, current)
-            continue
-        if current != newer[3]:
-            # المحتوى اختلف عند هذا الالتزام، فالمراجعة هي الالتزام الأحدث منه
-            return {"date": newer[1], "sha": newer[0], "subject": newer[2]}
-        newer = (sha, date, subject, current)
+        if blob:
+            seen.append((sha, date, subject, content_hash(blob)))
 
-    # لم يتغيّر المحتوى قط منذ أول التزام
-    return {"date": newer[1], "sha": newer[0], "subject": newer[2]} if newer else None
+    changes = []
+    for i, (sha, date, subject, digest) in enumerate(seen):
+        older = seen[i + 1][3] if i + 1 < len(seen) else None
+        if digest != older:
+            changes.append({"date": date, "sha": sha, "subject": subject})
+    return changes
+
+
+def last_content_change(path: str) -> dict | None:
+    changes = content_changes(path)
+    return changes[0] if changes else None
 
 
 def main() -> int:
     base = repo_url()
     shallow = (ROOT / ".git" / "shallow").exists()
     revisions = {}
+    history: dict[str, dict] = {}
 
     for file in sorted(ROOT.rglob("index.html")):
         path = file.relative_to(ROOT).as_posix()
         url = path[: -len("index.html")]
-        entry = last_content_change(path)
-        if entry is None:
+        changes = content_changes(path)
+
+        if not changes:
             # ملف جديد لم يُلتزم بعد
             revisions[url] = {"date": "", "sha": "", "subject": "", "approximate": True}
             continue
+
+        entry = dict(changes[0])
         entry["url"] = url
         entry["commit"] = f"{base}/commit/{entry['sha']}"
         entry["approximate"] = shallow
         revisions[url] = entry
 
+        # السجل العام: التزام واحد قد يغيّر عدة صفحات، فتُجمع تحته
+        for change in changes:
+            record = history.setdefault(
+                change["sha"],
+                {
+                    "date": change["date"],
+                    "sha": change["sha"],
+                    "subject": change["subject"],
+                    "commit": f"{base}/commit/{change['sha']}",
+                    "pages": [],
+                },
+            )
+            record["pages"].append(url)
+
+    ordered = sorted(history.values(), key=lambda r: (r["date"], r["sha"]), reverse=True)
+    for record in ordered:
+        record["pages"].sort()
+
     out = ROOT / "assets" / "revisions.json"
-    out.write_text(json.dumps(revisions, ensure_ascii=False, indent=1), encoding="utf-8")
+    out.write_text(
+        json.dumps(
+            {"pages": revisions, "history": ordered, "approximate": shallow},
+            ensure_ascii=False,
+            indent=1,
+        ),
+        encoding="utf-8",
+    )
 
     dated = sum(1 for r in revisions.values() if r["date"])
     note = " (تاريخ مبتور، التواريخ تقريبية)" if shallow else ""
-    print(f"سُجّلت مراجعات {dated} من {len(revisions)} صفحة{note}.")
+    print(f"سُجّلت مراجعات {dated} من {len(revisions)} صفحة، و{len(ordered)} تغييرًا في السجل{note}.")
     return 0
 
 

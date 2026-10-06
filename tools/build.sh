@@ -48,6 +48,7 @@ fi
 
 python3 tools/relations.py
 python3 tools/revisions.py
+python3 tools/changelog.py "$URL"
 python3 tools/set-site-url.py "$URL"
 python3 tools/build-search-index.py
 

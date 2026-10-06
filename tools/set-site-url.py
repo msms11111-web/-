@@ -28,6 +28,7 @@ PAGES = [
     ("crops/guji-dega-natural/", "قوجي — ديجا — مجففة"),
     ("brewing/v60/", "وصفة V60"),
     ("methodology/", "منهج قطرة"),
+    ("changelog/", "سجل التغييرات"),
     ("saudi-coffee/", "القهوة السعودية"),
 ]
 
@@ -51,9 +52,10 @@ def revisions() -> dict:
     if not file.exists():
         return {}
     try:
-        return json.loads(file.read_text(encoding="utf-8"))
+        data = json.loads(file.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return {}
+    return data.get("pages", {}) if isinstance(data, dict) else {}
 
 
 def rev_note(entry: dict) -> str:
@@ -198,6 +200,7 @@ def meta_block(
         # حتى على النطاق نفسه.
         f'<link rel="preload" href="{prefix}assets/fonts/amiri-700.woff2" as="font" type="font/woff2" crossorigin>'
         f'<link rel="preload" href="{prefix}assets/fonts/plex-ar-400.woff2" as="font" type="font/woff2" crossorigin>'
+        f'<link rel="alternate" type="application/atom+xml" title="سجل تغييرات قطرة" href="{base}feed.xml">'
         f'<link rel="apple-touch-icon" href="{prefix}assets/apple-touch-icon.png">'
         f"<noscript><style>.fade{{opacity:1;transform:none}}.theme{{display:none}}</style></noscript>"
         f"{END}"

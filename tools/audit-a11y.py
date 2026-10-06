@@ -20,7 +20,7 @@ from playwright.sync_api import sync_playwright
 
 PAGES = ["", "encyclopedia/", "origins/ethiopia/", "regions/guji/", "varieties/dega/",
          "processes/natural/", "crops/guji-dega-natural/", "brewing/v60/", "methodology/",
-         "saudi-coffee/", "404.html"]
+         "saudi-coffee/", "changelog/", "404.html"]
 
 AUDIT = r"""
 () => {

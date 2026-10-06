@@ -150,3 +150,45 @@ html:not([data-theme="light"]) {
 .status-link:hover{filter:brightness(.93)}
 .legend{margin:0 0 22px;color:var(--muted);font-size:14px;line-height:2.4}
 .legend .status{margin:0 2px}
+
+/* سجل التغييرات */
+.log{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.log .entry{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:22px 26px}
+.log time{display:block;color:var(--gold-ink);font-size:13px;font-weight:900;letter-spacing:.06em;font-variant-numeric:tabular-nums}
+.log h2{font:700 24px/1.45 var(--display);margin:6px 0 12px}
+.touched{list-style:none;padding:0;margin:0 0 12px;display:flex;flex-wrap:wrap;gap:8px}
+.touched li a{display:inline-block;background:var(--ref-bg);border:1px solid var(--line);border-radius:999px;padding:5px 13px;font-size:13px;color:var(--link)}
+.touched li a:hover{border-color:var(--gold)}
+.log .commit{color:var(--gold-ink);font-size:13.5px;text-decoration:underline;text-underline-offset:3px}
+.log .commit:hover{color:var(--link-hover)}
+
+/* ─── الطباعة وحفظ PDF ───────────────────────────────────────────────────
+   الموسوعة تُطبع وتُحفظ. تُحذف أدوات التصفح، ويُكشف عنوان كل رابط خارجي
+   لأن الورق لا يُنقر، ويُمنع انفصال العنوان عن فقرته. */
+@media print {
+  :root { --paper:#fff; --card:#fff; --surface:#fff; --article-bg:#fff;
+          --ink:#000; --body-ink:#111; --muted:#444; --line:#bbb;
+          --shadow:none; --glow:transparent }
+  html, body { background:#fff !important; color:#000 }
+  header, footer, .drawer, .menu, .theme, .skip, .search, .side,
+  .related, .results, .art, .slot, .legend { display:none !important }
+  .hero, .page-hero, .feature { background:#fff !important; color:#000 !important;
+          border-bottom:2px solid #000; padding:0 0 18px; min-height:0 }
+  .hero p, .page-hero p, .feature p, .crumbs, .data span { color:#222 !important }
+  .section, .tight { padding:16px 0 }
+  .container { width:100% }
+  .layout { display:block }
+  .article { border:0; padding:0 }
+  .card, .entity, .step, .panel, .refs li, .log .entry {
+          border:1px solid #bbb !important; background:#fff !important;
+          box-shadow:none !important; break-inside:avoid }
+  h1, h2, h3 { break-after:avoid }
+  blockquote, table, figure, .notice, .revnote { break-inside:avoid }
+  /* الورق لا يُنقر: يُطبع عنوان الوجهة بعد الرابط الخارجي */
+  .article a[href^="http"]::after, .revnote a[href^="http"]::after {
+          content:" (" attr(href) ")"; font-size:11px; color:#444; word-break:break-all }
+  .status { border:1px solid #999; color:#000 !important; background:#fff !important }
+  .fade { opacity:1 !important; transform:none !important }
+  a { text-decoration:underline }
+  @page { margin:16mm }
+}

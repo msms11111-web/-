@@ -1,82 +1,214 @@
 {
- "brewing/v60/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "brewing/v60/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
+ "pages": {
+  "brewing/v60/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "brewing/v60/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "changelog/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "crops/guji-dega-natural/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "crops/guji-dega-natural/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "encyclopedia/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "encyclopedia/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "methodology/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "methodology/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "origins/ethiopia/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "origins/ethiopia/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "processes/natural/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "processes/natural/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "regions/guji/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "regions/guji/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "saudi-coffee/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "saudi-coffee/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  },
+  "varieties/dega/": {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "url": "varieties/dega/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "approximate": false
+  }
  },
- "crops/guji-dega-natural/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "crops/guji-dega-natural/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "encyclopedia/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "encyclopedia/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "methodology/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "methodology/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "origins/ethiopia/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "origins/ethiopia/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "processes/natural/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "processes/natural/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "regions/guji/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "regions/guji/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "saudi-coffee/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "saudi-coffee/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- },
- "varieties/dega/": {
-  "date": "2026-10-06",
-  "sha": "da5260a63543f0894204b514a73762ea11d124ff",
-  "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
-  "url": "varieties/dega/",
-  "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
-  "approximate": false
- }
+ "history": [
+  {
+   "date": "2026-10-06",
+   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "pages": [
+    "",
+    "brewing/v60/",
+    "crops/guji-dega-natural/",
+    "encyclopedia/",
+    "methodology/",
+    "origins/ethiopia/",
+    "processes/natural/",
+    "regions/guji/",
+    "saudi-coffee/",
+    "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "sha": "da5260a63543f0894204b514a73762ea11d124ff",
+   "subject": "وضع ليلي محسوب، لا عكسًا آليًا للألوان",
+   "commit": "https://github.com/msms11111-web/qatra/commit/da5260a63543f0894204b514a73762ea11d124ff",
+   "pages": [
+    "",
+    "brewing/v60/",
+    "crops/guji-dega-natural/",
+    "encyclopedia/",
+    "methodology/",
+    "origins/ethiopia/",
+    "processes/natural/",
+    "regions/guji/",
+    "saudi-coffee/",
+    "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "sha": "d40413c41e215e17900a78fbff5a9973be0c3e0f",
+   "subject": "تحويل مصادر صفحة إثيوبيا إلى إحالات موثقة، وفحصها آليًا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d40413c41e215e17900a78fbff5a9973be0c3e0f",
+   "pages": [
+    "origins/ethiopia/"
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "sha": "c661863391cb81aa333b28b6374fa80ba1d6237c",
+   "subject": "مصادر للصفحات الخمس، وبحث بالرسمين العربي واللاتيني",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c661863391cb81aa333b28b6374fa80ba1d6237c",
+   "pages": [
+    "brewing/v60/",
+    "processes/natural/",
+    "regions/guji/",
+    "saudi-coffee/",
+    "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "sha": "c09eeedb6f6753f26a6edf7d9dc4788f706892be",
+   "subject": "تهيئة النشر على استضافة خارج GitHub",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c09eeedb6f6753f26a6edf7d9dc4788f706892be",
+   "pages": [
+    ""
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "sha": "941e30db4ae7a1813a18e03236f8fa27e4afd9b4",
+   "subject": "بحث في نص كل الصفحات بدل تصفية ثماني بطاقات",
+   "commit": "https://github.com/msms11111-web/qatra/commit/941e30db4ae7a1813a18e03236f8fa27e4afd9b4",
+   "pages": [
+    "encyclopedia/"
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "sha": "622963dd3680f749d8dc37fb030a76df390b761f",
+   "subject": "إصلاح عيوب وصولية، وإضافة favicon.ico وأداة تدقيق",
+   "commit": "https://github.com/msms11111-web/qatra/commit/622963dd3680f749d8dc37fb030a76df390b761f",
+   "pages": [
+    "",
+    "brewing/v60/",
+    "crops/guji-dega-natural/",
+    "encyclopedia/",
+    "methodology/",
+    "origins/ethiopia/",
+    "processes/natural/",
+    "regions/guji/",
+    "saudi-coffee/",
+    "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "sha": "4b28fde3460b5309aba90785497efcea03d43e1d",
+   "subject": "خطوط عربية حقيقية بدل خط بلا حروف عربية",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4b28fde3460b5309aba90785497efcea03d43e1d",
+   "pages": [
+    ""
+   ]
+  },
+  {
+   "date": "2026-07-29",
+   "sha": "2c3b6375a927b21aa0e438e43a2a3e0c5b606d10",
+   "subject": "إضافة موقع «قطرة» وتجهيزه للنشر على GitHub Pages",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2c3b6375a927b21aa0e438e43a2a3e0c5b606d10",
+   "pages": [
+    "",
+    "brewing/v60/",
+    "crops/guji-dega-natural/",
+    "encyclopedia/",
+    "methodology/",
+    "origins/ethiopia/",
+    "processes/natural/",
+    "regions/guji/",
+    "saudi-coffee/",
+    "varieties/dega/"
+   ]
+  }
+ ],
+ "approximate": false
 }
