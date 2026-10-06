@@ -1,5 +1,17 @@
 {
  "pages": {
+  "brewing/espresso/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "brewing/turkish/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "brewing/v60/": {
    "date": "2026-10-06",
    "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
@@ -26,10 +38,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-06",
-   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
-   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
+   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
    "approximate": false
   },
   "evaluation/": {
@@ -72,6 +84,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
    "approximate": false
   },
+  "processes/anaerobic/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "processes/honey/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "processes/natural/": {
    "date": "2026-10-06",
    "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
@@ -79,6 +103,12 @@
    "url": "processes/natural/",
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
+  },
+  "processes/washed/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "regions/guji/": {
    "date": "2026-10-06",
@@ -121,16 +151,20 @@
    "approximate": false
   },
   "species/arabica/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
+   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "url": "species/arabica/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "approximate": false
   },
   "species/canephora/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
+   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "url": "species/canephora/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "approximate": false
   },
   "varieties/dega/": {
    "date": "2026-10-06",
@@ -141,16 +175,20 @@
    "approximate": false
   },
   "varieties/geisha/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
+   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "url": "varieties/geisha/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "approximate": false
   },
   "varieties/typica-bourbon/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
+   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "url": "varieties/typica-bourbon/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "approximate": false
   }
  },
  "history": [
@@ -231,6 +269,19 @@
     "regions/guji/",
     "saudi-coffee/",
     "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
+   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "pages": [
+    "encyclopedia/",
+    "species/arabica/",
+    "species/canephora/",
+    "varieties/geisha/",
+    "varieties/typica-bourbon/"
    ]
   },
   {
