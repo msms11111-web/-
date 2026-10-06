@@ -41,6 +41,28 @@ def resolve(page: Path, ref: str) -> Path | None:
     return target
 
 
+TITLE = re.compile(r"<title>(.*?)</title>", re.S)
+
+
+def duplicate_titles(pages: list[Path]) -> list[str]:
+    """عنوانان متطابقان لصفحتين مختلفتين خطأٌ لا اختيار.
+
+    صفحة جديدة تُنسخ من قالب ترث عنوانه، فحملت ثماني عشرة صفحة عنوان صفحة
+    واحدة في تبويب المتصفح وفي نتائج البحث وبطاقة المشاركة. لم يظهر الخطأ لأن
+    شيئًا لم يكن يفحصه.
+    """
+    seen: dict[str, list[str]] = {}
+    for page in pages:
+        match = TITLE.search(page.read_text(encoding="utf-8"))
+        if not match:
+            continue
+        name = re.sub(r"\s+", " ", match.group(1)).strip()
+        seen.setdefault(name, []).append(str(page.relative_to(ROOT)))
+    return [
+        f"{name} ← {', '.join(where)}" for name, where in seen.items() if len(where) > 1
+    ]
+
+
 def main() -> int:
     broken = []
     pages = sorted(ROOT.rglob("*.html"))
@@ -56,8 +78,15 @@ def main() -> int:
     for item in broken:
         print(f"رابط مكسور: {item}")
 
-    print(f"فُحصت {len(pages)} صفحة، ووُجد {len(broken)} رابط مكسور.")
-    return 1 if broken else 0
+    dupes = duplicate_titles(pages)
+    for item in dupes:
+        print(f"عنوان مكرر: {item}")
+
+    print(
+        f"فُحصت {len(pages)} صفحة، ووُجد {len(broken)} رابط مكسور"
+        f"، و{len(dupes)} عنوانًا مكررًا."
+    )
+    return 1 if broken or dupes else 0
 
 
 if __name__ == "__main__":

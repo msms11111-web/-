@@ -24,6 +24,14 @@ HERO = re.compile(r'<section class="page-hero">.*?</section>', re.S)
 ARTICLE = re.compile(r'<article class="article">.*?</article>', re.S)
 SIDE = re.compile(r'<aside class="side">.*?</aside>', re.S)
 
+TITLE = re.compile(r"<title>.*?</title>", re.S)
+DESC = re.compile(r'<meta name="description" content="[^"]*">')
+OG_TITLE = re.compile(r'<meta property="og:title" content="[^"]*">')
+OG_DESC = re.compile(r'<meta property="og:description" content="[^"]*">')
+
+# عمود ثالث فارغ في شبكة التخطيط، بقي من موضع إدراج قديم لقسم «اقرأ أيضًا»
+EMPTY_REL = re.compile(r'<section class="section tight-rel">\s*</section>')
+
 
 def up_from(path: str) -> str:
     return "../" * (path.count("/") + 1)
@@ -67,11 +75,35 @@ def side_html(data: dict) -> str:
     return f'<aside class="side"><strong>في هذه الصفحة</strong>{links}</aside>'
 
 
+def escape(text: str) -> str:
+    return text.replace("&", "&amp;").replace("<", "&lt;").replace('"', "&quot;")
+
+
+def head_html(data: dict, html: str) -> str:
+    """عنوان الصفحة ووصفها من ملف المحتوى نفسه.
+
+    كانا مكتوبين في HTML يدويًا، وصفحة جديدة تُنسخ من قالب تورث عنوانه؛ فحملت
+    ثماني عشرة صفحة عنوان «منهج قطرة» في تبويب المتصفح وفي بطاقة المشاركة.
+    صار المصدر واحدًا: ما يُحرَّر في content/ هو ما يظهر.
+    """
+    title = escape(f"{data['title']} | قطرة")
+    desc = escape(data.get("description") or data.get("lead", ""))
+    html = TITLE.sub(f"<title>{title}</title>", html, count=1)
+    html = DESC.sub(f'<meta name="description" content="{desc}">', html, count=1)
+    html = OG_TITLE.sub(f'<meta property="og:title" content="{title}">', html, count=1)
+    html = OG_DESC.sub(
+        f'<meta property="og:description" content="{desc}">', html, count=1
+    )
+    return html
+
+
 def render(data: dict, html: str) -> str:
     """يستبدل مناطق المحتوى في صفحة قائمة، ويترك القالب كما هو."""
+    html = head_html(data, html)
     html = HERO.sub(lambda _: hero_html(data), html, count=1)
     html = ARTICLE.sub(lambda _: article_html(data), html, count=1)
     html = SIDE.sub(lambda _: side_html(data), html, count=1)
+    html = EMPTY_REL.sub("", html)
     return html
 
 

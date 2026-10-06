@@ -1,16 +1,20 @@
 {
  "pages": {
   "brewing/espresso/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "url": "brewing/espresso/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "approximate": false
   },
   "brewing/turkish/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "url": "brewing/turkish/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "approximate": false
   },
   "brewing/v60/": {
    "date": "2026-10-06",
@@ -38,10 +42,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-06",
-   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
-   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
    "approximate": false
   },
   "evaluation/": {
@@ -68,6 +72,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
+  "origins/brazil/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "origins/colombia/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/ethiopia/": {
    "date": "2026-10-06",
    "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
@@ -75,6 +91,18 @@
    "url": "origins/ethiopia/",
    "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
+  },
+  "origins/indonesia/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "origins/kenya/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "origins/yemen/": {
    "date": "2026-10-06",
@@ -85,16 +113,20 @@
    "approximate": false
   },
   "processes/anaerobic/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "url": "processes/anaerobic/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "approximate": false
   },
   "processes/honey/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "url": "processes/honey/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "approximate": false
   },
   "processes/natural/": {
    "date": "2026-10-06",
@@ -105,10 +137,12 @@
    "approximate": false
   },
   "processes/washed/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "url": "processes/washed/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "approximate": false
   },
   "regions/guji/": {
    "date": "2026-10-06",
@@ -282,6 +316,20 @@
     "species/canephora/",
     "varieties/geisha/",
     "varieties/typica-bourbon/"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "pages": [
+    "brewing/espresso/",
+    "brewing/turkish/",
+    "encyclopedia/",
+    "processes/anaerobic/",
+    "processes/honey/",
+    "processes/washed/"
    ]
   },
   {
