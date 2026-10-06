@@ -46,6 +46,7 @@ if [ -z "$URL" ]; then
   exit 1
 fi
 
+python3 tools/render.py
 python3 tools/relations.py
 python3 tools/revisions.py
 python3 tools/changelog.py "$URL"

@@ -1,0 +1,49 @@
+{
+ "slug": "processes--natural",
+ "path": "processes/natural",
+ "title": "المعالجة المجففة",
+ "description": "فئة معالجة تُجفف فيها الثمرة كاملة، مع عدم استنتاج تفاصيل التخمير والتجفيف من الاسم وحده.",
+ "lead": "فئة معالجة تُجفف فيها الثمرة كاملة، مع عدم استنتاج تفاصيل التخمير والتجفيف من الاسم وحده.",
+ "status": {
+  "kind": "ok",
+  "label": "تعريف موثق"
+ },
+ "crumbs": [
+  {
+   "label": "الرئيسية",
+   "href": "../../index.html"
+  },
+  {
+   "label": "الموسوعة",
+   "href": "../../encyclopedia/"
+  }
+ ],
+ "crumb_current": "المعالجة المجففة",
+ "sections": [
+  {
+   "id": "definition",
+   "heading": "التعريف",
+   "nav": "التعريف",
+   "body": "<blockquote>في المعالجة المجففة تُجفف ثمرة القهوة كاملة قبل فصل القشرة واللب الجاف عن البذور.</blockquote><p>هذا الاسم يحدد الفئة العامة فقط، ولا يخبرنا تلقائيًا بسطح التجفيف أو المدة أو التخمير أو الفرز أو الرطوبة النهائية.</p>\n"
+  },
+  {
+   "id": "distinguish",
+   "heading": "ما يجب فصله عنها",
+   "nav": "الفروق",
+   "body": "<ul><li>التخمير الجاف.</li><li>المجففة اللاهوائية.</li><li>التخمير الكربوني.</li><li>المعالجة العسلية.</li></ul>\n"
+  },
+  {
+   "id": "sensory",
+   "heading": "النتيجة الحسية",
+   "nav": "النتيجة الحسية",
+   "body": "<p>لا تضمن المعالجة المجففة فاكهية أو قوامًا أعلى في كل الحالات. النتيجة تعتمد على الثمرة والنضج والتنفيذ والتجفيف والتخزين والتحميص والتحضير.</p>\n"
+  },
+  {
+   "id": "sources",
+   "heading": "المصادر الأساسية",
+   "nav": "المصادر",
+   "body": "<ul class=\"refs\"><li><a href=\"https://academic.oup.com/ijfst/article/58/3/1007/7807986\" target=\"_blank\" rel=\"noopener noreferrer\">أثر المعالجة بعد الحصاد في تكوّن الروائح — مراجعة محكَّمة<span aria-hidden=\"true\"> ↗</span></a><small>‏International Journal of Food Science and Technology. مراجعة تربط المعالجة بمركّبات الرائحة، وتفصل المعالجة عن نتيجتها الحسية.</small></li><li><a href=\"https://www.mdpi.com/2304-8158/14/9/1463\" target=\"_blank\" rel=\"noopener noreferrer\">أثر طرق التجفيف في جودة القهوة بعد الحصاد<span aria-hidden=\"true\"> ↗</span></a><small>‏Foods ‎2025. يقيس أن سطح التجفيف ومدته يغيّران النتيجة، فلا يكفي اسم «مجففة» وحده.</small></li><li><a href=\"https://pmc.ncbi.nlm.nih.gov/articles/PMC9376573/\" target=\"_blank\" rel=\"noopener noreferrer\">عوامل ما قبل الحصاد وما بعده في جودة القهوة — مراجعة قصيرة<span aria-hidden=\"true\"> ↗</span></a><small>مراجعة متاحة بالوصول الحر، تضع المعالجة داخل سلسلة عوامل لا تُختزل في خطوة واحدة.</small></li></ul>"
+  }
+ ],
+ "lede_before_sections": "\n"
+}

@@ -1,0 +1,114 @@
+# إعداد لوحة التحرير — Pages CMS (app.pagescms.org)
+#
+# يحرّر هذا الملف ما في مجلد content/ وحده: نصوص المداخل وأقسامها ومصادرها.
+# القالب والبناء يبقيان في الكود، فلا يُكسر الموقع من اللوحة.
+#
+# أول مرة: افتح app.pagescms.org، سجّل بـ GitHub، ثبّت تطبيقها على هذا
+# المستودع. لا خادم ولا مفاتيح ولا نشر.
+
+media:
+  input: assets/uploads
+  output: /assets/uploads
+  categories: [image]
+
+content:
+  - name: entries
+    label: مداخل الموسوعة
+    type: collection
+    path: content
+    filename: '{fields.slug}.json'
+    format: json
+    view:
+      fields: [title, status.label, description]
+      primary: title
+    fields:
+      - name: title
+        label: العنوان
+        type: string
+        required: true
+
+      - name: description
+        label: الوصف المختصر
+        description: يظهر في نتائج البحث وبطاقات المشاركة. سطر واحد.
+        type: text
+        required: true
+
+      - name: lead
+        label: الجملة الافتتاحية
+        description: تظهر تحت العنوان مباشرة في مقدّمة الصفحة.
+        type: text
+        required: true
+
+      - name: status
+        label: حالة التوثيق
+        type: object
+        fields:
+          - name: kind
+            label: الحالة
+            type: select
+            options:
+              values:
+                - { value: ok, label: موثق }
+                - { value: partial, label: موثق جزئيًا }
+                - { value: research, label: غير محسوم أو قيد البناء }
+          - name: label
+            label: نص الشارة
+            description: ما يظهر للقارئ، مثل «موثق وقيد التوسعة».
+            type: string
+
+      - name: sections
+        label: الأقسام
+        description: كل قسم عنوانٌ ومحتوى. التنقل داخل الصفحة يُبنى منها تلقائيًا.
+        type: object
+        list: true
+        fields:
+          - name: heading
+            label: عنوان القسم
+            type: string
+            required: true
+          - name: nav
+            label: اسمه في التنقل الجانبي
+            description: مختصر، كلمة أو كلمتان.
+            type: string
+            required: true
+          - name: id
+            label: المعرّف
+            description: يُستخدم في الرابط (#مثال). بحروف لاتينية صغيرة بلا مسافات. لا تغيّره بعد النشر، فالروابط القديمة تنكسر.
+            type: string
+            required: true
+          - name: body
+            label: المحتوى
+            description: >-
+              HTML. للفقرة <p>…</p>، وللقائمة <ul><li>…</li></ul>،
+              وللاقتباس <blockquote>…</blockquote>، وللتنبيه
+              <div class="notice">…</div>.
+            type: text
+            required: true
+
+      # تُعرض للاطلاع لا للتحرير اليومي: تغييرها يغيّر مسار الصفحة وروابطها
+      - name: slug
+        label: معرّف الملف
+        type: string
+        required: true
+      - name: path
+        label: مسار الصفحة
+        type: string
+        required: true
+      - name: crumb_current
+        label: اسم الصفحة في فتات التنقل
+        type: string
+      - name: crumbs
+        label: فتات التنقل
+        type: object
+        list: true
+        fields:
+          - name: label
+            label: الاسم
+            type: string
+          - name: href
+            label: الرابط
+            type: string
+      - name: lede_before_sections
+        label: ما قبل أول قسم
+        description: يُترك فارغًا عادةً.
+        type: text

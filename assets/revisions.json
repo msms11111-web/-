@@ -2,88 +2,90 @@
  "pages": {
   "brewing/v60/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "brewing/v60/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "changelog/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "url": "changelog/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "approximate": false
   },
   "crops/guji-dega-natural/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "crops/guji-dega-natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "encyclopedia/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "methodology/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "origins/ethiopia/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "origins/ethiopia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "processes/natural/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "processes/natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "regions/guji/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "regions/guji/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "saudi-coffee/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   },
   "varieties/dega/": {
    "date": "2026-10-06",
-   "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",
-   "subject": "ربط الموسوعة: بطاقات الرحلة، وشبكة «اقرأ أيضًا»، وشرح حالات التوثيق",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
    "url": "varieties/dega/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fac9b19aa5f55064d54b91bc775166ced202a2ac",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
    "approximate": false
   }
  },
@@ -114,6 +116,25 @@
    "pages": [
     "",
     "brewing/v60/",
+    "crops/guji-dega-natural/",
+    "encyclopedia/",
+    "methodology/",
+    "origins/ethiopia/",
+    "processes/natural/",
+    "regions/guji/",
+    "saudi-coffee/",
+    "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
+   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "pages": [
+    "",
+    "brewing/v60/",
+    "changelog/",
     "crops/guji-dega-natural/",
     "encyclopedia/",
     "methodology/",
