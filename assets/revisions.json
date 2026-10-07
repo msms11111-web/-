@@ -41,11 +41,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-07",
+   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
+   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
    "approximate": false
   },
   "evaluation/": {
@@ -193,34 +193,44 @@
    "approximate": false
   },
   "science/caffeine/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-07",
+   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
+   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "url": "science/caffeine/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "approximate": false
   },
   "science/diseases/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-07",
+   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
+   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "url": "science/diseases/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "approximate": false
   },
   "science/extraction/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-07",
+   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
+   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "url": "science/extraction/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "approximate": false
   },
   "science/storage/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-07",
+   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
+   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "url": "science/storage/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "approximate": false
   },
   "science/water/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-07",
+   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
+   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "url": "science/water/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "approximate": false
   },
   "species/arabica/": {
    "date": "2026-10-06",
@@ -264,6 +274,20 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-07",
+   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
+   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "pages": [
+    "encyclopedia/",
+    "science/caffeine/",
+    "science/diseases/",
+    "science/extraction/",
+    "science/storage/",
+    "science/water/"
+   ]
+  },
   {
    "date": "2026-10-06",
    "sha": "fac9b19aa5f55064d54b91bc775166ced202a2ac",

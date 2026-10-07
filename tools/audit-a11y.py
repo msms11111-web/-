@@ -33,6 +33,9 @@ AUDIT = r"""
   const ratio = (a,b) => { const l1=lum(a),l2=lum(b); return (Math.max(l1,l2)+.05)/(Math.min(l1,l2)+.05); };
 
   // كل ألوان الخلفية المحتملة: اللون الصريح ومحطات التدرجات
+  // حدّ معلوم: الخلفية تُلتمس في الآباء فقط. نصٌّ فوق شكل SVG شقيق (مثل تسمية
+  // داخل مستطيل ملوَّن) يُقاس على خلفية المقال لا على الشكل، فيخرج الرقم متفائلًا
+  // أو متشائمًا. كل شكل فيه نص فوق تعبئة يحتاج قياسًا مستقلًا عند إضافته.
   const bgCandidates = (el) => {
     let e = el;
     while (e) {
@@ -49,11 +52,15 @@ AUDIT = r"""
   };
 
   const low = [];
-  document.querySelectorAll('p,li,a,h1,h2,h3,h4,small,span,strong,td,th,button,label,mark').forEach(el => {
-    if (!el.textContent.trim() || el.offsetParent === null) return;
+  document.querySelectorAll('p,li,a,h1,h2,h3,h4,small,span,strong,td,th,button,label,mark,text').forEach(el => {
+    const svg = el.ownerSVGElement != null;
+    // نص SVG لا يملك offsetParent، وظهوره يُقاس بمساحته لا بذلك
+    if (!el.textContent.trim()) return;
+    if (svg ? el.getBoundingClientRect().width === 0 : el.offsetParent === null) return;
     if (el.querySelector('p,li,h1,h2,h3,h4,div,a')) return;
     const cs = getComputedStyle(el);
-    const fg = parse(cs.color); if (!fg) return;
+    // لون نص SVG في fill لا في color، فقراءة color تمرّره دون فحص
+    const fg = parse(svg ? cs.fill : cs.color); if (!fg) return;
     const size = parseFloat(cs.fontSize), bold = parseInt(cs.fontWeight) >= 700;
     const need = (size >= 24 || (size >= 18.66 && bold)) ? 3 : 4.5;
     const worst = Math.min(...bgCandidates(el).map(bg => ratio(fg, bg)));

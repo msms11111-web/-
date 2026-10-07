@@ -192,3 +192,26 @@ html:not([data-theme="light"]) {
   a { text-decoration:underline }
   @page { margin:16mm }
 }
+
+/* الأشكال: مخطَّطات ورسوم داخل المقال. الألوان من رموز السمة نفسها، فالوضع
+   الليلي خطواته مختارة لا مقلوبة آليًّا. والشكل يتمدد بعرضه ولا يفيض. */
+.fig{margin:26px 0;padding:0}
+.fig svg{display:block;width:100%;height:auto;font-family:var(--sans)}
+.fig figcaption{margin-top:12px;color:var(--muted);font-size:13.5px;line-height:1.75}
+.fg-grid{stroke:var(--line);stroke-width:1;fill:none}
+.fg-axis{stroke:var(--muted);stroke-width:1;fill:none}
+.fg-zone{fill:var(--ok-bg);stroke:var(--ok-ink);stroke-width:1.5}
+.fg-tick{fill:var(--muted);font-size:13px;font-variant-numeric:tabular-nums}
+.fg-ax-title{fill:var(--body-ink);font-size:14px;font-weight:600}
+.fg-lbl{fill:var(--muted);font-size:14px}
+.fg-key{fill:var(--ok-ink);font-size:14.5px;font-weight:700}
+/* الطبقات في المقاطع التشريحية: تدرّج لون واحد من الخارج إلى الداخل */
+.fg-l1{fill:var(--fg-s1)}.fg-l2{fill:var(--fg-s2)}.fg-l3{fill:var(--fg-s3)}
+.fg-l4{fill:var(--fg-s4)}.fg-l5{fill:var(--fg-s5)}.fg-l6{fill:var(--fg-s6)}
+.fg-sep{stroke:var(--card);stroke-width:2;fill:none}
+.fg-num circle{fill:var(--card);stroke:var(--muted);stroke-width:1.5}
+.fg-num text{fill:var(--ink);font-size:13px;font-weight:700}
+.fig-key{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:7px}
+.fig-key li{display:flex;gap:10px;align-items:flex-start;color:var(--body-ink);font-size:14.5px}
+.fig-key b{flex:none;width:23px;height:23px;border-radius:50%;display:grid;place-items:center;
+  background:var(--card);border:1px solid var(--line);font-size:12.5px}
