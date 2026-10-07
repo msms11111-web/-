@@ -210,10 +210,10 @@
   },
   "science/extraction/": {
    "date": "2026-10-07",
-   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
-   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "sha": "fff36d88b7736e88e317da4cc5cc6893f0c98a0b",
+   "subject": "أول شكل في الموسوعة: مخطَّط ضبط التحضير",
    "url": "science/extraction/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fff36d88b7736e88e317da4cc5cc6893f0c98a0b",
    "approximate": false
   },
   "science/storage/": {
@@ -274,6 +274,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-07",
+   "sha": "fff36d88b7736e88e317da4cc5cc6893f0c98a0b",
+   "subject": "أول شكل في الموسوعة: مخطَّط ضبط التحضير",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fff36d88b7736e88e317da4cc5cc6893f0c98a0b",
+   "pages": [
+    "science/extraction/"
+   ]
+  },
   {
    "date": "2026-10-07",
    "sha": "9b593721069faaf51a212b411bef0501c28006dc",
