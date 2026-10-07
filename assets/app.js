@@ -104,6 +104,15 @@
     ["باتيان", "batian"],
     ["رويرو", "ruiru"],
     ["كونيلون", "conilon"],
+    ["الكافيين", "كافيين", "caffeine"],
+    ["هيميليا", "hemileia", "vastatrix"],
+    ["انثراكنوز", "anthracnose"],
+    ["سيلان", "سريلانكا", "ceylon"],
+    ["تيمور", "timor"],
+    ["قلوية", "alkalinity"],
+    ["صلادة", "hardness"],
+    ["اكسدة", "تاكسد", "oxidation"],
+    ["تقادم", "staling"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة
@@ -170,11 +179,16 @@
     // السوابق المتصلة في العربية تتراكم: و + ال + الكلمة («والدلة»)، ف/ب/ك/ل كذلك
     const PREFIX = /^[وفبكل]{0,2}(ال)?$/;
 
+    /* حدّ الكلمة ليس المسافة وحدها: «(TDS)» و«AA» ترد ملتصقة بترقيم، وقياس
+       البداية إلى آخر مسافة يجعل السابقة «(» فتُرفض الكلمة القصيرة كلها. */
+    const WORDCH = /[0-9a-z؀-ۿ]/;
+
     const findIn = (hay, w) => {
       let any = false;
       for (let i = hay.indexOf(w); i >= 0; i = hay.indexOf(w, i + 1)) {
         any = true;
-        const start = hay.lastIndexOf(" ", i - 1) + 1;
+        let start = i;
+        while (start > 0 && WORDCH.test(hay[start - 1])) start--;
         if (PREFIX.test(hay.slice(start, i))) return { any: true, atWord: true };
       }
       return { any, atWord: false };

@@ -2,26 +2,26 @@
  "pages": {
   "brewing/espresso/": {
    "date": "2026-10-06",
-   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
-   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "brewing/espresso/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "brewing/turkish/": {
    "date": "2026-10-06",
-   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
-   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "brewing/turkish/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "brewing/v60/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "brewing/v60/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "changelog/": {
@@ -34,26 +34,26 @@
   },
   "crops/guji-dega-natural/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "crops/guji-dega-natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "encyclopedia/": {
    "date": "2026-10-06",
-   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
-   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "evaluation/": {
    "date": "2026-10-06",
-   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
-   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "evaluation/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "": {
@@ -66,162 +66,200 @@
   },
   "methodology/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "origins/brazil/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "url": "origins/brazil/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "approximate": false
   },
   "origins/colombia/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "url": "origins/colombia/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "approximate": false
   },
   "origins/ethiopia/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "origins/ethiopia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "origins/indonesia/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "url": "origins/indonesia/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "approximate": false
   },
   "origins/kenya/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-06",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "url": "origins/kenya/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "approximate": false
   },
   "origins/yemen/": {
    "date": "2026-10-06",
-   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
-   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "origins/yemen/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "processes/anaerobic/": {
    "date": "2026-10-06",
-   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
-   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "processes/anaerobic/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "processes/honey/": {
    "date": "2026-10-06",
-   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
-   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "processes/honey/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "processes/natural/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "processes/natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "processes/washed/": {
    "date": "2026-10-06",
-   "sha": "3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
-   "subject": "المعالجات والتحضير: المغسولة والعسلية واللاهوائي والتركية والإسبريسو",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "processes/washed/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/3d0f62a81b0616a5af556e92a6b9b9ebfd12bf56",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "regions/guji/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "regions/guji/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "roasting/": {
    "date": "2026-10-06",
-   "sha": "e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
-   "subject": "صفحتا التحميص والتقييم: اكتمال رحلة القهوة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "roasting/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e3d4c133b77d3afae406d23bdcd35c9b3a2480e1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "saudi-coffee/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
    "date": "2026-10-06",
-   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
-   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "saudi-coffee/khawlani/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "saudi-coffee/ritual/": {
    "date": "2026-10-06",
-   "sha": "d20dfe24407ff4c663e80f0df3783eca87e98428",
-   "subject": "الجناح العربي: البن الخولاني، والدلة والفنجان، واليمن",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "saudi-coffee/ritual/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d20dfe24407ff4c663e80f0df3783eca87e98428",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
+  },
+  "science/caffeine/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "science/diseases/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "science/extraction/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "science/storage/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "science/water/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "species/arabica/": {
    "date": "2026-10-06",
-   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
-   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "species/arabica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "species/canephora/": {
    "date": "2026-10-06",
-   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
-   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "species/canephora/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "varieties/dega/": {
    "date": "2026-10-06",
-   "sha": "7e76061d27da155e882f22d884666fc5304c40b7",
-   "subject": "سجل تغييرات وتغذية Atom ونمط طباعة",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "varieties/dega/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7e76061d27da155e882f22d884666fc5304c40b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "varieties/geisha/": {
    "date": "2026-10-06",
-   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
-   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "varieties/geisha/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
   "varieties/typica-bourbon/": {
    "date": "2026-10-06",
-   "sha": "5128ed86585710cca14bb9355e8b59f728e02a94",
-   "subject": "الأنواع والسلالات: الأرابيكا والروبوستا وتيبيكا وبوربون وجيشا",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
    "url": "varieties/typica-bourbon/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5128ed86585710cca14bb9355e8b59f728e02a94",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   }
  },
@@ -242,6 +280,41 @@
     "regions/guji/",
     "saudi-coffee/",
     "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "pages": [
+    "brewing/espresso/",
+    "brewing/turkish/",
+    "brewing/v60/",
+    "crops/guji-dega-natural/",
+    "encyclopedia/",
+    "evaluation/",
+    "methodology/",
+    "origins/brazil/",
+    "origins/colombia/",
+    "origins/ethiopia/",
+    "origins/indonesia/",
+    "origins/kenya/",
+    "origins/yemen/",
+    "processes/anaerobic/",
+    "processes/honey/",
+    "processes/natural/",
+    "processes/washed/",
+    "regions/guji/",
+    "roasting/",
+    "saudi-coffee/",
+    "saudi-coffee/khawlani/",
+    "saudi-coffee/ritual/",
+    "species/arabica/",
+    "species/canephora/",
+    "varieties/dega/",
+    "varieties/geisha/",
+    "varieties/typica-bourbon/"
    ]
   },
   {
