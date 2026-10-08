@@ -1,11 +1,11 @@
 {
  "pages": {
   "brewing/espresso/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-08",
+   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
    "url": "brewing/espresso/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
    "approximate": false
   },
   "brewing/turkish/": {
@@ -42,10 +42,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-08",
-   "sha": "125bd0709bdb379814baf2865436ef520744711a",
-   "subject": "عائلة المعالجات: صفحة أمٍّ للطرق الأربع، وجدول يغلق حلقة المقطع",
+   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/125bd0709bdb379814baf2865436ef520744711a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
    "approximate": false
   },
   "evaluation/": {
@@ -113,19 +113,19 @@
    "approximate": false
   },
   "origins/yemen/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-08",
+   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
    "url": "origins/yemen/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
    "approximate": false
   },
   "processes/anaerobic/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-08",
+   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
    "url": "processes/anaerobic/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
    "approximate": false
   },
   "processes/honey/": {
@@ -209,11 +209,11 @@
    "approximate": false
   },
   "science/diseases/": {
-   "date": "2026-10-07",
-   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
-   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "date": "2026-10-08",
+   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
    "url": "science/diseases/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
    "approximate": false
   },
   "science/extraction/": {
@@ -265,11 +265,11 @@
    "approximate": false
   },
   "varieties/geisha/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-08",
+   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
    "url": "varieties/geisha/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
    "approximate": false
   },
   "varieties/typica-bourbon/": {
@@ -282,6 +282,20 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-08",
+   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "pages": [
+    "brewing/espresso/",
+    "encyclopedia/",
+    "origins/yemen/",
+    "processes/anaerobic/",
+    "science/diseases/",
+    "varieties/geisha/"
+   ]
+  },
   {
    "date": "2026-10-08",
    "sha": "125bd0709bdb379814baf2865436ef520744711a",

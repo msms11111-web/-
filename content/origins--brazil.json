@@ -4,8 +4,8 @@
   "description": "أكبر منتج للقهوة في العالم، وأكثر المناشئ أثرًا في السعر العالمي.",
   "lead": "أكبر منتج في العالم منذ أكثر من قرن، وما يجري فيه يحرّك السعر في كل مكان.",
   "status": {
-    "kind": "partial",
-    "label": "موثق جزئيًا"
+    "kind": "ok",
+    "label": "موثق وقيد التوسعة"
   },
   "sections": [
     {
@@ -18,19 +18,19 @@
       "id": "structure",
       "heading": "ما يميّز إنتاجه بنيويًا",
       "nav": "البنية",
-      "body": "<ul><li><strong>الأرض أقل ارتفاعًا</strong> عمومًا من مناشئ أمريكا الوسطى، وتضاريسها تسمح بالمكننة.</li><li><strong>الحصاد الآلي</strong> ممكن على نطاق واسع، بخلاف المناشئ الجبلية التي يفرض انحدارها القطف اليدوي.</li><li><strong>المعالجة</strong> تميل إلى <a href=\"../../processes/natural/\">المجففة</a> وإلى صور وسيطة بينها وبين <a href=\"../../processes/washed/\">المغسولة</a>.</li><li><strong>النوعان معًا</strong>: يُزرع فيه <a href=\"../../species/arabica/\">الأرابيكا</a> و<a href=\"../../species/canephora/\">الروبوستا</a>، والثانية تُعرف محليًا بـ<strong>الكونيلون</strong> <span dir=\"ltr\">(Conilon)</span>.</li></ul><p>ومن البرازيل خرجت سلالة غيّرت زراعة القهوة في أمريكا اللاتينية: <strong>كاتورا</strong> <span dir=\"ltr\">(Caturra)</span>، وهي طفرة طبيعية من <a href=\"../../varieties/typica-bourbon/\">بوربون</a> رُصدت في مزرعة بولاية ميناس جيرايس بين 1915 و1918. شجرتها قصيرة كثيفة الإنتاج، وشديدة القابلية لصدأ أوراق البن — وهذه القابلية هي ما دفع <a href=\"../colombia/\">كولومبيا</a> لاحقًا إلى تربية بديل مقاوم.</p><div class=\"notice\">المكننة ليست دليل انخفاض جودة: هي استجابة لتضاريس واقتصاد، وتوجد في البرازيل قهوة مختصة عالية التقييم كما توجد قهوة سلعية.</div>"
+      "body": "<ul><li><strong>الأرض أقل ارتفاعًا</strong> عمومًا من مناشئ أمريكا الوسطى، وتضاريسها تسمح بالمكننة.</li><li><strong>الحصاد الآلي</strong> ممكن على نطاق واسع، بخلاف المناشئ الجبلية التي يفرض انحدارها القطف اليدوي.</li><li><strong>المعالجة</strong> تميل إلى <a href=\"../../processes/natural/\">المجففة</a> وإلى صور وسيطة بينها وبين <a href=\"../../processes/washed/\">المغسولة</a>.</li><li><strong>النوعان معًا</strong>: يُزرع فيه <a href=\"../../species/arabica/\">الأرابيكا</a> و<a href=\"../../species/canephora/\">الروبوستا</a>، والثانية تُعرف محليًا بـ<strong>الكونيلون</strong> <span dir=\"ltr\">(Conilon)</span>.</li></ul><p>ومن البرازيل خرجت سلالة غيّرت زراعة القهوة في أمريكا اللاتينية: <strong>كاتورا</strong> <span dir=\"ltr\">(Caturra)</span>، وهي طفرة طبيعية من <a href=\"../../varieties/typica-bourbon/\">بوربون</a> رُصدت في مزرعة بولاية ميناس جيرايس بين 1915 و1918. شجرتها قصيرة كثيفة الإنتاج، وشديدة القابلية لصدأ أوراق البن — وهذه القابلية هي ما دفع <a href=\"../colombia/\">كولومبيا</a> لاحقًا إلى تربية بديل مقاوم.</p><div class=\"notice\">المكننة ليست دليل انخفاض جودة: هي استجابة لتضاريس واقتصاد، وتوجد في البرازيل قهوة مختصة عالية التقييم كما توجد قهوة سلعية.</div><h3>سلالاته: عددٌ كبير، وقليلٌ منه يُزرع</h3><p>تنشر مؤسسة البحوث الزراعية البرازيلية <span dir=\"ltr\">(Embrapa)</span> كتالوجًا للسلالات يصف تسعين سلالة أرابيكا بصفاتها الزراعية، ويقارنها كلها بسلالة <strong>كاتوايي</strong> بوصفها المرجع الذي يعرفه المزارعون.</p><p>والسجل الوطني للسلالات في وزارة الزراعة أوسع من ذلك: كان يضم في منتصف 2021 نحو 176 سلالة قهوة مسجَّلة، منها 135 أرابيكا و42 كانيفورا. ومع ذلك <strong>لا يُزرع على نطاق واسع إلا نحو أربعين منها</strong>.</p><div class=\"notice\">وهذه الفجوة — بين ما يُسجَّل وما يُزرع فعلًا — تفسّر شيئًا يتكرر في الموسوعة: وفرة الأسماء لا تعني وفرة وراثية في المزارع. والسجل الرسمي يوثّق ما سُجِّل، لا ما في الأرض.</div>"
     },
     {
       "id": "limits",
       "heading": "حدود ما تنشره قطرة",
       "nav": "حدود الاستنتاج",
-      "body": "<ul><li>لا يُنسب للبرازيل ملف حسي واحد: مناطقه وارتفاعاته وسلالاته متعددة.</li><li>لا تُثبَّت أرقام إنتاج هنا؛ تتغيّر كل موسم وتُقرأ من تقرير بتاريخه.</li><li>حالة الصفحة «موثق جزئيًا» حتى تُضاف مصادر مؤسسية برازيلية للمناطق والسلالات.</li></ul>"
+      "body": "<ul><li>لا يُنسب للبرازيل ملف حسي واحد: مناطقه وارتفاعاته وسلالاته متعددة.</li><li>لا تُثبَّت أرقام إنتاج هنا؛ تتغيّر كل موسم وتُقرأ من تقرير بتاريخه.</li><li>السلالات صار لها مصدر مؤسسي برازيلي، أما <strong>توزيع المناطق</strong> فلم نقف له على مرجع وطني واحد: التوصيات تُنشر بولايةٍ ولاية عن معاهدها المحلية. ولذلك بقيت الصفحة «قيد التوسعة».</li></ul>"
     },
     {
       "id": "sources",
       "heading": "المصادر الأساسية",
       "nav": "المصادر",
-      "body": "<ul class=\"refs\"><li><a href=\"https://worldcoffeeresearch.org/countries/brazil\" target=\"_blank\" rel=\"noopener noreferrer\">World Coffee Research — ملف البرازيل<span aria-hidden=\"true\"> ↗</span></a><small>مؤسسة بحثية مهنية. ملف المنشأ وسلالاته وتحدياته الزراعية.</small></li><li><a href=\"https://www.ico.org/documents/cy2025-26/cmr-1025-e.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">منظمة القهوة الدولية — تقرير سوق القهوة<span aria-hidden=\"true\"> ↗</span></a><small>المنظمة الحكومية الدولية المرجعية في إحصاء القهوة. التقرير شهري، فتُقرأ أرقامه بتاريخها لا بوصفها حالة دائمة.</small></li><li><a href=\"https://varieties.worldcoffeeresearch.org/varieties/caturra\" target=\"_blank\" rel=\"noopener noreferrer\">كتالوج سلالات <span dir=\"ltr\">World Coffee Research</span> — كاتورا<span aria-hidden=\"true\"> ↗</span></a><small>مرجع نشأة كاتورا طفرةً من بوربون في ميناس جيرايس، وقابليتها للصدأ.</small></li></ul>"
+      "body": "<ul class=\"refs\"><li><a href=\"https://worldcoffeeresearch.org/countries/brazil\" target=\"_blank\" rel=\"noopener noreferrer\">World Coffee Research — ملف البرازيل<span aria-hidden=\"true\"> ↗</span></a><small>مؤسسة بحثية مهنية. ملف المنشأ وسلالاته وتحدياته الزراعية.</small></li><li><a href=\"https://www.ico.org/documents/cy2025-26/cmr-1025-e.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">منظمة القهوة الدولية — تقرير سوق القهوة<span aria-hidden=\"true\"> ↗</span></a><small>المنظمة الحكومية الدولية المرجعية في إحصاء القهوة. التقرير شهري، فتُقرأ أرقامه بتاريخها لا بوصفها حالة دائمة.</small></li><li><a href=\"https://varieties.worldcoffeeresearch.org/varieties/caturra\" target=\"_blank\" rel=\"noopener noreferrer\">كتالوج سلالات <span dir=\"ltr\">World Coffee Research</span> — كاتورا<span aria-hidden=\"true\"> ↗</span></a><small>مرجع نشأة كاتورا طفرةً من بوربون في ميناس جيرايس، وقابليتها للصدأ.</small></li><li><a href=\"https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1145722\" target=\"_blank\" rel=\"noopener noreferrer\">كتالوج سلالات قهوة الأرابيكا — <span dir=\"ltr\">Embrapa Café</span>، 2022<span aria-hidden=\"true\"> ↗</span></a><small>مؤسسة البحوث الزراعية البرازيلية، وهي الجهة الحكومية المرجعية. الكتالوج مفتوح الوصول ويصف تسعين سلالة بصفاتها الزراعية مقارنةً بكاتوايي. <span dir=\"ltr\">Documentos 16 — ISSN 1678-1694</span></small></li></ul>"
     }
   ],
   "slug": "origins--brazil",
