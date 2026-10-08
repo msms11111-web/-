@@ -41,11 +41,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-07",
-   "sha": "9b593721069faaf51a212b411bef0501c28006dc",
-   "subject": "العلم والسوق: الكافيين والماء والاستخلاص والتخزين وأمراض البن",
+   "date": "2026-10-08",
+   "sha": "125bd0709bdb379814baf2865436ef520744711a",
+   "subject": "عائلة المعالجات: صفحة أمٍّ للطرق الأربع، وجدول يغلق حلقة المقطع",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9b593721069faaf51a212b411bef0501c28006dc",
+   "commit": "https://github.com/msms11111-web/qatra/commit/125bd0709bdb379814baf2865436ef520744711a",
    "approximate": false
   },
   "evaluation/": {
@@ -137,17 +137,19 @@
    "approximate": false
   },
   "processes/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-08",
+   "sha": "125bd0709bdb379814baf2865436ef520744711a",
+   "subject": "عائلة المعالجات: صفحة أمٍّ للطرق الأربع، وجدول يغلق حلقة المقطع",
+   "url": "processes/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/125bd0709bdb379814baf2865436ef520744711a",
+   "approximate": false
   },
   "processes/natural/": {
-   "date": "2026-10-07",
-   "sha": "b0dbb76f7b3d82409e9e45d185a3d440ae76d991",
-   "subject": "مقطع ثمرة القهوة: الشكل الذي تحتاجه صفحات المعالجة كلها",
+   "date": "2026-10-08",
+   "sha": "125bd0709bdb379814baf2865436ef520744711a",
+   "subject": "عائلة المعالجات: صفحة أمٍّ للطرق الأربع، وجدول يغلق حلقة المقطع",
    "url": "processes/natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/b0dbb76f7b3d82409e9e45d185a3d440ae76d991",
+   "commit": "https://github.com/msms11111-web/qatra/commit/125bd0709bdb379814baf2865436ef520744711a",
    "approximate": false
   },
   "processes/washed/": {
@@ -280,6 +282,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-08",
+   "sha": "125bd0709bdb379814baf2865436ef520744711a",
+   "subject": "عائلة المعالجات: صفحة أمٍّ للطرق الأربع، وجدول يغلق حلقة المقطع",
+   "commit": "https://github.com/msms11111-web/qatra/commit/125bd0709bdb379814baf2865436ef520744711a",
+   "pages": [
+    "encyclopedia/",
+    "processes/",
+    "processes/natural/"
+   ]
+  },
   {
    "date": "2026-10-07",
    "sha": "fff36d88b7736e88e317da4cc5cc6893f0c98a0b",

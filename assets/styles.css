@@ -207,6 +207,14 @@ html:not([data-theme="light"]) {
 .article,.scroll-x{min-width:0}
 .scroll-x{overflow-x:auto;margin:22px 0;max-width:100%}
 .scroll-x table{margin:0;min-width:520px;display:table}
+/* مخطَّطات العلاقات: صناديق وخطوط، والتوكيد على الناتج لا على الأصول */
+.fg-box{fill:var(--card);stroke:var(--line);stroke-width:1.5}
+.fg-box-key{fill:var(--ok-bg);stroke:var(--ok-ink)}
+.fg-link{stroke:var(--muted);stroke-width:1.5;fill:none}
+.fg-arrow{fill:var(--muted)}
+.fg-sp{fill:var(--ink);font-size:17px;font-weight:700;font-style:italic}
+.fg-sub{fill:var(--body-ink);font-size:13.5px}
+.fg-edge{fill:var(--muted);font-size:13px}
 .fig figcaption{margin-top:12px;color:var(--muted);font-size:13.5px;line-height:1.75}
 .fg-grid{stroke:var(--line);stroke-width:1;fill:none}
 .fg-axis{stroke:var(--muted);stroke-width:1;fill:none}
