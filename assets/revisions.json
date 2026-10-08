@@ -42,10 +42,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-08",
-   "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",
-   "subject": "إغلاق ثغرات معلنة: جيشا وأمراض البن واليمن",
+   "sha": "dc2a0c42a3911a3d56540652bd6bf12212f144a5",
+   "subject": "البرازيل ترتفع، وإندونيسيا تُسجّل تناقضها",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8f9ab774635693d061e3139ab8be6d1e9448f65d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/dc2a0c42a3911a3d56540652bd6bf12212f144a5",
    "approximate": false
   },
   "evaluation/": {
@@ -73,11 +73,11 @@
    "approximate": false
   },
   "origins/brazil/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-08",
+   "sha": "dc2a0c42a3911a3d56540652bd6bf12212f144a5",
+   "subject": "البرازيل ترتفع، وإندونيسيا تُسجّل تناقضها",
    "url": "origins/brazil/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/dc2a0c42a3911a3d56540652bd6bf12212f144a5",
    "approximate": false
   },
   "origins/colombia/": {
@@ -97,11 +97,11 @@
    "approximate": false
   },
   "origins/indonesia/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-08",
+   "sha": "dc2a0c42a3911a3d56540652bd6bf12212f144a5",
+   "subject": "البرازيل ترتفع، وإندونيسيا تُسجّل تناقضها",
    "url": "origins/indonesia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/dc2a0c42a3911a3d56540652bd6bf12212f144a5",
    "approximate": false
   },
   "origins/kenya/": {
@@ -282,6 +282,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-08",
+   "sha": "dc2a0c42a3911a3d56540652bd6bf12212f144a5",
+   "subject": "البرازيل ترتفع، وإندونيسيا تُسجّل تناقضها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/dc2a0c42a3911a3d56540652bd6bf12212f144a5",
+   "pages": [
+    "encyclopedia/",
+    "origins/brazil/",
+    "origins/indonesia/"
+   ]
+  },
   {
    "date": "2026-10-08",
    "sha": "8f9ab774635693d061e3139ab8be6d1e9448f65d",

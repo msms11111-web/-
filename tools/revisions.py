@@ -30,6 +30,7 @@ GENERATED = [
     re.compile(r"<!--qatra:rev-->.*?<!--/qatra:rev-->", re.S),
     re.compile(r"<!--qatra:rel-->.*?<!--/qatra:rel-->", re.S),
     re.compile(r"<!--qatra:log-->.*?<!--/qatra:log-->", re.S),
+    re.compile(r"<!--qatra:wings-->.*?<!--/qatra:wings-->", re.S),
 ]
 
 
