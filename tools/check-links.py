@@ -63,6 +63,36 @@ def duplicate_titles(pages: list[Path]) -> list[str]:
     ]
 
 
+ENTITY = re.compile(
+    r'<a class="entity"[^>]*href="\.\./([^"]*)"[^>]*>.*?'
+    r'<span class="status (\w+)">([^<]*)</span>',
+    re.S,
+)
+PAGE_STATUS = re.compile(r'class="status (\w+) status-link"')
+
+
+def status_drift() -> list[str]:
+    """شارة الفهرس يجب أن توافق حالة الصفحة نفسها.
+
+    الفهرس يُحرَّر يدويًّا والحالة تُبنى من content/، فيفترقان بلا أثر ظاهر.
+    وُجدت بطاقة تَعِد بـ«موثق» وصفحتها تقول «وصفة تأسيسية غير مختبرة»، وهو
+    ادّعاءٌ في الواجهة تنفيه الصفحة — وأسوأ ما يصيب موسوعةً تقوم على حالات
+    التوثيق أن تكذب فهرستها صفحاتها.
+    """
+    index = ROOT / "encyclopedia" / "index.html"
+    if not index.exists():
+        return []
+    out = []
+    for href, kind, label in ENTITY.findall(index.read_text(encoding="utf-8")):
+        page = ROOT / href / "index.html"
+        if not page.exists():
+            continue
+        found = PAGE_STATUS.search(page.read_text(encoding="utf-8"))
+        if found and found.group(1) != kind:
+            out.append(f"{href} ← الفهرس «{kind}» والصفحة «{found.group(1)}»")
+    return out
+
+
 def main() -> int:
     broken = []
     pages = sorted(ROOT.rglob("*.html"))
@@ -82,11 +112,15 @@ def main() -> int:
     for item in dupes:
         print(f"عنوان مكرر: {item}")
 
+    drift = status_drift()
+    for item in drift:
+        print(f"حالة متضاربة: {item}")
+
     print(
         f"فُحصت {len(pages)} صفحة، ووُجد {len(broken)} رابط مكسور"
-        f"، و{len(dupes)} عنوانًا مكررًا."
+        f"، و{len(dupes)} عنوانًا مكررًا، و{len(drift)} حالةً متضاربة."
     )
-    return 1 if broken or dupes else 0
+    return 1 if broken or dupes or drift else 0
 
 
 if __name__ == "__main__":

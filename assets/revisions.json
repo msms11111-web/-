@@ -241,11 +241,11 @@
    "approximate": false
   },
   "species/arabica/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-08",
+   "sha": "0c6c19c1228fad662bcaf187d9687f9426ae8953",
+   "subject": "شجرة نسب الأرابيكا: القرابة تُرى بدل أن تُقرأ",
    "url": "species/arabica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0c6c19c1228fad662bcaf187d9687f9426ae8953",
    "approximate": false
   },
   "species/canephora/": {
@@ -291,6 +291,15 @@
     "encyclopedia/",
     "processes/",
     "processes/natural/"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "sha": "0c6c19c1228fad662bcaf187d9687f9426ae8953",
+   "subject": "شجرة نسب الأرابيكا: القرابة تُرى بدل أن تُقرأ",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0c6c19c1228fad662bcaf187d9687f9426ae8953",
+   "pages": [
+    "species/arabica/"
    ]
   },
   {
