@@ -136,12 +136,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
    "approximate": false
   },
+  "processes/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "processes/natural/": {
-   "date": "2026-10-06",
-   "sha": "ef480a87bde9583e7126beb24d5531fe5456ddae",
-   "subject": "المناشئ: البرازيل وكولومبيا وكينيا وإندونيسيا، وإصلاح عناوين الصفحات",
+   "date": "2026-10-07",
+   "sha": "b0dbb76f7b3d82409e9e45d185a3d440ae76d991",
+   "subject": "مقطع ثمرة القهوة: الشكل الذي تحتاجه صفحات المعالجة كلها",
    "url": "processes/natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/ef480a87bde9583e7126beb24d5531fe5456ddae",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b0dbb76f7b3d82409e9e45d185a3d440ae76d991",
    "approximate": false
   },
   "processes/washed/": {
@@ -281,6 +287,15 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/fff36d88b7736e88e317da4cc5cc6893f0c98a0b",
    "pages": [
     "science/extraction/"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "sha": "b0dbb76f7b3d82409e9e45d185a3d440ae76d991",
+   "subject": "مقطع ثمرة القهوة: الشكل الذي تحتاجه صفحات المعالجة كلها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b0dbb76f7b3d82409e9e45d185a3d440ae76d991",
+   "pages": [
+    "processes/natural/"
    ]
   },
   {

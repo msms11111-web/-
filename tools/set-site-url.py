@@ -33,6 +33,7 @@ PAGES = [
     ("varieties/dega/", "ديجا"),
     ("varieties/typica-bourbon/", "تيبيكا وبوربون"),
     ("varieties/geisha/", "جيشا"),
+    ("processes/", "عائلة المعالجات"),
     ("processes/natural/", "المعالجة المجففة"),
     ("processes/washed/", "المعالجة المغسولة"),
     ("processes/honey/", "المعالجة العسلية"),

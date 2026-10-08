@@ -54,6 +54,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
     "origins/indonesia/": [
         ("species/canephora/", "النوع الذي يغلب على إنتاجه"),
         ("processes/washed/", "الأصل الذي يتفرع منه التقشير الرطب"),
+        ("processes/", "موضع التقشير الرطب في جدول المعالجات"),
         ("processes/natural/", "الطرف الآخر الذي يفارقه التقشير الرطب كذلك"),
         ("methodology/", "لماذا تُستبعد قهوة الزباد من المعرفة القهوية في هذا الموقع"),
     ],
@@ -67,8 +68,17 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("origins/ethiopia/", "السياق الوطني لأسماء السلالات المحلية"),
         ("crops/guji-dega-natural/", "محصول معلن بهذا الاسم، دون إثبات وراثي"),
     ],
+    "processes/": [
+        ("processes/natural/", "الطرف الذي تبقى فيه الثمرة كاملة طوال التجفيف"),
+        ("processes/washed/", "الطرف المقابل: تُنزع الطبقات ثم يجفّ البرشمان وحده"),
+        ("processes/honey/", "الوسط بينهما، ومقداره هو المتغيّر"),
+        ("processes/anaerobic/", "طورٌ يُضاف إلى واحدة منها، لا بديلٌ عنها"),
+        ("origins/indonesia/", "التقشير الرطب: ترتيب لا يوجد في غيره"),
+        ("methodology/", "لماذا يُفصل تعريف المعالجة عن أثرها الحسي"),
+    ],
     "processes/natural/": [
         ("processes/washed/", "النقيض في الترتيب: نزع الطبقات قبل التجفيف"),
+        ("processes/", "طبقات الثمرة الست، وجدول يقارن الطرق الأربع"),
         ("processes/honey/", "الوسط بين المجففة والمغسولة"),
         ("crops/guji-dega-natural/", "محصول معالَج بهذه الطريقة، ببيانات تجفيف ناقصة"),
         ("origins/brazil/", "المنشأ الذي تسود فيه، لأسباب مناخية لا حسية"),
@@ -148,6 +158,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
     ],
     "processes/washed/": [
         ("processes/natural/", "النقيض في الترتيب: التجفيف قبل نزع الطبقات"),
+        ("processes/", "طبقات الثمرة الست، وجدول يقارن الطرق الأربع"),
         ("processes/honey/", "الوسط بينهما: نزع القشرة مع إبقاء بعض اللب"),
         ("processes/anaerobic/", "طور تخمير يُضاف إلى هذه المعالجة أو غيرها"),
         ("origins/indonesia/", "منشأ تتفرع منه نسخة محلية: التقشير الرطب"),
@@ -155,11 +166,13 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
     ],
     "processes/honey/": [
         ("processes/washed/", "منها تُؤخذ خطوة نزع القشرة"),
+        ("processes/", "طبقات الثمرة الست، وموضع العسلية بينها"),
         ("processes/natural/", "ومنها يُؤخذ بقاء المادة اللزجة أثناء التجفيف"),
         ("processes/anaerobic/", "طور تخمير يُضاف إليها كذلك"),
     ],
     "processes/anaerobic/": [
         ("processes/natural/", "معالجة يُضاف إليها هذا الطور كثيرًا"),
+        ("processes/", "لماذا لا يُعدّ هذا الطور معالجةً مستقلة"),
         ("processes/washed/", "ويُضاف إليها كذلك قبل الغسل"),
         ("evaluation/", "لماذا لا تُقبل الادعاءات الحسية قبل تكرار موثق"),
     ],

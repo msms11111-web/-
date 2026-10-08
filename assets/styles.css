@@ -201,6 +201,12 @@ html:not([data-theme="light"]) {
 .fig svg{display:block;width:100%;height:auto;font-family:var(--sans)}
 /* شكل مربَّع يبلع عرض المقال كله لو تُرك: يُحدّ ويُتوسَّط */
 .fig.narrow svg{max-width:420px;margin-inline:auto}
+/* جدول عريض لا يدفع الصفحة: يمرّر داخل حاويته.
+   وعنصر الشبكة أصله min-width:auto، فيأبى النزول تحت أعرض محتوياته ويجرّ
+   الصفحة معه. الصفر هنا هو ما يجعل التمرير يعمل بدل أن يفيض. */
+.article,.scroll-x{min-width:0}
+.scroll-x{overflow-x:auto;margin:22px 0;max-width:100%}
+.scroll-x table{margin:0;min-width:520px;display:table}
 .fig figcaption{margin-top:12px;color:var(--muted);font-size:13.5px;line-height:1.75}
 .fg-grid{stroke:var(--line);stroke-width:1;fill:none}
 .fg-axis{stroke:var(--muted);stroke-width:1;fill:none}
