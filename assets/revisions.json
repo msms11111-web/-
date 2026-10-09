@@ -73,11 +73,11 @@
    "approximate": false
   },
   "origins/brazil/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-09",
+   "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "subject": "رابطان ميتان في المصادر، وفحصٌ كان يصيح بلا سامع",
    "url": "origins/brazil/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/460788dce67b7b9258a617d31c466a58f8df0b3d",
    "approximate": false
   },
   "origins/colombia/": {
@@ -217,11 +217,11 @@
    "approximate": false
   },
   "science/extraction/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-09",
+   "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "subject": "رابطان ميتان في المصادر، وفحصٌ كان يصيح بلا سامع",
    "url": "science/extraction/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/460788dce67b7b9258a617d31c466a58f8df0b3d",
    "approximate": false
   },
   "science/storage/": {
@@ -233,11 +233,11 @@
    "approximate": false
   },
   "science/water/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-09",
+   "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "subject": "رابطان ميتان في المصادر، وفحصٌ كان يصيح بلا سامع",
    "url": "science/water/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/460788dce67b7b9258a617d31c466a58f8df0b3d",
    "approximate": false
   },
   "species/arabica/": {
@@ -282,6 +282,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-09",
+   "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "subject": "رابطان ميتان في المصادر، وفحصٌ كان يصيح بلا سامع",
+   "commit": "https://github.com/msms11111-web/qatra/commit/460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "pages": [
+    "origins/brazil/",
+    "science/extraction/",
+    "science/water/"
+   ]
+  },
   {
    "date": "2026-10-08",
    "sha": "dc2a0c42a3911a3d56540652bd6bf12212f144a5",
