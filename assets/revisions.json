@@ -257,11 +257,11 @@
    "approximate": false
   },
   "varieties/dega/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-09",
+   "sha": "81927257fc815aeb51919aef984b386ecc67c74c",
+   "subject": "ديجا: سندٌ محكَّم لمبدأ كان مُفترَضًا",
    "url": "varieties/dega/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/81927257fc815aeb51919aef984b386ecc67c74c",
    "approximate": false
   },
   "varieties/geisha/": {
@@ -282,6 +282,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-09",
+   "sha": "81927257fc815aeb51919aef984b386ecc67c74c",
+   "subject": "ديجا: سندٌ محكَّم لمبدأ كان مُفترَضًا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/81927257fc815aeb51919aef984b386ecc67c74c",
+   "pages": [
+    "varieties/dega/"
+   ]
+  },
   {
    "date": "2026-10-09",
    "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
