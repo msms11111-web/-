@@ -137,11 +137,11 @@
    "approximate": false
   },
   "processes/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "380171ac7be8af8b77e8c1d4f88dfef27d2214e1",
+   "subject": "الثمرة بهيئتها: رسمٌ ثانٍ والأسماء مكتوبة عليه",
    "url": "processes/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/380171ac7be8af8b77e8c1d4f88dfef27d2214e1",
    "approximate": false
   },
   "processes/natural/": {
@@ -289,6 +289,15 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/609979d3371d1720ffc91424044f6d92ea9cb9fa",
    "pages": [
     "processes/natural/"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "sha": "380171ac7be8af8b77e8c1d4f88dfef27d2214e1",
+   "subject": "الثمرة بهيئتها: رسمٌ ثانٍ والأسماء مكتوبة عليه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/380171ac7be8af8b77e8c1d4f88dfef27d2214e1",
+   "pages": [
+    "processes/"
    ]
   },
   {

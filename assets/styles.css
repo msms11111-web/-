@@ -236,7 +236,7 @@ html:not([data-theme="light"]) {
 .fg-num circle{fill:var(--card);stroke:var(--muted);stroke-width:1.5}
 .fg-num text{fill:var(--ink);font-size:13px;font-weight:700}
 /* المقطع الجانبي: عُنق وشقّ البذرة وخطوط الإشارة والأسماء على الرسم */
-.fg-stem{stroke:var(--fg-s5);stroke-width:7;stroke-linecap:round;fill:none}
+.fg-stem{stroke:var(--fg-s4);stroke-width:5;stroke-linecap:round;fill:none}
 .fg-lead{stroke:var(--muted);stroke-width:1.2}
 .fg-name{fill:var(--body-ink);font-size:17px;font-weight:600}
 .fig-key{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:7px}
