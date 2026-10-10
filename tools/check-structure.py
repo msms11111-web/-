@@ -63,16 +63,23 @@ for p in sorted(ROOT.rglob("*.html")):
 
     # ٥) كل خلية ترويسة على حدة. وفحصُ الجدول جملةً يمرّر خليةً واحدة
     #    ناقصة بين أخواتها السليمة، وهي بالضبط حالة التعديل اليدوي.
-    bare = len(re.findall(r"<th(?![^>]*scope=)", h))
+    # حدّ الكلمة ضروري: «<thead>» يبدأ بـ<th فيُحسب خليةً ناقصة بدونه،
+    # وهو ما أوقع سكربت الإصلاح في تشويه كل وسوم thead في الموقع.
+    bare = len(re.findall(r"<th(?=[\s>])(?![^>]*scope=)", h))
     if bare:
         note("ترويسة بلا scope", page, f"{bare} خلية")
 
-    # ٦) نصّ لاتيني داخل صفحة عربية بلا lang
+    # ٦) وسمٌ مشوَّه: اسم العنصر ملتصق بسمة. نشأ من استبدال بلا حدّ كلمة،
+    #    ويمرّ من كل الفحوص الأخرى لأنه يبدو وسمًا سليمًا فيه سمات.
+    for m in re.finditer(r'<[a-z]+ [a-z-]+="[^"]*"[a-z]+>', h):
+        note("وسم مشوَّه", page, m.group(0)[:50])
+
+    # ٧) نصّ لاتيني داخل صفحة عربية بلا lang
     for m in re.finditer(r'<span dir="ltr"[^>]*>', h):
         if "lang=" not in m.group(0):
             note("لاتيني بلا lang", page, m.group(0)[:50])
 
-    # ٧) المعالم الأساسية
+    # ٨) المعالم الأساسية
     for landmark, pat in [("main", r"<main\b"), ("header", r"<header\b"), ("footer", r"<footer\b")]:
         if not re.search(pat, h):
             note("معلَم ناقص", page, landmark)

@@ -32,6 +32,8 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
     ],
     "origins/brazil/": [
         ("origins/colombia/", "منشأ مجاور في الحجم، ومختلف عنه في بنية الحيازة"),
+        ("origins/vietnam/", "المنتج الثاني عالميًّا، بلغ موقعه في جيل واحد"),
+        ("varieties/caturra/", "طفرة رُصدت في ميناس جيرايس وغيّرت القارة"),
         ("species/arabica/", "النوع الذي يقوم عليه أغلب إنتاجه"),
         ("species/canephora/", "النوع الثاني في إنتاجه، ويُعرف محليًا بالكونيلون"),
         ("processes/natural/", "المعالجة السائدة فيه، بسبب المناخ لا بسبب تفضيل حسي"),
@@ -41,6 +43,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("origins/brazil/", "منشأ مجاور في الحجم، ومختلف عنه في بنية الحيازة"),
         ("processes/washed/", "المعالجة السائدة فيه تاريخيًا"),
         ("varieties/typica-bourbon/", "المجموعتان التي تنحدر منهما سلالاته المطوَّرة"),
+        ("varieties/timor-catimor/", "النسب الذي جاءت منه كاستيو"),
         ("science/diseases/", "صدأ الأوراق الذي أعاد تشكيل زراعته"),
         ("saudi-coffee/khawlani/", "المقارنة بين إدراج موقع في التراث العالمي وإدراج معارف في القائمة التمثيلية"),
     ],
@@ -139,6 +142,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
     "species/canephora/": [
         ("species/arabica/", "النوع الذي نشأ من تهجين هذا النوع بغيره"),
         ("origins/indonesia/", "منشأ يغلب هذا النوع على إنتاجه"),
+        ("origins/vietnam/", "أكبر منتج له في العالم، وثاني أكبر منتج للقهوة"),
         ("origins/brazil/", "ثاني أكبر منتج له، ويُعرف فيه بالكونيلون"),
         ("science/diseases/", "جيناته مصدر مقاومة الصدأ في سلالات الأرابيكا التجارية"),
         ("science/caffeine/", "نسبته الأعلى من الكافيين، وما يعنيه ذلك في الفنجان"),
@@ -149,6 +153,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("origins/yemen/", "المحطة التي ضاقت فيها قاعدة التنوع قبل انتشارها"),
         ("species/arabica/", "النوع الذي تنتمي إليه المجموعتان"),
         ("origins/kenya/", "المنشأ الذي انتُخبت فيه SL28 وSL34 من هذه القاعدة"),
+        ("varieties/caturra/", "طفرة خرجت من بوربون وغيّرت أمريكا اللاتينية"),
         ("varieties/dega/", "المشكلة نفسها: اسم يدل على أشياء مختلفة بحسب السياق"),
     ],
     "varieties/geisha/": [
@@ -213,7 +218,27 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("origins/kenya/", "منشأ خرج من ضغط هذه الأمراض ببرنامج تربية"),
         ("origins/colombia/", "منشأ أعاد تشكيل زراعته حول مقاومة الصدأ"),
         ("species/canephora/", "النوع الذي جاءت منه جينات المقاومة"),
+        ("varieties/timor-catimor/", "النسب الذي حمل المقاومة، وعلامات تآكلها"),
         ("varieties/typica-bourbon/", "المجموعات التي تفتقر إلى المقاومة، ومنها كاتورا"),
+    ],
+    "origins/vietnam/": [
+        ("species/canephora/", "النوع الذي يقوم عليه إنتاجه كله تقريبًا"),
+        ("origins/brazil/", "المنتج الأكبر، والقصّة نفسها بوتيرة أبطأ"),
+        ("varieties/timor-catimor/", "من الروبوستا جاءت مقاومة الصدأ في نصف سلالات العالم"),
+        ("evaluation/", "لماذا لا يُقرأ حجم الإنتاج حكمًا على الجودة"),
+    ],
+    "varieties/caturra/": [
+        ("varieties/typica-bourbon/", "المجموعة التي طفرت عنها"),
+        ("varieties/timor-catimor/", "ما هُجّنت به لتُكسَب المقاومة"),
+        ("origins/brazil/", "الولاية التي رُصدت فيها الطفرة"),
+        ("science/diseases/", "الصدأ الذي كشف ضعفها فغيّر خريطة السلالات"),
+    ],
+    "varieties/timor-catimor/": [
+        ("species/canephora/", "مصدر جينات المقاومة في هذا النسب"),
+        ("varieties/caturra/", "الطرف الآخر في تهجين مجموعة كاتيمور"),
+        ("origins/colombia/", "منشأ بنى زراعته على كاستيو، وهي من هذا النسب"),
+        ("science/diseases/", "المرض الذي وُجد هذا النسب لمقاومته"),
+        ("species/arabica/", "ضيق قاعدة التنوع الذي يجعل المقاومة قصيرة العمر"),
     ],
     "methodology/": [
         ("encyclopedia/", "الفهرس حيث تظهر حالة التوثيق بجانب كل مدخل"),

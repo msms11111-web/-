@@ -9,19 +9,19 @@
    "approximate": false
   },
   "brewing/turkish/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "brewing/turkish/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "brewing/v60/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "brewing/v60/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "changelog/": {
@@ -33,11 +33,11 @@
    "approximate": false
   },
   "crops/guji-dega-natural/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "crops/guji-dega-natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "encyclopedia/": {
@@ -49,11 +49,11 @@
    "approximate": false
   },
   "evaluation/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "evaluation/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "": {
@@ -65,83 +65,89 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "origins/brazil/": {
-   "date": "2026-10-09",
-   "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
-   "subject": "رابطان ميتان في المصادر، وفحصٌ كان يصيح بلا سامع",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "origins/brazil/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "origins/colombia/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "origins/colombia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "origins/ethiopia/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "origins/ethiopia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "origins/indonesia/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "origins/indonesia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "origins/kenya/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "origins/kenya/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
+  "origins/vietnam/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/yemen/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "origins/yemen/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "processes/anaerobic/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "processes/anaerobic/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "processes/honey/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "processes/honey/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "processes/": {
    "date": "2026-10-10",
-   "sha": "dcd96035763ad47e2862bd4b9ece0f9465833d84",
-   "subject": "العُنق كان شفرةً سوداء على الجوال",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "processes/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/dcd96035763ad47e2862bd4b9ece0f9465833d84",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "processes/natural/": {
@@ -153,11 +159,11 @@
    "approximate": false
   },
   "processes/washed/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "processes/washed/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "regions/guji/": {
@@ -169,115 +175,127 @@
    "approximate": false
   },
   "roasting/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "roasting/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "saudi-coffee/": {
-   "date": "2026-10-09",
-   "sha": "b3de91b95554a1f34a0ebf527edcb6b7b3514382",
-   "subject": "الجناح السعودي: من وعدٍ بمحتوى إلى محتوى",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/b3de91b95554a1f34a0ebf527edcb6b7b3514382",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "saudi-coffee/khawlani/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "saudi-coffee/ritual/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "saudi-coffee/ritual/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "science/caffeine/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "science/caffeine/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "science/diseases/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "science/diseases/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "science/extraction/": {
-   "date": "2026-10-09",
-   "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
-   "subject": "رابطان ميتان في المصادر، وفحصٌ كان يصيح بلا سامع",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "science/extraction/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "science/storage/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "science/storage/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "science/water/": {
-   "date": "2026-10-09",
-   "sha": "460788dce67b7b9258a617d31c466a58f8df0b3d",
-   "subject": "رابطان ميتان في المصادر، وفحصٌ كان يصيح بلا سامع",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "science/water/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/460788dce67b7b9258a617d31c466a58f8df0b3d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "species/arabica/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "species/arabica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "species/canephora/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "species/canephora/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
+  "varieties/caturra/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "varieties/dega/": {
-   "date": "2026-10-09",
-   "sha": "81927257fc815aeb51919aef984b386ecc67c74c",
-   "subject": "ديجا: سندٌ محكَّم لمبدأ كان مُفترَضًا",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "varieties/dega/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/81927257fc815aeb51919aef984b386ecc67c74c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
   "varieties/geisha/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "varieties/geisha/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
+  "varieties/timor-catimor/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "varieties/typica-bourbon/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
    "url": "varieties/typica-bourbon/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   }
  },
@@ -289,6 +307,43 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/dcd96035763ad47e2862bd4b9ece0f9465833d84",
    "pages": [
     "processes/"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
+   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "pages": [
+    "brewing/turkish/",
+    "brewing/v60/",
+    "crops/guji-dega-natural/",
+    "evaluation/",
+    "methodology/",
+    "origins/brazil/",
+    "origins/colombia/",
+    "origins/ethiopia/",
+    "origins/indonesia/",
+    "origins/kenya/",
+    "origins/yemen/",
+    "processes/",
+    "processes/anaerobic/",
+    "processes/honey/",
+    "processes/washed/",
+    "roasting/",
+    "saudi-coffee/",
+    "saudi-coffee/khawlani/",
+    "saudi-coffee/ritual/",
+    "science/caffeine/",
+    "science/diseases/",
+    "science/extraction/",
+    "science/storage/",
+    "science/water/",
+    "species/arabica/",
+    "species/canephora/",
+    "varieties/dega/",
+    "varieties/geisha/",
+    "varieties/typica-bourbon/"
    ]
   },
   {
