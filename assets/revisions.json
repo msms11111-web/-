@@ -138,10 +138,10 @@
   },
   "processes/": {
    "date": "2026-10-10",
-   "sha": "380171ac7be8af8b77e8c1d4f88dfef27d2214e1",
-   "subject": "الثمرة بهيئتها: رسمٌ ثانٍ والأسماء مكتوبة عليه",
+   "sha": "dcd96035763ad47e2862bd4b9ece0f9465833d84",
+   "subject": "العُنق كان شفرةً سوداء على الجوال",
    "url": "processes/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/380171ac7be8af8b77e8c1d4f88dfef27d2214e1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/dcd96035763ad47e2862bd4b9ece0f9465833d84",
    "approximate": false
   },
   "processes/natural/": {
@@ -282,6 +282,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-10",
+   "sha": "dcd96035763ad47e2862bd4b9ece0f9465833d84",
+   "subject": "العُنق كان شفرةً سوداء على الجوال",
+   "commit": "https://github.com/msms11111-web/qatra/commit/dcd96035763ad47e2862bd4b9ece0f9465833d84",
+   "pages": [
+    "processes/"
+   ]
+  },
   {
    "date": "2026-10-10",
    "sha": "609979d3371d1720ffc91424044f6d92ea9cb9fa",

@@ -51,6 +51,20 @@ AUDIT = r"""
     return [[255,255,255]];
   };
 
+  /* رابطٌ داخل الكلام لا يُفرَّق عنه إلا باللون يُخفي نفسه عن ثلاثة: من لا
+     يميّز الألوان، ومن يقرأ في ضوء ساطع، ومن لا يخطر له أن الكلمة رابط.
+     والتسطير علامةٌ لا تعتمد على البصر اللوني، فهو المطلوب هنا. */
+  const plain = [];
+  document.querySelectorAll('.article p a, .article li a, .article td a, .article blockquote a').forEach(a => {
+    if (!a.textContent.trim() || a.getBoundingClientRect().width === 0) return;
+    const cs = getComputedStyle(a);
+    const ps = getComputedStyle(a.parentElement);
+    const underlined = (cs.textDecorationLine || "").includes("underline");
+    const bolder = parseInt(cs.fontWeight) > parseInt(ps.fontWeight);
+    const bordered = parseFloat(cs.borderBottomWidth) > 0;
+    if (!underlined && !bolder && !bordered)
+      plain.push(a.textContent.trim().slice(0, 30));
+  });
   const low = [];
   document.querySelectorAll('p,li,a,h1,h2,h3,h4,small,span,strong,td,th,button,label,mark,text').forEach(el => {
     const svg = el.ownerSVGElement != null;
@@ -74,7 +88,7 @@ AUDIT = r"""
     if (!(i.labels?.length || i.getAttribute('aria-label') || i.getAttribute('aria-labelledby')))
       noLabel.push(i.name || i.type);
   });
-  return {low, heads, noLabel};
+  return {plain, low, heads, noLabel};
 }
 """
 
@@ -111,7 +125,7 @@ with sync_playwright() as p:
     scheme = os.environ.get("SCHEME", "light")
     pg = b.new_page(viewport={"width": 1280, "height": 900}, color_scheme=scheme)
     print(f"— الوضع: {scheme}")
-    totals = {"low": 0, "skips": 0, "labels": 0, "focus": 0}
+    totals = {"low": 0, "skips": 0, "labels": 0, "focus": 0, "links": 0}
     for path in PAGES:
         pg.goto(f"{os.environ.get('SITE', 'http://localhost:8099')}/{path}", wait_until="networkidle")
         pg.wait_for_timeout(400)
@@ -120,15 +134,19 @@ with sync_playwright() as p:
         weak = weak_focus(pg)
         totals["low"] += len(r["low"]); totals["skips"] += len(skips)
         totals["labels"] += len(r["noLabel"]); totals["focus"] += len(weak)
+        totals["links"] += len(r["plain"])
         flags = []
         if r["low"]: flags.append(f"تباين:{len(r['low'])}")
         if skips: flags.append(f"عناوين:{skips}")
         if r["noLabel"]: flags.append(f"بلا تسمية:{r['noLabel']}")
         if weak: flags.append(f"تركيز غير مرئي:{len(weak)}")
+        if r["plain"]: flags.append(f"روابط بلا علامة:{len(r['plain'])}")
         print(f"  /{path or '':26} {'سليم ✓' if not flags else ' | '.join(flags)}")
         for x in r["low"][:3]:
             print(f"      ↳ {x['tag']} «{x['t']}» {x['r']} < {x['need']}")
         for x in weak[:3]:
             print(f"      ↳ تركيز: {x}")
+        for x in r["plain"][:3]:
+            print(f"      ↳ رابط لا يُميَّز عن النصّ: «{x}»")
     print("\nالإجمالي:", totals)
     b.close()

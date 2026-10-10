@@ -23,6 +23,16 @@ article.card:hover{transform:none;box-shadow:none;border-color:var(--line)}
    على افتراضات المتصفح ويكسر إيقاع العناوين. */
 .article h3{font:700 25px/1.45 var(--display);margin:34px 0 10px}.article p,.article li{color:var(--body-ink)}.article blockquote{margin:30px 0;padding:24px 27px;border-right:4px solid var(--gold);background:var(--quote-bg);border-radius:18px;font:400 21px/1.85 var(--sans)}.article table{width:100%;border-collapse:collapse;margin:22px 0}.article th,.article td{text-align:right;padding:13px 15px;border-bottom:1px solid var(--line)}.article th{background:var(--th-bg)}.side{position:sticky;top:102px;background:var(--card);border:1px solid var(--line);border-radius:24px;padding:21px}.side strong{display:block;margin-bottom:10px}.side a{display:block;color:var(--muted);font-size:14px;padding:6px 0}.entities{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.entity{display:flex;flex-direction:column;min-height:220px}.entity p{flex:1}.entity[hidden]{display:none}.entities[hidden]{display:none}
 .refs{list-style:none;padding:0;margin:22px 0;display:grid;gap:12px}.refs li{padding:15px 18px;border-right:3px solid var(--gold);background:var(--ref-bg);border-radius:0 14px 14px 0}.refs a{font-weight:700;color:var(--ref-link);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}.refs a:hover{color:var(--link-hover)}.refs small{display:block;margin-top:5px;color:var(--muted);font-size:13.5px;line-height:1.7}
+/* روابط داخل نصّ المقال. كانت ترث لون النصّ بلا تسطير، فلا يفرّق القارئ
+   بينها وبين الكلام — 119 رابطًا في 32 صفحة غير مرئية. وهي أداة الموقع في
+   ربط المعرفة، وهو ما يَعِد به في صفحته الأولى. والتسطير هو العلامة التي
+   لا تعتمد على اللون وحده، فيراها من لا يميّز الألوان. */
+.article p a,.article li a,.article td a,.article blockquote a,
+.article .notice a,.fig figcaption a{color:var(--ref-link);
+  text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.article p a:hover,.article li a:hover,.article td a:hover,
+.article blockquote a:hover,.article .notice a:hover{text-decoration-thickness:2px}
+
 /* خيوط البحث ليست أدلة: تمييز بصري يمنع قراءتها كمصادر معتمدة */
 .refs.leads li{border-right:3px dashed var(--lead-line);background:var(--lead-bg)}
 .results{display:grid;gap:14px}.results[hidden]{display:none}.result{display:block;background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px 26px;transition:.22s}.result:hover{border-color:var(--edge);box-shadow:var(--shadow);transform:translateY(-3px)}.result h3{font:700 26px/1.4 var(--display);margin:0 0 6px}.result p{color:var(--muted);margin:0;font-size:15px}.result mark{background:var(--mark-bg);color:inherit;padding:0 3px;border-radius:4px}.notice{padding:19px 22px;border-radius:18px;border:1px solid var(--notice-line);background:var(--notice-bg);color:var(--notice-ink)}.slot{min-height:250px;border:1px dashed #b4894299;border-radius:24px;background:linear-gradient(135deg,#b4894211,#1236290d);display:grid;place-items:center;text-align:center;color:var(--muted);padding:28px}
