@@ -33,6 +33,8 @@ PAGES = [
     ("market/price/", "سعر القهوة"),
     ("market/certifications/", "الشهادات في القهوة"),
     ("evaluation/flavor-wheel/", "عجلة النكهات والمعجم الحسي"),
+    ("brewing/cold-brew/", "القهوة المنقوعة على البارد"),
+    ("science/acids/", "أحماض القهوة"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),

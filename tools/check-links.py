@@ -7,6 +7,7 @@
 يخرج برمز 1 عند وجود رابط مكسور، ليوقف النشر في GitHub Actions.
 """
 
+import json
 import re
 import sys
 from pathlib import Path
@@ -93,6 +94,27 @@ def status_drift() -> list[str]:
     return out
 
 
+def orphans() -> list[str]:
+    """صفحةُ محتوى بلا بطاقة في الفهرس صفحةٌ لا يبلغها إلا من يعرف مسارها.
+
+    نمت الموسوعة بالدفعات، وفي كل دفعة يُنشأ المحتوى ثم تُضاف بطاقته باليد.
+    ونسيانُ بطاقةٍ واحدة يُخرج الصفحة من الباب الوحيد الذي يُستعرض منه كل
+    المداخل. والعكس كذلك: بطاقةٌ لا صفحةَ محتوى لها وعدٌ معلَّق.
+    """
+    index = ROOT / "encyclopedia" / "index.html"
+    content = ROOT / "content"
+    if not (index.exists() and content.is_dir()):
+        return []
+    paths = {
+        json.loads(f.read_text(encoding="utf-8"))["path"].strip("/") + "/"
+        for f in content.glob("*.json")
+    }
+    carded = set(re.findall(r'class="entity"[^>]*href="\.\./([^"]*)"', index.read_text(encoding="utf-8")))
+    out = [f"{p} بلا بطاقة في الفهرس" for p in sorted(paths - carded)]
+    out += [f"{c} بطاقةٌ بلا صفحة محتوى" for c in sorted(carded - paths)]
+    return out
+
+
 def main() -> int:
     broken = []
     pages = sorted(ROOT.rglob("*.html"))
@@ -116,11 +138,16 @@ def main() -> int:
     for item in drift:
         print(f"حالة متضاربة: {item}")
 
+    lost = orphans()
+    for item in lost:
+        print(f"مدخل لا يُبلَغ: {item}")
+
     print(
         f"فُحصت {len(pages)} صفحة، ووُجد {len(broken)} رابط مكسور"
-        f"، و{len(dupes)} عنوانًا مكررًا، و{len(drift)} حالةً متضاربة."
+        f"، و{len(dupes)} عنوانًا مكررًا، و{len(drift)} حالةً متضاربة"
+        f"، و{len(lost)} مدخلًا لا يُبلَغ."
     )
-    return 1 if broken or dupes or drift else 0
+    return 1 if broken or dupes or drift or lost else 0
 
 
 if __name__ == "__main__":
