@@ -42,24 +42,26 @@
   },
   "encyclopedia/": {
    "date": "2026-10-10",
-   "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
-   "subject": "بنما وسعر القهوة: جناح السوق يُفتح",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-10",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "url": "evaluation/flavor-wheel/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "approximate": false
   },
   "evaluation/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "evaluation/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "": {
@@ -71,10 +73,12 @@
    "approximate": false
   },
   "market/certifications/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-10",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "url": "market/certifications/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "approximate": false
   },
   "market/price/": {
    "date": "2026-10-10",
@@ -158,18 +162,18 @@
   },
   "processes/anaerobic/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "processes/anaerobic/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "processes/honey/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "processes/honey/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "processes/": {
@@ -182,18 +186,18 @@
   },
   "processes/natural/": {
    "date": "2026-10-10",
-   "sha": "609979d3371d1720ffc91424044f6d92ea9cb9fa",
-   "subject": "الاختبارات الثمانية تمرّ، وضميرٌ مختلّ يُصحَّح",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "processes/natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/609979d3371d1720ffc91424044f6d92ea9cb9fa",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "processes/washed/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "processes/washed/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "regions/guji/": {
@@ -238,26 +242,26 @@
   },
   "science/caffeine/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "science/caffeine/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "science/diseases/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "science/diseases/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "science/extraction/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "science/extraction/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "science/storage/": {
@@ -270,26 +274,26 @@
   },
   "science/water/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "science/water/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "species/arabica/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "species/arabica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "species/canephora/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
    "url": "species/canephora/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
   "varieties/caturra/": {
@@ -367,6 +371,28 @@
     "species/canephora/",
     "varieties/caturra/",
     "varieties/timor-catimor/"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "pages": [
+    "encyclopedia/",
+    "evaluation/",
+    "evaluation/flavor-wheel/",
+    "market/certifications/",
+    "processes/anaerobic/",
+    "processes/honey/",
+    "processes/natural/",
+    "processes/washed/",
+    "science/caffeine/",
+    "science/diseases/",
+    "science/extraction/",
+    "science/water/",
+    "species/arabica/",
+    "species/canephora/"
    ]
   },
   {
