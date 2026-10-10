@@ -18,6 +18,9 @@ jobs:
       - name: التحقق من الروابط الداخلية
         run: python3 tools/check-links.py
 
+      - name: الفحص البنيوي
+        run: python3 tools/check-structure.py
+
       # المصادر الخارجية تُفحص هنا لأن بيئة التطوير قد لا تصل إلى الإنترنت.
       #
       # كان هذا الفحص يمرّ بـcontinue-on-error، فظلّ يرفع رايته سبعًا وعشرين

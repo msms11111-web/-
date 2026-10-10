@@ -30,7 +30,7 @@
       "id": "numbers",
       "heading": "ما تنصّ عليه معايير الجمعية",
       "nav": "الأرقام",
-      "body": "<p>تنشر <span dir=\"ltr\">Specialty Coffee Association</span> معايير للماء داخل وثيقة معاييرها العامة. وهذه أرقام نسختها المنقَّحة سنة 2018:</p><table><thead><tr><th>الخاصية</th><th>المدى</th></tr></thead><tbody><tr><td>صلادة الكالسيوم</td><td>50–175 جزءًا في المليون <span dir=\"ltr\">(CaCO₃)</span></td></tr><tr><td>القلوية الكلية</td><td>40–70 جزءًا في المليون <span dir=\"ltr\">(CaCO₃)</span></td></tr><tr><td>الأس الهيدروجيني</td><td>6.5–7.5</td></tr><tr><td>الرائحة</td><td>بلا رائحة</td></tr><tr><td>الكلور</td><td>صفر</td></tr></tbody></table><p>والكلور مذكور وحده لأن أثره ليس خفيًّا: يُنتج طعمًا دوائيًّا واضحًا، ويزيله فلتر كربوني بسيط. وهو أرخص إصلاح في هذه الصفحة كلها.</p>"
+      "body": "<p>تنشر <span dir=\"ltr\" lang=\"en\">Specialty Coffee Association</span> معايير للماء داخل وثيقة معاييرها العامة. وهذه أرقام نسختها المنقَّحة سنة 2018:</p><table><th scope=\"col\"ead><tr><th scope=\"col\">الخاصية</th><th scope=\"col\">المدى</th></tr></thead><tbody><tr><td>صلادة الكالسيوم</td><td>50–175 جزءًا في المليون <span dir=\"ltr\" lang=\"en\">(CaCO₃)</span></td></tr><tr><td>القلوية الكلية</td><td>40–70 جزءًا في المليون <span dir=\"ltr\" lang=\"en\">(CaCO₃)</span></td></tr><tr><td>الأس الهيدروجيني</td><td>6.5–7.5</td></tr><tr><td>الرائحة</td><td>بلا رائحة</td></tr><tr><td>الكلور</td><td>صفر</td></tr></tbody></table><p>والكلور مذكور وحده لأن أثره ليس خفيًّا: يُنتج طعمًا دوائيًّا واضحًا، ويزيله فلتر كربوني بسيط. وهو أرخص إصلاح في هذه الصفحة كلها.</p>"
     },
     {
       "id": "conflict",
@@ -48,7 +48,7 @@
       "id": "sources",
       "heading": "المصادر الأساسية",
       "nav": "المصادر",
-      "body": "<ul class=\"refs\"><li><a href=\"https://sca.coffee/research/coffee-standards\" target=\"_blank\" rel=\"noopener noreferrer\">معايير القهوة — <span dir=\"ltr\">Specialty Coffee Association</span>، النسخة المنقَّحة 2018<span aria-hidden=\"true\"> ↗</span></a><small>صفحة المعايير الرسمية للجمعية للجهة المهنية المرجعية. مرجع كل أرقام جدول الماء أعلاه، وأساس سجل التعارض.</small></li></ul><p class=\"notice\"><strong>ملاحظة صيانة:</strong> كان هذا المصدر موصولًا بملف وثيقة المعايير مباشرةً، فنقلته الجمعية وصار الرابط ميتًا. والوصلة الآن إلى صفحة المعايير نفسها، وهي حيّة. والأرقام المنشورة أعلاه من النسخة المنقَّحة 2018، ومعيار الماء المنشور صار يُطلب عبر بوابة أعضاء الجمعية — فمن أراد مقابلتها بالنصّ الأصلي فليعلم ذلك.</p>"
+      "body": "<ul class=\"refs\"><li><a href=\"https://sca.coffee/research/coffee-standards\" target=\"_blank\" rel=\"noopener noreferrer\">معايير القهوة — <span dir=\"ltr\" lang=\"en\">Specialty Coffee Association</span>، النسخة المنقَّحة 2018<span aria-hidden=\"true\"> ↗</span></a><small>صفحة المعايير الرسمية للجمعية للجهة المهنية المرجعية. مرجع كل أرقام جدول الماء أعلاه، وأساس سجل التعارض.</small></li></ul><p class=\"notice\"><strong>ملاحظة صيانة:</strong> كان هذا المصدر موصولًا بملف وثيقة المعايير مباشرةً، فنقلته الجمعية وصار الرابط ميتًا. والوصلة الآن إلى صفحة المعايير نفسها، وهي حيّة. والأرقام المنشورة أعلاه من النسخة المنقَّحة 2018، ومعيار الماء المنشور صار يُطلب عبر بوابة أعضاء الجمعية — فمن أراد مقابلتها بالنصّ الأصلي فليعلم ذلك.</p>"
     }
   ],
   "lede_before_sections": ""

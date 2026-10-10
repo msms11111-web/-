@@ -24,7 +24,7 @@
    "id": "data",
    "heading": "البيانات المعلنة",
    "nav": "البيانات",
-   "body": "<table><tbody>\n<tr><th>الدولة</th><td>إثيوبيا</td></tr><tr><th>المنطقة</th><td>قوجي</td></tr><tr><th>السلالة المعلنة</th><td>ديجا</td></tr><tr><th>الارتفاع</th><td>2100 متر</td></tr><tr><th>المعالجة</th><td>مجففة</td></tr><tr><th>المحمصة</th><td>دبليو</td></tr><tr><th>الإيحاءات المعلنة</th><td>توت، عنب، عطرية</td></tr><tr><th>القوام المعلن</th><td>ممتلئ</td></tr>\n</tbody></table>\n"
+   "body": "<table><tbody>\n<tr><th scope=\"row\">الدولة</th><td>إثيوبيا</td></tr><tr><th scope=\"row\">المنطقة</th><td>قوجي</td></tr><tr><th scope=\"row\">السلالة المعلنة</th><td>ديجا</td></tr><tr><th scope=\"row\">الارتفاع</th><td>2100 متر</td></tr><tr><th scope=\"row\">المعالجة</th><td>مجففة</td></tr><tr><th scope=\"row\">المحمصة</th><td>دبليو</td></tr><tr><th scope=\"row\">الإيحاءات المعلنة</th><td>توت، عنب، عطرية</td></tr><tr><th scope=\"row\">القوام المعلن</th><td>ممتلئ</td></tr>\n</tbody></table>\n"
   },
   {
    "id": "missing",

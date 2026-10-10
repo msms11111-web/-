@@ -61,3 +61,4 @@ if [ "$BRANCH" != "$PRODUCTION_BRANCH" ]; then
 fi
 
 python3 tools/check-links.py
+python3 tools/check-structure.py

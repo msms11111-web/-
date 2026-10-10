@@ -30,7 +30,7 @@
    "id": "recipe",
    "heading": "الوصفة التأسيسية",
    "nav": "الوصفة",
-   "body": "<table><tbody><tr><th>القهوة</th><td>20 جم</td></tr><tr><th>الماء</th><td>300 جم</td></tr><tr><th>الحرارة</th><td>93°م</td></tr><tr><th>الطحن</th><td>متوسط يميل قليلًا إلى الناعم</td></tr><tr><th>التشريب</th><td>50 جم لمدة 35 ثانية</td></tr><tr><th>الزمن المستهدف</th><td>2:40–3:00</td></tr></tbody></table><div class=\"notice\">هذه وصفة تأسيسية غير مختبرة، وليست «وصفة قطرة المعتمدة».</div>\n"
+   "body": "<table><tbody><tr><th scope=\"row\">القهوة</th><td>20 جم</td></tr><tr><th scope=\"row\">الماء</th><td>300 جم</td></tr><tr><th scope=\"row\">الحرارة</th><td>93°م</td></tr><tr><th scope=\"row\">الطحن</th><td>متوسط يميل قليلًا إلى الناعم</td></tr><tr><th scope=\"row\">التشريب</th><td>50 جم لمدة 35 ثانية</td></tr><tr><th scope=\"row\">الزمن المستهدف</th><td>2:40–3:00</td></tr></tbody></table><div class=\"notice\">هذه وصفة تأسيسية غير مختبرة، وليست «وصفة قطرة المعتمدة».</div>\n"
   },
   {
    "id": "pours",

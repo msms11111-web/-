@@ -30,7 +30,7 @@
       "id": "green",
       "heading": "الأخضر: ما قاسته الدراسات",
       "nav": "الأخضر",
-      "body": "<p>قاست دراسة محكَّمة في مجلة <span dir=\"ltr\">Foods</span> سنة 2022 تأكسد دهون البنّ الأخضر في تخزين مُعجَّل، على ثلاث حرارات (30 و40 و50 درجة مئوية) وثلاثة أنواع تغليف: كيس منسوج، وكيس بولي إيثيلين، وكيس كتيم محكَم.</p><p>ونتيجتها في اتجاه واحد: ارتفاع الحرارة يُسرّع التأكسد بوضوح، والتغليف الكتيم المحكَم يحفظ البنّ أطول من المنسوج. أي أن التغليف ليس تفصيلًا لوجستيًّا بل متغيّر جودة.</p><div class=\"notice\">ويُتداول في التجارة أن رطوبة البنّ الأخضر المستهدفة للقهوة المختصة نحو 10–12٪. وهذا رقم عُرفٍ مهني لا نصّ معيار محكَّم، فيُقرأ دليلًا استكشافيًّا. وما يلزم لاعتماده: معيار منشور يحدّد طريقة القياس ومداها.</div>"
+      "body": "<p>قاست دراسة محكَّمة في مجلة <span dir=\"ltr\" lang=\"en\">Foods</span> سنة 2022 تأكسد دهون البنّ الأخضر في تخزين مُعجَّل، على ثلاث حرارات (30 و40 و50 درجة مئوية) وثلاثة أنواع تغليف: كيس منسوج، وكيس بولي إيثيلين، وكيس كتيم محكَم.</p><p>ونتيجتها في اتجاه واحد: ارتفاع الحرارة يُسرّع التأكسد بوضوح، والتغليف الكتيم المحكَم يحفظ البنّ أطول من المنسوج. أي أن التغليف ليس تفصيلًا لوجستيًّا بل متغيّر جودة.</p><div class=\"notice\">ويُتداول في التجارة أن رطوبة البنّ الأخضر المستهدفة للقهوة المختصة نحو 10–12٪. وهذا رقم عُرفٍ مهني لا نصّ معيار محكَّم، فيُقرأ دليلًا استكشافيًّا. وما يلزم لاعتماده: معيار منشور يحدّد طريقة القياس ومداها.</div>"
     },
     {
       "id": "roasted",
@@ -48,7 +48,7 @@
       "id": "sources",
       "heading": "المصادر الأساسية",
       "nav": "المصادر",
-      "body": "<ul class=\"refs\"><li><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9563479/\" target=\"_blank\" rel=\"noopener noreferrer\">تأكسد دهون البنّ الأخضر في التخزين المُعجَّل باختلاف التغليف — <span dir=\"ltr\">Foods</span> 2022<span aria-hidden=\"true\"> ↗</span></a><small>بحث محكَّم. مرجع أثر الحرارة ونوع التغليف في تأكسد الدهون. <span dir=\"ltr\">Foods 2022;11(19):3040 — DOI: 10.3390/foods11193040</span></small></li><li><a href=\"https://sca.coffee/sca-news/2012/02/15/what-is-the-shelf-life-of-roasted-coffee-a-literature-review-on-coffee-staling-bjcx7\" target=\"_blank\" rel=\"noopener noreferrer\">مراجعة أدبيّات في تقادم البنّ المحمَّص — <span dir=\"ltr\">Specialty Coffee Association</span><span aria-hidden=\"true\"> ↗</span></a><small>مراجعة تجمع ما نُشر في المسألة، من الجهة المهنية المرجعية. مرجع ترتيب المتغيّرات (الأكسجين ثم الحرارة والرطوبة) وأثر خفض الأكسجين.</small></li></ul>"
+      "body": "<ul class=\"refs\"><li><a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9563479/\" target=\"_blank\" rel=\"noopener noreferrer\">تأكسد دهون البنّ الأخضر في التخزين المُعجَّل باختلاف التغليف — <span dir=\"ltr\" lang=\"en\">Foods</span> 2022<span aria-hidden=\"true\"> ↗</span></a><small>بحث محكَّم. مرجع أثر الحرارة ونوع التغليف في تأكسد الدهون. <span dir=\"ltr\" lang=\"en\">Foods 2022;11(19):3040 — DOI: 10.3390/foods11193040</span></small></li><li><a href=\"https://sca.coffee/sca-news/2012/02/15/what-is-the-shelf-life-of-roasted-coffee-a-literature-review-on-coffee-staling-bjcx7\" target=\"_blank\" rel=\"noopener noreferrer\">مراجعة أدبيّات في تقادم البنّ المحمَّص — <span dir=\"ltr\" lang=\"en\">Specialty Coffee Association</span><span aria-hidden=\"true\"> ↗</span></a><small>مراجعة تجمع ما نُشر في المسألة، من الجهة المهنية المرجعية. مرجع ترتيب المتغيّرات (الأكسجين ثم الحرارة والرطوبة) وأثر خفض الأكسجين.</small></li></ul>"
     }
   ],
   "lede_before_sections": ""
