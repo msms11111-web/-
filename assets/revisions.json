@@ -10,10 +10,10 @@
   },
   "brewing/turkish/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "brewing/turkish/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "brewing/v60/": {
@@ -41,19 +41,19 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-09",
-   "sha": "b3de91b95554a1f34a0ebf527edcb6b7b3514382",
-   "subject": "الجناح السعودي: من وعدٍ بمحتوى إلى محتوى",
+   "date": "2026-10-10",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/b3de91b95554a1f34a0ebf527edcb6b7b3514382",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "evaluation/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "evaluation/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "": {
@@ -63,6 +63,12 @@
    "url": "",
    "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
    "approximate": false
+  },
+  "market/price/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "methodology/": {
    "date": "2026-10-10",
@@ -90,10 +96,10 @@
   },
   "origins/ethiopia/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "origins/ethiopia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "origins/indonesia/": {
@@ -112,11 +118,19 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
-  "origins/vietnam/": {
+  "origins/panama/": {
    "date": "",
    "sha": "",
    "subject": "",
    "approximate": true
+  },
+  "origins/vietnam/": {
+   "date": "2026-10-10",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "url": "origins/vietnam/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "approximate": false
   },
   "origins/yemen/": {
    "date": "2026-10-10",
@@ -144,10 +158,10 @@
   },
   "processes/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "processes/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "processes/natural/": {
@@ -160,10 +174,10 @@
   },
   "processes/washed/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "processes/washed/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "regions/guji/": {
@@ -176,42 +190,42 @@
   },
   "roasting/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "roasting/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "saudi-coffee/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "saudi-coffee/khawlani/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "saudi-coffee/ritual/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "saudi-coffee/ritual/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "science/caffeine/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "science/caffeine/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "science/diseases/": {
@@ -224,10 +238,10 @@
   },
   "science/extraction/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "science/extraction/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "science/storage/": {
@@ -240,33 +254,35 @@
   },
   "science/water/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "science/water/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "species/arabica/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "species/arabica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "species/canephora/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
    "url": "species/canephora/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
   "varieties/caturra/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-10",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "url": "varieties/caturra/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "approximate": false
   },
   "varieties/dega/": {
    "date": "2026-10-10",
@@ -285,10 +301,12 @@
    "approximate": false
   },
   "varieties/timor-catimor/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-10",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "url": "varieties/timor-catimor/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "approximate": false
   },
   "varieties/typica-bourbon/": {
    "date": "2026-10-10",
@@ -307,6 +325,32 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/dcd96035763ad47e2862bd4b9ece0f9465833d84",
    "pages": [
     "processes/"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "pages": [
+    "brewing/turkish/",
+    "encyclopedia/",
+    "evaluation/",
+    "origins/ethiopia/",
+    "origins/vietnam/",
+    "processes/",
+    "processes/washed/",
+    "roasting/",
+    "saudi-coffee/",
+    "saudi-coffee/khawlani/",
+    "saudi-coffee/ritual/",
+    "science/caffeine/",
+    "science/extraction/",
+    "science/water/",
+    "species/arabica/",
+    "species/canephora/",
+    "varieties/caturra/",
+    "varieties/timor-catimor/"
    ]
   },
   {
