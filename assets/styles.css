@@ -235,6 +235,10 @@ html:not([data-theme="light"]) {
 .fg-gap{fill:var(--card)}
 .fg-num circle{fill:var(--card);stroke:var(--muted);stroke-width:1.5}
 .fg-num text{fill:var(--ink);font-size:13px;font-weight:700}
+/* المقطع الجانبي: عُنق وشقّ البذرة وخطوط الإشارة والأسماء على الرسم */
+.fg-stem{stroke:var(--fg-s5);stroke-width:7;stroke-linecap:round;fill:none}
+.fg-lead{stroke:var(--muted);stroke-width:1.2}
+.fg-name{fill:var(--body-ink);font-size:17px;font-weight:600}
 .fig-key{list-style:none;padding:0;margin:14px 0 0;display:grid;gap:7px}
 .fig-key li{display:flex;gap:10px;align-items:flex-start;color:var(--body-ink);font-size:14.5px}
 .fig-key b{flex:none;width:23px;height:23px;border-radius:50%;display:grid;place-items:center;

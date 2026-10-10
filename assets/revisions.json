@@ -145,11 +145,11 @@
    "approximate": false
   },
   "processes/natural/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-10",
+   "sha": "609979d3371d1720ffc91424044f6d92ea9cb9fa",
+   "subject": "الاختبارات الثمانية تمرّ، وضميرٌ مختلّ يُصحَّح",
    "url": "processes/natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/609979d3371d1720ffc91424044f6d92ea9cb9fa",
    "approximate": false
   },
   "processes/washed/": {
@@ -282,6 +282,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-10",
+   "sha": "609979d3371d1720ffc91424044f6d92ea9cb9fa",
+   "subject": "الاختبارات الثمانية تمرّ، وضميرٌ مختلّ يُصحَّح",
+   "commit": "https://github.com/msms11111-web/qatra/commit/609979d3371d1720ffc91424044f6d92ea9cb9fa",
+   "pages": [
+    "processes/natural/"
+   ]
+  },
   {
    "date": "2026-10-09",
    "sha": "b3de91b95554a1f34a0ebf527edcb6b7b3514382",
