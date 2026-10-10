@@ -84,6 +84,98 @@ for p in sorted(ROOT.rglob("*.html")):
         if not re.search(pat, h):
             note("معلَم ناقص", page, landmark)
 
+# ٩) وعدُ البطاقة: كل مرادف في data-entity يجب أن يوجد في نصّ صفحته.
+#
+# بطاقة الفهرس تَعِد القارئ بكلمات. فإن بحث عن كلمةٍ وعدتْه بها البطاقة ثم
+# فتح الصفحة فلم يجدها، فالبطاقة كذبت عليه. وُجد هذا باليد لا بفحص، فصار فحصًا.
+#
+# حدٌّ معلوم: هنا تُحاكى قاعدتان من assets/app.js — الطيّ وحدّ الكلمة — فهما
+# مكتوبتان مرتين وقد تتفرّقان. وتُقرأ المكافِئات من app.js نفسه لا تُنسخ،
+# لأنها هي المتغيّرة باستمرار. وأيُّ تعديل في fold() هناك يُنقل هنا.
+DIAC = re.compile(r"[ً-ْـ]")
+LATIN = str.maketrans("áàâäãåéèêëíìîïóòôöõúùûüñçý", "aaaaaaeeeeiiiiooooouuuuncy")
+PREFIX = re.compile(r"^[وفبكل]{0,2}(ال)?$")
+WORDCH = re.compile(r"[0-9a-z؀-ۿ]")
+
+
+def fold(s: str) -> str:
+    out = []
+    for c in s.lower().translate(LATIN):
+        if DIAC.match(c):
+            continue
+        if c in "أإآٱ":
+            c = "ا"
+        elif c == "ى":
+            c = "ي"
+        elif c == "ة":
+            c = "ه"
+        elif c in "ؤئ":
+            c = "ء"
+        elif c.isspace():
+            if not out or out[-1] == " ":
+                continue
+            c = " "
+        else:
+            d = "٠١٢٣٤٥٦٧٨٩۰۱۲۳۴۵۶۷۸۹".find(c)
+            if d >= 0:
+                c = str(d % 10)
+        out.append(c)
+    return "".join(out).strip()
+
+
+def aliases() -> list[list[str]]:
+    js = (ROOT / "assets" / "app.js").read_text(encoding="utf-8")
+    block = re.search(r"const ALIASES = \[(.*?)\n  \]", js, re.S)
+    if not block:
+        return []
+    return [
+        [fold(w) for w in re.findall(r'"([^"]+)"', line)]
+        for line in block.group(1).splitlines()
+        if '"' in line
+    ]
+
+
+def at_word(hay: str, word: str) -> bool:
+    """مطابقةٌ في بداية كلمة، والسوابق المتصلة (و/ف/ب/ك/ل وال) تُعدّ حدًّا."""
+    i = hay.find(word)
+    while i >= 0:
+        start = i
+        while start > 0 and WORDCH.match(hay[start - 1]):
+            start -= 1
+        if PREFIX.match(hay[start:i]):
+            return True
+        i = hay.find(word, i + 1)
+    return False
+
+
+def card_promises() -> None:
+    index_file = ROOT / "assets" / "search-index.json"
+    cards_file = ROOT / "encyclopedia" / "index.html"
+    if not (index_file.exists() and cards_file.exists()):
+        return
+    import json
+
+    haystack = {}
+    for e in json.loads(index_file.read_text(encoding="utf-8")):
+        haystack[e["url"].strip("/")] = fold(
+            " ".join([e["title"], e["desc"], *e.get("headings", []), e.get("text", "")])
+        )
+    groups = aliases()
+    cards = re.findall(
+        r'<a class="entity" data-entity="([^"]*)"[^>]*href="\.\./([^"]*)"', cards_file.read_text(encoding="utf-8")
+    )
+    for promise, href in cards:
+        hay = haystack.get(href.strip("/"))
+        if hay is None:
+            continue
+        for word in {w for w in fold(promise).split(" ") if len(w) > 1}:
+            forms = next((g for g in groups if word in g), [word])
+            if not any(at_word(hay, f) for f in forms):
+                note("وعدٌ لا يسنده نصّ", f"encyclopedia → {href}", f"«{word}»")
+
+
+card_promises()
+
 print(f"فُحصت {len(list(ROOT.rglob('*.html')))} صفحة.\n")
 for line in detail:
     print(line)

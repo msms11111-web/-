@@ -42,11 +42,17 @@
   },
   "encyclopedia/": {
    "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "subject": "بنما وسعر القهوة: جناح السوق يُفتح",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
    "approximate": false
+  },
+  "evaluation/flavor-wheel/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "evaluation/": {
    "date": "2026-10-10",
@@ -64,11 +70,19 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
    "approximate": false
   },
-  "market/price/": {
+  "market/certifications/": {
    "date": "",
    "sha": "",
    "subject": "",
    "approximate": true
+  },
+  "market/price/": {
+   "date": "2026-10-10",
+   "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "subject": "بنما وسعر القهوة: جناح السوق يُفتح",
+   "url": "market/price/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "approximate": false
   },
   "methodology/": {
    "date": "2026-10-10",
@@ -119,10 +133,12 @@
    "approximate": false
   },
   "origins/panama/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-10",
+   "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "subject": "بنما وسعر القهوة: جناح السوق يُفتح",
+   "url": "origins/panama/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "approximate": false
   },
   "origins/vietnam/": {
    "date": "2026-10-10",
@@ -406,6 +422,17 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/380171ac7be8af8b77e8c1d4f88dfef27d2214e1",
    "pages": [
     "processes/"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "subject": "بنما وسعر القهوة: جناح السوق يُفتح",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
+   "pages": [
+    "encyclopedia/",
+    "market/price/",
+    "origins/panama/"
    ]
   },
   {

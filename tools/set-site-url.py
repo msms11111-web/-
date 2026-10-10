@@ -31,6 +31,8 @@ PAGES = [
     ("origins/panama/", "بنما"),
     ("regions/guji/", "قوجي"),
     ("market/price/", "سعر القهوة"),
+    ("market/certifications/", "الشهادات في القهوة"),
+    ("evaluation/flavor-wheel/", "عجلة النكهات والمعجم الحسي"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),

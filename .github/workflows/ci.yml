@@ -32,3 +32,28 @@ jobs:
       # فالإخفاق هنا يعني خطأً تحريريًّا حقيقيًّا، لا عطلًا عابرًا.
       - name: التحقق من المصادر الخارجية
         run: python3 tools/check-external-links.py
+
+  # البحث يُفحص في متصفح حقيقي، لأن قواعد التطبيع والمكافِئات والترتيب في
+  # assets/app.js. وأيُّ محاكاة لها في بايثون تفترق عنها فتُمرّر العلّة.
+  #
+  # وهو وظيفة منفصلة ليبقى فحص الروابط سريعًا: تنزيل المتصفح يأخذ دقيقة.
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: تهيئة المتصفح
+        run: |
+          pip install --quiet playwright
+          playwright install --with-deps chromium
+
+      - name: تشغيل خادم محلي
+        run: |
+          python3 -m http.server 8099 &
+          for _ in $(seq 1 20); do
+            curl -sf http://localhost:8099/ >/dev/null && break
+            sleep 1
+          done
+
+      - name: تدقيق البحث
+        run: python3 tools/audit-search.py
