@@ -41,11 +41,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-09",
+   "sha": "b3de91b95554a1f34a0ebf527edcb6b7b3514382",
+   "subject": "الجناح السعودي: من وعدٍ بمحتوى إلى محتوى",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b3de91b95554a1f34a0ebf527edcb6b7b3514382",
    "approximate": false
   },
   "evaluation/": {
@@ -177,11 +177,11 @@
    "approximate": false
   },
   "saudi-coffee/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-09",
+   "sha": "b3de91b95554a1f34a0ebf527edcb6b7b3514382",
+   "subject": "الجناح السعودي: من وعدٍ بمحتوى إلى محتوى",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b3de91b95554a1f34a0ebf527edcb6b7b3514382",
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
@@ -282,6 +282,16 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-09",
+   "sha": "b3de91b95554a1f34a0ebf527edcb6b7b3514382",
+   "subject": "الجناح السعودي: من وعدٍ بمحتوى إلى محتوى",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b3de91b95554a1f34a0ebf527edcb6b7b3514382",
+   "pages": [
+    "encyclopedia/",
+    "saudi-coffee/"
+   ]
+  },
   {
    "date": "2026-10-09",
    "sha": "81927257fc815aeb51919aef984b386ecc67c74c",

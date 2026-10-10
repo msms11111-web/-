@@ -160,6 +160,16 @@
     );
   };
 
+  /* تمييز العدد في العربية: مفردٌ للواحد، مثنًّى للاثنين، جمعٌ من ثلاثة إلى
+     عشرة، ثم مفردٌ منصوب فيما فوقها. و«8 نتيجة» خطأ يراه كل قارئ عربي. */
+  const counted = (n, one, two, few, many) =>
+    n === 1 ? one : n === 2 ? two : n <= 10 ? n + " " + few : n + " " + many;
+
+  const entriesLabel = (n) =>
+    counted(n, "مدخل واحد", "مدخلان", "مداخل", "مدخلًا");
+  const hitsLabel = (n) =>
+    counted(n, "نتيجة واحدة", "نتيجتان", "نتائج", "نتيجة");
+
   const search = document.querySelector("[data-search]");
   if (search) initSearch(search);
 
@@ -226,7 +236,7 @@
       }
       if (grid) grid.hidden = false;
       entities.forEach((el) => (el.hidden = false));
-      if (count) count.textContent = entities.length + " مدخلًا";
+      if (count) count.textContent = entriesLabel(entities.length);
       if (empty) empty.hidden = true;
     };
 
@@ -248,7 +258,7 @@
         )
         .join("");
 
-      if (count) count.textContent = hits.length + " نتيجة";
+      if (count) count.textContent = hitsLabel(hits.length);
       if (empty) empty.hidden = hits.length > 0;
     };
 
@@ -260,7 +270,7 @@
         el.hidden = !match;
         if (match) hits++;
       });
-      if (count) count.textContent = hits + " نتيجة";
+      if (count) count.textContent = hitsLabel(hits);
       if (empty) empty.hidden = hits > 0;
     };
 

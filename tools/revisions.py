@@ -99,6 +99,17 @@ def last_content_change(path: str) -> dict | None:
 def main() -> int:
     base = repo_url()
     shallow = (ROOT / ".git" / "shallow").exists()
+    out = ROOT / "assets" / "revisions.json"
+
+    # التاريخ المبتور لا يُنتج تواريخ «تقريبية»، بل ينسب كل صفحة إلى آخر
+    # التزام يراه — فتقول صفحة الأرابيكا إن آخر ما غيّرها دفعةٌ عن القهوة
+    # السعودية لم تمسّها. وعلامة «تقريبًا» تخفّف التاريخ ولا تصحّح النسبة.
+    #
+    # ومُستضيف النشر يستنسخ بعمق محدود، فهذا حاله دائمًا. فيُستعمل الملف
+    # المحسوب في بيئة تملك التاريخ كاملًا ويُلتزم معها، ولا يُكتب فوقه.
+    if shallow and out.exists():
+        print("التاريخ مبتور: أُبقي ملف المراجعات الملتزَم كما هو.")
+        return 0
     revisions = {}
     history: dict[str, dict] = {}
 
@@ -136,7 +147,6 @@ def main() -> int:
     for record in ordered:
         record["pages"].sort()
 
-    out = ROOT / "assets" / "revisions.json"
     out.write_text(
         json.dumps(
             {"pages": revisions, "history": ordered, "approximate": shallow},
