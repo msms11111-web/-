@@ -1,10 +1,12 @@
 {
  "pages": {
   "brewing/cold-brew/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-10",
+   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
+   "url": "brewing/cold-brew/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "approximate": false
   },
   "brewing/espresso/": {
    "date": "2026-10-08",
@@ -48,18 +50,18 @@
   },
   "encyclopedia/": {
    "date": "2026-10-10",
-   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
-   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
    "date": "2026-10-10",
-   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
-   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
    "url": "evaluation/flavor-wheel/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
    "approximate": false
   },
   "evaluation/": {
@@ -96,10 +98,10 @@
   },
   "methodology/": {
    "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
    "approximate": false
   },
   "origins/brazil/": {
@@ -247,10 +249,12 @@
    "approximate": false
   },
   "science/acids/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-10",
+   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
+   "url": "science/acids/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "approximate": false
   },
   "science/caffeine/": {
    "date": "2026-10-10",
@@ -451,6 +455,19 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/609979d3371d1720ffc91424044f6d92ea9cb9fa",
    "pages": [
     "processes/natural/"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "pages": [
+    "brewing/cold-brew/",
+    "encyclopedia/",
+    "evaluation/flavor-wheel/",
+    "methodology/",
+    "science/acids/"
    ]
   },
   {
