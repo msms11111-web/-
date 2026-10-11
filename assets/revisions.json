@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
-   "subject": "تسمية القهوة السعودية، ومنظومة تقييم القيمة",
+   "sha": "9a1a570d0864bc614e417041f029a13068c44240",
+   "subject": "زراعة البن في السعودية: جدولٌ من جهةٍ حكومية واحدة لا يجمعه حساب",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9a1a570d0864bc614e417041f029a13068c44240",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -305,10 +305,12 @@
    "approximate": false
   },
   "saudi-coffee/agriculture/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "9a1a570d0864bc614e417041f029a13068c44240",
+   "subject": "زراعة البن في السعودية: جدولٌ من جهةٍ حكومية واحدة لا يجمعه حساب",
+   "url": "saudi-coffee/agriculture/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9a1a570d0864bc614e417041f029a13068c44240",
+   "approximate": false
   },
   "saudi-coffee/": {
    "date": "2026-10-10",
@@ -496,6 +498,16 @@
     "encyclopedia/",
     "origins/guatemala/",
     "origins/india/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "9a1a570d0864bc614e417041f029a13068c44240",
+   "subject": "زراعة البن في السعودية: جدولٌ من جهةٍ حكومية واحدة لا يجمعه حساب",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9a1a570d0864bc614e417041f029a13068c44240",
+   "pages": [
+    "encyclopedia/",
+    "saudi-coffee/agriculture/"
    ]
   },
   {
