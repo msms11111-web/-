@@ -282,10 +282,10 @@
   },
   "processes/drying/": {
    "date": "2026-10-11",
-   "sha": "08f9ddae4a4f136e7dc0703e1d251586136e9191",
-   "subject": "التجفيف وتوزيع القيمة: خطوةٌ تُغفَل، ودَينٌ يُوفى بعضُه",
+   "sha": "a6c60492ac1874db4cf752b72c19e6a55529f818",
+   "subject": "رابط مركز البحوث الكولومبي ميت: والبحث عنه أعطى أكثرَ مما كان",
    "url": "processes/drying/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a6c60492ac1874db4cf752b72c19e6a55529f818",
    "approximate": false
   },
   "processes/honey/": {
@@ -577,6 +577,15 @@
     "encyclopedia/",
     "market/eudr/",
     "market/ico/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "a6c60492ac1874db4cf752b72c19e6a55529f818",
+   "subject": "رابط مركز البحوث الكولومبي ميت: والبحث عنه أعطى أكثرَ مما كان",
+   "commit": "https://github.com/msms11111-web/qatra/commit/a6c60492ac1874db4cf752b72c19e6a55529f818",
+   "pages": [
+    "processes/drying/"
    ]
   },
   {
