@@ -45,6 +45,8 @@ PAGES = [
     ("brewing/grinding/", "الطحن"),
     ("processes/monsooned/", "القهوة المَمطورة"),
     ("origins/rwanda/", "رواندا"),
+    ("saudi-coffee/naming/", "تسمية القهوة السعودية"),
+    ("evaluation/cva/", "تقييم قيمة القهوة"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),
