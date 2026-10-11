@@ -95,7 +95,9 @@ for p in sorted(ROOT.rglob("*.html")):
 DIAC = re.compile(r"[ً-ْـ]")
 LATIN = str.maketrans("áàâäãåéèêëíìîïóòôöõúùûüñçý", "aaaaaaeeeeiiiiooooouuuuncy")
 PREFIX = re.compile(r"^[وفبكل]{0,2}(ال)?$")
-WORDCH = re.compile(r"[0-9a-z؀-ۿ]")
+# المدى ؀-ۿ يشمل ترقيمَ العربية (، ؛ ؟ ۔)، فعدُّه حرفَ كلمةٍ يُفسد شرط
+# اللاحقة: «476،» تصير كلمةً واحدة فتُرفض مطابقةُ «476». حروفٌ وأرقامٌ لا ترقيم.
+WORDCH = re.compile(r"[0-9a-z\u0621-\u064a\u0660-\u0669\u0671-\u06d3]")
 
 
 def fold(s: str) -> str:

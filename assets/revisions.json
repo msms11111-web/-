@@ -112,6 +112,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
+  "market/eudr/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "market/ico/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "market/price/": {
    "date": "2026-10-10",
    "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",

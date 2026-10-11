@@ -32,6 +32,8 @@ PAGES = [
     ("regions/guji/", "قوجي"),
     ("market/price/", "سعر القهوة"),
     ("market/certifications/", "الشهادات في القهوة"),
+    ("market/ico/", "منظمة القهوة الدولية"),
+    ("market/eudr/", "لائحة إزالة الغابات الأوروبية"),
     ("evaluation/flavor-wheel/", "عجلة النكهات والمعجم الحسي"),
     ("brewing/cold-brew/", "القهوة المنقوعة على البارد"),
     ("science/acids/", "أحماض القهوة"),
