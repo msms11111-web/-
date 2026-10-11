@@ -58,10 +58,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "404054c1331be30007b01a33b10e61d554b113f0",
-   "subject": "المكبس الفرنسي وكوستاريكا: فرقُ الفلتر مقيسٌ سريريًّا، وسجلُّ تعارضٍ لا يُحسم",
+   "sha": "d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "subject": "غواتيمالا والهند: رقمان يحكمان مستقبل منشأ، وتصحيحٌ وراثيٌّ لرواية قرن",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/404054c1331be30007b01a33b10e61d554b113f0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d387af32678c273b814c85fbc7abd3b50b45a8b7",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
@@ -145,16 +145,20 @@
    "approximate": false
   },
   "origins/guatemala/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "subject": "غواتيمالا والهند: رقمان يحكمان مستقبل منشأ، وتصحيحٌ وراثيٌّ لرواية قرن",
+   "url": "origins/guatemala/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "approximate": false
   },
   "origins/india/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "subject": "غواتيمالا والهند: رقمان يحكمان مستقبل منشأ، وتصحيحٌ وراثيٌّ لرواية قرن",
+   "url": "origins/india/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "approximate": false
   },
   "origins/indonesia/": {
    "date": "2026-10-10",
@@ -389,6 +393,17 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/e7d93ea1a6c0023a7213f8d2822716e93d426a19",
    "pages": [
     "origins/costa-rica/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "subject": "غواتيمالا والهند: رقمان يحكمان مستقبل منشأ، وتصحيحٌ وراثيٌّ لرواية قرن",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "pages": [
+    "encyclopedia/",
+    "origins/guatemala/",
+    "origins/india/"
    ]
   },
   {
