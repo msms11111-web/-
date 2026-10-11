@@ -18,10 +18,15 @@
   sca.coffee/.../how-to-use-the-flavor-wheel-in-eight-steps      ← 404
   sca.coffee/.../how-to-use-the-flavor-wheel-in-eight-steps-ab2hy ← 200
   worldcoffeeportal.com/Latest/News/2018/Costa-Rica-...          ← 404
-  www.worldcoffeeportal.com/Latest/News/2018/February/Costa-...  ← 200
+  www.worldcoffeeportal.com/Latest/News/2018/February/Costa-...  ← 404 كذلك
 
-فالقاعدة العملية: عنوانٌ لم يُفتَح لا يُكتب في مصدر، وإن فُتح فبعنوانه
-الكامل كما يظهر في شريط المتصفح.
+والثاني درسٌ أثقل: جُرّب عنوانٌ «مصحَّح» من نتيجة بحثٍ أخرى فأخفق هو أيضًا،
+لأن الموقع أعاد بناء مساراته فلم يبقَ للمقال عنوانٌ من ذلك النمط. فالتصحيح
+بالتخمين مرتين أسوأ من حذف المصدر مرة.
+
+فالقاعدة العملية: عنوانٌ لم يُفتَح لا يُكتب في مصدر. وإن أخفق مرةً فلا
+يُستبدَل بعنوانٍ مخمَّن، بل يُحذف المصدر ويُقلَّص ما كان يسنده إلى ما تسنده
+مصادرُ حيّة وحدها.
 """
 
 import re
