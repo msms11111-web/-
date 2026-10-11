@@ -58,10 +58,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "d387af32678c273b814c85fbc7abd3b50b45a8b7",
-   "subject": "غواتيمالا والهند: رقمان يحكمان مستقبل منشأ، وتصحيحٌ وراثيٌّ لرواية قرن",
+   "sha": "5bd3b3618e90d79af87edac718402a46b7149707",
+   "subject": "هندوراس وأوغندا، و«jimma» كانت تتصدّر بصفحة الشهادات",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d387af32678c273b814c85fbc7abd3b50b45a8b7",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5bd3b3618e90d79af87edac718402a46b7149707",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
@@ -153,10 +153,12 @@
    "approximate": false
   },
   "origins/honduras/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "5bd3b3618e90d79af87edac718402a46b7149707",
+   "subject": "هندوراس وأوغندا، و«jimma» كانت تتصدّر بصفحة الشهادات",
+   "url": "origins/honduras/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5bd3b3618e90d79af87edac718402a46b7149707",
+   "approximate": false
   },
   "origins/india/": {
    "date": "2026-10-11",
@@ -191,10 +193,12 @@
    "approximate": false
   },
   "origins/uganda/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "5bd3b3618e90d79af87edac718402a46b7149707",
+   "subject": "هندوراس وأوغندا، و«jimma» كانت تتصدّر بصفحة الشهادات",
+   "url": "origins/uganda/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5bd3b3618e90d79af87edac718402a46b7149707",
+   "approximate": false
   },
   "origins/vietnam/": {
    "date": "2026-10-10",
@@ -416,6 +420,17 @@
     "encyclopedia/",
     "origins/guatemala/",
     "origins/india/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "5bd3b3618e90d79af87edac718402a46b7149707",
+   "subject": "هندوراس وأوغندا، و«jimma» كانت تتصدّر بصفحة الشهادات",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5bd3b3618e90d79af87edac718402a46b7149707",
+   "pages": [
+    "encyclopedia/",
+    "origins/honduras/",
+    "origins/uganda/"
    ]
   },
   {
