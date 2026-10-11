@@ -50,6 +50,8 @@ PAGES = [
     ("saudi-coffee/naming/", "تسمية القهوة السعودية"),
     ("saudi-coffee/agriculture/", "زراعة البن في السعودية"),
     ("evaluation/cva/", "تقييم قيمة القهوة"),
+    ("evaluation/green-grading/", "تصنيف البن الأخضر"),
+    ("science/melanoidins/", "الميلانويدينات"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),
