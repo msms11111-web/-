@@ -39,6 +39,8 @@ PAGES = [
     ("origins/costa-rica/", "كوستاريكا"),
     ("origins/guatemala/", "غواتيمالا"),
     ("origins/india/", "الهند"),
+    ("origins/honduras/", "هندوراس"),
+    ("origins/uganda/", "أوغندا"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),

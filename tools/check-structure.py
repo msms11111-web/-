@@ -135,15 +135,30 @@ def aliases() -> list[list[str]]:
     ]
 
 
+# لاحقةُ الكلمة القصيرة — تُحاكي TAIL في assets/app.js حرفًا بحرف
+TAIL = re.compile(r"^(ا|ه|ي|ن|ت|ات|ان|ين|ون|يه|يا|ها|هم|نا|s)?$")
+
+
 def at_word(hay: str, word: str) -> bool:
-    """مطابقةٌ في بداية كلمة، والسوابق المتصلة (و/ف/ب/ك/ل وال) تُعدّ حدًّا."""
+    """مطابقةٌ في بداية كلمة، والسوابق المتصلة (و/ف/ب/ك/ل وال) تُعدّ حدًّا.
+
+    وللكلمة القصيرة شرطٌ ثانٍ: ألا يتبعها إلا لاحقةُ إعرابٍ أو نسبة، لا حروفُ
+    جذرٍ جديد — فلا تُطابِق «جما» كلمةَ «جماعي». وهذا نصُّ القاعدة في app.js.
+    """
+    short = len(word) <= 3
     i = hay.find(word)
     while i >= 0:
         start = i
         while start > 0 and WORDCH.match(hay[start - 1]):
             start -= 1
         if PREFIX.match(hay[start:i]):
-            return True
+            if not short:
+                return True
+            end = i + len(word)
+            while end < len(hay) and WORDCH.match(hay[end]):
+                end += 1
+            if TAIL.match(hay[i + len(word):end]):
+                return True
         i = hay.find(word, i + 1)
     return False
 

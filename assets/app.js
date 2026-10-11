@@ -155,8 +155,15 @@
     ["دايتربينات", "diterpenes", "diterpene"],
     ["كوستاريكا", "costa", "rica"],
     ["غواتيمالا", "guatemala"],
+    ["هندوراس", "honduras"],
+    ["ليمبيرا", "lempira"],
+    ["بارانيما", "parainema"],
+    ["اوغندا", "uganda"],
+    ["رواندا", "rwanda"],
     ["اناكافي", "anacafe"],
-    ["الهند", "هند", "india"],
+    /* «هند» وحدها بادئةُ «هندوراس»، فمكافأتها بـindia تجعل البحث عن india
+       يتصدّر بهندوراس لا بالهند. والكلمة الكاملة وحدها تُكافأ. */
+    ["الهند", "india"],
     ["كنت", "kent"],
     ["كورج", "coorg"],
     ["كارناتاكا", "karnataka"],
@@ -259,13 +266,29 @@
        البداية إلى آخر مسافة يجعل السابقة «(» فتُرفض الكلمة القصيرة كلها. */
     const WORDCH = /[0-9a-z؀-ۿ]/;
 
+    /* كلمةٌ قصيرة قد تكون بادئةَ جذرٍ آخر لا صيغةً منها: «جما» بادئةُ
+       «جماعي»، و«يمن» بادئةُ «يمنع»، و«هند» بادئةُ «هندوراس». فكان البحث عن
+       «jimma» يتصدّر بصفحة الشهادات لأن فيها «قرارٍ جماعي».
+
+       والحلّ ألا يُقبل بعد الكلمة القصيرة إلا لاحقةُ إعرابٍ أو نسبة، لا حروفُ
+       جذرٍ جديد. فتبقى «حسي» تجد «حسيًّا»، و«سعر» تجد «سعرًا»، ولا تجد «جما»
+       «جماعي». ويُقصر هذا على القصير، لأن الطويل يكفي تخصيصًا بنفسه. */
+    const TAIL = /^(ا|ه|ي|ن|ت|ات|ان|ين|ون|يه|يا|ها|هم|نا|s)?$/;
+
     const findIn = (hay, w) => {
       let any = false;
+      const short = w.length <= 3;
       for (let i = hay.indexOf(w); i >= 0; i = hay.indexOf(w, i + 1)) {
         any = true;
         let start = i;
         while (start > 0 && WORDCH.test(hay[start - 1])) start--;
-        if (PREFIX.test(hay.slice(start, i))) return { any: true, atWord: true };
+        if (!PREFIX.test(hay.slice(start, i))) continue;
+        if (short) {
+          let end = i + w.length;
+          while (end < hay.length && WORDCH.test(hay[end])) end++;
+          if (!TAIL.test(hay.slice(i + w.length, end))) continue;
+        }
+        return { any: true, atWord: true };
       }
       return { any, atWord: false };
     };
