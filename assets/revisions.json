@@ -17,10 +17,12 @@
    "approximate": false
   },
   "brewing/french-press/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "404054c1331be30007b01a33b10e61d554b113f0",
+   "subject": "المكبس الفرنسي وكوستاريكا: فرقُ الفلتر مقيسٌ سريريًّا، وسجلُّ تعارضٍ لا يُحسم",
+   "url": "brewing/french-press/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/404054c1331be30007b01a33b10e61d554b113f0",
+   "approximate": false
   },
   "brewing/turkish/": {
    "date": "2026-10-10",
@@ -55,11 +57,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-10",
-   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
-   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
+   "date": "2026-10-11",
+   "sha": "404054c1331be30007b01a33b10e61d554b113f0",
+   "subject": "المكبس الفرنسي وكوستاريكا: فرقُ الفلتر مقيسٌ سريريًّا، وسجلُّ تعارضٍ لا يُحسم",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "commit": "https://github.com/msms11111-web/qatra/commit/404054c1331be30007b01a33b10e61d554b113f0",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
@@ -127,10 +129,12 @@
    "approximate": false
   },
   "origins/costa-rica/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "404054c1331be30007b01a33b10e61d554b113f0",
+   "subject": "المكبس الفرنسي وكوستاريكا: فرقُ الفلتر مقيسٌ سريريًّا، وسجلُّ تعارضٍ لا يُحسم",
+   "url": "origins/costa-rica/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/404054c1331be30007b01a33b10e61d554b113f0",
+   "approximate": false
   },
   "origins/ethiopia/": {
    "date": "2026-10-10",
@@ -366,6 +370,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-11",
+   "sha": "404054c1331be30007b01a33b10e61d554b113f0",
+   "subject": "المكبس الفرنسي وكوستاريكا: فرقُ الفلتر مقيسٌ سريريًّا، وسجلُّ تعارضٍ لا يُحسم",
+   "commit": "https://github.com/msms11111-web/qatra/commit/404054c1331be30007b01a33b10e61d554b113f0",
+   "pages": [
+    "brewing/french-press/",
+    "encyclopedia/",
+    "origins/costa-rica/"
+   ]
+  },
   {
    "date": "2026-10-10",
    "sha": "dcd96035763ad47e2862bd4b9ece0f9465833d84",
