@@ -10,6 +10,18 @@
 
 بعض المواقع ترفض HEAD أو ترفض العملاء غير المتصفحات، فتُعاد المحاولة بـ GET
 وترويسة User-Agent، ويُقبل أي رد يعني أن العنوان موجود.
+
+وهذا الفحص هو الحكم الوحيد على المصادر، لأن بيئة التحرير لا تفتح الشبكة.
+وكلُّ رابطٍ ميت وقع حتى الآن كانت علّته واحدة: عنوانٌ أُخذ من قائمة نتائج
+بحثٍ لا من الصفحة نفسها، فنقص منه مقطعٌ أو بادئة. أمثلة مسجَّلة:
+
+  sca.coffee/.../how-to-use-the-flavor-wheel-in-eight-steps      ← 404
+  sca.coffee/.../how-to-use-the-flavor-wheel-in-eight-steps-ab2hy ← 200
+  worldcoffeeportal.com/Latest/News/2018/Costa-Rica-...          ← 404
+  www.worldcoffeeportal.com/Latest/News/2018/February/Costa-...  ← 200
+
+فالقاعدة العملية: عنوانٌ لم يُفتَح لا يُكتب في مصدر، وإن فُتح فبعنوانه
+الكامل كما يظهر في شريط المتصفح.
 """
 
 import re
