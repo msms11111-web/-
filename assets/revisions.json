@@ -130,10 +130,10 @@
   },
   "origins/costa-rica/": {
    "date": "2026-10-11",
-   "sha": "404054c1331be30007b01a33b10e61d554b113f0",
-   "subject": "المكبس الفرنسي وكوستاريكا: فرقُ الفلتر مقيسٌ سريريًّا، وسجلُّ تعارضٍ لا يُحسم",
+   "sha": "4c1f52351e27b4939904397cb9ef54d8ff75625d",
+   "subject": "رابطٌ ميت في كوستاريكا، وسجلُّ الروبوستا يُعاد من المقال الحيّ",
    "url": "origins/costa-rica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/404054c1331be30007b01a33b10e61d554b113f0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4c1f52351e27b4939904397cb9ef54d8ff75625d",
    "approximate": false
   },
   "origins/ethiopia/": {
@@ -370,6 +370,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-11",
+   "sha": "4c1f52351e27b4939904397cb9ef54d8ff75625d",
+   "subject": "رابطٌ ميت في كوستاريكا، وسجلُّ الروبوستا يُعاد من المقال الحيّ",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4c1f52351e27b4939904397cb9ef54d8ff75625d",
+   "pages": [
+    "origins/costa-rica/"
+   ]
+  },
   {
    "date": "2026-10-11",
    "sha": "404054c1331be30007b01a33b10e61d554b113f0",
