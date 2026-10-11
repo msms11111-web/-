@@ -66,17 +66,19 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "da299a4bd4be18d070fbcd68cc607b9580f749cf",
-   "subject": "سجلّ المؤشرات الهندي يعيد 404: المَمطورة تُبنى على وثيقتَي الطلب وحدهما",
+   "sha": "f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "subject": "تسمية القهوة السعودية، ومنظومة تقييم القيمة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/da299a4bd4be18d070fbcd68cc607b9580f749cf",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
    "approximate": false
   },
   "evaluation/cva/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "subject": "تسمية القهوة السعودية، ومنظومة تقييم القيمة",
+   "url": "evaluation/cva/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "approximate": false
   },
   "evaluation/flavor-wheel/": {
    "date": "2026-10-10",
@@ -319,10 +321,12 @@
    "approximate": false
   },
   "saudi-coffee/naming/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "subject": "تسمية القهوة السعودية، ومنظومة تقييم القيمة",
+   "url": "saudi-coffee/naming/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "approximate": false
   },
   "saudi-coffee/ritual/": {
    "date": "2026-10-10",
@@ -446,6 +450,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-11",
+   "sha": "f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "subject": "تسمية القهوة السعودية، ومنظومة تقييم القيمة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "pages": [
+    "encyclopedia/",
+    "evaluation/cva/",
+    "saudi-coffee/naming/"
+   ]
+  },
   {
    "date": "2026-10-11",
    "sha": "e7d93ea1a6c0023a7213f8d2822716e93d426a19",
