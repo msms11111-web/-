@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "19075b5cd36b392f947796896e8c639ce3d6b547",
-   "subject": "وثيقة المعايير ميتةٌ هي أيضًا: التصنيف يُقلَّص إلى ما تسنده الأحياء",
+   "sha": "08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "subject": "التجفيف وتوزيع القيمة: خطوةٌ تُغفَل، ودَينٌ يُوفى بعضُه",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/19075b5cd36b392f947796896e8c639ce3d6b547",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08f9ddae4a4f136e7dc0703e1d251586136e9191",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -145,10 +145,12 @@
    "approximate": false
   },
   "market/value-distribution/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "subject": "التجفيف وتوزيع القيمة: خطوةٌ تُغفَل، ودَينٌ يُوفى بعضُه",
+   "url": "market/value-distribution/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "approximate": false
   },
   "methodology/": {
    "date": "2026-10-11",
@@ -279,10 +281,12 @@
    "approximate": false
   },
   "processes/drying/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "subject": "التجفيف وتوزيع القيمة: خطوةٌ تُغفَل، ودَينٌ يُوفى بعضُه",
+   "url": "processes/drying/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "approximate": false
   },
   "processes/honey/": {
    "date": "2026-10-10",
@@ -638,6 +642,17 @@
     "encyclopedia/",
     "evaluation/green-grading/",
     "methodology/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "subject": "التجفيف وتوزيع القيمة: خطوةٌ تُغفَل، ودَينٌ يُوفى بعضُه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "pages": [
+    "encyclopedia/",
+    "market/value-distribution/",
+    "processes/drying/"
    ]
   },
   {
