@@ -43,6 +43,8 @@ PAGES = [
     ("origins/uganda/", "أوغندا"),
     ("science/potato-defect/", "عيب طعم البطاطس"),
     ("brewing/grinding/", "الطحن"),
+    ("processes/monsooned/", "القهوة المَمطورة"),
+    ("origins/rwanda/", "رواندا"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),
