@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "d5722e2ec16ffed683622002485d0f83d8865349",
-   "subject": "تصنيف البن الأخضر والميلانويدينات: بابان يسدّان ثغرتين قديمتين",
+   "sha": "19075b5cd36b392f947796896e8c639ce3d6b547",
+   "subject": "وثيقة المعايير ميتةٌ هي أيضًا: التصنيف يُقلَّص إلى ما تسنده الأحياء",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d5722e2ec16ffed683622002485d0f83d8865349",
+   "commit": "https://github.com/msms11111-web/qatra/commit/19075b5cd36b392f947796896e8c639ce3d6b547",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -90,10 +90,10 @@
   },
   "evaluation/green-grading/": {
    "date": "2026-10-11",
-   "sha": "f6bb39972f67871a5fda820f53055c4d18a465bf",
-   "subject": "صفحتا جمعية القهوة أعادتا 404: التصنيف يُبنى على وثيقة المعايير نفسها",
+   "sha": "19075b5cd36b392f947796896e8c639ce3d6b547",
+   "subject": "وثيقة المعايير ميتةٌ هي أيضًا: التصنيف يُقلَّص إلى ما تسنده الأحياء",
    "url": "evaluation/green-grading/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f6bb39972f67871a5fda820f53055c4d18a465bf",
+   "commit": "https://github.com/msms11111-web/qatra/commit/19075b5cd36b392f947796896e8c639ce3d6b547",
    "approximate": false
   },
   "evaluation/": {
@@ -146,10 +146,10 @@
   },
   "methodology/": {
    "date": "2026-10-11",
-   "sha": "da299a4bd4be18d070fbcd68cc607b9580f749cf",
-   "subject": "سجلّ المؤشرات الهندي يعيد 404: المَمطورة تُبنى على وثيقتَي الطلب وحدهما",
+   "sha": "19075b5cd36b392f947796896e8c639ce3d6b547",
+   "subject": "وثيقة المعايير ميتةٌ هي أيضًا: التصنيف يُقلَّص إلى ما تسنده الأحياء",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/da299a4bd4be18d070fbcd68cc607b9580f749cf",
+   "commit": "https://github.com/msms11111-web/qatra/commit/19075b5cd36b392f947796896e8c639ce3d6b547",
    "approximate": false
   },
   "origins/brazil/": {
@@ -615,6 +615,17 @@
     "brewing/french-press/",
     "encyclopedia/",
     "origins/costa-rica/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "19075b5cd36b392f947796896e8c639ce3d6b547",
+   "subject": "وثيقة المعايير ميتةٌ هي أيضًا: التصنيف يُقلَّص إلى ما تسنده الأحياء",
+   "commit": "https://github.com/msms11111-web/qatra/commit/19075b5cd36b392f947796896e8c639ce3d6b547",
+   "pages": [
+    "encyclopedia/",
+    "evaluation/green-grading/",
+    "methodology/"
    ]
   },
   {
