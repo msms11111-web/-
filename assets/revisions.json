@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
-   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
+   "sha": "da299a4bd4be18d070fbcd68cc607b9580f749cf",
+   "subject": "سجلّ المؤشرات الهندي يعيد 404: المَمطورة تُبنى على وثيقتَي الطلب وحدهما",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "commit": "https://github.com/msms11111-web/qatra/commit/da299a4bd4be18d070fbcd68cc607b9580f749cf",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
@@ -114,10 +114,10 @@
   },
   "methodology/": {
    "date": "2026-10-11",
-   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
-   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
+   "sha": "da299a4bd4be18d070fbcd68cc607b9580f749cf",
+   "subject": "سجلّ المؤشرات الهندي يعيد 404: المَمطورة تُبنى على وثيقتَي الطلب وحدهما",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "commit": "https://github.com/msms11111-web/qatra/commit/da299a4bd4be18d070fbcd68cc607b9580f749cf",
    "approximate": false
   },
   "origins/brazil/": {
@@ -258,10 +258,10 @@
   },
   "processes/monsooned/": {
    "date": "2026-10-11",
-   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
-   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
+   "sha": "da299a4bd4be18d070fbcd68cc607b9580f749cf",
+   "subject": "سجلّ المؤشرات الهندي يعيد 404: المَمطورة تُبنى على وثيقتَي الطلب وحدهما",
    "url": "processes/monsooned/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "commit": "https://github.com/msms11111-web/qatra/commit/da299a4bd4be18d070fbcd68cc607b9580f749cf",
    "approximate": false
   },
   "processes/natural/": {
@@ -441,6 +441,17 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/e7d93ea1a6c0023a7213f8d2822716e93d426a19",
    "pages": [
     "origins/costa-rica/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "da299a4bd4be18d070fbcd68cc607b9580f749cf",
+   "subject": "سجلّ المؤشرات الهندي يعيد 404: المَمطورة تُبنى على وثيقتَي الطلب وحدهما",
+   "commit": "https://github.com/msms11111-web/qatra/commit/da299a4bd4be18d070fbcd68cc607b9580f749cf",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "processes/monsooned/"
    ]
   },
   {
