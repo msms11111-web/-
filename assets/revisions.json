@@ -130,10 +130,10 @@
   },
   "origins/costa-rica/": {
    "date": "2026-10-11",
-   "sha": "4c1f52351e27b4939904397cb9ef54d8ff75625d",
-   "subject": "رابطٌ ميت في كوستاريكا، وسجلُّ الروبوستا يُعاد من المقال الحيّ",
+   "sha": "e7d93ea1a6c0023a7213f8d2822716e93d426a19",
+   "subject": "تصحيحُ تصحيح: العنوان «المصحَّح» أخفق هو أيضًا، فحُذف المصدر",
    "url": "origins/costa-rica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/4c1f52351e27b4939904397cb9ef54d8ff75625d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e7d93ea1a6c0023a7213f8d2822716e93d426a19",
    "approximate": false
   },
   "origins/ethiopia/": {
@@ -370,6 +370,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-11",
+   "sha": "e7d93ea1a6c0023a7213f8d2822716e93d426a19",
+   "subject": "تصحيحُ تصحيح: العنوان «المصحَّح» أخفق هو أيضًا، فحُذف المصدر",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e7d93ea1a6c0023a7213f8d2822716e93d426a19",
+   "pages": [
+    "origins/costa-rica/"
+   ]
+  },
   {
    "date": "2026-10-11",
    "sha": "4c1f52351e27b4939904397cb9ef54d8ff75625d",
