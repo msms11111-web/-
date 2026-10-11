@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
-   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
+   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
@@ -114,10 +114,10 @@
   },
   "methodology/": {
    "date": "2026-10-11",
-   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
-   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
+   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
    "approximate": false
   },
   "origins/brazil/": {
@@ -201,10 +201,12 @@
    "approximate": false
   },
   "origins/rwanda/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
+   "url": "origins/rwanda/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "approximate": false
   },
   "origins/uganda/": {
    "date": "2026-10-11",
@@ -255,10 +257,12 @@
    "approximate": false
   },
   "processes/monsooned/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
+   "url": "processes/monsooned/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "approximate": false
   },
   "processes/natural/": {
    "date": "2026-10-10",
@@ -350,10 +354,10 @@
   },
   "science/potato-defect/": {
    "date": "2026-10-11",
-   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
-   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
+   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
    "url": "science/potato-defect/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
    "approximate": false
   },
   "science/storage/": {
@@ -459,6 +463,19 @@
     "encyclopedia/",
     "origins/honduras/",
     "origins/uganda/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "subject": "القهوة المَمطورة ورواندا: بابٌ آخر يخرج من قائمة المؤجَّل",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4d83fa5bebb26ab045bc9b8653fd849163fb1730",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "origins/rwanda/",
+    "processes/monsooned/",
+    "science/potato-defect/"
    ]
   },
   {
