@@ -35,6 +35,8 @@ PAGES = [
     ("evaluation/flavor-wheel/", "عجلة النكهات والمعجم الحسي"),
     ("brewing/cold-brew/", "القهوة المنقوعة على البارد"),
     ("science/acids/", "أحماض القهوة"),
+    ("brewing/french-press/", "المكبس الفرنسي"),
+    ("origins/costa-rica/", "كوستاريكا"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),

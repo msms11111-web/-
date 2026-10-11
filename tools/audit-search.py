@@ -49,6 +49,13 @@ CASES = [
     ("chlorogenic", "أحماض", False),
     ("حمض الستريك", "أحماض", True),
     ("iced coffee", "المنقوع", True),
+    ("cafetiere", "المكبس", True),
+    ("cafetière", "المكبس", True),
+    ("cafestol", "المكبس", True),
+    ("كافستول", "المكبس", True),
+    ("costa rica", "كوستاريكا", True),
+    ("ICAFE", "كوستاريكا", True),
+    ("centroamericano", "كوستاريكا", True),
 ]
 
 # عباراتٌ يجب أن تُرجع لا شيء. وجودُ نتيجةٍ لها يعني أن المطابقة متراخية.
