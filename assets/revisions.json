@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "c49872fb5218125bcec5b966b2062a3d00090340",
-   "subject": "جناح السوق يتضاعف، وعلّةٌ في البحث: الفاصلةُ العربية حُسبت حرفَ كلمة",
+   "sha": "d5722e2ec16ffed683622002485d0f83d8865349",
+   "subject": "تصنيف البن الأخضر والميلانويدينات: بابان يسدّان ثغرتين قديمتين",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c49872fb5218125bcec5b966b2062a3d00090340",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d5722e2ec16ffed683622002485d0f83d8865349",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -89,10 +89,12 @@
    "approximate": false
   },
   "evaluation/green-grading/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "d5722e2ec16ffed683622002485d0f83d8865349",
+   "subject": "تصنيف البن الأخضر والميلانويدينات: بابان يسدّان ثغرتين قديمتين",
+   "url": "evaluation/green-grading/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d5722e2ec16ffed683622002485d0f83d8865349",
+   "approximate": false
   },
   "evaluation/": {
    "date": "2026-10-10",
@@ -399,10 +401,12 @@
    "approximate": false
   },
   "science/melanoidins/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "d5722e2ec16ffed683622002485d0f83d8865349",
+   "subject": "تصنيف البن الأخضر والميلانويدينات: بابان يسدّان ثغرتين قديمتين",
+   "url": "science/melanoidins/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d5722e2ec16ffed683622002485d0f83d8865349",
+   "approximate": false
   },
   "science/potato-defect/": {
    "date": "2026-10-11",
@@ -515,6 +519,17 @@
     "encyclopedia/",
     "methodology/",
     "processes/monsooned/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "d5722e2ec16ffed683622002485d0f83d8865349",
+   "subject": "تصنيف البن الأخضر والميلانويدينات: بابان يسدّان ثغرتين قديمتين",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d5722e2ec16ffed683622002485d0f83d8865349",
+   "pages": [
+    "encyclopedia/",
+    "evaluation/green-grading/",
+    "science/melanoidins/"
    ]
   },
   {
