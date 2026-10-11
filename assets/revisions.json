@@ -25,10 +25,12 @@
    "approximate": false
   },
   "brewing/grinding/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
+   "url": "brewing/grinding/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "approximate": false
   },
   "brewing/turkish/": {
    "date": "2026-10-10",
@@ -64,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "5bd3b3618e90d79af87edac718402a46b7149707",
-   "subject": "هندوراس وأوغندا، و«jimma» كانت تتصدّر بصفحة الشهادات",
+   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5bd3b3618e90d79af87edac718402a46b7149707",
+   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
    "approximate": false
   },
   "evaluation/flavor-wheel/": {
@@ -111,11 +113,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-10",
-   "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
-   "subject": "الكولد برو والأحماض: دراستان تهدمان ثلاثة ادعاءات، ورابطٌ ميت في CI",
+   "date": "2026-10-11",
+   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
+   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
    "approximate": false
   },
   "origins/brazil/": {
@@ -335,10 +337,12 @@
    "approximate": false
   },
   "science/potato-defect/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
+   "url": "science/potato-defect/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "approximate": false
   },
   "science/storage/": {
    "date": "2026-10-10",
@@ -463,6 +467,18 @@
     "brewing/french-press/",
     "encyclopedia/",
     "origins/costa-rica/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "subject": "الطحن يُفتح بلا جدول ميكرونات، وعيبُ البطاطس يُنشر بسببٍ لم يُحسم",
+   "commit": "https://github.com/msms11111-web/qatra/commit/00e41d3073f71c4409ef5cbae757fe91202e085a",
+   "pages": [
+    "brewing/grinding/",
+    "encyclopedia/",
+    "methodology/",
+    "science/potato-defect/"
    ]
   },
   {
