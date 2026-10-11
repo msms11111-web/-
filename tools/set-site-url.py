@@ -34,6 +34,8 @@ PAGES = [
     ("market/certifications/", "الشهادات في القهوة"),
     ("market/ico/", "منظمة القهوة الدولية"),
     ("market/eudr/", "لائحة إزالة الغابات الأوروبية"),
+    ("market/value-distribution/", "توزيع القيمة في سلسلة القهوة"),
+    ("processes/drying/", "التجفيف"),
     ("evaluation/flavor-wheel/", "عجلة النكهات والمعجم الحسي"),
     ("brewing/cold-brew/", "القهوة المنقوعة على البارد"),
     ("science/acids/", "أحماض القهوة"),
