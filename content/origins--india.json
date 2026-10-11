@@ -1,0 +1,55 @@
+{
+ "slug": "origins--india",
+ "path": "origins/india",
+ "title": "الهند",
+ "description": "محطةٌ في طريق القهوة من اليمن، وفيها تبيَّن أن سلالاتها القديمة بوربونية لا تيبيكية.",
+ "lead": "ما جاءها من اليمن حمل المجموعتين معًا — وهذا ما كشفته بصمةُ الحمض النووي.",
+ "status": {
+  "kind": "ok",
+  "label": "موثق"
+ },
+ "crumbs": [
+  {
+   "label": "الرئيسية",
+   "href": "../../index.html"
+  },
+  {
+   "label": "الموسوعة",
+   "href": "../../encyclopedia/"
+  }
+ ],
+ "crumb_current": "الهند",
+ "sections": [
+  {
+   "id": "yemen",
+   "heading": "تصحيحٌ وراثيٌّ لرواية قديمة",
+   "nav": "النسب الوراثي",
+   "body": "<p>كان المستقرُّ في كتب القهوة أن ما وصل الهند من <a href=\"../yemen/\">اليمن</a> ينتسب إلى مجموعة <a href=\"../../varieties/typica-bourbon/\">تيبيكا</a>، وأن سلالات الهند القديمة — <strong>كورج</strong> و<strong>كِنت</strong> — تيبيكية.</p><div class=\"notice\">وبصمةُ الحمض النووي بيّنت غير ذلك: <strong>كورج وكِنت تنتسبان إلى السلالات المنحدرة من بوربون.</strong> وأظهرت النتائج أن ما أُدخل من اليمن إلى الهند ضمّ <strong>سلالاتٍ تيبيكية وبوربونية معًا</strong>، لا واحدةً منهما.</div><p>وهذا تصحيحٌ له أثرٌ أبعد من الهند: فمجموعتا تيبيكا وبوربون هما أصل أغلب ما يُزرع من <a href=\"../../species/arabica/\">الأرابيكا</a> خارج إثيوبيا، وطريقُ انتشارهما يُرسم من هذه المحطات. فحين يُصحَّح نسبُ محطةٍ يُصحَّح جزءٌ من الخريطة.</p>"
+  },
+  {
+   "id": "kent",
+   "heading": "كِنت: أول انتخابٍ لمقاومة الصدأ",
+   "nav": "كِنت",
+   "body": "<p>و«كِنت» ليست اسمًا محليًّا بل اسمَ منتخِبها: انتخبها <span dir=\"ltr\" lang=\"en\">L. P. Kent</span> سنة <strong>1911</strong> من <strong>شجرةٍ واحدة</strong> في مزرعته <span dir=\"ltr\" lang=\"en\">Doddengooda</span> في ميسور.</p><p>وتُعرف بأنها <strong>أول قهوةٍ انتُخبت لمقاومة الصدأ</strong>. ثم <strong>انهارت تلك المقاومة</strong>.</p><div class=\"notice\">وهذه هي الدورة نفسها التي تتكرّر في كل صفحةٍ من صفحات <a href=\"../../science/diseases/\">أمراض البن</a>: مقاومةٌ تُنتخَب، فينتشر ما انتُخب، فيتكيّف الفطر، فتسقط المقاومة. وبدأت الدورة في الهند سنة 1911، أي قبل قرنٍ من البرامج التي تُعلن اليوم.</div><p>وتدخل كِنت في نسب سلالاتٍ هندية وأفريقية بعدها، منها <span dir=\"ltr\" lang=\"en\">S795</span> الناتجة من تهجينٍ تدخل فيه.</p>"
+  },
+  {
+   "id": "sector",
+   "heading": "قطاعٌ مركَّز في ثلاث ولايات",
+   "nav": "القطاع",
+   "body": "<p>وتنشر الحكومة الهندية أرقام القطاع، ومنها:</p><div class=\"scroll-x\"><table><thead><tr><th scope=\"col\">البند</th><th scope=\"col\">الرقم</th></tr></thead><tbody><tr><th scope=\"row\">الصادرات في السنة المالية 2024–2025</th><td>1.8 مليار دولار — رقمٌ قياسي، بزيادة 40٪ عن السنة السابقة</td></tr><tr><th scope=\"row\">كارناتاكا وكيرالا وتاميل نادو</th><td>نحو 96٪ من الإنتاج الوطني</td></tr><tr><th scope=\"row\">تقدير كارناتاكا بعد الإزهار 2025–2026</th><td>280,275 طنًّا متريًّا</td></tr><tr><th scope=\"row\">مناطق الزراعة</th><td>مقسَّمة إلى 13 نطاقًا مناخيًّا زراعيًّا</td></tr></tbody></table></div><p>ومعهد بحوث القهوة المركزي — <span dir=\"ltr\" lang=\"en\">CCRI</span> — أُنشئ سنة <strong>1925</strong>، وهو الذراع البحثية والإرشادية لمجلس القهوة الهندي، ويقع في كارناتاكا.</p><p>وفي 2025 وسّعت <span dir=\"ltr\" lang=\"en\">World Coffee Research</span> شبكة <span dir=\"ltr\" lang=\"en\">Innovea</span> لتضمّ تربية <a href=\"../../species/canephora/\">الروبوستا</a> في الهند ورواندا وأوغندا، مع <a href=\"../vietnam/\">فيتنام</a> و<a href=\"../indonesia/\">إندونيسيا</a> وغانا — وهذه الستّة تنتج 64٪ من روبوستا العالم.</p>"
+  },
+  {
+   "id": "limits",
+   "heading": "حدود ما تنشره قطرة",
+   "nav": "حدود الاستنتاج",
+   "body": "<ul><li><strong>لا تُنشر هنا نسبةُ الأرابيكا إلى الروبوستا في الهند.</strong> المصادر التجارية تتناقض فيها تناقضًا بيّنًا — بين «سبعين بالمئة روبوستا» و«النوعان بنسبٍ متقاربة» — ولم نبلغ رقمًا رسميًّا يحسمها.</li><li><strong>ولا يُنشر أن «الهند البلد الوحيد الذي تُزرع فيه القهوة كلُّها في الظل».</strong> ادعاءٌ قويٌّ ورد في مصدرٍ تجاري بلا سندٍ رسمي، فلا يُنشر.</li><li><strong>ولم تُدرج «القهوة المَمطورة» (<span dir=\"ltr\" lang=\"en\">Monsooned Malabar</span>) بابًا مستقلًا.</strong> لها إشاراتٌ حكومية في مؤشرات جغرافية، ولم نبلغ وثيقةً رسمية تصف العملية بخطواتها وشروطها. وهي من أغرب المعالجات في العالم، فتحتاج مصدرها لا وصفًا من بائع.</li><li><strong>وأرقام الموسم تُقرأ بسنتها.</strong> «تقدير بعد الإزهار» تقديرٌ لا حصادٌ مُحقَّق، والصادرات تتغيّر بالسعر العالمي.</li><li>وبصمةُ الحمض النووي أُدرجت كما خلص إليها الكتالوج. ولم نبلغ الدراسة الأصلية بمؤشراتها وعيّناتها، فلا يُبنى على النتيجة أكثر من نسبةٍ إلى مجموعة.</li></ul><p>وما يلزم لتوسيع الصفحة: إحصاءات مجلس القهوة الهندي في توزّع النوعين، ووثيقةٌ رسمية في القهوة المَمطورة، والدراسة الوراثية الأصلية.</p>"
+  },
+  {
+   "id": "sources",
+   "heading": "المصادر الأساسية",
+   "nav": "المصادر",
+   "body": "<ul class=\"refs\"><li><a href=\"https://varieties.worldcoffeeresearch.org/arabica-2/history-of-arabica\" target=\"_blank\" rel=\"noopener noreferrer\">كتالوج السلالات — تاريخ الأرابيكا<span aria-hidden=\"true\"> ↗</span></a><small>كتالوج مؤسسة بحثية مهنية. مرجع أن بصمة الحمض النووي أظهرت انتساب كورج وكِنت إلى السلالات المنحدرة من بوربون، وأن ما أُدخل من اليمن إلى الهند ضمّ سلالاتٍ تيبيكية وبوربونية معًا.</small></li><li><a href=\"https://varieties.worldcoffeeresearch.org/varieties/kp423\" target=\"_blank\" rel=\"noopener noreferrer\">كتالوج السلالات — <span dir=\"ltr\" lang=\"en\">KP423</span><span aria-hidden=\"true\"> ↗</span></a><small>الكتالوج نفسه. مرجع انتخاب <span dir=\"ltr\" lang=\"en\">L. P. Kent</span> سنة 1911 من شجرةٍ واحدة في مزرعة <span dir=\"ltr\" lang=\"en\">Doddengooda</span> في ميسور، وأنها تُعرف بأول قهوةٍ انتُخبت لمقاومة الصدأ، وأن تلك المقاومة انهارت.</small></li><li><a href=\"https://varieties.worldcoffeeresearch.org/varieties/s795\" target=\"_blank\" rel=\"noopener noreferrer\">كتالوج السلالات — <span dir=\"ltr\" lang=\"en\">S795</span><span aria-hidden=\"true\"> ↗</span></a><small>الكتالوج نفسه. مرجع دخول كِنت في نسبها.</small></li><li><a href=\"https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/nov/doc20251129711101.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">مكتب الصحافة الهندي — قطاع القهوة<span aria-hidden=\"true\"> ↗</span></a><small>وثيقة حكومية هندية، نوفمبر 2025. مرجع صادرات 1.8 مليار دولار في السنة المالية 2024–2025 وزيادة الأربعين بالمئة، ونصيب كارناتاكا وكيرالا وتاميل نادو من الإنتاج الوطني، وتقدير كارناتاكا بعد الإزهار، وتقسيم مناطق الزراعة إلى ثلاثة عشر نطاقًا مناخيًّا زراعيًّا.</small></li><li><a href=\"https://worldcoffeeresearch.org/news/2025/world-coffee-research-brings-robusta-into-the-innovea-global-breeding-network\" target=\"_blank\" rel=\"noopener noreferrer\">‏<span dir=\"ltr\" lang=\"en\">World Coffee Research</span> — إدخال الروبوستا إلى شبكة <span dir=\"ltr\" lang=\"en\">Innovea</span><span aria-hidden=\"true\"> ↗</span></a><small>إعلان المؤسسة نفسها، 2025. مرجع ضمّ الهند ورواندا وأوغندا إلى الشبكة مع فيتنام وإندونيسيا وغانا، وأن هذه الستة تنتج 64٪ من روبوستا العالم.</small></li><li><a href=\"https://worldcoffeeresearch.org/programs/global-breeding-network\" target=\"_blank\" rel=\"noopener noreferrer\">‏<span dir=\"ltr\" lang=\"en\">World Coffee Research</span> — شبكة التربية العالمية<span aria-hidden=\"true\"> ↗</span></a><small>صفحة البرنامج. مرجع أن معهد بحوث القهوة المركزي أُنشئ سنة 1925، وأنه الذراع البحثية والإرشادية لمجلس القهوة الهندي، وموقعه في كارناتاكا.</small></li></ul>"
+  }
+ ],
+ "lede_before_sections": ""
+}

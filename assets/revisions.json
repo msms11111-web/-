@@ -144,6 +144,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
    "approximate": false
   },
+  "origins/guatemala/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "origins/india/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/indonesia/": {
    "date": "2026-10-10",
    "sha": "8b586748a80ad163f56844c8b628654ec74efb66",

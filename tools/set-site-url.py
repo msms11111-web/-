@@ -37,6 +37,8 @@ PAGES = [
     ("science/acids/", "أحماض القهوة"),
     ("brewing/french-press/", "المكبس الفرنسي"),
     ("origins/costa-rica/", "كوستاريكا"),
+    ("origins/guatemala/", "غواتيمالا"),
+    ("origins/india/", "الهند"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),
