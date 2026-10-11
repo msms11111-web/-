@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-11",
-   "sha": "9a1a570d0864bc614e417041f029a13068c44240",
-   "subject": "زراعة البن في السعودية: جدولٌ من جهةٍ حكومية واحدة لا يجمعه حساب",
+   "sha": "c49872fb5218125bcec5b966b2062a3d00090340",
+   "subject": "جناح السوق يتضاعف، وعلّةٌ في البحث: الفاصلةُ العربية حُسبت حرفَ كلمة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9a1a570d0864bc614e417041f029a13068c44240",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c49872fb5218125bcec5b966b2062a3d00090340",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -113,16 +113,20 @@
    "approximate": false
   },
   "market/eudr/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "c49872fb5218125bcec5b966b2062a3d00090340",
+   "subject": "جناح السوق يتضاعف، وعلّةٌ في البحث: الفاصلةُ العربية حُسبت حرفَ كلمة",
+   "url": "market/eudr/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c49872fb5218125bcec5b966b2062a3d00090340",
+   "approximate": false
   },
   "market/ico/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-11",
+   "sha": "c49872fb5218125bcec5b966b2062a3d00090340",
+   "subject": "جناح السوق يتضاعف، وعلّةٌ في البحث: الفاصلةُ العربية حُسبت حرفَ كلمة",
+   "url": "market/ico/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c49872fb5218125bcec5b966b2062a3d00090340",
+   "approximate": false
   },
   "market/price/": {
    "date": "2026-10-10",
@@ -510,6 +514,17 @@
     "encyclopedia/",
     "origins/guatemala/",
     "origins/india/"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "sha": "c49872fb5218125bcec5b966b2062a3d00090340",
+   "subject": "جناح السوق يتضاعف، وعلّةٌ في البحث: الفاصلةُ العربية حُسبت حرفَ كلمة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c49872fb5218125bcec5b966b2062a3d00090340",
+   "pages": [
+    "encyclopedia/",
+    "market/eudr/",
+    "market/ico/"
    ]
   },
   {
