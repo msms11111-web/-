@@ -24,6 +24,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/404054c1331be30007b01a33b10e61d554b113f0",
    "approximate": false
   },
+  "brewing/grinding/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "brewing/turkish/": {
    "date": "2026-10-10",
    "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
@@ -327,6 +333,12 @@
    "url": "science/extraction/",
    "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
+  },
+  "science/potato-defect/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "science/storage/": {
    "date": "2026-10-10",
