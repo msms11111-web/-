@@ -90,10 +90,10 @@
   },
   "evaluation/green-grading/": {
    "date": "2026-10-11",
-   "sha": "d5722e2ec16ffed683622002485d0f83d8865349",
-   "subject": "تصنيف البن الأخضر والميلانويدينات: بابان يسدّان ثغرتين قديمتين",
+   "sha": "f6bb39972f67871a5fda820f53055c4d18a465bf",
+   "subject": "صفحتا جمعية القهوة أعادتا 404: التصنيف يُبنى على وثيقة المعايير نفسها",
    "url": "evaluation/green-grading/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d5722e2ec16ffed683622002485d0f83d8865349",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f6bb39972f67871a5fda820f53055c4d18a465bf",
    "approximate": false
   },
   "evaluation/": {
@@ -490,6 +490,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-11",
+   "sha": "f6bb39972f67871a5fda820f53055c4d18a465bf",
+   "subject": "صفحتا جمعية القهوة أعادتا 404: التصنيف يُبنى على وثيقة المعايير نفسها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f6bb39972f67871a5fda820f53055c4d18a465bf",
+   "pages": [
+    "evaluation/green-grading/"
+   ]
+  },
   {
    "date": "2026-10-11",
    "sha": "f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
