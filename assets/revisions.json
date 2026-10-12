@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "c2927255a269aa380bd81203fb69e159e3e064cb",
-   "subject": "القابلة للذوبان، ومدونة الاستدامة المرجعية — والرابطُ الميت صار تعليقًا",
+   "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
+   "subject": "المناخ وستينوفيلا: أكبرُ بابٍ كان غائبًا، والنوعُ الذي يُجيبه",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c2927255a269aa380bd81203fb69e159e3e064cb",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c5633716581a5e77a1d194e49f60e8ce50076133",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -194,10 +194,10 @@
   },
   "methodology/": {
    "date": "2026-10-12",
-   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
-   "subject": "قشر القهوة، وعقد الروبوستا",
+   "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
+   "subject": "المناخ وستينوفيلا: أكبرُ بابٍ كان غائبًا، والنوعُ الذي يُجيبه",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c5633716581a5e77a1d194e49f60e8ce50076133",
    "approximate": false
   },
   "origins/brazil/": {
@@ -481,10 +481,12 @@
    "approximate": false
   },
   "science/climate/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
+   "subject": "المناخ وستينوفيلا: أكبرُ بابٍ كان غائبًا، والنوعُ الذي يُجيبه",
+   "url": "science/climate/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c5633716581a5e77a1d194e49f60e8ce50076133",
+   "approximate": false
   },
   "science/degassing/": {
    "date": "2026-10-12",
@@ -575,10 +577,12 @@
    "approximate": false
   },
   "species/stenophylla/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
+   "subject": "المناخ وستينوفيلا: أكبرُ بابٍ كان غائبًا، والنوعُ الذي يُجيبه",
+   "url": "species/stenophylla/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c5633716581a5e77a1d194e49f60e8ce50076133",
+   "approximate": false
   },
   "varieties/caturra/": {
    "date": "2026-10-10",
@@ -630,6 +634,18 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-12",
+   "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
+   "subject": "المناخ وستينوفيلا: أكبرُ بابٍ كان غائبًا، والنوعُ الذي يُجيبه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c5633716581a5e77a1d194e49f60e8ce50076133",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "science/climate/",
+    "species/stenophylla/"
+   ]
+  },
   {
    "date": "2026-10-12",
    "sha": "c2927255a269aa380bd81203fb69e159e3e064cb",
