@@ -65,11 +65,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-11",
-   "sha": "08f9ddae4a4f136e7dc0703e1d251586136e9191",
-   "subject": "التجفيف وتوزيع القيمة: خطوةٌ تُغفَل، ودَينٌ يُوفى بعضُه",
+   "date": "2026-10-12",
+   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "subject": "هجائن الجيل الأول، وإزالة الغاز",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/08f9ddae4a4f136e7dc0703e1d251586136e9191",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -153,11 +153,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-11",
-   "sha": "19075b5cd36b392f947796896e8c639ce3d6b547",
-   "subject": "وثيقة المعايير ميتةٌ هي أيضًا: التصنيف يُقلَّص إلى ما تسنده الأحياء",
+   "date": "2026-10-12",
+   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "subject": "هجائن الجيل الأول، وإزالة الغاز",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/19075b5cd36b392f947796896e8c639ce3d6b547",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
    "approximate": false
   },
   "origins/brazil/": {
@@ -401,10 +401,12 @@
    "approximate": false
   },
   "science/degassing/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "subject": "هجائن الجيل الأول، وإزالة الغاز",
+   "url": "science/degassing/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "approximate": false
   },
   "science/diseases/": {
    "date": "2026-10-10",
@@ -487,10 +489,12 @@
    "approximate": false
   },
   "varieties/f1-hybrids/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "subject": "هجائن الجيل الأول، وإزالة الغاز",
+   "url": "varieties/f1-hybrids/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "approximate": false
   },
   "varieties/geisha/": {
    "date": "2026-10-10",
@@ -518,6 +522,18 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-12",
+   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "subject": "هجائن الجيل الأول، وإزالة الغاز",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "science/degassing/",
+    "varieties/f1-hybrids/"
+   ]
+  },
   {
    "date": "2026-10-11",
    "sha": "f6bb39972f67871a5fda820f53055c4d18a465bf",
