@@ -59,6 +59,8 @@ PAGES = [
     ("species/liberica/", "الليبيريكا والإكسيلسا"),
     ("science/volatiles/", "المركَّبات الطيّارة والرائحة"),
     ("origins/peru/", "بيرو"),
+    ("processes/cascara/", "قشر القهوة"),
+    ("market/robusta-contract/", "عقد الروبوستا في لندن"),
     ("origins/mexico/", "المكسيك"),
     ("market/world-numbers/", "أرقام القهوة في العالم"),
     ("saudi-coffee/standards/", "المواصفات الخليجية للقهوة"),
