@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
-   "subject": "الليبيريكا والإكسيلسا، والمواصفات الخليجية",
+   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -161,17 +161,19 @@
    "approximate": false
   },
   "market/world-numbers/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
+   "url": "market/world-numbers/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "approximate": false
   },
   "methodology/": {
    "date": "2026-10-12",
-   "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
-   "subject": "الليبيريكا والإكسيلسا، والمواصفات الخليجية",
+   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
    "approximate": false
   },
   "origins/brazil/": {
@@ -479,10 +481,12 @@
    "approximate": false
   },
   "science/volatiles/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
+   "url": "science/volatiles/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "approximate": false
   },
   "science/water/": {
    "date": "2026-10-10",
@@ -566,6 +570,18 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-12",
+   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
+   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "pages": [
+    "encyclopedia/",
+    "market/world-numbers/",
+    "methodology/",
+    "science/volatiles/"
+   ]
+  },
   {
    "date": "2026-10-12",
    "sha": "9a292c6c340cb330a9e05a9d92ab879af37b796c",
