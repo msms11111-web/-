@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
-   "subject": "هجائن الجيل الأول، وإزالة الغاز",
+   "sha": "5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "subject": "عقد القهوة الآجل، والتخمير",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5e9d51a64f4b73465c3f0a1416469de68576ea01",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -129,10 +129,12 @@
    "approximate": false
   },
   "market/ice-contract/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "subject": "عقد القهوة الآجل، والتخمير",
+   "url": "market/ice-contract/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "approximate": false
   },
   "market/ico/": {
    "date": "2026-10-11",
@@ -295,10 +297,12 @@
    "approximate": false
   },
   "processes/fermentation/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "subject": "عقد القهوة الآجل، والتخمير",
+   "url": "processes/fermentation/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "approximate": false
   },
   "processes/honey/": {
    "date": "2026-10-10",
@@ -542,6 +546,17 @@
    "pages": [
     "methodology/",
     "varieties/f1-hybrids/"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "sha": "5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "subject": "عقد القهوة الآجل، والتخمير",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "pages": [
+    "encyclopedia/",
+    "market/ice-contract/",
+    "processes/fermentation/"
    ]
   },
   {
