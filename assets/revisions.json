@@ -154,10 +154,10 @@
   },
   "methodology/": {
    "date": "2026-10-12",
-   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
-   "subject": "هجائن الجيل الأول، وإزالة الغاز",
+   "sha": "9a292c6c340cb330a9e05a9d92ab879af37b796c",
+   "subject": "خبرُ تجارب الهجائن ميت: فحُذف وقُلّص ما كان يحمله",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9a292c6c340cb330a9e05a9d92ab879af37b796c",
    "approximate": false
   },
   "origins/brazil/": {
@@ -490,10 +490,10 @@
   },
   "varieties/f1-hybrids/": {
    "date": "2026-10-12",
-   "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
-   "subject": "هجائن الجيل الأول، وإزالة الغاز",
+   "sha": "9a292c6c340cb330a9e05a9d92ab879af37b796c",
+   "subject": "خبرُ تجارب الهجائن ميت: فحُذف وقُلّص ما كان يحمله",
    "url": "varieties/f1-hybrids/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9a292c6c340cb330a9e05a9d92ab879af37b796c",
    "approximate": false
   },
   "varieties/geisha/": {
@@ -522,6 +522,16 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-12",
+   "sha": "9a292c6c340cb330a9e05a9d92ab879af37b796c",
+   "subject": "خبرُ تجارب الهجائن ميت: فحُذف وقُلّص ما كان يحمله",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9a292c6c340cb330a9e05a9d92ab879af37b796c",
+   "pages": [
+    "methodology/",
+    "varieties/f1-hybrids/"
+   ]
+  },
   {
    "date": "2026-10-12",
    "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
