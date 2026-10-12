@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "5e9d51a64f4b73465c3f0a1416469de68576ea01",
-   "subject": "عقد القهوة الآجل، والتخمير",
+   "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "subject": "الليبيريكا والإكسيلسا، والمواصفات الخليجية",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -162,10 +162,10 @@
   },
   "methodology/": {
    "date": "2026-10-12",
-   "sha": "9a292c6c340cb330a9e05a9d92ab879af37b796c",
-   "subject": "خبرُ تجارب الهجائن ميت: فحُذف وقُلّص ما كان يحمله",
+   "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "subject": "الليبيريكا والإكسيلسا، والمواصفات الخليجية",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9a292c6c340cb330a9e05a9d92ab879af37b796c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
    "approximate": false
   },
   "origins/brazil/": {
@@ -401,10 +401,12 @@
    "approximate": false
   },
   "saudi-coffee/standards/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "subject": "الليبيريكا والإكسيلسا، والمواصفات الخليجية",
+   "url": "saudi-coffee/standards/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "approximate": false
   },
   "science/acids/": {
    "date": "2026-10-10",
@@ -495,10 +497,12 @@
    "approximate": false
   },
   "species/liberica/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "subject": "الليبيريكا والإكسيلسا، والمواصفات الخليجية",
+   "url": "species/liberica/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "approximate": false
   },
   "varieties/caturra/": {
    "date": "2026-10-10",
@@ -581,6 +585,18 @@
     "methodology/",
     "science/degassing/",
     "varieties/f1-hybrids/"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "subject": "الليبيريكا والإكسيلسا، والمواصفات الخليجية",
+   "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "saudi-coffee/standards/",
+    "species/liberica/"
    ]
   },
   {
