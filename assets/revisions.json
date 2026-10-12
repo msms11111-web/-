@@ -400,6 +400,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
+  "science/degassing/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "science/diseases/": {
    "date": "2026-10-10",
    "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
@@ -479,6 +485,12 @@
    "url": "varieties/dega/",
    "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
+  },
+  "varieties/f1-hybrids/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "varieties/geisha/": {
    "date": "2026-10-10",

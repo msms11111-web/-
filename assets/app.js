@@ -219,6 +219,16 @@
     ["عجلة", "wheel"],
     ["معجم", "lexicon"],
     ["حسي", "حسية", "sensory"],
+    ["هجين", "هجائن", "hybrid", "hybrids"],
+    ["ستارمايا", "starmaya"],
+    ["مارسيليسا", "marsellesa"],
+    ["عقم", "sterility", "sterile"],
+    ["روميه", "rume"],
+    ["اكثار", "propagation"],
+    ["غاز", "degassing", "co2"],
+    ["كريما", "crema"],
+    ["لانغمير", "langmuir"],
+    ["طزاجة", "freshness"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

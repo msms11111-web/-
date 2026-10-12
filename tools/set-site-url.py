@@ -54,6 +54,8 @@ PAGES = [
     ("evaluation/cva/", "تقييم قيمة القهوة"),
     ("evaluation/green-grading/", "تصنيف البن الأخضر"),
     ("science/melanoidins/", "الميلانويدينات"),
+    ("science/degassing/", "إزالة الغاز"),
+    ("varieties/f1-hybrids/", "الهجائن من الجيل الأول"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
     ("species/arabica/", "الأرابيكا"),
