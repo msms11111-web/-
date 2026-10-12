@@ -322,10 +322,10 @@
   },
   "processes/cascara/": {
    "date": "2026-10-12",
-   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
-   "subject": "قشر القهوة، وعقد الروبوستا",
+   "sha": "60dc5b065caa1db987902e6513768e5e409aa62a",
+   "subject": "وثيقةُ اللجنة البريطانية ميتة: فحُذفت وقُلّص صفُّها",
    "url": "processes/cascara/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "commit": "https://github.com/msms11111-web/qatra/commit/60dc5b065caa1db987902e6513768e5e409aa62a",
    "approximate": false
   },
   "processes/drying/": {
@@ -656,6 +656,15 @@
     "encyclopedia/",
     "origins/mexico/",
     "origins/peru/"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "sha": "60dc5b065caa1db987902e6513768e5e409aa62a",
+   "subject": "وثيقةُ اللجنة البريطانية ميتة: فحُذفت وقُلّص صفُّها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/60dc5b065caa1db987902e6513768e5e409aa62a",
+   "pages": [
+    "processes/cascara/"
    ]
   },
   {
