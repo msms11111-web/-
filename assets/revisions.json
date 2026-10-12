@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
-   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
+   "sha": "61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "subject": "بيرو والمكسيك: أكبرُ منشأَين كانا غائبَين",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -249,10 +249,12 @@
    "approximate": false
   },
   "origins/mexico/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "subject": "بيرو والمكسيك: أكبرُ منشأَين كانا غائبَين",
+   "url": "origins/mexico/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "approximate": false
   },
   "origins/panama/": {
    "date": "2026-10-10",
@@ -263,10 +265,12 @@
    "approximate": false
   },
   "origins/peru/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "subject": "بيرو والمكسيك: أكبرُ منشأَين كانا غائبَين",
+   "url": "origins/peru/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "approximate": false
   },
   "origins/rwanda/": {
    "date": "2026-10-11",
@@ -602,6 +606,17 @@
    "pages": [
     "methodology/",
     "varieties/f1-hybrids/"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "sha": "61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "subject": "بيرو والمكسيك: أكبرُ منشأَين كانا غائبَين",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "pages": [
+    "encyclopedia/",
+    "origins/mexico/",
+    "origins/peru/"
    ]
   },
   {
