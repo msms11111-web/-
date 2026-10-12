@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "b919a36c5929325e1b506e8e03595a43dfd7a039",
-   "subject": "ملفُّ بيرو ميت: فبُدِّل بملفٍّ حيٍّ أعطى أكثر — وسقط ادّعاءٌ مني",
+   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "subject": "قشر القهوة، وعقد الروبوستا",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/b919a36c5929325e1b506e8e03595a43dfd7a039",
+   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -153,10 +153,12 @@
    "approximate": false
   },
   "market/robusta-contract/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "subject": "قشر القهوة، وعقد الروبوستا",
+   "url": "market/robusta-contract/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "approximate": false
   },
   "market/value-distribution/": {
    "date": "2026-10-11",
@@ -176,10 +178,10 @@
   },
   "methodology/": {
    "date": "2026-10-12",
-   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
-   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
+   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "subject": "قشر القهوة، وعقد الروبوستا",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
    "approximate": false
   },
   "origins/brazil/": {
@@ -319,10 +321,12 @@
    "approximate": false
   },
   "processes/cascara/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "subject": "قشر القهوة، وعقد الروبوستا",
+   "url": "processes/cascara/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "approximate": false
   },
   "processes/drying/": {
    "date": "2026-10-11",
@@ -334,10 +338,10 @@
   },
   "processes/fermentation/": {
    "date": "2026-10-12",
-   "sha": "24105ce77685ef98e16cae9edd70e65937ac60b1",
-   "subject": "ملفُّ مركز البحوث ميت: فبُدِّل بوثائقَ حيّةٍ له أعطت أكثر",
+   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "subject": "قشر القهوة، وعقد الروبوستا",
    "url": "processes/fermentation/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/24105ce77685ef98e16cae9edd70e65937ac60b1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
    "approximate": false
   },
   "processes/honey/": {
@@ -618,6 +622,19 @@
    "pages": [
     "encyclopedia/",
     "origins/peru/"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "subject": "قشر القهوة، وعقد الروبوستا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "pages": [
+    "encyclopedia/",
+    "market/robusta-contract/",
+    "methodology/",
+    "processes/cascara/",
+    "processes/fermentation/"
    ]
   },
   {
