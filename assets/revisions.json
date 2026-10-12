@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
-   "subject": "بيرو والمكسيك: أكبرُ منشأَين كانا غائبَين",
+   "sha": "b919a36c5929325e1b506e8e03595a43dfd7a039",
+   "subject": "ملفُّ بيرو ميت: فبُدِّل بملفٍّ حيٍّ أعطى أكثر — وسقط ادّعاءٌ مني",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b919a36c5929325e1b506e8e03595a43dfd7a039",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -266,10 +266,10 @@
   },
   "origins/peru/": {
    "date": "2026-10-12",
-   "sha": "61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
-   "subject": "بيرو والمكسيك: أكبرُ منشأَين كانا غائبَين",
+   "sha": "b919a36c5929325e1b506e8e03595a43dfd7a039",
+   "subject": "ملفُّ بيرو ميت: فبُدِّل بملفٍّ حيٍّ أعطى أكثر — وسقط ادّعاءٌ مني",
    "url": "origins/peru/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/61bce75fdef3dd5e7ac356a9d0cf247d941e5a2b",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b919a36c5929325e1b506e8e03595a43dfd7a039",
    "approximate": false
   },
   "origins/rwanda/": {
@@ -596,6 +596,16 @@
     "market/world-numbers/",
     "methodology/",
     "science/volatiles/"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "sha": "b919a36c5929325e1b506e8e03595a43dfd7a039",
+   "subject": "ملفُّ بيرو ميت: فبُدِّل بملفٍّ حيٍّ أعطى أكثر — وسقط ادّعاءٌ مني",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b919a36c5929325e1b506e8e03595a43dfd7a039",
+   "pages": [
+    "encyclopedia/",
+    "origins/peru/"
    ]
   },
   {
