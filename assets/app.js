@@ -277,6 +277,10 @@
     ["استدامه", "sustainability"],
     ["توكيد", "assurance"],
     ["حكامه", "governance"],
+    ["ستينوفيلا", "stenophylla"],
+    ["مناخ", "مناخي", "climate"],
+    ["ملاءمه", "suitability"],
+    ["انبعاثات", "emissions"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

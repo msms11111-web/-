@@ -480,6 +480,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
    "approximate": false
   },
+  "science/climate/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "science/degassing/": {
    "date": "2026-10-12",
    "sha": "5c0b29532f93e3a33f10a18235c8a7c31221d264",
@@ -567,6 +573,12 @@
    "url": "species/liberica/",
    "commit": "https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20",
    "approximate": false
+  },
+  "species/stenophylla/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "varieties/caturra/": {
    "date": "2026-10-10",

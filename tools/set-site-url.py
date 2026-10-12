@@ -61,6 +61,8 @@ PAGES = [
     ("origins/peru/", "بيرو"),
     ("processes/cascara/", "قشر القهوة"),
     ("market/instant-coffee/", "القهوة القابلة للذوبان"),
+    ("science/climate/", "القهوة وتغيّر المناخ"),
+    ("species/stenophylla/", "ستينوفيلا"),
     ("market/sustainability-code/", "مدونة الاستدامة المرجعية"),
     ("market/robusta-contract/", "عقد الروبوستا في لندن"),
     ("origins/mexico/", "المكسيك"),
