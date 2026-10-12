@@ -13,7 +13,10 @@
 import importlib.util, sys, urllib.error
 from pathlib import Path
 
-spec = importlib.util.spec_from_file_location("cel", Path("/home/user/-/tools/check-external-links.py"))
+# المسار من موضع هذا الملف لا من مسارٍ مطلق: المطلقُ صحيحٌ في بيئة التحرير
+# وغائبٌ في CI، وقد أسقط الاختبارَ جَرْيةً كاملة بذلك وحده.
+TARGET = Path(__file__).resolve().parent / "check-external-links.py"
+spec = importlib.util.spec_from_file_location("cel", TARGET)
 cel = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(cel)
 cel.RETRY_WAIT = 0  # لا انتظارَ في الاختبار
