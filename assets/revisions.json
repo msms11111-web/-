@@ -298,10 +298,10 @@
   },
   "processes/fermentation/": {
    "date": "2026-10-12",
-   "sha": "5e9d51a64f4b73465c3f0a1416469de68576ea01",
-   "subject": "عقد القهوة الآجل، والتخمير",
+   "sha": "24105ce77685ef98e16cae9edd70e65937ac60b1",
+   "subject": "ملفُّ مركز البحوث ميت: فبُدِّل بوثائقَ حيّةٍ له أعطت أكثر",
    "url": "processes/fermentation/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5e9d51a64f4b73465c3f0a1416469de68576ea01",
+   "commit": "https://github.com/msms11111-web/qatra/commit/24105ce77685ef98e16cae9edd70e65937ac60b1",
    "approximate": false
   },
   "processes/honey/": {
@@ -569,6 +569,15 @@
     "methodology/",
     "science/degassing/",
     "varieties/f1-hybrids/"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "sha": "24105ce77685ef98e16cae9edd70e65937ac60b1",
+   "subject": "ملفُّ مركز البحوث ميت: فبُدِّل بوثائقَ حيّةٍ له أعطت أكثر",
+   "commit": "https://github.com/msms11111-web/qatra/commit/24105ce77685ef98e16cae9edd70e65937ac60b1",
+   "pages": [
+    "processes/fermentation/"
    ]
   },
   {
