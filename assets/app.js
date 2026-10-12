@@ -253,6 +253,13 @@
     ["استهلاك", "consumption"],
     ["انتاج", "production"],
     ["كيس", "bag", "bags"],
+    ["بيرو", "peru", "peruano"],
+    ["المكسيك", "مكسيك", "mexico"],
+    ["تشياباس", "chiapas"],
+    ["فيراكروس", "veracruz"],
+    ["اواخاكا", "oaxaca"],
+    ["كواتيبيك", "coatepec"],
+    ["تسميه", "تسميات", "denominacion", "appellation"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

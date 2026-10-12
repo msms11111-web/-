@@ -248,6 +248,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
   },
+  "origins/mexico/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/panama/": {
    "date": "2026-10-10",
    "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
@@ -255,6 +261,12 @@
    "url": "origins/panama/",
    "commit": "https://github.com/msms11111-web/qatra/commit/0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
    "approximate": false
+  },
+  "origins/peru/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "origins/rwanda/": {
    "date": "2026-10-11",
