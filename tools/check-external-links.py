@@ -49,6 +49,17 @@
 بالقياس على عنوانٍ آخر تخمين. وقد نجح هذا في «-ab2hy» من قبل، وأخفق التخمين
 في كوستاريكا مرتين.
 
+وأخفق فحصٌ كامل برابطٍ لم يَمُت: أعاد سجلُّ التراث العالمي لليونسكو
+
+  whc.unesco.org/en/list/1121/ ← HTTP 503
+
+وكان يستجيب 200 في كل جَرْيةٍ قبلها. و503 معناه أن الخادم عاجزٌ الآن، لا أن
+العنوان ذهب. وعدُّه موتًا يُحوّل عطلًا عارضًا عند جهةٍ أخرى إلى بناءٍ فاشل،
+ويدفع إلى حذف مصدرٍ حيّ — وحذفُ الحيّ أسوأ من إبقاء الميت جَرْيةً واحدة.
+فصارت ردودُ الخادم العاجز (500 و502 و503 و504) تُعامَل معاملةَ الشبكة
+المحجوبة: تُعاد المحاولة مرةً، ثم يُبلَّغ عنها «تعذّر الوصول» ولا يفشل الفحص.
+وهذا هو المبدأُ المكتوب في أول هذا الملف مطبَّقًا على حالةٍ لم تكن ملحوظة.
+
 وأخفق كذلك خبرٌ عند منظمة أبحاث القهوة العالمية:
 
   worldcoffeeresearch.org/news/2024/f1-precommercial ← 404
@@ -67,6 +78,7 @@
 
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -79,6 +91,11 @@ TIMEOUT = 25
 # ردود تعني أن العنوان موجود لكن الخادم يمانع الفحص الآلي
 TOLERATED = {401, 403, 405, 406, 429, 999}
 
+# ردود تعني أن الخادم عاجزٌ الآن، لا أن العنوان ذهب. تُعاد المحاولة ثم تُعَدّ
+# «تعذّر الوصول» لا موتًا — كالشبكة المحجوبة.
+TRANSIENT = {500, 502, 503, 504}
+RETRY_WAIT = 4
+
 
 def probe(url: str, method: str) -> int:
     request = urllib.request.Request(url, method=method, headers={"User-Agent": UA})
@@ -89,7 +106,9 @@ def probe(url: str, method: str) -> int:
 def check(url: str) -> tuple[str, str]:
     """يعيد (الحالة، التفصيل): ok أو tolerated أو dead أو unreachable."""
     last = ""
-    for method in ("HEAD", "GET"):
+    for method in ("HEAD", "GET", "GET"):
+        if method == "GET" and last.startswith("HTTP 5"):
+            time.sleep(RETRY_WAIT)
         try:
             status = probe(url, method)
             return ("ok", str(status))
@@ -97,6 +116,8 @@ def check(url: str) -> tuple[str, str]:
             last = f"HTTP {e.code}"
             if e.code in TOLERATED:
                 return ("tolerated", last)
+            if e.code in TRANSIENT:
+                continue  # يُعاد مرةً، ثم يسقط إلى «تعذّر الوصول»
             if method == "GET":
                 return ("dead", last)
         except urllib.error.URLError as e:
