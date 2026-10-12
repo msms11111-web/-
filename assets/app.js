@@ -244,6 +244,15 @@
     ["مواصفه", "مواصفات", "standard", "standards", "gso"],
     ["لائحه", "regulation"],
     ["تقييس", "standardization"],
+    ["طيار", "طيارة", "volatile", "volatiles"],
+    ["رائحه", "aroma", "odour", "odor"],
+    ["استشمام", "olfactometry", "olfactometric"],
+    ["فورفورال", "furfural"],
+    ["غواياكول", "guaiacol"],
+    ["فورانيول", "furaneol"],
+    ["استهلاك", "consumption"],
+    ["انتاج", "production"],
+    ["كيس", "bag", "bags"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

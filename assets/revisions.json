@@ -160,6 +160,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/08f9ddae4a4f136e7dc0703e1d251586136e9191",
    "approximate": false
   },
+  "market/world-numbers/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "methodology/": {
    "date": "2026-10-12",
    "sha": "401effaa2db78d195e34bb3fa28059b7ca670c20",
@@ -471,6 +477,12 @@
    "url": "science/storage/",
    "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
    "approximate": false
+  },
+  "science/volatiles/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "science/water/": {
    "date": "2026-10-10",

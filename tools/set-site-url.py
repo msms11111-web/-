@@ -57,6 +57,8 @@ PAGES = [
     ("science/degassing/", "إزالة الغاز"),
     ("market/ice-contract/", "عقد القهوة الآجل"),
     ("species/liberica/", "الليبيريكا والإكسيلسا"),
+    ("science/volatiles/", "المركَّبات الطيّارة والرائحة"),
+    ("market/world-numbers/", "أرقام القهوة في العالم"),
     ("saudi-coffee/standards/", "المواصفات الخليجية للقهوة"),
     ("processes/fermentation/", "التخمير"),
     ("varieties/f1-hybrids/", "الهجائن من الجيل الأول"),
