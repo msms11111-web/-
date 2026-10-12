@@ -192,6 +192,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("methodology/", "لماذا لم يُنشر اسمُ «ليبكس» اسمًا للنوع"),
     ],
     "saudi-coffee/standards/": [
+        ("market/instant-coffee/", "المنتجُ المُستثنى من اللائحة، وأين يُطلَب تعريفُه"),
         ("saudi-coffee/", "جناحُ القهوة السعودية الذي تنتسب إليه هذه الوثيقة"),
         ("saudi-coffee/naming/", "قرارُ التسمية، وهو غيرُ اللائحة الفنية في المنتج"),
         ("evaluation/green-grading/", "تصنيفُ الجودة المهني، في مقابل اللائحة الفنية"),
@@ -208,6 +209,22 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("market/eudr/", "تنظيمٌ أوروبيٌّ آخر يمسّ القهوة، وطبيعةُ أدواته"),
         ("market/ico/", "سابقةٌ في التفريق بين المصادقة والنفاذ"),
         ("methodology/", "لماذا لم يُنشر تاريخُ شُرب القشر في مواطنه"),
+    ],
+    "market/instant-coffee/": [
+        ("saudi-coffee/standards/", "اللائحةُ الخليجية التي يخرج هذا المنتج من نطاقها"),
+        ("market/certifications/", "معنًى آخر لتنظيم المنتج: شهادةٌ طوعية لا لائحةُ هوية"),
+        ("market/world-numbers/", "لماذا لم تُنشر نسبتُه من الاستهلاك"),
+        ("science/caffeine/", "لماذا لا يُنشر جدولُ ملغ لكل فنجان"),
+        ("evaluation/", "لماذا لا يُحكَم عليه حسيًّا بلا تحكيمٍ مضبوط"),
+        ("methodology/", "لماذا نُشر أن الهوية مقدارٌ ولم يُنشر المقدار"),
+    ],
+    "market/sustainability-code/": [
+        ("market/certifications/", "الشهاداتُ التي تُقاس على هذه المدونة"),
+        ("market/value-distribution/", "ما لا تَقيسه المسطرة: أثرُ التوزيع في الحقل"),
+        ("market/eudr/", "تنظيمٌ مُلزمٌ في مقابل مدونةٍ طوعيةٍ مرجعية"),
+        ("market/ice-contract/", "وثيقةٌ أخرى تُقرأ بتاريخ نسختها"),
+        ("saudi-coffee/standards/", "الفرقُ بين لائحةٍ فنيةٍ ومدونةٍ مرجعيةٍ طوعية"),
+        ("methodology/", "لماذا لم تُنشر بنودُ المدونة ولا درجاتُ التوكيد"),
     ],
     "market/robusta-contract/": [
         ("market/ice-contract/", "عقدُ الأرابيكا: الفروقُ في الوحدة والحجم وقاعدة المنشأ"),
@@ -426,6 +443,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("methodology/", "لماذا لم يُنشر حدٌّ لنشاط الماء مع اختلاف المعيار"),
     ],
     "market/value-distribution/": [
+        ("market/sustainability-code/", "ما تَقيسه مسطرةُ الاستدامة وما لا تَقيسه"),
         ("market/world-numbers/", "الأرقامُ الكلّية، وحدودُ ما يُستنتج منها"),
         ("market/price/", "الصفحة التي رفضت الجواب عن هذا السؤال وأحالت إليه"),
         ("market/ico/", "الجهة التي تُحال إليها تقاريرُ اتجاه نصيب المنتجين"),
@@ -444,6 +462,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("methodology/", "لماذا لا يُقال إن اتفاق 2022 نافذ ولا إنه لم ينفذ"),
     ],
     "market/eudr/": [
+        ("market/sustainability-code/", "الطوعيُّ المرجعي في مقابل المُلزَم التنظيمي"),
         ("market/ice-contract/", "كيف بلغت اللائحةُ قواعدَ مخزون البورصة"),
         ("market/certifications/", "الفرق بين شهادةٍ تُمنح بإجراء وإلزامٍ قانونيٍّ ببيانات"),
         ("origins/colombia/", "منشأٌ حيازاتُه صغيرة، وشرطُ الإحداثيات أثقلُ عليه"),
@@ -452,6 +471,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("methodology/", "لماذا لم تُنشر تواريخُ التطبيق مع تناقض المصادر"),
     ],
     "market/certifications/": [
+        ("market/sustainability-code/", "المسطرةُ التي تُقاس عليها المخططات نفسُها"),
         ("origins/peru/", "أولُ العالم في الأرابيكا المعتمَدة عضويًّا وعادلًا"),
         ("market/ice-contract/", "معنًى آخر لكلمة «مُصدَّق»: تدريجُ البورصة لا الشهادة"),
         ("market/price/", "الأرضية لا تعمل إلا دون السعر المرجعي، فمعناها معلَّق بموضعه"),
@@ -553,6 +573,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("brewing/espresso/", "طريقة أخرى لا تفصل القهوة عن طحنها بالفلتر وحده"),
     ],
     "science/caffeine/": [
+        ("market/instant-coffee/", "منتجٌ لم يُنشر له رقمُ كافيين، والسببُ مسجَّل"),
         ("processes/cascara/", "كافيينُ نقيع القشر، وتقديرٌ يُقارب القهوة"),
         ("species/canephora/", "النوع الأعلى كافيينًا، وفيه نِسب الحبة الخضراء بمصدرها"),
         ("species/arabica/", "النوع الأقل كافيينًا، وليس الخالي منه"),

@@ -269,6 +269,14 @@
     ["اطنان", "tonne", "tonnes"],
     ["جوت", "jute"],
     ["درجه", "grade", "class"],
+    ["ذوبان", "soluble", "instant"],
+    ["مستخلصات", "extracts"],
+    ["شيكوريا", "chicory"],
+    ["مدونه", "code"],
+    ["تكافؤ", "equivalence"],
+    ["استدامه", "sustainability"],
+    ["توكيد", "assurance"],
+    ["حكامه", "governance"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

@@ -45,5 +45,27 @@ for name, replies, want in CASES:
     bad += 0 if ok else 1
     print(f"  {'✓' if ok else '✗'} {name}: {got} ({detail})")
 
+# وتعليقُ الجَرْية: يُكتب داخل بيئة GitHub وحدها، ولا يُكتب خارجَها
+import os
+
+os.environ.pop("GITHUB_ACTIONS", None)
+quiet = cel.annotate("https://x.invalid/a", "HTTP 404", ["p/index.html"])
+ok = quiet == ""
+bad += 0 if ok else 1
+print(f"  {'✓' if ok else '✗'} خارجَ GitHub: لا تعليق ({quiet!r})")
+
+os.environ["GITHUB_ACTIONS"] = "true"
+line = cel.annotate("https://x.invalid/a", "HTTP 404", ["p/index.html", "q/index.html"])
+ok = (line.startswith("::error title=رابط ميت::")
+      and "https://x.invalid/a" in line
+      and "HTTP 404" in line
+      and "p/index.html, q/index.html" in line
+      and "\n" not in line)
+bad += 0 if ok else 1
+print(f"  {'✓' if ok else '✗'} داخلَ GitHub: سطرُ تعليقٍ واحد")
+if not ok:
+    print(f"      كُتب: {line!r}")
+os.environ.pop("GITHUB_ACTIONS", None)
+
 print("\nفشل:", bad)
 sys.exit(1 if bad else 0)

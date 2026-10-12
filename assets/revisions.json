@@ -144,6 +144,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/c49872fb5218125bcec5b966b2062a3d00090340",
    "approximate": false
   },
+  "market/instant-coffee/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "market/price/": {
    "date": "2026-10-10",
    "sha": "0883c36d5c1a2c175b0a0700a501cf3a7b03e2b0",
@@ -159,6 +165,12 @@
    "url": "market/robusta-contract/",
    "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
    "approximate": false
+  },
+  "market/sustainability-code/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "market/value-distribution/": {
    "date": "2026-10-11",

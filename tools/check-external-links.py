@@ -76,6 +76,7 @@
 فإخفاقُ صفحةِ فهرسةٍ فرصةٌ لاستبدالها بالوثيقة التي كانت تدلّ عليها.
 """
 
+import os
 import re
 import sys
 import time
@@ -127,6 +128,19 @@ def check(url: str) -> tuple[str, str]:
     return ("unreachable", last)
 
 
+def annotate(url: str, detail: str, pages: list[str]) -> str:
+    """سطرُ «أمرِ سَيرِ عمل» يجعل الرابطَ الميت تعليقًا على الجَرْية.
+
+    السببُ عمليّ: سجلُّ الجَرْية يُقرأ من خادمِ ملفّاتٍ لا تبلغه كلُّ الأدوات،
+    أما التعليقاتُ فتُقرأ من واجهة البرمجة. وبلا هذا كان العنوانُ الميت
+    يَظهر في السجلّ وحده، فيُقال في الواجهة «انتهت العملية برمز 1» ولا أكثر.
+    """
+    if not os.environ.get("GITHUB_ACTIONS"):
+        return ""
+    where = ", ".join(pages)
+    return f"::error title=رابط ميت::{url} ({detail}) في {where}"
+
+
 def own_origin() -> str:
     """أصل الموقع نفسه، ليُستثنى: canonical و og:url ليست مصادر خارجية."""
     home = (ROOT / "index.html").read_text(encoding="utf-8")
@@ -161,6 +175,9 @@ def main() -> int:
 
     for url, detail, pages in dead:
         print(f"رابط ميت: {url} ({detail}) في {', '.join(pages)}", file=sys.stderr)
+        line = annotate(url, detail, pages)
+        if line:
+            print(line, flush=True)
 
     if dead:
         return 1
