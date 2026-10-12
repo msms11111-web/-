@@ -237,6 +237,13 @@
     ["بكتين", "pectin"],
     ["خميره", "خمائر", "yeast", "yeasts"],
     ["لبن", "lactic"],
+    ["ليبيريكا", "liberica"],
+    ["اكسيلسا", "excelsa", "dewevrei"],
+    ["ليبيرويديه", "libericoid"],
+    ["كيو", "kew"],
+    ["مواصفه", "مواصفات", "standard", "standards", "gso"],
+    ["لائحه", "regulation"],
+    ["تقييس", "standardization"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

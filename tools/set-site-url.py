@@ -56,6 +56,8 @@ PAGES = [
     ("science/melanoidins/", "الميلانويدينات"),
     ("science/degassing/", "إزالة الغاز"),
     ("market/ice-contract/", "عقد القهوة الآجل"),
+    ("species/liberica/", "الليبيريكا والإكسيلسا"),
+    ("saudi-coffee/standards/", "المواصفات الخليجية للقهوة"),
     ("processes/fermentation/", "التخمير"),
     ("varieties/f1-hybrids/", "الهجائن من الجيل الأول"),
     ("varieties/caturra/", "كاتورا"),
