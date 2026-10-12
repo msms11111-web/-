@@ -229,6 +229,14 @@
     ["كريما", "crema"],
     ["لانغمير", "langmuir"],
     ["طزاجة", "freshness"],
+    ["بورصة", "ice"],
+    ["اجل", "futures"],
+    ["مصدق", "certified"],
+    ["مخزون", "stocks", "stock"],
+    ["تخمير", "fermentation", "fermented"],
+    ["بكتين", "pectin"],
+    ["خميره", "خمائر", "yeast", "yeasts"],
+    ["لبن", "lactic"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

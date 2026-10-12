@@ -128,6 +128,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/c49872fb5218125bcec5b966b2062a3d00090340",
    "approximate": false
   },
+  "market/ice-contract/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "market/ico/": {
    "date": "2026-10-11",
    "sha": "c49872fb5218125bcec5b966b2062a3d00090340",
@@ -287,6 +293,12 @@
    "url": "processes/drying/",
    "commit": "https://github.com/msms11111-web/qatra/commit/a6c60492ac1874db4cf752b72c19e6a55529f818",
    "approximate": false
+  },
+  "processes/fermentation/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "processes/honey/": {
    "date": "2026-10-10",
