@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-12",
-   "sha": "acf71cedfc6ef58875d970c8c84836d3f7022539",
-   "subject": "قشر القهوة، وعقد الروبوستا",
+   "sha": "c2927255a269aa380bd81203fb69e159e3e064cb",
+   "subject": "القابلة للذوبان، ومدونة الاستدامة المرجعية — والرابطُ الميت صار تعليقًا",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/acf71cedfc6ef58875d970c8c84836d3f7022539",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c2927255a269aa380bd81203fb69e159e3e064cb",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -145,10 +145,12 @@
    "approximate": false
   },
   "market/instant-coffee/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "c2927255a269aa380bd81203fb69e159e3e064cb",
+   "subject": "القابلة للذوبان، ومدونة الاستدامة المرجعية — والرابطُ الميت صار تعليقًا",
+   "url": "market/instant-coffee/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c2927255a269aa380bd81203fb69e159e3e064cb",
+   "approximate": false
   },
   "market/price/": {
    "date": "2026-10-10",
@@ -167,10 +169,12 @@
    "approximate": false
   },
   "market/sustainability-code/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-12",
+   "sha": "c2927255a269aa380bd81203fb69e159e3e064cb",
+   "subject": "القابلة للذوبان، ومدونة الاستدامة المرجعية — والرابطُ الميت صار تعليقًا",
+   "url": "market/sustainability-code/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c2927255a269aa380bd81203fb69e159e3e064cb",
+   "approximate": false
   },
   "market/value-distribution/": {
    "date": "2026-10-11",
@@ -614,6 +618,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-12",
+   "sha": "c2927255a269aa380bd81203fb69e159e3e064cb",
+   "subject": "القابلة للذوبان، ومدونة الاستدامة المرجعية — والرابطُ الميت صار تعليقًا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c2927255a269aa380bd81203fb69e159e3e064cb",
+   "pages": [
+    "encyclopedia/",
+    "market/instant-coffee/",
+    "market/sustainability-code/"
+   ]
+  },
   {
    "date": "2026-10-12",
    "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
