@@ -287,6 +287,11 @@
     ["فرقعه", "crack", "cracking"],
     ["موكا", "moka"],
     ["نفاذيه", "permeability"],
+    ["صحه", "صحية", "health"],
+    ["سرطان", "cancer", "carcinogenic"],
+    ["مريء", "esophageal", "oesophageal"],
+    ["مظليه", "umbrella"],
+    ["سببيه", "causation", "causal"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة

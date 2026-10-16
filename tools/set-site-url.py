@@ -64,6 +64,7 @@ PAGES = [
     ("science/climate/", "القهوة وتغيّر المناخ"),
     ("processes/water/", "ماء المعالجة ومياه الصرف"),
     ("roasting/first-crack/", "الفرقعة الأولى"),
+    ("science/health/", "القهوة والصحة"),
     ("species/stenophylla/", "ستينوفيلا"),
     ("market/sustainability-code/", "مدونة الاستدامة المرجعية"),
     ("market/robusta-contract/", "عقد الروبوستا في لندن"),
