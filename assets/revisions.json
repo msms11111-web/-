@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-16",
-   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
-   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
+   "sha": "269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "subject": "القهوة والصحة: أكثرُ ما يُسأل عنه، وأخطرُ ما يُنشر فيه",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
+   "commit": "https://github.com/msms11111-web/qatra/commit/269566ca6dbc1be78d55ef8b15fb39933b5593dc",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -194,10 +194,10 @@
   },
   "methodology/": {
    "date": "2026-10-16",
-   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
-   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
+   "sha": "269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "subject": "القهوة والصحة: أكثرُ ما يُسأل عنه، وأخطرُ ما يُنشر فيه",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
+   "commit": "https://github.com/msms11111-web/qatra/commit/269566ca6dbc1be78d55ef8b15fb39933b5593dc",
    "approximate": false
   },
   "origins/brazil/": {
@@ -529,10 +529,12 @@
    "approximate": false
   },
   "science/health/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-16",
+   "sha": "269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "subject": "القهوة والصحة: أكثرُ ما يُسأل عنه، وأخطرُ ما يُنشر فيه",
+   "url": "science/health/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "approximate": false
   },
   "science/melanoidins/": {
    "date": "2026-10-11",
@@ -666,6 +668,17 @@
     "encyclopedia/",
     "methodology/",
     "roasting/first-crack/"
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "sha": "269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "subject": "القهوة والصحة: أكثرُ ما يُسأل عنه، وأخطرُ ما يُنشر فيه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "science/health/"
    ]
   },
   {
