@@ -9,11 +9,11 @@
    "approximate": false
   },
   "brewing/espresso/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-16",
+   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
+   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
    "url": "brewing/espresso/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
    "approximate": false
   },
   "brewing/french-press/": {
@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-16",
-   "sha": "1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
-   "subject": "ماء المعالجة ومياه الصرف — صفحةٌ واحدة، ورقمٌ كاد يُنشر فسقط",
+   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
+   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -194,10 +194,10 @@
   },
   "methodology/": {
    "date": "2026-10-16",
-   "sha": "1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
-   "subject": "ماء المعالجة ومياه الصرف — صفحةٌ واحدة، ورقمٌ كاد يُنشر فسقط",
+   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
+   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
    "approximate": false
   },
   "origins/brazil/": {
@@ -417,10 +417,12 @@
    "approximate": false
   },
   "roasting/first-crack/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-16",
+   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
+   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
+   "url": "roasting/first-crack/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
+   "approximate": false
   },
   "roasting/": {
    "date": "2026-10-10",
@@ -648,6 +650,18 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-16",
+   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
+   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
+   "pages": [
+    "brewing/espresso/",
+    "encyclopedia/",
+    "methodology/",
+    "roasting/first-crack/"
+   ]
+  },
   {
    "date": "2026-10-16",
    "sha": "1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
