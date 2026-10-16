@@ -281,6 +281,9 @@
     ["مناخ", "مناخي", "climate"],
     ["ملاءمه", "suitability"],
     ["انبعاثات", "emissions"],
+    ["صرف", "wastewater", "effluent"],
+    ["رشيح", "leachate", "leachates"],
+    ["تانك", "tina", "tank"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة
