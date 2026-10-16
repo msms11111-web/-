@@ -65,11 +65,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-12",
-   "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
-   "subject": "المناخ وستينوفيلا: أكبرُ بابٍ كان غائبًا، والنوعُ الذي يُجيبه",
+   "date": "2026-10-16",
+   "sha": "1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "subject": "ماء المعالجة ومياه الصرف — صفحةٌ واحدة، ورقمٌ كاد يُنشر فسقط",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c5633716581a5e77a1d194e49f60e8ce50076133",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -193,11 +193,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-12",
-   "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
-   "subject": "المناخ وستينوفيلا: أكبرُ بابٍ كان غائبًا، والنوعُ الذي يُجيبه",
+   "date": "2026-10-16",
+   "sha": "1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "subject": "ماء المعالجة ومياه الصرف — صفحةٌ واحدة، ورقمٌ كاد يُنشر فسقط",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c5633716581a5e77a1d194e49f60e8ce50076133",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
    "approximate": false
   },
   "origins/brazil/": {
@@ -401,10 +401,12 @@
    "approximate": false
   },
   "processes/water/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-16",
+   "sha": "1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "subject": "ماء المعالجة ومياه الصرف — صفحةٌ واحدة، ورقمٌ كاد يُنشر فسقط",
+   "url": "processes/water/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "approximate": false
   },
   "regions/guji/": {
    "date": "2026-10-08",
@@ -640,6 +642,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-16",
+   "sha": "1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "subject": "ماء المعالجة ومياه الصرف — صفحةٌ واحدة، ورقمٌ كاد يُنشر فسقط",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1ac8e0b2fc363b719b7e7df743afcfdb8c5539e8",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "processes/water/"
+   ]
+  },
   {
    "date": "2026-10-12",
    "sha": "c5633716581a5e77a1d194e49f60e8ce50076133",
