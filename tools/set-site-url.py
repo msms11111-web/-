@@ -65,6 +65,7 @@ PAGES = [
     ("processes/water/", "ماء المعالجة ومياه الصرف"),
     ("roasting/first-crack/", "الفرقعة الأولى"),
     ("science/health/", "القهوة والصحة"),
+    ("history/beginnings/", "بدايات القهوة"),
     ("species/stenophylla/", "ستينوفيلا"),
     ("market/sustainability-code/", "مدونة الاستدامة المرجعية"),
     ("market/robusta-contract/", "عقد الروبوستا في لندن"),
