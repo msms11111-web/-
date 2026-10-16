@@ -284,6 +284,9 @@
     ["صرف", "wastewater", "effluent"],
     ["رشيح", "leachate", "leachates"],
     ["تانك", "tina", "tank"],
+    ["فرقعه", "crack", "cracking"],
+    ["موكا", "moka"],
+    ["نفاذيه", "permeability"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة
