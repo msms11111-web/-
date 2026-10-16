@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-16",
-   "sha": "269566ca6dbc1be78d55ef8b15fb39933b5593dc",
-   "subject": "القهوة والصحة: أكثرُ ما يُسأل عنه، وأخطرُ ما يُنشر فيه",
+   "sha": "c72db604edf21fca05158a69e668bcc09dad1d0c",
+   "subject": "بدايات القهوة: جناحٌ ثامن، وسجلُّ مخطوطةٍ بدل الحكاية",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c72db604edf21fca05158a69e668bcc09dad1d0c",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -105,10 +105,12 @@
    "approximate": false
   },
   "history/beginnings/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-16",
+   "sha": "c72db604edf21fca05158a69e668bcc09dad1d0c",
+   "subject": "بدايات القهوة: جناحٌ ثامن، وسجلُّ مخطوطةٍ بدل الحكاية",
+   "url": "history/beginnings/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c72db604edf21fca05158a69e668bcc09dad1d0c",
+   "approximate": false
   },
   "": {
    "date": "2026-10-08",
@@ -200,10 +202,10 @@
   },
   "methodology/": {
    "date": "2026-10-16",
-   "sha": "269566ca6dbc1be78d55ef8b15fb39933b5593dc",
-   "subject": "القهوة والصحة: أكثرُ ما يُسأل عنه، وأخطرُ ما يُنشر فيه",
+   "sha": "c72db604edf21fca05158a69e668bcc09dad1d0c",
+   "subject": "بدايات القهوة: جناحٌ ثامن، وسجلُّ مخطوطةٍ بدل الحكاية",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/269566ca6dbc1be78d55ef8b15fb39933b5593dc",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c72db604edf21fca05158a69e668bcc09dad1d0c",
    "approximate": false
   },
   "origins/brazil/": {
@@ -664,6 +666,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-16",
+   "sha": "c72db604edf21fca05158a69e668bcc09dad1d0c",
+   "subject": "بدايات القهوة: جناحٌ ثامن، وسجلُّ مخطوطةٍ بدل الحكاية",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c72db604edf21fca05158a69e668bcc09dad1d0c",
+   "pages": [
+    "encyclopedia/",
+    "history/beginnings/",
+    "methodology/"
+   ]
+  },
   {
    "date": "2026-10-16",
    "sha": "5cc811ec519e202baa08791f5480988e46cff805",
