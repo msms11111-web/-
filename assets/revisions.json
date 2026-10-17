@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-17",
-   "sha": "125fcb3a8138d8cc3d658b885551039777499234",
-   "subject": "صفحةُ الأكريلاميد، ولائحةٌ تُصرِّح بأن معيارَي قياسٍ لم يُعتمَدا",
+   "sha": "e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "subject": "جينومٌ كاملٌ للبنّ السعودي، ومفتاحُ وحدةٍ يحلّ نصفَ تعارض الأرقام",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/125fcb3a8138d8cc3d658b885551039777499234",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e0033fea9c4946c9e98e7eacd5042ac5790f6586",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -441,19 +441,19 @@
    "approximate": false
   },
   "saudi-coffee/agriculture/": {
-   "date": "2026-10-11",
-   "sha": "9a1a570d0864bc614e417041f029a13068c44240",
-   "subject": "زراعة البن في السعودية: جدولٌ من جهةٍ حكومية واحدة لا يجمعه حساب",
+   "date": "2026-10-17",
+   "sha": "e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "subject": "جينومٌ كاملٌ للبنّ السعودي، ومفتاحُ وحدةٍ يحلّ نصفَ تعارض الأرقام",
    "url": "saudi-coffee/agriculture/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9a1a570d0864bc614e417041f029a13068c44240",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e0033fea9c4946c9e98e7eacd5042ac5790f6586",
    "approximate": false
   },
   "saudi-coffee/": {
-   "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "date": "2026-10-17",
+   "sha": "e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "subject": "جينومٌ كاملٌ للبنّ السعودي، ومفتاحُ وحدةٍ يحلّ نصفَ تعارض الأرقام",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e0033fea9c4946c9e98e7eacd5042ac5790f6586",
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
@@ -674,6 +674,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-17",
+   "sha": "e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "subject": "جينومٌ كاملٌ للبنّ السعودي، ومفتاحُ وحدةٍ يحلّ نصفَ تعارض الأرقام",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "pages": [
+    "encyclopedia/",
+    "saudi-coffee/",
+    "saudi-coffee/agriculture/"
+   ]
+  },
   {
    "date": "2026-10-17",
    "sha": "c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
