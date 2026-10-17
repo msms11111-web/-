@@ -9,11 +9,11 @@
    "approximate": false
   },
   "brewing/espresso/": {
-   "date": "2026-10-16",
-   "sha": "5cc811ec519e202baa08791f5480988e46cff805",
-   "subject": "الفرقعة الأولى، وقسمُ المَوكا — وصفحةٌ لم تُفرَد قصدًا",
+   "date": "2026-10-17",
+   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
    "url": "brewing/espresso/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5cc811ec519e202baa08791f5480988e46cff805",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
    "approximate": false
   },
   "brewing/french-press/": {
@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-17",
-   "sha": "e0033fea9c4946c9e98e7eacd5042ac5790f6586",
-   "subject": "جينومٌ كاملٌ للبنّ السعودي، ومفتاحُ وحدةٍ يحلّ نصفَ تعارض الأرقام",
+   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -202,10 +202,10 @@
   },
   "methodology/": {
    "date": "2026-10-17",
-   "sha": "125fcb3a8138d8cc3d658b885551039777499234",
-   "subject": "صفحةُ الأكريلاميد، ولائحةٌ تُصرِّح بأن معيارَي قياسٍ لم يُعتمَدا",
+   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/125fcb3a8138d8cc3d658b885551039777499234",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
    "approximate": false
   },
   "origins/brazil/": {
@@ -225,11 +225,11 @@
    "approximate": false
   },
   "origins/costa-rica/": {
-   "date": "2026-10-11",
-   "sha": "e7d93ea1a6c0023a7213f8d2822716e93d426a19",
-   "subject": "تصحيحُ تصحيح: العنوان «المصحَّح» أخفق هو أيضًا، فحُذف المصدر",
+   "date": "2026-10-17",
+   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
    "url": "origins/costa-rica/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e7d93ea1a6c0023a7213f8d2822716e93d426a19",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
    "approximate": false
   },
   "origins/ethiopia/": {
@@ -577,11 +577,11 @@
    "approximate": false
   },
   "science/volatiles/": {
-   "date": "2026-10-12",
-   "sha": "bfe15c8a405a991723ce6020e6c4916cf95b2e98",
-   "subject": "المركَّبات الطيّارة، وأرقام القهوة في العالم",
+   "date": "2026-10-17",
+   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
    "url": "science/volatiles/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/bfe15c8a405a991723ce6020e6c4916cf95b2e98",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
    "approximate": false
   },
   "science/water/": {
@@ -737,6 +737,19 @@
     "science/acrylamide/",
     "science/climate/",
     "science/health/"
+   ]
+  },
+  {
+   "date": "2026-10-17",
+   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "pages": [
+    "brewing/espresso/",
+    "encyclopedia/",
+    "methodology/",
+    "origins/costa-rica/",
+    "science/volatiles/"
    ]
   },
   {
