@@ -304,12 +304,35 @@
     ["كبسوله", "كبسولات", "capsule", "capsules"],
     ["اخماد", "quenching", "quench"],
     ["مميع", "fluidised", "fluidized"],
+    ["كنودسن", "knudsen"],
+    ["سلولوز", "cellulose"],
+    ["بشره", "epidermis"],
   ].map((group) => group.map(normalize));
+
+  // «ال» التعريف في طلب الباحث: الفهرس يحمل «رطوبةٍ نسبيةٍ» منكَّرةً، ومن يكتب
+  // «الرطوبة النسبية» كان لا يجد شيئًا — لأن قاعدة البادئة تسمح للنص أن يحمل
+  // بادئةً لا للطلب. فتُضاف الصيغة المجرَّدة صيغةً مكافئة، ويُشترط بقاءُ ثلاثة
+  // أحرف بعد الحذف كيلا تنقلب الكلمة إلى جذرٍ عامّ. والصيغتان معًا، فلا يَضيع
+  // من كتب «ال» ولا من تركها.
+  const bare = (word) => {
+    const m = /^[وفبكل]{0,2}ال(.{3,})$/.exec(word);
+    return m ? m[1] : null;
+  };
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة
   const expand = (word) => {
     for (const group of ALIASES) if (group.includes(word)) return group;
     return [word];
+  };
+
+  // توسيعٌ احتياطيٌّ لا يُستعمل إلا حين يَخلو البحث من نتيجة: تُضاف الصيغةُ
+  // المجرَّدة من «ال». وجُعل احتياطيًّا لا أصليًّا لأن إضافتَه إلى كل طلبٍ
+  // أزاحت ترتيبَين صحيحين — «الدرجة المختصة» و«العيب الكامل» — حين صارت
+  // «درجة» و«عيب» تُطابقان صفحاتٍ أعمَّ. فالدقّةُ أولًا، والسَّعَةُ عند العجز.
+  const expandBare = (word) => {
+    const group = expand(word);
+    const b = bare(word);
+    return b && !group.includes(b) ? group.concat([b]) : group;
   };
 
   const terms = (s) => normalize(s).split(" ").filter(Boolean);
@@ -491,8 +514,11 @@
     const run = () => {
       const words = terms(input.value);
       if (!words.length) return showBrowse();
-      if (index && panel) renderResults(words.map(expand));
-      else filterCards(words);
+      if (index && panel) {
+        const groups = words.map(expand);
+        const any = index.some((page) => score(page, groups) > 0);
+        renderResults(any ? groups : words.map(expandBare));
+      } else filterCards(words);
     };
 
     const q = new URLSearchParams(location.search).get("q");
