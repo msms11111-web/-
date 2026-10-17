@@ -496,6 +496,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/5f9789348052f2dfad7839ad7b7ae907573b7a52",
    "approximate": false
   },
+  "science/acrylamide/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "science/caffeine/": {
    "date": "2026-10-10",
    "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
