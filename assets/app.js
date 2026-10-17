@@ -298,6 +298,12 @@
     ["مخطوطه", "مخطوطة", "manuscript"],
     ["الجزيري", "jaziri", "jazari"],
     ["بدايات", "بداية", "beginnings"],
+    ["الجزاير", "algeria"],
+    ["الفلبين", "philippines"],
+    ["مخزون", "مخزونات", "stocks"],
+    ["كبسوله", "كبسولات", "capsule", "capsules"],
+    ["اخماد", "quenching", "quench"],
+    ["مميع", "fluidised", "fluidized"],
   ].map((group) => group.map(normalize));
 
   // كل كلمة تتوسع إلى صيغها المكافئة، وتكفي واحدة منها للمطابقة
