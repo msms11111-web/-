@@ -317,6 +317,8 @@
     ["فانيغا", "fanega"],
     ["كابتشينو", "cappuccino"],
     ["لزوجه", "viscosity"],
+    ["برشمان", "pergamino", "parchment"],
+    ["قنطار", "quintal", "quintales"],
   ].map((group) => group.map(normalize));
 
   // «ال» التعريف في طلب الباحث: الفهرس يحمل «رطوبةٍ نسبيةٍ» منكَّرةً، ومن يكتب
