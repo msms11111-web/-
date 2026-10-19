@@ -330,6 +330,12 @@
     ["تجميعي", "meta-analysis", "metaanalysis"],
     ["prisma", "برزما"],
     ["طراز", "genotype"],
+    ["كرز", "cereza", "cherry"],
+    ["بويبلا", "puebla"],
+    ["اواخاكا", "oaxaca"],
+    ["تشياباس", "chiapas"],
+    ["فيراكروس", "veracruz"],
+    ["سوكونوسكو", "soconusco"],
   ].map((group) => group.map(normalize));
 
   // «ال» التعريف في طلب الباحث: الفهرس يحمل «رطوبةٍ نسبيةٍ» منكَّرةً، ومن يكتب
@@ -442,6 +448,9 @@
        «جماعي». ويُقصر هذا على القصير، لأن الطويل يكفي تخصيصًا بنفسه. */
     const TAIL = /^(ا|ه|ي|ن|ت|ات|ان|ين|ون|يه|يا|ها|هم|نا|s)?$/;
 
+    const NUMONLY = /^[0-9\u0660-\u0669]+$/;
+    const NUMSEP = /[,.\u066b\u066c\u060c]/;
+
     const findIn = (hay, w) => {
       let any = false;
       const short = w.length <= 3;
@@ -450,6 +459,13 @@
         let start = i;
         while (start > 0 && WORDCH.test(hay[start - 1])) start--;
         if (!PREFIX.test(hay.slice(start, i))) continue;
+        /* مقطعٌ من عددٍ ليس عددًا: «982» تَرِد في «85,982» وفاصلةُ الآلاف
+           ليست حرفًا، فكان الموضعُ يُحسَب بدايةَ كلمة — وهو بدايةُ مقطعٍ
+           لا بدايةُ رقم. فتصدَّرت المكسيكُ طلبَ «982» على صفحة ماء
+           المعالجة، وفيها «982 لترًا لكل طنّ». فيُرفَض الرقمُ الخالصُ إذا
+           سبقته فاصلةٌ سبقها رقم. وهذا نظيرُ «طن»/«وطنيًّا». */
+        if (NUMONLY.test(w) && i > 1 && NUMSEP.test(hay[i - 1]) &&
+            NUMONLY.test(hay[i - 2])) continue;
         if (short) {
           let end = i + w.length;
           while (end < hay.length && WORDCH.test(hay[end])) end++;
