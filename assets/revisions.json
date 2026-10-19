@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-19",
-   "sha": "61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
-   "subject": "التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه",
+   "sha": "74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
+   "subject": "المكسيك: إحصاؤها بالكرز، ومتوسطُها يُخفي أربعةَ أمثال",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -281,11 +281,11 @@
    "approximate": false
   },
   "origins/mexico/": {
-   "date": "2026-10-17",
-   "sha": "c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
-   "subject": "أربعُ صفحاتٍ بمتونٍ قُرئت، وبحثٌ عربيٌّ يُحرِّك دعوى «أقدمِ نصّ»",
+   "date": "2026-10-19",
+   "sha": "74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
+   "subject": "المكسيك: إحصاؤها بالكرز، ومتوسطُها يُخفي أربعةَ أمثال",
    "url": "origins/mexico/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
+   "commit": "https://github.com/msms11111-web/qatra/commit/74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
    "approximate": false
   },
   "origins/panama/": {
@@ -684,6 +684,16 @@
     "methodology/",
     "origins/indonesia/",
     "processes/drying/"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "sha": "74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
+   "subject": "المكسيك: إحصاؤها بالكرز، ومتوسطُها يُخفي أربعةَ أمثال",
+   "commit": "https://github.com/msms11111-web/qatra/commit/74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
+   "pages": [
+    "encyclopedia/",
+    "origins/mexico/"
    ]
   },
   {
