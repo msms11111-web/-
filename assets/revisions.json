@@ -65,11 +65,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-18",
-   "sha": "12488410dc66ad8e3b51d514b66d910fb1aa3ba1",
-   "subject": "بيرو من مرسومها الرسمي: الهكتار المزروع ليس المحصود، والبرشمان ليس الأخضر",
+   "date": "2026-10-19",
+   "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "subject": "إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/12488410dc66ad8e3b51d514b66d910fb1aa3ba1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -201,11 +201,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-17",
-   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
-   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
+   "date": "2026-10-19",
+   "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "subject": "إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
    "approximate": false
   },
   "origins/brazil/": {
@@ -265,11 +265,11 @@
    "approximate": false
   },
   "origins/indonesia/": {
-   "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "date": "2026-10-19",
+   "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "subject": "إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد",
    "url": "origins/indonesia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
    "approximate": false
   },
   "origins/kenya/": {
@@ -353,11 +353,11 @@
    "approximate": false
   },
   "processes/drying/": {
-   "date": "2026-10-11",
-   "sha": "a6c60492ac1874db4cf752b72c19e6a55529f818",
-   "subject": "رابط مركز البحوث الكولومبي ميت: والبحث عنه أعطى أكثرَ مما كان",
+   "date": "2026-10-19",
+   "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "subject": "إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد",
    "url": "processes/drying/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a6c60492ac1874db4cf752b72c19e6a55529f818",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
    "approximate": false
   },
   "processes/fermentation/": {
@@ -674,6 +674,18 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-19",
+   "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "subject": "إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "origins/indonesia/",
+    "processes/drying/"
+   ]
+  },
   {
    "date": "2026-10-18",
    "sha": "12488410dc66ad8e3b51d514b66d910fb1aa3ba1",
