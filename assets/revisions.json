@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-19",
-   "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
-   "subject": "إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد",
+   "sha": "61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "subject": "التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -202,10 +202,10 @@
   },
   "methodology/": {
    "date": "2026-10-19",
-   "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
-   "subject": "إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد",
+   "sha": "61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "subject": "التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
    "approximate": false
   },
   "origins/brazil/": {
@@ -337,11 +337,11 @@
    "approximate": false
   },
   "processes/anaerobic/": {
-   "date": "2026-10-10",
-   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
-   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "date": "2026-10-19",
+   "sha": "61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "subject": "التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه",
    "url": "processes/anaerobic/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
    "approximate": false
   },
   "processes/cascara/": {
@@ -684,6 +684,17 @@
     "methodology/",
     "origins/indonesia/",
     "processes/drying/"
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "sha": "61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "subject": "التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "processes/anaerobic/"
    ]
   },
   {
