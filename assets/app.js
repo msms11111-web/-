@@ -319,6 +319,14 @@
     ["لزوجه", "viscosity"],
     ["برشمان", "pergamino", "parchment"],
     ["قنطار", "quintal", "quintales"],
+    ["مندهيلينغ", "mandheling"],
+    ["بَراسان", "berasan"],
+    ["اسالان", "asalan"],
+    ["ميدان", "medan"],
+    ["اندونيسيا", "indonesia"],
+    ["غايو", "gayo"],
+    ["توراجا", "toraja"],
+    ["كوبي", "kopi"],
   ].map((group) => group.map(normalize));
 
   // «ال» التعريف في طلب الباحث: الفهرس يحمل «رطوبةٍ نسبيةٍ» منكَّرةً، ومن يكتب
