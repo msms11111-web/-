@@ -327,6 +327,9 @@
     ["غايو", "gayo"],
     ["توراجا", "toraja"],
     ["كوبي", "kopi"],
+    ["تجميعي", "meta-analysis", "metaanalysis"],
+    ["prisma", "برزما"],
+    ["طراز", "genotype"],
   ].map((group) => group.map(normalize));
 
   // «ال» التعريف في طلب الباحث: الفهرس يحمل «رطوبةٍ نسبيةٍ» منكَّرةً، ومن يكتب
