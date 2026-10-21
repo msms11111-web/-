@@ -5,8 +5,9 @@
 <link href="https:///"/>
 <link rel="self" href="https:///feed.xml"/>
 <id>https:///</id>
-<updated>2026-10-21T04:28:12Z</updated>
+<updated>2026-10-21T04:42:35Z</updated>
 <author><name>قطرة</name></author>
+<entry><title>V60: أضعفُ صفحةٍ في الموقع تَصير مُسنَدةً ببحثَين محكَّمَين</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/e44a9ff3779c57815e4001c371806e36f6100b26</id><updated>2026-10-21T00:00:00Z</updated><summary>الصفحات التي تغيّرت: V60، موسوعة القهوة</summary></entry>
 <entry><title>إندونيسيا: الوحدةُ في الطبعة السابقة، والسببُ لم يوجد</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/9b2bf9e0c81e5b727eb76044908e2d2cd5905346</id><updated>2026-10-19T00:00:00Z</updated><summary>الصفحات التي تغيّرت: موسوعة القهوة، منهج قطرة، إندونيسيا، التجفيف</summary></entry>
 <entry><title>المكسيك: إحصاؤها بالكرز، ومتوسطُها يُخفي أربعةَ أمثال</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/74e484f3dc95cda58b7d2a2afb1f22317adf01bb</id><updated>2026-10-19T00:00:00Z</updated><summary>الصفحات التي تغيّرت: موسوعة القهوة، المكسيك</summary></entry>
 <entry><title>التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1</id><updated>2026-10-19T00:00:00Z</updated><summary>الصفحات التي تغيّرت: موسوعة القهوة، منهج قطرة، التخمير اللاهوائي</summary></entry>
@@ -31,5 +32,4 @@
 <entry><title>وثيقةُ اللجنة البريطانية ميتة: فحُذفت وقُلّص صفُّها</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/60dc5b065caa1db987902e6513768e5e409aa62a</id><updated>2026-10-12T00:00:00Z</updated><summary>الصفحات التي تغيّرت: قشر القهوة (الكسكرة)</summary></entry>
 <entry><title>عقد القهوة الآجل، والتخمير</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/5e9d51a64f4b73465c3f0a1416469de68576ea01</id><updated>2026-10-12T00:00:00Z</updated><summary>الصفحات التي تغيّرت: موسوعة القهوة، عقد القهوة الآجل، التخمير</summary></entry>
 <entry><title>هجائن الجيل الأول، وإزالة الغاز</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/5c0b29532f93e3a33f10a18235c8a7c31221d264</id><updated>2026-10-12T00:00:00Z</updated><summary>الصفحات التي تغيّرت: موسوعة القهوة، منهج قطرة، إزالة الغاز، الهجائن من الجيل الأول</summary></entry>
-<entry><title>الليبيريكا والإكسيلسا، والمواصفات الخليجية</title><link href="https:///changelog/"/><id>https://github.com/msms11111-web/qatra/commit/401effaa2db78d195e34bb3fa28059b7ca670c20</id><updated>2026-10-12T00:00:00Z</updated><summary>الصفحات التي تغيّرت: موسوعة القهوة، منهج قطرة، المواصفات الخليجية للقهوة، الليبيريكا والإكسيلسا</summary></entry>
 </feed>

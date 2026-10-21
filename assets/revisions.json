@@ -41,11 +41,11 @@
    "approximate": false
   },
   "brewing/v60/": {
-   "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "date": "2026-10-21",
+   "sha": "e44a9ff3779c57815e4001c371806e36f6100b26",
+   "subject": "V60: أضعفُ صفحةٍ في الموقع تَصير مُسنَدةً ببحثَين محكَّمَين",
    "url": "brewing/v60/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e44a9ff3779c57815e4001c371806e36f6100b26",
    "approximate": false
   },
   "changelog/": {
@@ -65,11 +65,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-19",
-   "sha": "74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
-   "subject": "المكسيك: إحصاؤها بالكرز، ومتوسطُها يُخفي أربعةَ أمثال",
+   "date": "2026-10-21",
+   "sha": "e44a9ff3779c57815e4001c371806e36f6100b26",
+   "subject": "V60: أضعفُ صفحةٍ في الموقع تَصير مُسنَدةً ببحثَين محكَّمَين",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/74e484f3dc95cda58b7d2a2afb1f22317adf01bb",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e44a9ff3779c57815e4001c371806e36f6100b26",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -674,6 +674,16 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-21",
+   "sha": "e44a9ff3779c57815e4001c371806e36f6100b26",
+   "subject": "V60: أضعفُ صفحةٍ في الموقع تَصير مُسنَدةً ببحثَين محكَّمَين",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e44a9ff3779c57815e4001c371806e36f6100b26",
+   "pages": [
+    "brewing/v60/",
+    "encyclopedia/"
+   ]
+  },
   {
    "date": "2026-10-19",
    "sha": "9b2bf9e0c81e5b727eb76044908e2d2cd5905346",
