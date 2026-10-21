@@ -95,7 +95,7 @@ PAGES = [
     ("science/extraction/", "الاستخلاص والتركيز"),
     ("science/storage/", "التخزين"),
     ("science/diseases/", "أمراض البن وآفاته"),
-    ("brewing/v60/", "وصفة V60"),
+    ("brewing/v60/", "V60"),
     ("brewing/espresso/", "الإسبريسو"),
     ("brewing/turkish/", "القهوة التركية"),
     ("methodology/", "منهج قطرة"),
