@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-22",
-   "sha": "5f8ded2067f44c775fa94f68324cbb79b00f7a28",
-   "subject": "كوستاريكا: الروبوستا أُجيزت بشرطٍ لم يَتِمّ، والتقسيمُ القانونيُّ سبعٌ",
+   "sha": "95c700d6f68439a639ab6942c9c253fd48b406ca",
+   "subject": "اليمن: عقدُ الصفحة يُغلَق، واسمُ المخا شهرةُ تدوينٍ لا شهرةُ حجم",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5f8ded2067f44c775fa94f68324cbb79b00f7a28",
+   "commit": "https://github.com/msms11111-web/qatra/commit/95c700d6f68439a639ab6942c9c253fd48b406ca",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -329,11 +329,11 @@
    "approximate": false
   },
   "origins/yemen/": {
-   "date": "2026-10-10",
-   "sha": "8b586748a80ad163f56844c8b628654ec74efb66",
-   "subject": "فحصٌ بنيوي جديد: 92 نصًّا لاتينيًّا بلا lang، و68 خلية بلا نطاق",
+   "date": "2026-10-22",
+   "sha": "95c700d6f68439a639ab6942c9c253fd48b406ca",
+   "subject": "اليمن: عقدُ الصفحة يُغلَق، واسمُ المخا شهرةُ تدوينٍ لا شهرةُ حجم",
    "url": "origins/yemen/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8b586748a80ad163f56844c8b628654ec74efb66",
+   "commit": "https://github.com/msms11111-web/qatra/commit/95c700d6f68439a639ab6942c9c253fd48b406ca",
    "approximate": false
   },
   "processes/anaerobic/": {
@@ -674,6 +674,16 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-22",
+   "sha": "95c700d6f68439a639ab6942c9c253fd48b406ca",
+   "subject": "اليمن: عقدُ الصفحة يُغلَق، واسمُ المخا شهرةُ تدوينٍ لا شهرةُ حجم",
+   "commit": "https://github.com/msms11111-web/qatra/commit/95c700d6f68439a639ab6942c9c253fd48b406ca",
+   "pages": [
+    "encyclopedia/",
+    "origins/yemen/"
+   ]
+  },
   {
    "date": "2026-10-22",
    "sha": "5f8ded2067f44c775fa94f68324cbb79b00f7a28",
