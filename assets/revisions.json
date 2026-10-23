@@ -442,18 +442,18 @@
   },
   "saudi-coffee/agriculture/": {
    "date": "2026-10-23",
-   "sha": "d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
-   "subject": "زراعة البن في السعودية: الوحدةُ سُمِّيت وعُرِّفت، والمناطقُ خمسٌ لا ثلاث",
+   "sha": "384b812dd295c2f11f9c258ab4b08a811728f493",
+   "subject": "سَندُ أرقام البن السعودي: الرقمُ يُسافر والوحدةُ تَسقط في الطريق",
    "url": "saudi-coffee/agriculture/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
+   "commit": "https://github.com/msms11111-web/qatra/commit/384b812dd295c2f11f9c258ab4b08a811728f493",
    "approximate": false
   },
   "saudi-coffee/": {
-   "date": "2026-10-17",
-   "sha": "e0033fea9c4946c9e98e7eacd5042ac5790f6586",
-   "subject": "جينومٌ كاملٌ للبنّ السعودي، ومفتاحُ وحدةٍ يحلّ نصفَ تعارض الأرقام",
+   "date": "2026-10-23",
+   "sha": "384b812dd295c2f11f9c258ab4b08a811728f493",
+   "subject": "سَندُ أرقام البن السعودي: الرقمُ يُسافر والوحدةُ تَسقط في الطريق",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "commit": "https://github.com/msms11111-web/qatra/commit/384b812dd295c2f11f9c258ab4b08a811728f493",
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
@@ -681,6 +681,16 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
    "pages": [
     "encyclopedia/",
+    "saudi-coffee/agriculture/"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "sha": "384b812dd295c2f11f9c258ab4b08a811728f493",
+   "subject": "سَندُ أرقام البن السعودي: الرقمُ يُسافر والوحدةُ تَسقط في الطريق",
+   "commit": "https://github.com/msms11111-web/qatra/commit/384b812dd295c2f11f9c258ab4b08a811728f493",
+   "pages": [
+    "saudi-coffee/",
     "saudi-coffee/agriculture/"
    ]
   },
