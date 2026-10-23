@@ -105,11 +105,11 @@
    "approximate": false
   },
   "history/beginnings/": {
-   "date": "2026-10-17",
-   "sha": "c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
-   "subject": "أربعُ صفحاتٍ بمتونٍ قُرئت، وبحثٌ عربيٌّ يُحرِّك دعوى «أقدمِ نصّ»",
+   "date": "2026-10-23",
+   "sha": "5220f6048f053707d4a3576bae982c4807379d1c",
+   "subject": "بدايات القهوة: بُلغ مقتطفُ دو ساسي، وحُجّةُ التاريخ من داخل الكتاب",
    "url": "history/beginnings/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5220f6048f053707d4a3576bae982c4807379d1c",
    "approximate": false
   },
   "": {
@@ -201,11 +201,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-19",
-   "sha": "61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
-   "subject": "التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه",
+   "date": "2026-10-23",
+   "sha": "5220f6048f053707d4a3576bae982c4807379d1c",
+   "subject": "بدايات القهوة: بُلغ مقتطفُ دو ساسي، وحُجّةُ التاريخ من داخل الكتاب",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5220f6048f053707d4a3576bae982c4807379d1c",
    "approximate": false
   },
   "origins/brazil/": {
@@ -691,6 +691,16 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/9e07417e38fdab3823fb61670ee7d0fee21c9676",
    "pages": [
     "saudi-coffee/agriculture/"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "sha": "5220f6048f053707d4a3576bae982c4807379d1c",
+   "subject": "بدايات القهوة: بُلغ مقتطفُ دو ساسي، وحُجّةُ التاريخ من داخل الكتاب",
+   "commit": "https://github.com/msms11111-web/qatra/commit/5220f6048f053707d4a3576bae982c4807379d1c",
+   "pages": [
+    "history/beginnings/",
+    "methodology/"
    ]
   },
   {
