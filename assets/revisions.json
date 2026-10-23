@@ -65,11 +65,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-22",
-   "sha": "95c700d6f68439a639ab6942c9c253fd48b406ca",
-   "subject": "اليمن: عقدُ الصفحة يُغلَق، واسمُ المخا شهرةُ تدوينٍ لا شهرةُ حجم",
+   "date": "2026-10-23",
+   "sha": "d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
+   "subject": "زراعة البن في السعودية: الوحدةُ سُمِّيت وعُرِّفت، والمناطقُ خمسٌ لا ثلاث",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/95c700d6f68439a639ab6942c9c253fd48b406ca",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -441,11 +441,11 @@
    "approximate": false
   },
   "saudi-coffee/agriculture/": {
-   "date": "2026-10-17",
-   "sha": "e0033fea9c4946c9e98e7eacd5042ac5790f6586",
-   "subject": "جينومٌ كاملٌ للبنّ السعودي، ومفتاحُ وحدةٍ يحلّ نصفَ تعارض الأرقام",
+   "date": "2026-10-23",
+   "sha": "d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
+   "subject": "زراعة البن في السعودية: الوحدةُ سُمِّيت وعُرِّفت، والمناطقُ خمسٌ لا ثلاث",
    "url": "saudi-coffee/agriculture/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e0033fea9c4946c9e98e7eacd5042ac5790f6586",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
    "approximate": false
   },
   "saudi-coffee/": {
@@ -674,6 +674,16 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-23",
+   "sha": "d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
+   "subject": "زراعة البن في السعودية: الوحدةُ سُمِّيت وعُرِّفت، والمناطقُ خمسٌ لا ثلاث",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
+   "pages": [
+    "encyclopedia/",
+    "saudi-coffee/agriculture/"
+   ]
+  },
   {
    "date": "2026-10-22",
    "sha": "95c700d6f68439a639ab6942c9c253fd48b406ca",
