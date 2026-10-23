@@ -215,6 +215,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("varieties/dega/", "مثالٌ آخر على أن الاسمَ النباتي ليس ثابتًا ولا محسومًا"),
         ("processes/", "لماذا يَعِز تعميمُ المعالجة على نوعٍ ثمرتُه مختلفةُ السَماكة"),
         ("evaluation/cva/", "لماذا لم يُنشر وصفٌ حسيٌّ لهذين النوعين"),
+        ("evaluation/fine-robusta/", "المعيارُ الذي بُلغ للروبوستا وحدَها"),
         ("methodology/", "لماذا لم يُنشر اسمُ «ليبكس» اسمًا للنوع"),
     ],
     "saudi-coffee/standards/": [
@@ -346,6 +347,12 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("science/extraction/", "ما يذوب في الكوب من هذه البوليمرات"),
         ("evaluation/flavor-wheel/", "لماذا لا يُنسب طعمٌ إلى مركَّبٍ بعينه"),
         ("methodology/", "لماذا لم تُنشر دعوى حسية ولا صحية عنها"),
+    ],
+    "evaluation/fine-robusta/": [
+        ("species/canephora/", "النوعُ الذي يُحكَّم بهذا النموذج"),
+        ("evaluation/cva/", "معيارُ الأرابيكا — ولا يُقابَل بهذا رقمًا"),
+        ("roasting/first-crack/", "الفرقعةُ الأولى التي «قلَّما تَبلغ ذروةً» في الروبوستا"),
+        ("species/liberica/", "النوعان اللذان بقيا بلا معيارٍ حسيّ"),
     ],
     "evaluation/cva/": [
         ("species/stenophylla/", "مثالٌ على لوحةٍ صغيرةٍ لا تُبنى عليها قاعدة"),

@@ -80,6 +80,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
    "approximate": false
   },
+  "evaluation/fine-robusta/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "evaluation/flavor-wheel/": {
    "date": "2026-10-10",
    "sha": "5f9789348052f2dfad7839ad7b7ae907573b7a52",
