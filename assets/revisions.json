@@ -106,10 +106,10 @@
   },
   "history/beginnings/": {
    "date": "2026-10-23",
-   "sha": "5220f6048f053707d4a3576bae982c4807379d1c",
-   "subject": "بدايات القهوة: بُلغ مقتطفُ دو ساسي، وحُجّةُ التاريخ من داخل الكتاب",
+   "sha": "332d97f13773f9e0108ca643f82da9d5ef72d0a0",
+   "subject": "بدايات القهوة: ثلاثُ نسخٍ وتصويرٌ متاح، والخلافُ يَنحصر في ورقة",
    "url": "history/beginnings/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5220f6048f053707d4a3576bae982c4807379d1c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/332d97f13773f9e0108ca643f82da9d5ef72d0a0",
    "approximate": false
   },
   "": {
@@ -711,6 +711,15 @@
    "pages": [
     "saudi-coffee/",
     "saudi-coffee/agriculture/"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "sha": "332d97f13773f9e0108ca643f82da9d5ef72d0a0",
+   "subject": "بدايات القهوة: ثلاثُ نسخٍ وتصويرٌ متاح، والخلافُ يَنحصر في ورقة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/332d97f13773f9e0108ca643f82da9d5ef72d0a0",
+   "pages": [
+    "history/beginnings/"
    ]
   },
   {
