@@ -54,6 +54,7 @@ PAGES = [
     ("evaluation/cva/", "تقييم قيمة القهوة"),
     ("evaluation/green-grading/", "تصنيف البن الأخضر"),
     ("evaluation/fine-robusta/", "تحكيم الروبوستا الفاخرة"),
+    ("market/rainforest-alliance/", "شهادة رينفورست ألاينس"),
     ("science/melanoidins/", "الميلانويدينات"),
     ("science/degassing/", "إزالة الغاز"),
     ("market/ice-contract/", "عقد القهوة الآجل"),
