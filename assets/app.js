@@ -115,6 +115,7 @@
     ["الدائر", "aldayer"],
     ["فيفاء", "faifa"],
     ["تقشير", "hulling"],
+    ["سند", "lineage", "provenance"],
     ["جما", "jimma", "jma"],
     ["اوروميا", "oromia"],
     ["البرازيل", "برازيل", "brazil", "brasil"],
