@@ -442,10 +442,10 @@
   },
   "saudi-coffee/agriculture/": {
    "date": "2026-10-23",
-   "sha": "384b812dd295c2f11f9c258ab4b08a811728f493",
-   "subject": "سَندُ أرقام البن السعودي: الرقمُ يُسافر والوحدةُ تَسقط في الطريق",
+   "sha": "9e07417e38fdab3823fb61670ee7d0fee21c9676",
+   "subject": "إصلاح: رابطُ التقرير الصحافي كان مقطوعَ المَسار",
    "url": "saudi-coffee/agriculture/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/384b812dd295c2f11f9c258ab4b08a811728f493",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9e07417e38fdab3823fb61670ee7d0fee21c9676",
    "approximate": false
   },
   "saudi-coffee/": {
@@ -681,6 +681,15 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
    "pages": [
     "encyclopedia/",
+    "saudi-coffee/agriculture/"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "sha": "9e07417e38fdab3823fb61670ee7d0fee21c9676",
+   "subject": "إصلاح: رابطُ التقرير الصحافي كان مقطوعَ المَسار",
+   "commit": "https://github.com/msms11111-web/qatra/commit/9e07417e38fdab3823fb61670ee7d0fee21c9676",
+   "pages": [
     "saudi-coffee/agriculture/"
    ]
   },
