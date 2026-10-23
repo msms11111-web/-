@@ -66,25 +66,27 @@
   },
   "encyclopedia/": {
    "date": "2026-10-23",
-   "sha": "d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
-   "subject": "زراعة البن في السعودية: الوحدةُ سُمِّيت وعُرِّفت، والمناطقُ خمسٌ لا ثلاث",
+   "sha": "2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "subject": "صفحةٌ جديدة: تحكيم الروبوستا الفاخرة — ونموذجٌ لا يَسألها أسئلةَ الأرابيكا",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
    "approximate": false
   },
   "evaluation/cva/": {
-   "date": "2026-10-11",
-   "sha": "f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
-   "subject": "تسمية القهوة السعودية، ومنظومة تقييم القيمة",
+   "date": "2026-10-23",
+   "sha": "2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "subject": "صفحةٌ جديدة: تحكيم الروبوستا الفاخرة — ونموذجٌ لا يَسألها أسئلةَ الأرابيكا",
    "url": "evaluation/cva/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f2ee9d7b15b350bec2bbf50a750d3c40026fe614",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
    "approximate": false
   },
   "evaluation/fine-robusta/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-23",
+   "sha": "2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "subject": "صفحةٌ جديدة: تحكيم الروبوستا الفاخرة — ونموذجٌ لا يَسألها أسئلةَ الأرابيكا",
+   "url": "evaluation/fine-robusta/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "approximate": false
   },
   "evaluation/flavor-wheel/": {
    "date": "2026-10-10",
@@ -208,10 +210,10 @@
   },
   "methodology/": {
    "date": "2026-10-23",
-   "sha": "5220f6048f053707d4a3576bae982c4807379d1c",
-   "subject": "بدايات القهوة: بُلغ مقتطفُ دو ساسي، وحُجّةُ التاريخ من داخل الكتاب",
+   "sha": "2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "subject": "صفحةٌ جديدة: تحكيم الروبوستا الفاخرة — ونموذجٌ لا يَسألها أسئلةَ الأرابيكا",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/5220f6048f053707d4a3576bae982c4807379d1c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
    "approximate": false
   },
   "origins/brazil/": {
@@ -726,6 +728,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/332d97f13773f9e0108ca643f82da9d5ef72d0a0",
    "pages": [
     "history/beginnings/"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "sha": "2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "subject": "صفحةٌ جديدة: تحكيم الروبوستا الفاخرة — ونموذجٌ لا يَسألها أسئلةَ الأرابيكا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "pages": [
+    "encyclopedia/",
+    "evaluation/cva/",
+    "evaluation/fine-robusta/",
+    "methodology/"
    ]
   },
   {
