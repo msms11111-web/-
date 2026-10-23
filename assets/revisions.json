@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-23",
-   "sha": "2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
-   "subject": "صفحةٌ جديدة: تحكيم الروبوستا الفاخرة — ونموذجٌ لا يَسألها أسئلةَ الأرابيكا",
+   "sha": "73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "subject": "صفحةٌ جديدة: شهادة رينفورست ألاينس — ودعوى «السعر الأدنى» تُحسَم بنصِّ المؤسسة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "commit": "https://github.com/msms11111-web/qatra/commit/73454328cabcc9d3437aa8d0e7b74f3472124ec2",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -129,11 +129,11 @@
    "approximate": false
   },
   "market/certifications/": {
-   "date": "2026-10-10",
-   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
-   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "date": "2026-10-23",
+   "sha": "73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "subject": "صفحةٌ جديدة: شهادة رينفورست ألاينس — ودعوى «السعر الأدنى» تُحسَم بنصِّ المؤسسة",
    "url": "market/certifications/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/73454328cabcc9d3437aa8d0e7b74f3472124ec2",
    "approximate": false
   },
   "market/eudr/": {
@@ -177,10 +177,12 @@
    "approximate": false
   },
   "market/rainforest-alliance/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-23",
+   "sha": "73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "subject": "صفحةٌ جديدة: شهادة رينفورست ألاينس — ودعوى «السعر الأدنى» تُحسَم بنصِّ المؤسسة",
+   "url": "market/rainforest-alliance/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "approximate": false
   },
   "market/robusta-contract/": {
    "date": "2026-10-12",
@@ -216,10 +218,10 @@
   },
   "methodology/": {
    "date": "2026-10-23",
-   "sha": "2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
-   "subject": "صفحةٌ جديدة: تحكيم الروبوستا الفاخرة — ونموذجٌ لا يَسألها أسئلةَ الأرابيكا",
+   "sha": "73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "subject": "صفحةٌ جديدة: شهادة رينفورست ألاينس — ودعوى «السعر الأدنى» تُحسَم بنصِّ المؤسسة",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/2d75f1289954f2a7a270bdf6ff6fbc2e192f9570",
+   "commit": "https://github.com/msms11111-web/qatra/commit/73454328cabcc9d3437aa8d0e7b74f3472124ec2",
    "approximate": false
   },
   "origins/brazil/": {
@@ -705,6 +707,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/9e07417e38fdab3823fb61670ee7d0fee21c9676",
    "pages": [
     "saudi-coffee/agriculture/"
+   ]
+  },
+  {
+   "date": "2026-10-23",
+   "sha": "73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "subject": "صفحةٌ جديدة: شهادة رينفورست ألاينس — ودعوى «السعر الأدنى» تُحسَم بنصِّ المؤسسة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "pages": [
+    "encyclopedia/",
+    "market/certifications/",
+    "market/rainforest-alliance/",
+    "methodology/"
    ]
   },
   {
