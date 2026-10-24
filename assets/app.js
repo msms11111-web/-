@@ -328,6 +328,8 @@
     ["منزوع", "نزع", "decaf", "decaffeinated", "decaffeination"],
     ["المثيلين", "methylene"],
     ["زوزل", "zosel"],
+    ["ايروبريس", "aeropress"],
+    ["انجيلوني", "angeloni"],
     ["كاسيري", "casiri"],
     ["الاسكوريال", "escurial", "escorial"],
     ["بدايات", "بداية", "beginnings"],

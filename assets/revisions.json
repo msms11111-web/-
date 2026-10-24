@@ -544,6 +544,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/125fcb3a8138d8cc3d658b885551039777499234",
    "approximate": false
   },
+  "science/cup-caffeine/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "science/decaffeination/": {
    "date": "2026-10-24",
    "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
