@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-24",
-   "sha": "c83397788ebf8b4b634abdecc6b47b7370aaa463",
-   "subject": "صفحةٌ جديدة: كافيين الفنجان — والسطرُ الموقوفُ منذ أوّل الموسوعة يُنشَر بمقامه",
+   "sha": "db2e5c3e2d626a2f25516964d1e3441502f277c6",
+   "subject": "إصلاح: بطاقةُ الفهرس كانت تَعِد بكلمةٍ غيَّرتها الصفحة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "commit": "https://github.com/msms11111-web/qatra/commit/db2e5c3e2d626a2f25516964d1e3441502f277c6",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -737,6 +737,15 @@
     "regions/guji/",
     "science/caffeine/",
     "science/decaffeination/"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "sha": "db2e5c3e2d626a2f25516964d1e3441502f277c6",
+   "subject": "إصلاح: بطاقةُ الفهرس كانت تَعِد بكلمةٍ غيَّرتها الصفحة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/db2e5c3e2d626a2f25516964d1e3441502f277c6",
+   "pages": [
+    "encyclopedia/"
    ]
   },
   {
