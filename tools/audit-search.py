@@ -36,7 +36,10 @@ CASES = [
     ("cupping", "التقييم", False),
     ("CVA", "تقييم قيمة", True),
     ("minas", "البرازيل", False),
-    ("decaf", "الكافيين", True),
+    # «decaf» صارت لصفحة نزع الكافيين بحقّ بعد إنشائها، فيُشترَط لصفحة
+    # الكافيين الظهورُ لا التصدُّر. والمطابقةُ تامّةٌ لأن العنوانين
+    # يَتداخلان.
+    ("decaf", "=الكافيين", False),
     ("Brewing Control Chart", "الاستخلاص", True),
     ("natural process", "المجففة", True),
     ("yemen", "اليمن", True),
@@ -483,6 +486,17 @@ CASES = [
     ("ويندلبو", "الموجات الثلاث", True),
     ("إرنا كنوتسن", "الموجات الثلاث", True),
     ("نقابة المحمصين", "الموجات الثلاث", True),
+    # الموجةُ الخامسة والخمسون: صفحةُ نزع الكافيين.
+    ("نزع الكافيين", "=نزع الكافيين", True),
+    ("منزوع الكافيين", "=نزع الكافيين", True),
+    ("decaf", "=نزع الكافيين", True),
+    ("كلوريد المثيلين", "نزع الكافيين", True),
+    ("زوزل", "نزع الكافيين", True),
+    ("250 بار", "نزع الكافيين", True),
+    ("المادة الجافة", "نزع الكافيين", False),
+    ("أسيتات الإثيل", "نزع الكافيين", True),
+    # «الكافيين» مجرَّدةً لصفحته: الجرعةُ وحدودُ الأمان أمُّ الباب.
+    ("الكافيين", "=الكافيين", True),
     ("الضياء", "بدايات القهوة", True),
     ("الحبشي", "بدايات القهوة", True),
     ("مدين القوصوني", "بدايات القهوة", True),
@@ -534,12 +548,21 @@ def main() -> int:
 
         for query, want, first in CASES:
             got = results(pg, query)
-            where = next((i for i, t in enumerate(got) if want in t), -1)
+            # المطابقةُ جزئيةٌ بالأصل، فعنوانٌ يَحمل عنوانًا آخرَ جزءًا منه
+            # يُمرِّر شاهدًا ليس له: «نزع الكافيين» يُطابق طلبَ «الكافيين».
+            # فبادئةُ «=» تَطلب مطابقةً تامّةً للعنوان، وتُستعمل حيث يَتداخل
+            # عنوانان.
+            exact = want.startswith("=")
+            needle = want[1:] if exact else want
+            where = next(
+                (i for i, t in enumerate(got) if (t.strip() == needle if exact else needle in t)),
+                -1,
+            )
             ok = where == 0 if first else where >= 0
             bad += 0 if ok else 1
             rank = "غائبة" if where < 0 else f"المرتبة {where + 1}"
             need = "يتصدّر" if first else "يظهر"
-            print(f"  {'✓' if ok else '✗'} «{query}» ← {need} «{want}» ({rank} من {len(got)})")
+            print(f"  {'✓' if ok else '✗'} «{query}» ← {need} «{needle}» ({rank} من {len(got)})")
             if not ok:
                 print(f"      الترتيب: {got[:5]}")
 

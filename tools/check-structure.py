@@ -193,6 +193,44 @@ def card_promises() -> None:
 
 card_promises()
 
+
+# ١٠) تعشيشُ الوسوم في متون المحتوى.
+#
+# فحصُ التوازن يَعدّ المفتوحَ والمغلق فيَتساويان — ويَمرّ منه «</p>» بلا «<p>»
+# إذا كان في المتن «<p>» آخرُ يَسُدّ العدّ. وُجدت الحالةُ باليد في موضعين،
+# فصارت فحصًا: الإغلاقُ يُطابق آخرَ مفتوحٍ لا أيَّ مفتوح.
+#
+# والفحصُ على content/*.json لا على الصفحة المبنيّة، لأن المتنَ هو ما يُكتَب
+# باليد؛ وتُستثنى الوسومُ الفارغةُ والمغلقةُ على نفسها (رسومُ SVG فيها كثير).
+def nesting():
+    import json
+
+    void = {"br", "img", "hr", "input", "meta", "source", "use", "stop"}
+    for f in sorted((ROOT / "content").glob("*.json")):
+        doc = json.loads(f.read_text(encoding="utf-8"))
+        for s in doc.get("sections", []):
+            stack = []
+            for m in re.finditer(r"<(/?)([a-zA-Z0-9]+)([^>]*)>", s.get("body", "")):
+                closing, tag, rest = m.group(1), m.group(2).lower(), m.group(3)
+                if closing:
+                    if not stack or stack[-1] != tag:
+                        note(
+                            "تعشيشٌ مكسور",
+                            f"{f.name} → {s['id']}",
+                            f"إغلاقُ «{tag}» وآخرُ مفتوحٍ «{stack[-1] if stack else 'لا شيء'}»",
+                        )
+                    if stack:
+                        stack.pop()
+                elif rest.rstrip().endswith("/") or tag in void:
+                    continue
+                else:
+                    stack.append(tag)
+            if stack:
+                note("وسمٌ لم يُغلَق", f"{f.name} → {s['id']}", "، ".join(stack))
+
+
+nesting()
+
 print(f"فُحصت {len(list(ROOT.rglob('*.html')))} صفحة.\n")
 for line in detail:
     print(line)

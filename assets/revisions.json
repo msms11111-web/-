@@ -544,6 +544,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/125fcb3a8138d8cc3d658b885551039777499234",
    "approximate": false
   },
+  "science/decaffeination/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "science/degassing/": {
    "date": "2026-10-17",
    "sha": "c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
