@@ -65,11 +65,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-23",
-   "sha": "73454328cabcc9d3437aa8d0e7b74f3472124ec2",
-   "subject": "صفحةٌ جديدة: شهادة رينفورست ألاينس — ودعوى «السعر الأدنى» تُحسَم بنصِّ المؤسسة",
+   "date": "2026-10-24",
+   "sha": "fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "subject": "صفحةٌ جديدة: الموجات الثلاث — والمقالُ مقروءٌ في موضع نشره لا منقولًا عنه",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fb70b11f4c940efc5391b71e2cd126acad5ae95b",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -121,10 +121,12 @@
    "approximate": false
   },
   "history/three-waves/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-24",
+   "sha": "fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "subject": "صفحةٌ جديدة: الموجات الثلاث — والمقالُ مقروءٌ في موضع نشره لا منقولًا عنه",
+   "url": "history/three-waves/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "approximate": false
   },
   "": {
    "date": "2026-10-08",
@@ -223,11 +225,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-23",
-   "sha": "73454328cabcc9d3437aa8d0e7b74f3472124ec2",
-   "subject": "صفحةٌ جديدة: شهادة رينفورست ألاينس — ودعوى «السعر الأدنى» تُحسَم بنصِّ المؤسسة",
+   "date": "2026-10-24",
+   "sha": "fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "subject": "صفحةٌ جديدة: الموجات الثلاث — والمقالُ مقروءٌ في موضع نشره لا منقولًا عنه",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/73454328cabcc9d3437aa8d0e7b74f3472124ec2",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fb70b11f4c940efc5391b71e2cd126acad5ae95b",
    "approximate": false
   },
   "origins/brazil/": {
@@ -696,6 +698,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-24",
+   "sha": "fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "subject": "صفحةٌ جديدة: الموجات الثلاث — والمقالُ مقروءٌ في موضع نشره لا منقولًا عنه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "pages": [
+    "encyclopedia/",
+    "history/three-waves/",
+    "methodology/"
+   ]
+  },
   {
    "date": "2026-10-23",
    "sha": "d463d59a7bb7ee5f4a3fba2cdb1343cb8bb4bfba",
