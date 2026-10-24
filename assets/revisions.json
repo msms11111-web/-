@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-24",
-   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
-   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
+   "sha": "c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "subject": "صفحةٌ جديدة: كافيين الفنجان — والسطرُ الموقوفُ منذ أوّل الموسوعة يُنشَر بمقامه",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c83397788ebf8b4b634abdecc6b47b7370aaa463",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -226,10 +226,10 @@
   },
   "methodology/": {
    "date": "2026-10-24",
-   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
-   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
+   "sha": "c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "subject": "صفحةٌ جديدة: كافيين الفنجان — والسطرُ الموقوفُ منذ أوّل الموسوعة يُنشَر بمقامه",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c83397788ebf8b4b634abdecc6b47b7370aaa463",
    "approximate": false
   },
   "origins/brazil/": {
@@ -530,10 +530,10 @@
   },
   "science/caffeine/": {
    "date": "2026-10-24",
-   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
-   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
+   "sha": "c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "subject": "صفحةٌ جديدة: كافيين الفنجان — والسطرُ الموقوفُ منذ أوّل الموسوعة يُنشَر بمقامه",
    "url": "science/caffeine/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c83397788ebf8b4b634abdecc6b47b7370aaa463",
    "approximate": false
   },
   "science/climate/": {
@@ -545,10 +545,12 @@
    "approximate": false
   },
   "science/cup-caffeine/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-24",
+   "sha": "c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "subject": "صفحةٌ جديدة: كافيين الفنجان — والسطرُ الموقوفُ منذ أوّل الموسوعة يُنشَر بمقامه",
+   "url": "science/cup-caffeine/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "approximate": false
   },
   "science/decaffeination/": {
    "date": "2026-10-24",
@@ -735,6 +737,18 @@
     "regions/guji/",
     "science/caffeine/",
     "science/decaffeination/"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "sha": "c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "subject": "صفحةٌ جديدة: كافيين الفنجان — والسطرُ الموقوفُ منذ أوّل الموسوعة يُنشَر بمقامه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "science/caffeine/",
+    "science/cup-caffeine/"
    ]
   },
   {
