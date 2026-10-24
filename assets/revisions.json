@@ -226,10 +226,10 @@
   },
   "methodology/": {
    "date": "2026-10-24",
-   "sha": "c83397788ebf8b4b634abdecc6b47b7370aaa463",
-   "subject": "صفحةٌ جديدة: كافيين الفنجان — والسطرُ الموقوفُ منذ أوّل الموسوعة يُنشَر بمقامه",
+   "sha": "8817bcddd8f1db8f62402171202fb8defe8c351a",
+   "subject": "المناخُ في الكوب: قسمان في صفحة المناخ — ومراجعةٌ تَعدّ المقالات فيَظهر الفراغ",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c83397788ebf8b4b634abdecc6b47b7370aaa463",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8817bcddd8f1db8f62402171202fb8defe8c351a",
    "approximate": false
   },
   "origins/brazil/": {
@@ -537,11 +537,11 @@
    "approximate": false
   },
   "science/climate/": {
-   "date": "2026-10-17",
-   "sha": "125fcb3a8138d8cc3d658b885551039777499234",
-   "subject": "صفحةُ الأكريلاميد، ولائحةٌ تُصرِّح بأن معيارَي قياسٍ لم يُعتمَدا",
+   "date": "2026-10-24",
+   "sha": "8817bcddd8f1db8f62402171202fb8defe8c351a",
+   "subject": "المناخُ في الكوب: قسمان في صفحة المناخ — ومراجعةٌ تَعدّ المقالات فيَظهر الفراغ",
    "url": "science/climate/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/125fcb3a8138d8cc3d658b885551039777499234",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8817bcddd8f1db8f62402171202fb8defe8c351a",
    "approximate": false
   },
   "science/cup-caffeine/": {
@@ -758,6 +758,16 @@
     "methodology/",
     "science/caffeine/",
     "science/cup-caffeine/"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "sha": "8817bcddd8f1db8f62402171202fb8defe8c351a",
+   "subject": "المناخُ في الكوب: قسمان في صفحة المناخ — ومراجعةٌ تَعدّ المقالات فيَظهر الفراغ",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8817bcddd8f1db8f62402171202fb8defe8c351a",
+   "pages": [
+    "methodology/",
+    "science/climate/"
    ]
   },
   {
