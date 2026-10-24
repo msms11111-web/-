@@ -9,11 +9,11 @@
    "approximate": false
   },
   "brewing/espresso/": {
-   "date": "2026-10-17",
-   "sha": "0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
-   "subject": "مواصفةُ الإسبريسو من هيئتها، وكوستاريكا من وثائق معهدها",
+   "date": "2026-10-24",
+   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
    "url": "brewing/espresso/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/0e4281b107c5b6e2190beedaf4ff3cfc8956edda",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
    "approximate": false
   },
   "brewing/french-press/": {
@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-24",
-   "sha": "fb70b11f4c940efc5391b71e2cd126acad5ae95b",
-   "subject": "صفحةٌ جديدة: الموجات الثلاث — والمقالُ مقروءٌ في موضع نشره لا منقولًا عنه",
+   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -226,10 +226,10 @@
   },
   "methodology/": {
    "date": "2026-10-24",
-   "sha": "fb70b11f4c940efc5391b71e2cd126acad5ae95b",
-   "subject": "صفحةٌ جديدة: الموجات الثلاث — والمقالُ مقروءٌ في موضع نشره لا منقولًا عنه",
+   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fb70b11f4c940efc5391b71e2cd126acad5ae95b",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
    "approximate": false
   },
   "origins/brazil/": {
@@ -441,11 +441,11 @@
    "approximate": false
   },
   "regions/guji/": {
-   "date": "2026-10-08",
-   "sha": "910126d36d6b3a6258d1a5137909ffac22ac5868",
-   "subject": "أجنحة الموسوعة في الصفحة الرئيسية، وقوجي تُسجّل عجزها",
+   "date": "2026-10-24",
+   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
    "url": "regions/guji/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/910126d36d6b3a6258d1a5137909ffac22ac5868",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
    "approximate": false
   },
   "roasting/first-crack/": {
@@ -529,11 +529,11 @@
    "approximate": false
   },
   "science/caffeine/": {
-   "date": "2026-10-10",
-   "sha": "8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
-   "subject": "الشهادات وعجلة النكهات، وفحصٌ يكشف 43 وعدًا لا يسنده نصّ",
+   "date": "2026-10-24",
+   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
    "url": "science/caffeine/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8bab445d9a8e7dee34ec47d1e5e24362d9e9a54c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
    "approximate": false
   },
   "science/climate/": {
@@ -545,10 +545,12 @@
    "approximate": false
   },
   "science/decaffeination/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-24",
+   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
+   "url": "science/decaffeination/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "approximate": false
   },
   "science/degassing/": {
    "date": "2026-10-17",
@@ -713,6 +715,20 @@
     "encyclopedia/",
     "history/three-waves/",
     "methodology/"
+   ]
+  },
+  {
+   "date": "2026-10-24",
+   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "pages": [
+    "brewing/espresso/",
+    "encyclopedia/",
+    "methodology/",
+    "regions/guji/",
+    "science/caffeine/",
+    "science/decaffeination/"
    ]
   },
   {
