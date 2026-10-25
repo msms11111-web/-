@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-25",
-   "sha": "e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
-   "subject": "ضغطُ المَوكا: مرسومٌ لا مكتوب — وحدٌّ أدنى محسوبٌ من جدول الحرارة",
+   "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "subject": "ميكانيكا الفرقعة: ما يُكتَب في الآلية ومن أين جاء — والصوتُ مقيسًا",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -226,10 +226,10 @@
   },
   "methodology/": {
    "date": "2026-10-25",
-   "sha": "e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
-   "subject": "ضغطُ المَوكا: مرسومٌ لا مكتوب — وحدٌّ أدنى محسوبٌ من جدول الحرارة",
+   "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "subject": "ميكانيكا الفرقعة: ما يُكتَب في الآلية ومن أين جاء — والصوتُ مقيسًا",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
    "approximate": false
   },
   "origins/brazil/": {
@@ -449,11 +449,11 @@
    "approximate": false
   },
   "roasting/first-crack/": {
-   "date": "2026-10-17",
-   "sha": "357f4ae940cc8ec6a1e927d644e64cc417cb84b5",
-   "subject": "ثلاثُ صفحاتٍ تُرفَع إلى «موثق» بقراءة متونها",
+   "date": "2026-10-25",
+   "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "subject": "ميكانيكا الفرقعة: ما يُكتَب في الآلية ومن أين جاء — والصوتُ مقيسًا",
    "url": "roasting/first-crack/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/357f4ae940cc8ec6a1e927d644e64cc417cb84b5",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
    "approximate": false
   },
   "roasting/": {
@@ -714,6 +714,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-25",
+   "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "subject": "ميكانيكا الفرقعة: ما يُكتَب في الآلية ومن أين جاء — والصوتُ مقيسًا",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "roasting/first-crack/"
+   ]
+  },
   {
    "date": "2026-10-25",
    "sha": "f8c74eca6c351c2a0829b3cbb16248dde197b80d",
