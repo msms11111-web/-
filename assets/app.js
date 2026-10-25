@@ -258,6 +258,8 @@
     ["فورفورال", "furfural"],
     ["غواياكول", "guaiacol"],
     ["فورانيول", "furaneol"],
+    ["ثيول", "ثيولات", "thiol", "thiols"],
+    ["داماسينون", "damascenone"],
     ["استهلاك", "consumption"],
     ["انتاج", "production"],
     ["كيس", "bag", "bags"],
