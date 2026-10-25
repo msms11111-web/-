@@ -231,6 +231,34 @@ def nesting():
 
 nesting()
 
+
+# ١١) مجموعاتُ مرادفاتٍ تَتشارك كلمة.
+#
+# المحرِّكُ يأخذ أولَ مجموعةٍ تَحمل الكلمة ويُهمل ما بعدها، فمجموعةٌ ثانيةٌ
+# فيها الكلمةُ نفسُها تُسقِط مرادفاتِها الزائدة صامتةً: «كوستاريكا» كانت
+# تَجد مجموعةً فيها costa وحدَها، فلا تَبلغها rica من مجموعةٍ أخرى. وُجدت
+# ثلاثَ عشرةَ مجموعةً مكرَّرةً باليد، فصارت فحصًا.
+def alias_overlap():
+    groups = aliases()
+    seen = {}
+    for i, g in enumerate(groups):
+        for w in g:
+            if seen.get(w) == i:
+                # الكلمةُ مرّتين في مجموعتها: صيغتان تَنطبعان واحدة
+                note("مرادفٌ مكرَّرٌ في مجموعته", "assets/app.js",
+                     f"«{w}» في «{'، '.join(g)}»")
+            elif w in seen:
+                note(
+                    "مرادفٌ في مجموعتين",
+                    "assets/app.js",
+                    f"«{w}» في «{'، '.join(groups[seen[w]])}» و«{'، '.join(g)}»",
+                )
+            else:
+                seen[w] = i
+
+
+alias_overlap()
+
 print(f"فُحصت {len(list(ROOT.rglob('*.html')))} صفحة.\n")
 for line in detail:
     print(line)
