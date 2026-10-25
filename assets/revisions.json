@@ -225,11 +225,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-24",
-   "sha": "8817bcddd8f1db8f62402171202fb8defe8c351a",
-   "subject": "المناخُ في الكوب: قسمان في صفحة المناخ — ومراجعةٌ تَعدّ المقالات فيَظهر الفراغ",
+   "date": "2026-10-25",
+   "sha": "e9eb0e0af2edd51cbf5988bc4ebdd72da2cbe6f4",
+   "subject": "أيامُ الراحة: قياسان مقروءان في صفحة إزالة الغاز — ومنشأُ دعوى الثمانية أيام",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/8817bcddd8f1db8f62402171202fb8defe8c351a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e9eb0e0af2edd51cbf5988bc4ebdd72da2cbe6f4",
    "approximate": false
   },
   "origins/brazil/": {
@@ -561,11 +561,11 @@
    "approximate": false
   },
   "science/degassing/": {
-   "date": "2026-10-17",
-   "sha": "c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
-   "subject": "أربعُ صفحاتٍ بمتونٍ قُرئت، وبحثٌ عربيٌّ يُحرِّك دعوى «أقدمِ نصّ»",
+   "date": "2026-10-25",
+   "sha": "e9eb0e0af2edd51cbf5988bc4ebdd72da2cbe6f4",
+   "subject": "أيامُ الراحة: قياسان مقروءان في صفحة إزالة الغاز — ومنشأُ دعوى الثمانية أيام",
    "url": "science/degassing/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c82c0bf6163c46a6be8948449c58c3a4a6ac6e29",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e9eb0e0af2edd51cbf5988bc4ebdd72da2cbe6f4",
    "approximate": false
   },
   "science/diseases/": {
@@ -714,6 +714,16 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-25",
+   "sha": "e9eb0e0af2edd51cbf5988bc4ebdd72da2cbe6f4",
+   "subject": "أيامُ الراحة: قياسان مقروءان في صفحة إزالة الغاز — ومنشأُ دعوى الثمانية أيام",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e9eb0e0af2edd51cbf5988bc4ebdd72da2cbe6f4",
+   "pages": [
+    "methodology/",
+    "science/degassing/"
+   ]
+  },
   {
    "date": "2026-10-24",
    "sha": "fb70b11f4c940efc5391b71e2cd126acad5ae95b",
