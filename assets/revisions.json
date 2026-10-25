@@ -9,11 +9,11 @@
    "approximate": false
   },
   "brewing/espresso/": {
-   "date": "2026-10-24",
-   "sha": "e5d209adf96f3a1122f3394c11ba0cc834c502af",
-   "subject": "صفحةٌ جديدة: نزع الكافيين — وأربعةُ نصوصٍ تنظيميةٍ بوحداتها، وإحالةٌ ميّتة",
+   "date": "2026-10-25",
+   "sha": "e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
+   "subject": "ضغطُ المَوكا: مرسومٌ لا مكتوب — وحدٌّ أدنى محسوبٌ من جدول الحرارة",
    "url": "brewing/espresso/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e5d209adf96f3a1122f3394c11ba0cc834c502af",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
    "approximate": false
   },
   "brewing/french-press/": {
@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-25",
-   "sha": "f8c74eca6c351c2a0829b3cbb16248dde197b80d",
-   "subject": "الأوصافُ الشمّيّة والقيمُ المقيسة في صفحة المركَّبات الطيّارة — وتصحيحُ رقمٍ نُقل من ملخَّص",
+   "sha": "e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
+   "subject": "ضغطُ المَوكا: مرسومٌ لا مكتوب — وحدٌّ أدنى محسوبٌ من جدول الحرارة",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f8c74eca6c351c2a0829b3cbb16248dde197b80d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -226,10 +226,10 @@
   },
   "methodology/": {
    "date": "2026-10-25",
-   "sha": "f8c74eca6c351c2a0829b3cbb16248dde197b80d",
-   "subject": "الأوصافُ الشمّيّة والقيمُ المقيسة في صفحة المركَّبات الطيّارة — وتصحيحُ رقمٍ نُقل من ملخَّص",
+   "sha": "e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
+   "subject": "ضغطُ المَوكا: مرسومٌ لا مكتوب — وحدٌّ أدنى محسوبٌ من جدول الحرارة",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f8c74eca6c351c2a0829b3cbb16248dde197b80d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
    "approximate": false
   },
   "origins/brazil/": {
@@ -723,6 +723,17 @@
     "encyclopedia/",
     "methodology/",
     "science/volatiles/"
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "sha": "e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
+   "subject": "ضغطُ المَوكا: مرسومٌ لا مكتوب — وحدٌّ أدنى محسوبٌ من جدول الحرارة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e9ef81d0a99979cb93ba40a22a53db0c3e40f912",
+   "pages": [
+    "brewing/espresso/",
+    "encyclopedia/",
+    "methodology/"
    ]
   },
   {
