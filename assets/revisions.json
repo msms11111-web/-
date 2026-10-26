@@ -458,10 +458,10 @@
   },
   "roasting/": {
    "date": "2026-10-26",
-   "sha": "08df89bd2d29776efe64a460292c64087159b035",
-   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
+   "sha": "b0b2b7d4a00909c01431795359f21324a0ef110d",
+   "subject": "إصلاحُ إحالةٍ ماتت بعد الدفع: مقالُ الرابطة نُقل إلى بوابة أعضائها",
    "url": "roasting/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b0b2b7d4a00909c01431795359f21324a0ef110d",
    "approximate": false
   },
   "saudi-coffee/agriculture/": {
@@ -714,6 +714,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-26",
+   "sha": "b0b2b7d4a00909c01431795359f21324a0ef110d",
+   "subject": "إصلاحُ إحالةٍ ماتت بعد الدفع: مقالُ الرابطة نُقل إلى بوابة أعضائها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b0b2b7d4a00909c01431795359f21324a0ef110d",
+   "pages": [
+    "roasting/"
+   ]
+  },
   {
    "date": "2026-10-26",
    "sha": "08df89bd2d29776efe64a460292c64087159b035",
