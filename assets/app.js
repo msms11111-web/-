@@ -349,6 +349,7 @@
     ["كابتشينو", "cappuccino"],
     ["لزوجه", "viscosity"],
     ["برشمان", "pergamino", "parchment"],
+    ["بيكولسوب", "becolsub"],
     ["قنطار", "quintal", "quintales"],
     ["مندهيلينغ", "mandheling"],
     ["بَراسان", "berasan"],
