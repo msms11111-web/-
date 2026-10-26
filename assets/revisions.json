@@ -66,10 +66,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-26",
-   "sha": "08df89bd2d29776efe64a460292c64087159b035",
-   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
+   "sha": "7a81eb8d4a416087d2a6b90854b89041f310c4a8",
+   "subject": "أثرُ اللاهوائية وحدَها: مقارنةٌ مباشرةٌ بقهوةٍ واحدة — ونتيجةٌ سالبةٌ في الفنجان",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7a81eb8d4a416087d2a6b90854b89041f310c4a8",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -226,10 +226,10 @@
   },
   "methodology/": {
    "date": "2026-10-26",
-   "sha": "08df89bd2d29776efe64a460292c64087159b035",
-   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
+   "sha": "7a81eb8d4a416087d2a6b90854b89041f310c4a8",
+   "subject": "أثرُ اللاهوائية وحدَها: مقارنةٌ مباشرةٌ بقهوةٍ واحدة — ونتيجةٌ سالبةٌ في الفنجان",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7a81eb8d4a416087d2a6b90854b89041f310c4a8",
    "approximate": false
   },
   "origins/brazil/": {
@@ -361,11 +361,11 @@
    "approximate": false
   },
   "processes/anaerobic/": {
-   "date": "2026-10-19",
-   "sha": "61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
-   "subject": "التخمير اللاهوائي: الأثرُ صار مقيسًا، فظهر صِغَرُه",
+   "date": "2026-10-26",
+   "sha": "7a81eb8d4a416087d2a6b90854b89041f310c4a8",
+   "subject": "أثرُ اللاهوائية وحدَها: مقارنةٌ مباشرةٌ بقهوةٍ واحدة — ونتيجةٌ سالبةٌ في الفنجان",
    "url": "processes/anaerobic/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/61dca959fdabd6dd3b8d4c2ae34496907babd0a1",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7a81eb8d4a416087d2a6b90854b89041f310c4a8",
    "approximate": false
   },
   "processes/cascara/": {
@@ -721,6 +721,17 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/b0b2b7d4a00909c01431795359f21324a0ef110d",
    "pages": [
     "roasting/"
+   ]
+  },
+  {
+   "date": "2026-10-26",
+   "sha": "7a81eb8d4a416087d2a6b90854b89041f310c4a8",
+   "subject": "أثرُ اللاهوائية وحدَها: مقارنةٌ مباشرةٌ بقهوةٍ واحدة — ونتيجةٌ سالبةٌ في الفنجان",
+   "commit": "https://github.com/msms11111-web/qatra/commit/7a81eb8d4a416087d2a6b90854b89041f310c4a8",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "processes/anaerobic/"
    ]
   },
   {
