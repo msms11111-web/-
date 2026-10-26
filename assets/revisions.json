@@ -65,11 +65,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-25",
-   "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
-   "subject": "ميكانيكا الفرقعة: ما يُكتَب في الآلية ومن أين جاء — والصوتُ مقيسًا",
+   "date": "2026-10-26",
+   "sha": "08df89bd2d29776efe64a460292c64087159b035",
+   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -225,11 +225,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-25",
-   "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
-   "subject": "ميكانيكا الفرقعة: ما يُكتَب في الآلية ومن أين جاء — والصوتُ مقيسًا",
+   "date": "2026-10-26",
+   "sha": "08df89bd2d29776efe64a460292c64087159b035",
+   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
    "approximate": false
   },
   "origins/brazil/": {
@@ -449,19 +449,19 @@
    "approximate": false
   },
   "roasting/first-crack/": {
-   "date": "2026-10-25",
-   "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
-   "subject": "ميكانيكا الفرقعة: ما يُكتَب في الآلية ومن أين جاء — والصوتُ مقيسًا",
+   "date": "2026-10-26",
+   "sha": "08df89bd2d29776efe64a460292c64087159b035",
+   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
    "url": "roasting/first-crack/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
    "approximate": false
   },
   "roasting/": {
-   "date": "2026-10-10",
-   "sha": "a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
-   "subject": "فيتنام وكاتورا وهجين تيمور: ثلاث صفحات تسدّ ثلاثًا وثلاثين إحالة معلّقة",
+   "date": "2026-10-26",
+   "sha": "08df89bd2d29776efe64a460292c64087159b035",
+   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
    "url": "roasting/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/a2d4e1017a0356fd1e2724d918ab8c75197b72b0",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
    "approximate": false
   },
   "saudi-coffee/agriculture/": {
@@ -714,6 +714,18 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-26",
+   "sha": "08df89bd2d29776efe64a460292c64087159b035",
+   "subject": "قياسُ درجة التحميص: لا معيارَ متّفقٌ عليه بنصِّ الرابطة — ومنحنًى واحدٌ للون، والحبُّ غيرُ المطحون",
+   "commit": "https://github.com/msms11111-web/qatra/commit/08df89bd2d29776efe64a460292c64087159b035",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "roasting/",
+    "roasting/first-crack/"
+   ]
+  },
   {
    "date": "2026-10-25",
    "sha": "f8e23528cd6b0f81b447dba4bccbfd34469ba8eb",
