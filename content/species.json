@@ -1,0 +1,67 @@
+{
+ "slug": "species",
+ "path": "species",
+ "title": "الأنواع والسلالات",
+ "description": "أنواعُ القهوة الأربعة في قطرة، وشجرةُ السلالات من الأرابيكا إلى تيبيكا وبوربون وهجين تيمور والهجائن — مَن خرج من مَن، بروابطها.",
+ "lead": "كلمةُ «السلالة» على الكيس قد تَعني نوعًا أو عائلةً أو نباتًا أو اسمًا محليًّا. وهذه الشجرةُ تُفرّق بينها، من صفحات الموسوعة نفسِها.",
+ "status": {
+  "kind": "ok",
+  "label": "موثق"
+ },
+ "crumbs": [
+  {
+   "label": "الرئيسية",
+   "href": "../index.html"
+  },
+  {
+   "label": "الموسوعة",
+   "href": "../encyclopedia/"
+  }
+ ],
+ "crumb_current": "الأنواع والسلالات",
+ "sections": [
+  {
+   "id": "words",
+   "heading": "الفرقُ بين النوع والمجموعة والسلالة والاسم المحلي",
+   "nav": "أربع كلمات",
+   "body": "<p>على كيس القهوة كلمةٌ واحدةٌ في خانة «السلالة»، وهي قد تَعني أربعةَ أشياءَ لا تتساوى:</p><div class=\"scroll-x\"><table><thead><tr><th scope=\"col\">الكلمة</th><th scope=\"col\">ما تعنيه</th><th scope=\"col\">مثالُها</th></tr></thead><tbody><tr><th scope=\"row\">النوع</th><td>الوحدةُ في التصنيف النباتي، باسمٍ لاتينيٍّ من جزأين</td><td><a href=\"arabica/\">الأرابيكا</a>، <a href=\"canephora/\">الروبوستا</a></td></tr><tr><th scope=\"row\">المجموعة</th><td>عائلةُ سلالاتٍ يجمعها نسبٌ متشابه</td><td><a href=\"../varieties/typica-bourbon/\">بوربون</a>، <a href=\"../varieties/timor-catimor/\">كاتيمور</a></td></tr><tr><th scope=\"row\">السلالة</th><td>نباتٌ مُنتخَبٌ بصفاتٍ تُعرف وتُكثَّر</td><td><a href=\"../varieties/caturra/\">كاتورا</a>، <a href=\"../varieties/geisha/\">جيشا</a></td></tr><tr><th scope=\"row\">الاسمُ المحلي</th><td>ما يُسمّي به المزارعون أشجارَهم — وقد لا يَدلّ على وراثة</td><td><a href=\"../varieties/dega/\">ديجا</a></td></tr></tbody></table></div><p><strong>فقولُك «هذه كاتيمور» يُحدّد العائلةَ لا السلالة</strong>، وقولُك «ديجا» يُحدّد اسمًا لا نباتًا. ولذلك لا يُثبت الاسمُ على الكيس هويةً وراثية — وقد قِيس الفارقُ في <a href=\"../varieties/geisha/\">جيشا</a> فوُجد كبيرًا.</p>"
+  },
+  {
+   "id": "species",
+   "heading": "الأنواع: أربعةُ أبواب",
+   "nav": "الأنواع",
+   "body": "<ul><li><a href=\"arabica/\"><strong>الأرابيكا</strong></a> — نوعٌ نشأ من تهجين نوعين، فضاقت قاعدةُ تنوّعه من أصلها. ومنه أكثرُ القهوة المختصّة.</li><li><a href=\"canephora/\"><strong>الروبوستا</strong></a> — اسمُ مجموعةِ أصنافٍ في <span dir=\"ltr\" lang=\"la\">Coffea canephora</span>، وأحدُ أبوَي الأرابيكا، ومصدرُ مقاومة الصدأ فيها.</li><li><a href=\"liberica/\"><strong>الليبيريكا والإكسيلسا</strong></a> — النوعُ الثالثُ في التجارة، وقد قسّمه بحثٌ جينوميٌّ ثلاثةَ أنواعٍ سنة 2025.</li><li><a href=\"stenophylla/\"><strong>ستينوفيلا</strong></a> — نوعٌ أُهمل قرنًا، ويحتمل حرارةً أعلى من الأرابيكا بنحو ستّ درجات.</li></ul>"
+  },
+  {
+   "id": "tree",
+   "heading": "شجرةُ السلالات: مَن خرج من مَن",
+   "nav": "شجرة السلالات",
+   "body": "<p>هذه الشجرةُ مبنيّةٌ من صفحات الموسوعة نفسِها: <strong>كلُّ فرعٍ فيها مذكورٌ في صفحته بمصدره</strong>، وكلُّ اسمٍ فيها رابطٌ إلى موضعه. والصناديقُ الخضراءُ مفاصلُ الشجرة، والمتقطِّعُ اسمٌ لم يثبت.</p><ul class=\"lineage\"><li><span class=\"node key\"><a href=\"../species/arabica/\">الأرابيكا</a><small>تهجينٌ طبيعيٌّ بين الروبوستا و<span dir=\"ltr\" lang=\"la\">C. eugenioides</span>، وقع مرّةً واحدة</small></span><ul><li><span class=\"node\"><a href=\"../origins/ethiopia/\">التنوّعُ الإثيوبي</a><small>السلالاتُ المحلية في موطن النوع</small></span><ul><li><span class=\"node\"><a href=\"../varieties/geisha/\">جيشا</a><small>جُمعت في الثلاثينيات، واشتهرت في بنما</small></span></li><li><span class=\"node\"><a href=\"../varieties/f1-hybrids/#centroamericano\">روميه سودان</a><small>سلالةٌ محليةٌ إثيوبية، أحدُ أبوَي سنتروأمريكانو</small></span></li><li><span class=\"node open\"><a href=\"../varieties/dega/\">ديجا</a><small>اسمٌ محليٌّ لم يثبت وراثيًّا</small></span></li></ul></li><li><span class=\"node\"><a href=\"../varieties/typica-bourbon/\">تيبيكا وبوربون</a><small>مجموعتان خرجتا عبر اليمن بعنق زجاجة</small></span><ul><li><span class=\"node\"><b>مجموعة بوربون</b></span><ul><li><span class=\"node\"><a href=\"../varieties/caturra/\">كاتورا</a><small>طفرةٌ قصّرت الشجرة — البرازيل، 1915–1918</small></span></li><li><span class=\"node\"><a href=\"../varieties/typica-bourbon/#descendants\">SL28</a><small>انتُخبت في كينيا في الثلاثينيات</small></span></li><li><span class=\"node\"><a href=\"../origins/india/#yemen\">كِنت وكورج</a><small>سلالتا الهند القديمتان</small></span></li></ul></li><li><span class=\"node\"><b>مجموعة تيبيكا</b></span><ul><li><span class=\"node\"><a href=\"../varieties/typica-bourbon/#group\">SL34</a><small>تنتمي إلى المجموعة، وليست سلالةَ تيبيكا</small></span></li></ul></li></ul></li><li><span class=\"node key\"><a href=\"../varieties/timor-catimor/\">هجين تيمور</a><small>تهجينٌ طبيعيٌّ بالروبوستا في العشرينيات — منه مقاومةُ الصدأ</small></span><ul><li><span class=\"node\"><a href=\"../varieties/timor-catimor/#groups\">كاتيمور</a><small>هجين تيمور × كاتورا — عائلةٌ لا سلالة</small></span><ul><li><span class=\"node\"><a href=\"../origins/colombia/#varieties\">كاستيو</a><small>كولومبيا، 2005</small></span></li><li><span class=\"node\"><a href=\"../origins/honduras/#lempira\">ليمبيرا</a><small>هندوراس — سقطت مقاومتُها 2017</small></span></li><li><span class=\"node\"><a href=\"../origins/costa-rica/#varieties\">كوستاريكا 95</a><small>انتُخبت في CATIE</small></span></li><li><span class=\"node\"><a href=\"../varieties/caturra/#weak\">IHCAFE 90</a><small>هندوراس</small></span></li></ul></li><li><span class=\"node\"><a href=\"../varieties/timor-catimor/#groups\">سارشيمور</a><small>هجين تيمور × فيلا سارشي</small></span><ul><li><span class=\"node\"><a href=\"../varieties/f1-hybrids/#starmaya\">مارسيليسا</a><small>أحدُ أبوَي ستارمايا</small></span></li></ul></li></ul></li><li><span class=\"node key\"><a href=\"../varieties/f1-hybrids/\">هجائن الجيل الأول</a><small>أبوان متباعدان، وبذرةٌ لا تُعيد الهجين</small></span><ul><li><span class=\"node\"><a href=\"../varieties/f1-hybrids/#centroamericano\">سنتروأمريكانو</a><small>T5296 × روميه سودان — 2010</small></span></li><li><span class=\"node\"><a href=\"../varieties/f1-hybrids/#starmaya\">ستارمايا</a><small>تُنتَج بذرتُه بلا تلقيحٍ يدوي</small></span></li></ul></li></ul></li></ul><p>وتُقرأ الشجرةُ من أعلاها: <strong>أغلبُ الأرابيكا المزروعة خارج إثيوبيا ترجع إلى مجموعتين ضيّقتين</strong>، ومن الروبوستا — عبر هجين تيمور — جاءت مقاومةُ الصدأ في عائلتَي كاتيمور وسارشيمور. ولذلك يتكرّر في صفحات المناشئ سقوطُ المقاومة: <a href=\"../origins/india/#kent\">كِنت</a> في الهند، و<a href=\"../origins/honduras/#fall\">ليمبيرا</a> في هندوراس — <a href=\"../varieties/timor-catimor/#breaking\">والمقاومةُ المستمدّة من تيمور تتآكل</a>.</p>"
+  },
+  {
+   "id": "national",
+   "heading": "سلالاتٌ وطنيةٌ في صفحات المناشئ",
+   "nav": "سلالات وطنية",
+   "body": "<p>وفي صفحات المناشئ سلالاتٌ أطلقتها معاهدُ وطنية، ولم يُنشر نسبُها في الموسوعة فلم تُوضع في الشجرة:</p><ul><li><a href=\"../origins/kenya/#disease\">رويرو ١١ وباتيان</a> — كينيا، 1985 و2010.</li><li><a href=\"../origins/guatemala/#variety\">أناكافي 14</a> — غواتيمالا، 2014.</li><li><a href=\"../origins/honduras/#after\">بارانيما</a> — هندوراس، بعد وباء 2012.</li><li><a href=\"../origins/rwanda/#varieties\">RAB C15</a> — رواندا.</li><li><a href=\"../origins/mexico/#renovation\">أورو أزتيكا</a> — المكسيك، في برامج التجديد.</li><li><a href=\"../origins/uganda/#card\">كيتوزا روبوستا</a> — أوغندا، من النوع الآخر.</li></ul>"
+  },
+  {
+   "id": "gaps",
+   "heading": "ما لم يُكتب بعد",
+   "nav": "ما لم يُكتب",
+   "body": "<ul><li><strong>سلالاتٌ مشهورةٌ بلا صفحة</strong>: SL28 وSL34 وكاستيو، وكاتوايي وموندو نوفو وباكامارا، والسلالاتُ الإثيوبيةُ المنتخَبة في مركز جِمّا. وأكثرُها مذكورٌ عابرًا في صفحات المناشئ.</li><li><strong>ونسبُ السلالات الوطنية</strong> أعلاه — ولذلك بقيت خارج الشجرة.</li></ul>"
+  },
+  {
+   "id": "limits",
+   "heading": "حدود ما تنشره قطرة",
+   "nav": "حدود الاستنتاج",
+   "body": "<ul><li><strong>الشجرةُ تُبسّط ولا تُحصي.</strong> هي فروعٌ ذُكرت في الموسوعة، لا كلُّ نسب الأرابيكا. وما لم يُذكر في صفحةٍ بمصدره لم يُرسَم.</li><li><strong>ولا تُنسب نكهةٌ إلى فرع.</strong> السلالةُ عاملٌ واحدٌ بين المنشأ والارتفاع والمعالجة والتحميص.</li><li><strong>والمقاومةُ حالٌ في زمن</strong> لا صفةٌ دائمة، كما في الفرع الأوسط كلِّه.</li></ul><p>ورُفعت الصفحةُ إلى «موثق» لأن كلَّ فرعٍ فيها منقولٌ من صفحةٍ موثَّقةٍ في الموسوعة، والرابطُ عليه يَدلّ على موضعه ومصدرِه — إلا «ديجا»، وهي مرسومةٌ متقطِّعةً بحالها.</p>"
+  },
+  {
+   "id": "sources",
+   "heading": "المصادر الأساسية",
+   "nav": "المصادر",
+   "body": "<ul class=\"refs\"><li><a href=\"https://varieties.worldcoffeeresearch.org/arabica-2/history-of-arabica\" target=\"_blank\" rel=\"noopener noreferrer\">كتالوج سلالات <span dir=\"ltr\" lang=\"en\">World Coffee Research</span> — تاريخ الأرابيكا<span aria-hidden=\"true\"> ↗</span></a><small>كتالوجُ جهةٍ بحثيةٍ مهنية. مرجعُ الفروع الكبرى في الشجرة كما نُقلت في صفحاتها: مجموعتا تيبيكا وبوربون وانتقالُهما، وهجينُ تيمور وعائلتاه.</small></li><li><a href=\"https://www.nature.com/articles/s41588-024-01695-w\" target=\"_blank\" rel=\"noopener noreferrer\">Salojärvi وآخرون — جينوم الأرابيكا، <span dir=\"ltr\" lang=\"en\">Nature Genetics 2024</span><span aria-hidden=\"true\"> ↗</span></a><small>بحثٌ محكَّم. مرجعُ أصل الأرابيكا من تهجين نوعين، وضيقِ قاعدتها.</small></li></ul><p>وبقيةُ المصادر في صفحات الفروع، كلٌّ في موضعه.</p>"
+  }
+ ],
+ "lede_before_sections": ""
+}

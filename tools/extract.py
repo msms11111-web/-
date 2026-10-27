@@ -117,6 +117,20 @@ def main() -> int:
             return 1
         extracted[path] = data
 
+    # المحتوى أحدثُ من الصفحة المبنيّة؟ فالكتابةُ هنا تُرجعه إلى ما قبل التعديل.
+    # وقع ذلك فعلًا: عُدّل مصدرٌ في content/origins--ethiopia.json أثناء جَريةِ
+    # تحقُّقٍ بين البناء والفصل، فأعاده الفصلُ من الصفحة القديمة بصمت، وأُلزِم
+    # التزامٌ يَصِف تعديلًا لم يَدخله. فصار الاختلافُ في المعنى مانعًا لا يُكتَب معه شيء.
+    stale = []
+    for path, data in extracted.items():
+        current = OUT / (path.replace("/", "--") + ".json")
+        if current.exists() and json.loads(current.read_text(encoding="utf-8")) != data:
+            stale.append(path)
+    if stale:
+        for path in stale:
+            print(f"✗ {path}: المحتوى أحدثُ من الصفحة المبنيّة — شغّل البناء أولًا", file=sys.stderr)
+        return 1
+
     OUT.mkdir(exist_ok=True)
     for path, data in extracted.items():
         name = path.replace("/", "--") + ".json"

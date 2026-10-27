@@ -28,7 +28,7 @@ WINGS = [
     ("origins/", "المناشئ",
      "أرضٌ ومناخ واقتصاد، لا نكهة تُنسب إلى بلد.",
      ("origins/", "regions/", "crops/")),
-    ("species/arabica/", "الأنواع والسلالات",
+    ("species/", "الأنواع والسلالات",
      "ما تعنيه أسماء النباتات، وما لا تعنيه على العبوة.",
      ("species/", "varieties/")),
     ("processes/", "عائلة المعالجات",
@@ -144,7 +144,34 @@ def counted_origins(n: int) -> str:
     return f"{n} منشأً"
 
 
+GROUP = re.compile(
+    r'(<div class="entity-group" id="[^"]+"><h2 class="group-head">[^<]*)<small>[^<]*</small>'
+    r'(</h2><div class="entity-grid">.*?</div></div>)', re.S)
+
+
+def entries(n: int) -> str:
+    if n == 1:
+        return "مدخلٌ واحد"
+    if n == 2:
+        return "مدخلان"
+    if 3 <= n <= 10:
+        return f"{n} مداخل"
+    return f"{n} مدخلًا"
+
+
+def recount_index() -> None:
+    """أبوابُ فهرس الموسوعة تحمل عددَ مداخلها؛ والعددُ المكتوب باليد يصير كذبًا
+    في أول إضافة، فيُحصى هنا من البطاقات نفسِها في كل بناء."""
+    f = ROOT / "encyclopedia" / "index.html"
+    html = f.read_text(encoding="utf-8")
+    card = 'class="entity"'
+    new = GROUP.sub(lambda m: f"{m.group(1)}<small>{entries(m.group(2).count(card))}</small>{m.group(2)}", html)
+    if new != html:
+        f.write_text(new, encoding="utf-8")
+
+
 def main() -> int:
+    recount_index()
     index = ROOT / "index.html"
     html = BLOCK.sub("", index.read_text(encoding="utf-8"))
     html = O_BLOCK.sub("", html)
