@@ -23,6 +23,7 @@ PAGES = [
     ("encyclopedia/", "فهرس الموسوعة"),
     ("origins/", "مناشئ القهوة"),
     ("species/", "الأنواع والسلالات"),
+    ("brewing/", "التحضير"),
     ("origins/ethiopia/", "إثيوبيا"),
     ("origins/yemen/", "اليمن"),
     ("origins/brazil/", "البرازيل"),

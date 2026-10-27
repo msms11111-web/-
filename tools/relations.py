@@ -22,6 +22,13 @@ BLOCK = re.compile(re.escape(START) + ".*?" + re.escape(END), re.S)
 
 # من صفحة ← إلى صفحة: سبب الصلة. الاتجاه مقصود: السبب يختلف باختلاف المنطلق.
 RELATIONS: dict[str, list[tuple[str, str]]] = {
+    "brewing/": [
+        ("roasting/", "ما يَسبق التحضير ويُحدّد ما يُستخلَص"),
+        ("science/extraction/", "الرقمان اللذان تُقاس بهما كلُّ طريقة"),
+        ("science/water/", "تسعةُ أعشار الفنجان"),
+        ("science/cup-caffeine/", "لماذا لا رقمَ كافيين واحدًا لكل طريقة"),
+        ("saudi-coffee/ritual/", "التحضيرُ في الضيافة: الدلة والفنجان"),
+    ],
     "species/": [
         ("origins/", "المنشأ: الحلقةُ الأولى في اسم الكيس، والسلالةُ الثالثة"),
         ("origins/ethiopia/", "التنوّعُ الذي خرجت منه الشجرةُ كلُّها"),
