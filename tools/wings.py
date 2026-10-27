@@ -100,10 +100,55 @@ def build() -> str:
     )
 
 
+# أشهرُ المناشئ في الصفحة الرئيسية. كانت الرئيسية تَعرض «مسارًا أول» واحدًا —
+# إثيوبيا ← قوجي ← ديجا ← مجففة — فيَظنّ الزائرُ أن الموسوعة محصولٌ واحد. وجملةُ
+# كل منشأ ورقمُه يُقرآن من شبكة الصفحة الجامعة نفسِها، فلا يَفترق نصّان.
+O_START = "<!--qatra:origins-->"
+O_END = "<!--/qatra:origins-->"
+O_BLOCK = re.compile(re.escape(O_START) + ".*?" + re.escape(O_END), re.S)
+FEATURED = ["brazil", "vietnam", "colombia", "ethiopia", "indonesia", "kenya", "yemen", "panama"]
+TILE = re.compile(r'<a href="([a-z-]+)/"><b>([^<]+)</b><span>([^<]+)</span><span>([^<]+)</span></a>')
+
+
+def build_origins() -> str:
+    data = json.loads((CONTENT / "origins.json").read_text(encoding="utf-8"))
+    body = next(s["body"] for s in data["sections"] if s["id"] == "map")
+    tiles = {m.group(1): m.groups()[1:] for m in TILE.finditer(body)}
+    missing = [k for k in FEATURED if k not in tiles]
+    if missing:
+        raise SystemExit(f"أشهرُ المناشئ: لا بطاقةَ في الصفحة الجامعة لـ {missing}")
+    cards = "".join(
+        f'<a class="card fade" href="origins/{k}/"><span class="num">{tiles[k][2]}</span>'
+        f"<h3>{tiles[k][0]}</h3><p>{tiles[k][1]}</p></a>"
+        for k in FEATURED
+    )
+    total = sum(1 for f in CONTENT.glob("origins--*.json"))
+    return (
+        f"{O_START}"
+        '<section class="tight" id="origins"><div class="container">'
+        '<div class="head fade"><div>'
+        '<span class="kicker" style="color:var(--gold-ink);border-color:var(--lead-line)">المناشئ</span>'
+        "<h2>من أين تأتي القهوة؟</h2></div>"
+        f"<p>في قطرة {counted_origins(total)}، لكلٍّ منها بطاقةٌ بالخانات نفسِها: النوعُ، والإنتاجُ بوحدته وسنته، "
+        "والمناطقُ والسلالات. وهذه أشهرُها.</p></div>"
+        f'<div class="grid g4 tiles">{cards}</div>'
+        '<p class="more fade"><a class="btn ghost" href="origins/">كل المناشئ وجدولُ الإنتاج ←</a></p>'
+        f"</div></section>{O_END}"
+    )
+
+
+def counted_origins(n: int) -> str:
+    """تمييزُ العدد في «منشأ»، على قاعدة counted أعلاه."""
+    if 3 <= n <= 10:
+        return f"{n} مناشئ"
+    return f"{n} منشأً"
+
+
 def main() -> int:
     index = ROOT / "index.html"
     html = BLOCK.sub("", index.read_text(encoding="utf-8"))
-    markup = build()
+    html = O_BLOCK.sub("", html)
+    markup = build_origins() + build()
     anchor = '<section class="tight"><div class="container"><div class="head fade"><div><span class="kicker"'
     if anchor in html:
         html = html.replace(anchor, markup + anchor, 1)

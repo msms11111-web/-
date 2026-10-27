@@ -273,3 +273,13 @@ html:not([data-theme="light"]) {
 .origin-grid span+span{color:var(--gold-ink);font-weight:700;font-size:12.5px}
 @media(max-width:640px){.facts{padding:4px 16px}.facts dl{grid-template-columns:1fr}
   .facts dt{padding:12px 0 0;border-bottom:0}.facts dd{padding-top:2px}}
+
+/* زرٌّ للسطح الفاتح: «secondary» صُمِّم للبطل الداكن فلونُه أبيض، فلا يُرى على الورق */
+.ghost{border-color:var(--edge);color:var(--ink);background:var(--card)}
+.ghost:hover{border-color:var(--gold)}
+.more{display:flex;gap:12px;flex-wrap:wrap;margin:24px 0 0}
+.feature a.panel{display:block;transition:.2s}.feature a.panel:hover{background:#fff2}
+/* بطاقاتُ المناشئ في الرئيسية: ثمانٍ في عمودٍ واحدٍ على الجوال طولٌ بلا فائدة،
+   فتُعرض اثنتين اثنتين، ويُصغَّر حشوُها وعنوانُها ليتّسعا */
+@media(max-width:640px){.tiles{grid-template-columns:repeat(2,1fr)}.tiles .card{padding:18px}
+  .tiles .card h3{font-size:21px;margin:6px 0}.tiles .card p{font-size:13.5px;line-height:1.7}}
