@@ -74,10 +74,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "sha": "85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "subject": "صفحتا العلم والسوق الجامعتان، وقوائمُ تُبنى من ملفّات صفحاتها",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/85f951c574dbdca3e1833d2c3be9d7eca156b097",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -177,10 +177,12 @@
    "approximate": false
   },
   "market/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-27",
+   "sha": "85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "subject": "صفحتا العلم والسوق الجامعتان، وقوائمُ تُبنى من ملفّات صفحاتها",
+   "url": "market/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "approximate": false
   },
   "market/instant-coffee/": {
    "date": "2026-10-27",
@@ -615,10 +617,12 @@
    "approximate": false
   },
   "science/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-27",
+   "sha": "85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "subject": "صفحتا العلم والسوق الجامعتان، وقوائمُ تُبنى من ملفّات صفحاتها",
+   "url": "science/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "approximate": false
   },
   "science/melanoidins/": {
    "date": "2026-10-27",
@@ -870,6 +874,17 @@
     "origins/ethiopia/",
     "species/",
     "varieties/f1-hybrids/"
+   ]
+  },
+  {
+   "date": "2026-10-27",
+   "sha": "85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "subject": "صفحتا العلم والسوق الجامعتان، وقوائمُ تُبنى من ملفّات صفحاتها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "pages": [
+    "encyclopedia/",
+    "market/",
+    "science/"
    ]
   },
   {
