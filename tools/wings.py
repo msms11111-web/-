@@ -25,7 +25,7 @@ BLOCK = re.compile(re.escape(START) + ".*?" + re.escape(END), re.S)
 
 # (المدخل، الاسم، الوصف، البادئات التي تُحسب ضمن الجناح)
 WINGS = [
-    ("origins/ethiopia/", "المناشئ",
+    ("origins/", "المناشئ",
      "أرضٌ ومناخ واقتصاد، لا نكهة تُنسب إلى بلد.",
      ("origins/",)),
     ("species/arabica/", "الأنواع والسلالات",

@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parent.parent
 PAGES = [
     ("", "الرئيسية"),
     ("encyclopedia/", "فهرس الموسوعة"),
+    ("origins/", "مناشئ القهوة"),
     ("origins/ethiopia/", "إثيوبيا"),
     ("origins/yemen/", "اليمن"),
     ("origins/brazil/", "البرازيل"),
