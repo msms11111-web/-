@@ -24,6 +24,8 @@ PAGES = [
     ("origins/", "مناشئ القهوة"),
     ("species/", "الأنواع والسلالات"),
     ("brewing/", "التحضير"),
+    ("science/", "علم القهوة"),
+    ("market/", "سوق القهوة"),
     ("origins/ethiopia/", "إثيوبيا"),
     ("origins/yemen/", "اليمن"),
     ("origins/brazil/", "البرازيل"),

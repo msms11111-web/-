@@ -61,10 +61,29 @@ def hero_html(data: dict) -> str:
     )
 
 
+# قائمةُ صفحاتٍ في صفحةٍ جامعة: تُكتب في المحتوى فارغةً بمساراتها، وتُملأ هنا
+# بعنوان كل صفحةٍ ووصفها من ملفّها. فالوصفُ يُكتب مرّةً واحدة، ولا يَشيخ في الباب
+# إذا تغيّر في صفحته.
+PAGES_LIST = re.compile(r'<ul class="pages" data-pages="([^"]+)">.*?</ul>', re.S)
+
+
+def pages_list(match: re.Match, up: str) -> str:
+    items = []
+    for path in match.group(1).split():
+        data = json.loads((CONTENT / (path.strip("/").replace("/", "--") + ".json")).read_text(encoding="utf-8"))
+        mark = " <small>(موثق جزئيًا)</small>" if data["status"]["kind"] == "partial" else ""
+        items.append(
+            f'<li><a href="{up}{path.strip("/")}/"><strong>{data["title"]}</strong></a>{mark} — {data["description"]}</li>'
+        )
+    return f'<ul class="pages" data-pages="{match.group(1)}">{"".join(items)}</ul>'
+
+
 def article_html(data: dict) -> str:
     body = data.get("lede_before_sections", "")
     for section in data["sections"]:
         body += f'<h2 id="{section["id"]}">{section["heading"]}</h2>{section["body"]}'
+    up = up_from(data["path"])
+    body = PAGES_LIST.sub(lambda m: pages_list(m, up), body)
     return f'<article class="article">{body}</article>'
 
 

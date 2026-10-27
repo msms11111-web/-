@@ -1,0 +1,67 @@
+{
+ "slug": "market",
+ "path": "market",
+ "title": "سوق القهوة",
+ "description": "صفحاتُ السوق في قطرة في ثلاثة أبواب: السعرُ من البورصة إلى العبوة، والأرقامُ والمؤسسات، والشهاداتُ واللوائح.",
+ "lead": "إحدى عشرةَ صفحةً في السعر والأرقام والشهادات. والسعرُ فيها عقدٌ موصوف، والرقمُ بسنته ووحدته، والشهادةُ إجراءٌ لا كوب.",
+ "status": {
+  "kind": "ok",
+  "label": "موثق"
+ },
+ "crumbs": [
+  {
+   "label": "الرئيسية",
+   "href": "../index.html"
+  },
+  {
+   "label": "الموسوعة",
+   "href": "../encyclopedia/"
+  }
+ ],
+ "crumb_current": "سوق القهوة",
+ "sections": [
+  {
+   "id": "read",
+   "heading": "كيف تُقرأ صفحاتُ السوق: العقدُ والوحدةُ والشهادة",
+   "nav": "كيف تُقرأ",
+   "body": "<ol><li><strong>«سعرُ القهوة» عقدٌ موصوف لا رقمٌ عائم</strong>: <a href=\"ice-contract/\">37,500 رطلٍ بتصديقٍ وفروقٍ للمنشأ</a> في نيويورك، و<a href=\"robusta-contract/\">عشرُ أطنانٍ</a> في لندن.</li><li><strong>والرقمُ بسنته ووحدته</strong>: <a href=\"world-numbers/#unit\">الكيسُ ستون كيلوغرامًا، والسنةُ تسويقيةٌ لا تقويمية</a>.</li><li><strong>والشهادةُ تَضمن إجراءً لا كوبًا</strong>: <a href=\"certifications/\">ما تضمنه وما لا تضمنه أيُّ شهادة</a>.</li></ol>"
+  },
+  {
+   "id": "price",
+   "heading": "السعر: من البورصة إلى العبوة",
+   "nav": "السعر",
+   "body": "<ul class=\"pages\" data-pages=\"market/price market/ice-contract market/robusta-contract market/value-distribution\"></ul>"
+  },
+  {
+   "id": "numbers",
+   "heading": "الأرقام والمؤسسات",
+   "nav": "الأرقام والمؤسسات",
+   "body": "<ul class=\"pages\" data-pages=\"market/world-numbers market/ico market/instant-coffee\"></ul>"
+  },
+  {
+   "id": "rules",
+   "heading": "الشهادات واللوائح",
+   "nav": "الشهادات واللوائح",
+   "body": "<ul class=\"pages\" data-pages=\"market/certifications market/rainforest-alliance market/sustainability-code market/eudr\"></ul>"
+  },
+  {
+   "id": "gaps",
+   "heading": "ما لم يُكتب بعد",
+   "nav": "ما لم يُكتب",
+   "body": "<p>ومن أبواب السوق ما لم يُنشر بعد، مسجَّلًا في <a href=\"../methodology/#unpublished\">جدول «ما لم يُنشر بعد»</a>: منها ملحقاتُ مناشئ دراسة توزيع القيمة، وحجمُ سوق التجزئة العالمي، وترتيبُ الشعوب في استهلاك الفرد.</p>"
+  },
+  {
+   "id": "limits",
+   "heading": "حدود ما تنشره قطرة",
+   "nav": "حدود الاستنتاج",
+   "body": "<p>هذه الصفحةُ بابٌ لا مقالة: عناوينُ الصفحات وأوصافُها منقولةٌ من ملفّاتها في كل بناء. ولا تَنشر قطرة نصيحةَ تداولٍ ولا توقّعَ سعر، ولا إرشادَ امتثالٍ قانوني. ورُفعت إلى «موثق» على هذا.</p>"
+  },
+  {
+   "id": "sources",
+   "heading": "المصادر الأساسية",
+   "nav": "المصادر",
+   "body": "<p>مصادرُ كلِّ بابٍ في صفحته — البورصاتُ والمنظماتُ والنصوصُ التنظيمية — وهذه الصفحةُ لا تُضيف إليها شيئًا.</p>"
+  }
+ ],
+ "lede_before_sections": ""
+}

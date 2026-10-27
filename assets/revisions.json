@@ -176,6 +176,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
    "approximate": false
   },
+  "market/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "market/instant-coffee/": {
    "date": "2026-10-27",
    "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
@@ -607,6 +613,12 @@
    "url": "science/health/",
    "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
    "approximate": false
+  },
+  "science/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "science/melanoidins/": {
    "date": "2026-10-27",
