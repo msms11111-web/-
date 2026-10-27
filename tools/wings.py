@@ -27,10 +27,10 @@ BLOCK = re.compile(re.escape(START) + ".*?" + re.escape(END), re.S)
 WINGS = [
     ("origins/", "المناشئ",
      "أرضٌ ومناخ واقتصاد، لا نكهة تُنسب إلى بلد.",
-     ("origins/",)),
+     ("origins/", "regions/", "crops/")),
     ("species/arabica/", "الأنواع والسلالات",
      "ما تعنيه أسماء النباتات، وما لا تعنيه على العبوة.",
-     ("species/", "varieties/", "regions/")),
+     ("species/", "varieties/")),
     ("processes/", "عائلة المعالجات",
      "أيُّ طبقة من الثمرة تُنزع، ومتى تُنزع.",
      ("processes/",)),
