@@ -241,11 +241,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-27",
-   "sha": "7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
-   "subject": "البرازيل من إحصائه الوطني: الولايات، والحصاد بالشهر، وتعارضٌ مع التقدير الأمريكي",
+   "date": "2026-10-28",
+   "sha": "2d3615edfec1abfeadfb5b685684e34e19d695f6",
+   "subject": "كولومبيا من تقرير اتحادها الوطني: محصولان في السنة، والميزانُ الوطني، وتعارضٌ في ثلاثة مؤشّرات",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d3615edfec1abfeadfb5b685684e34e19d695f6",
    "approximate": false
   },
   "origins/brazil/": {
@@ -257,11 +257,11 @@
    "approximate": false
   },
   "origins/colombia/": {
-   "date": "2026-10-27",
-   "sha": "7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
-   "subject": "البرازيل من إحصائه الوطني: الولايات، والحصاد بالشهر، وتعارضٌ مع التقدير الأمريكي",
+   "date": "2026-10-28",
+   "sha": "2d3615edfec1abfeadfb5b685684e34e19d695f6",
+   "subject": "كولومبيا من تقرير اتحادها الوطني: محصولان في السنة، والميزانُ الوطني، وتعارضٌ في ثلاثة مؤشّرات",
    "url": "origins/colombia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d3615edfec1abfeadfb5b685684e34e19d695f6",
    "approximate": false
   },
   "origins/costa-rica/": {
@@ -297,11 +297,11 @@
    "approximate": false
   },
   "origins/": {
-   "date": "2026-10-27",
-   "sha": "7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
-   "subject": "البرازيل من إحصائه الوطني: الولايات، والحصاد بالشهر، وتعارضٌ مع التقدير الأمريكي",
+   "date": "2026-10-28",
+   "sha": "2d3615edfec1abfeadfb5b685684e34e19d695f6",
+   "subject": "كولومبيا من تقرير اتحادها الوطني: محصولان في السنة، والميزانُ الوطني، وتعارضٌ في ثلاثة مؤشّرات",
    "url": "origins/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d3615edfec1abfeadfb5b685684e34e19d695f6",
    "approximate": false
   },
   "origins/india/": {
@@ -754,6 +754,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-28",
+   "sha": "2d3615edfec1abfeadfb5b685684e34e19d695f6",
+   "subject": "كولومبيا من تقرير اتحادها الوطني: محصولان في السنة، والميزانُ الوطني، وتعارضٌ في ثلاثة مؤشّرات",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2d3615edfec1abfeadfb5b685684e34e19d695f6",
+   "pages": [
+    "methodology/",
+    "origins/",
+    "origins/colombia/"
+   ]
+  },
   {
    "date": "2026-10-27",
    "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
