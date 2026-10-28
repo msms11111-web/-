@@ -242,10 +242,10 @@
   },
   "methodology/": {
    "date": "2026-10-28",
-   "sha": "2d3615edfec1abfeadfb5b685684e34e19d695f6",
-   "subject": "كولومبيا من تقرير اتحادها الوطني: محصولان في السنة، والميزانُ الوطني، وتعارضٌ في ثلاثة مؤشّرات",
+   "sha": "de4245b1140c5b7f0a202024a12b5a5d40438fbd",
+   "subject": "كينيا من كتابها السنوي للقهوة: المقاطعات، والحصادان، والجمعيات، وتناقضاتُ الوثيقة",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/2d3615edfec1abfeadfb5b685684e34e19d695f6",
+   "commit": "https://github.com/msms11111-web/qatra/commit/de4245b1140c5b7f0a202024a12b5a5d40438fbd",
    "approximate": false
   },
   "origins/brazil/": {
@@ -298,10 +298,10 @@
   },
   "origins/": {
    "date": "2026-10-28",
-   "sha": "2d3615edfec1abfeadfb5b685684e34e19d695f6",
-   "subject": "كولومبيا من تقرير اتحادها الوطني: محصولان في السنة، والميزانُ الوطني، وتعارضٌ في ثلاثة مؤشّرات",
+   "sha": "de4245b1140c5b7f0a202024a12b5a5d40438fbd",
+   "subject": "كينيا من كتابها السنوي للقهوة: المقاطعات، والحصادان، والجمعيات، وتناقضاتُ الوثيقة",
    "url": "origins/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/2d3615edfec1abfeadfb5b685684e34e19d695f6",
+   "commit": "https://github.com/msms11111-web/qatra/commit/de4245b1140c5b7f0a202024a12b5a5d40438fbd",
    "approximate": false
   },
   "origins/india/": {
@@ -321,11 +321,11 @@
    "approximate": false
   },
   "origins/kenya/": {
-   "date": "2026-10-27",
-   "sha": "7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
-   "subject": "البرازيل من إحصائه الوطني: الولايات، والحصاد بالشهر، وتعارضٌ مع التقدير الأمريكي",
+   "date": "2026-10-28",
+   "sha": "de4245b1140c5b7f0a202024a12b5a5d40438fbd",
+   "subject": "كينيا من كتابها السنوي للقهوة: المقاطعات، والحصادان، والجمعيات، وتناقضاتُ الوثيقة",
    "url": "origins/kenya/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/de4245b1140c5b7f0a202024a12b5a5d40438fbd",
    "approximate": false
   },
   "origins/mexico/": {
@@ -754,6 +754,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-28",
+   "sha": "de4245b1140c5b7f0a202024a12b5a5d40438fbd",
+   "subject": "كينيا من كتابها السنوي للقهوة: المقاطعات، والحصادان، والجمعيات، وتناقضاتُ الوثيقة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/de4245b1140c5b7f0a202024a12b5a5d40438fbd",
+   "pages": [
+    "methodology/",
+    "origins/",
+    "origins/kenya/"
+   ]
+  },
   {
    "date": "2026-10-28",
    "sha": "2d3615edfec1abfeadfb5b685684e34e19d695f6",
