@@ -50,6 +50,7 @@ PAGES = [
     ("origins/india/", "الهند"),
     ("origins/honduras/", "هندوراس"),
     ("origins/uganda/", "أوغندا"),
+    ("origins/tanzania/", "تنزانيا"),
     ("science/potato-defect/", "عيب طعم البطاطس"),
     ("brewing/grinding/", "الطحن"),
     ("processes/monsooned/", "القهوة المَمطورة"),

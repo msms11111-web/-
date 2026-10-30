@@ -509,24 +509,48 @@
 
     const FIELDS = [["title", 6], ["headings", 3], ["desc", 2], ["text", 1]];
 
-    const score = (page, groups) => {
-      let total = 0;
-      for (const group of groups) {
-        // تكفي صيغة واحدة من صيغ الكلمة، لكن كل كلمة مطلوبة
-        let best = 0;
-        for (const w of group) {
-          // الكلمات القصيرة تُقبل عند بداية كلمة فقط، وإلا امتلأت النتائج بمطابقات عابرة
-          const needWord = w.length <= 3;
-          let sum = 0;
-          for (const [field, weight] of FIELDS) {
-            const r = findIn(page.n[field], w);
-            if (!r.any || (needWord && !r.atWord)) continue;
-            sum += weight * (r.atWord ? 2 : 1);
-          }
-          if (sum > best) best = sum;
+    // وزنُ كلمةٍ واحدة في صفحة: أعلى صيغها، وصفرٌ إن لم توجد صيغةٌ منها
+    const groupScore = (page, group) => {
+      let best = 0;
+      for (const w of group) {
+        // الكلمات القصيرة تُقبل عند بداية كلمة فقط، وإلا امتلأت النتائج بمطابقات عابرة
+        const needWord = w.length <= 3;
+        let sum = 0;
+        for (const [field, weight] of FIELDS) {
+          const r = findIn(page.n[field], w);
+          if (!r.any || (needWord && !r.atWord)) continue;
+          sum += weight * (r.atWord ? 2 : 1);
         }
+        if (sum > best) best = sum;
+      }
+      return best;
+    };
+
+    /* كلمةُ الموضوع لا تُميّز: «قهوة» في عنوان أكثر الصفحات، فكان طلبُ
+       «قهوة كينيا» يتصدّره «عقد القهوة الآجل» — في عنوانه «القهوة» وفي
+       نصّه «كينيا» — لا صفحةُ كينيا. فالكلمةُ التي توجد في أكثر من أربعة
+       أخماس الصفحات يُربَع وزنُها إذا صحبتها كلمةٌ أخصُّ منها، ويبقى وزنُها
+       كاملًا إذا طُلبت وحدَها أو كانت كلماتُ الطلب كلُّها عامّة.
+       وكان الحدُّ أولًا النصفَ فأفسد شاهدين: «البن» في ثلاثة أرباع الصفحات
+       وهو كلمةُ العنوان في «زراعة البن»، فخفّ وزنُها فتصدّرت «بدايات القهوة»
+       طلبَ «البن العربي»؛ و«فروق» تتّسع صيغُها فتجاوزت النصف. والأخماسُ الأربعة
+       لا تبلغها إلا كلمةُ الموضوع نفسُها. */
+    const factorsFor = (groups) => {
+      if (!index || groups.length < 2) return null;
+      const common = groups.map(
+        (g) => index.filter((p) => groupScore(p, g) > 0).length > index.length * 0.8
+      );
+      if (common.every(Boolean) || !common.some(Boolean)) return null;
+      return common.map((c) => (c ? 0.25 : 1));
+    };
+
+    const score = (page, groups, factors) => {
+      let total = 0;
+      for (let i = 0; i < groups.length; i++) {
+        // تكفي صيغة واحدة من صيغ الكلمة، لكن كل كلمة مطلوبة
+        const best = groupScore(page, groups[i]);
         if (!best) return 0; // لا صيغة من هذه الكلمة موجودة
-        total += best;
+        total += best * (factors ? factors[i] : 1);
       }
       // الرئيسية وفهرس الموسوعة يلمّحان إلى كل شيء فيتصدّران كل بحث: الأولى
       // صفحة هبوط، والثاني يَجمع كلماتِ كل بطاقة فيُطابق ما يُطابقه أيُّ مدخل.
@@ -558,8 +582,9 @@
 
     const renderResults = (groups) => {
       const words = groups.flat(); // التعليم يشمل كل الصيغ، فتُبرز الصيغة الموجودة فعلًا
+      const factors = factorsFor(groups);
       const hits = index
-        .map((page) => ({ page, s: score(page, groups) }))
+        .map((page) => ({ page, s: score(page, groups, factors) }))
         .filter((x) => x.s > 0)
         .sort((a, b) => b.s - a.s);
 

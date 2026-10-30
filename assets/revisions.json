@@ -360,6 +360,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
    "approximate": false
   },
+  "origins/tanzania/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/uganda/": {
    "date": "2026-10-27",
    "sha": "7d7ff00a58d22746cc018b243f7ba6eef5641f1d",
