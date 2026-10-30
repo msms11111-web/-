@@ -35,6 +35,7 @@ PAGES = [
     ("origins/vietnam/", "فيتنام"),
     ("origins/panama/", "بنما"),
     ("regions/guji/", "قوجي"),
+    ("regions/cerrado-mineiro/", "سيرادو ميناس"),
     ("market/price/", "سعر القهوة"),
     ("market/certifications/", "الشهادات في القهوة"),
     ("market/ico/", "منظمة القهوة الدولية"),
