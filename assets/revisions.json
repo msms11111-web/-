@@ -73,11 +73,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-27",
-   "sha": "85f951c574dbdca3e1833d2c3be9d7eca156b097",
-   "subject": "صفحتا العلم والسوق الجامعتان، وقوائمُ تُبنى من ملفّات صفحاتها",
+   "date": "2026-10-30",
+   "sha": "13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "subject": "تنزانيا أولُ المناشئ الغائبة، والبحثُ يُخفّف كلمةَ الموضوع",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/85f951c574dbdca3e1833d2c3be9d7eca156b097",
+   "commit": "https://github.com/msms11111-web/qatra/commit/13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -137,11 +137,11 @@
    "approximate": false
   },
   "": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-30",
+   "sha": "13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "subject": "تنزانيا أولُ المناشئ الغائبة، والبحثُ يُخفّف كلمةَ الموضوع",
    "url": "",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
    "approximate": false
   },
   "market/certifications/": {
@@ -241,11 +241,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-28",
-   "sha": "de4245b1140c5b7f0a202024a12b5a5d40438fbd",
-   "subject": "كينيا من كتابها السنوي للقهوة: المقاطعات، والحصادان، والجمعيات، وتناقضاتُ الوثيقة",
+   "date": "2026-10-30",
+   "sha": "13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "subject": "تنزانيا أولُ المناشئ الغائبة، والبحثُ يُخفّف كلمةَ الموضوع",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/de4245b1140c5b7f0a202024a12b5a5d40438fbd",
+   "commit": "https://github.com/msms11111-web/qatra/commit/13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
    "approximate": false
   },
   "origins/brazil/": {
@@ -297,11 +297,11 @@
    "approximate": false
   },
   "origins/": {
-   "date": "2026-10-28",
-   "sha": "de4245b1140c5b7f0a202024a12b5a5d40438fbd",
-   "subject": "كينيا من كتابها السنوي للقهوة: المقاطعات، والحصادان، والجمعيات، وتناقضاتُ الوثيقة",
+   "date": "2026-10-30",
+   "sha": "13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "subject": "تنزانيا أولُ المناشئ الغائبة، والبحثُ يُخفّف كلمةَ الموضوع",
    "url": "origins/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/de4245b1140c5b7f0a202024a12b5a5d40438fbd",
+   "commit": "https://github.com/msms11111-web/qatra/commit/13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
    "approximate": false
   },
   "origins/india/": {
@@ -361,10 +361,12 @@
    "approximate": false
   },
   "origins/tanzania/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-30",
+   "sha": "13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "subject": "تنزانيا أولُ المناشئ الغائبة، والبحثُ يُخفّف كلمةَ الموضوع",
+   "url": "origins/tanzania/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "approximate": false
   },
   "origins/uganda/": {
    "date": "2026-10-27",
@@ -760,6 +762,19 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-30",
+   "sha": "13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "subject": "تنزانيا أولُ المناشئ الغائبة، والبحثُ يُخفّف كلمةَ الموضوع",
+   "commit": "https://github.com/msms11111-web/qatra/commit/13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "pages": [
+    "",
+    "encyclopedia/",
+    "methodology/",
+    "origins/",
+    "origins/tanzania/"
+   ]
+  },
   {
    "date": "2026-10-28",
    "sha": "de4245b1140c5b7f0a202024a12b5a5d40438fbd",
