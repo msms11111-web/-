@@ -111,6 +111,7 @@ PAGES = [
     ("brewing/espresso/", "الإسبريسو"),
     ("brewing/turkish/", "القهوة التركية"),
     ("methodology/", "منهج قطرة"),
+    ("regions/huila/", "هويلا"),
     ("changelog/", "سجل التغييرات"),
     ("about/", "من نحن"),
     ("saudi-coffee/", "القهوة السعودية"),
