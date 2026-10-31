@@ -130,10 +130,10 @@
   },
   "history/beginnings/": {
    "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "sha": "1906b898bf80d3a590ad9b55add11159c14b4e14",
+   "subject": "بدايات القهوة: قُرئ متنُ بابَي الجزيري، وثلاثةُ تصحيحات",
    "url": "history/beginnings/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1906b898bf80d3a590ad9b55add11159c14b4e14",
    "approximate": false
   },
   "history/three-waves/": {
@@ -250,10 +250,10 @@
   },
   "methodology/": {
    "date": "2026-10-31",
-   "sha": "601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
-   "subject": "هويلا: قائمةُ المرخَّص لهم قُرئت، ولائحةُ الاستعمال لم تُبلَغ — تصحيح",
+   "sha": "1906b898bf80d3a590ad9b55add11159c14b4e14",
+   "subject": "بدايات القهوة: قُرئ متنُ بابَي الجزيري، وثلاثةُ تصحيحات",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1906b898bf80d3a590ad9b55add11159c14b4e14",
    "approximate": false
   },
   "origins/brazil/": {
@@ -939,6 +939,16 @@
     "saudi-coffee/standards/",
     "science/degassing/",
     "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "sha": "1906b898bf80d3a590ad9b55add11159c14b4e14",
+   "subject": "بدايات القهوة: قُرئ متنُ بابَي الجزيري، وثلاثةُ تصحيحات",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1906b898bf80d3a590ad9b55add11159c14b4e14",
+   "pages": [
+    "history/beginnings/",
+    "methodology/"
    ]
   },
   {
