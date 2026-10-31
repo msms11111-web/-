@@ -259,6 +259,36 @@ def alias_overlap():
 
 alias_overlap()
 
+
+# ١٢) شرطُ الرفع في كل صفحةٍ غيرِ موثقة.
+#
+# كانت الشروطُ مكتوبةً نثرًا في أقسامٍ شتّى، وصفحةُ محصولٍ بلا شرطٍ أصلًا،
+# وبقي في صفحةٍ رقمٌ صُحّح في موضعٍ آخرَ منها. فصار لكل صفحةٍ غيرِ موثقةٍ قسمٌ
+# معرّفه raise بجدولٍ تُوسَم كلُّ صفوفه بحالها. والصفحةُ الموثقة لا تحمله:
+# شرطٌ مستوفًى لا يُعرض شرطًا.
+def raise_sections():
+    import json
+
+    for f in sorted((ROOT / "content").glob("*.json")):
+        doc = json.loads(f.read_text(encoding="utf-8"))
+        kind = (doc.get("status") or {}).get("kind")
+        sec = next((s for s in doc.get("sections", []) if s["id"] == "raise"), None)
+        if kind in ("partial", "research") and sec is None:
+            note("صفحةٌ غيرُ موثقة بلا شرط رفع", f.name, kind)
+        if kind == "ok" and sec is not None:
+            note("صفحةٌ موثقة تحمل شرط رفع", f.name, "يُحذف القسم بعد الرفع")
+        if sec is not None:
+            rows = re.findall(r"<tr>(?:(?!</tr>).)*</tr>", sec["body"], re.S)
+            body_rows = [r for r in rows if 'scope="col"' not in r]
+            if not body_rows:
+                note("شرطُ رفعٍ بلا صفوف", f.name, "raise")
+            for r in body_rows:
+                if not re.search(r'<span class="status (ok|partial|research)">', r):
+                    note("شرطٌ بلا حال", f.name, re.sub(r"<[^>]+>", "", r)[:50])
+
+
+raise_sections()
+
 print(f"فُحصت {len(list(ROOT.rglob('*.html')))} صفحة.\n")
 for line in detail:
     print(line)

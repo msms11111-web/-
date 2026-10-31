@@ -44,13 +44,20 @@ def hero_html(data: dict) -> str:
     current = data.get("crumb_current") or data["title"]
     crumbs += f"<span>←</span><b>{current}</b>" if data["crumbs"] else f"<b>{current}</b>"
 
+    # الشارةُ في صفحةٍ غيرِ موثقة تقود إلى شرط رفعها في الصفحة نفسِها: القارئُ
+    # يسأل «لماذا هذه الحالة؟» قبل أن يسأل «ما معنى الحالات؟»، وجوابُ الثاني
+    # مربوطٌ من قسم الشرط. وفي الصفحة الموثقة تبقى إلى صفحة المنهج.
     status = ""
     if data.get("status"):
         up = up_from(data["path"])
+        if any(s["id"] == "raise" for s in data["sections"]):
+            href, hint = "#raise", "لماذا هذه الحالة؟ وما شرطُ رفعها؟"
+        else:
+            href, hint = f"{up}methodology/#states", "ما معنى حالات التوثيق؟"
         status = (
             f'<a class="status {data["status"]["kind"]} status-link" '
-            f'href="{up}methodology/#states" style="margin-top:24px" '
-            f'title="ما معنى حالات التوثيق؟">{data["status"]["label"]}</a>'
+            f'href="{href}" style="margin-top:24px" '
+            f'title="{hint}">{data["status"]["label"]}</a>'
         )
 
     return (

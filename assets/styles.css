@@ -220,6 +220,9 @@ html:not([data-theme="light"]) {
 .article,.scroll-x{min-width:0}
 .scroll-x{overflow-x:auto;margin:22px 0;max-width:100%}
 .scroll-x table{margin:0;min-width:520px;display:table}
+/* جدولُ «شرط الرفع»: الحالُ وسمٌ لا يُكسَر سطرين، والشرطُ نصٌّ يُقرأ لا عنوانٌ مُثقَل */
+.raise .status{white-space:nowrap}
+.raise tbody th{font-weight:600}
 /* مخطَّطات العلاقات: صناديق وخطوط، والتوكيد على الناتج لا على الأصول */
 .fg-box{fill:var(--card);stroke:var(--line);stroke-width:1.5}
 .fg-box-key{fill:var(--ok-bg);stroke:var(--ok-ink)}
