@@ -482,10 +482,10 @@
   },
   "regions/cerrado-mineiro/": {
    "date": "2026-10-31",
-   "sha": "84093a2491e49d50f5870e365021faae9848bb2d",
-   "subject": "سيرادو ميناس: البلدياتُ الخمسُ والخمسون، وخطُّ الطول ليس خطأَ قراءة",
+   "sha": "bf3d3aa51454000cb558d7e53e18f5d2798ac010",
+   "subject": "سيرادو ميناس: قُرئ قرارا معهد ميناس 397/2000 و561/2002، وقائمةُ 2019",
    "url": "regions/cerrado-mineiro/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/84093a2491e49d50f5870e365021faae9848bb2d",
+   "commit": "https://github.com/msms11111-web/qatra/commit/bf3d3aa51454000cb558d7e53e18f5d2798ac010",
    "approximate": false
   },
   "regions/guji/": {
@@ -796,6 +796,15 @@
     "methodology/",
     "origins/colombia/",
     "regions/huila/"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "sha": "bf3d3aa51454000cb558d7e53e18f5d2798ac010",
+   "subject": "سيرادو ميناس: قُرئ قرارا معهد ميناس 397/2000 و561/2002، وقائمةُ 2019",
+   "commit": "https://github.com/msms11111-web/qatra/commit/bf3d3aa51454000cb558d7e53e18f5d2798ac010",
+   "pages": [
+    "regions/cerrado-mineiro/"
    ]
   },
   {
