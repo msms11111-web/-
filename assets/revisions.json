@@ -250,10 +250,10 @@
   },
   "methodology/": {
    "date": "2026-10-31",
-   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
-   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
+   "sha": "601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
+   "subject": "هويلا: قائمةُ المرخَّص لهم قُرئت، ولائحةُ الاستعمال لم تُبلَغ — تصحيح",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
    "approximate": false
   },
   "origins/brazil/": {
@@ -498,10 +498,10 @@
   },
   "regions/huila/": {
    "date": "2026-10-31",
-   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
-   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
+   "sha": "601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
+   "subject": "هويلا: قائمةُ المرخَّص لهم قُرئت، ولائحةُ الاستعمال لم تُبلَغ — تصحيح",
    "url": "regions/huila/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
    "approximate": false
   },
   "roasting/first-crack/": {
@@ -901,6 +901,16 @@
     "varieties/geisha/",
     "varieties/timor-catimor/",
     "varieties/typica-bourbon/"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "sha": "601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
+   "subject": "هويلا: قائمةُ المرخَّص لهم قُرئت، ولائحةُ الاستعمال لم تُبلَغ — تصحيح",
+   "commit": "https://github.com/msms11111-web/qatra/commit/601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
+   "pages": [
+    "methodology/",
+    "regions/huila/"
    ]
   },
   {
