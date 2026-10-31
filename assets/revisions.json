@@ -65,11 +65,11 @@
    "approximate": false
   },
   "crops/guji-dega-natural/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "crops/guji-dega-natural/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "encyclopedia/": {
@@ -121,11 +121,11 @@
    "approximate": false
   },
   "history/beginnings/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "history/beginnings/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "history/three-waves/": {
@@ -241,11 +241,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-30",
-   "sha": "fdcfcc4693dbe38bd0e2589468e7a1ee19decc03",
-   "subject": "سيرادو ميناس: أولُ منطقةٍ لها اسمٌ محميٌّ بالقانون",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fdcfcc4693dbe38bd0e2589468e7a1ee19decc03",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "origins/brazil/": {
@@ -361,11 +361,11 @@
    "approximate": false
   },
   "origins/tanzania/": {
-   "date": "2026-10-30",
-   "sha": "13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
-   "subject": "تنزانيا أولُ المناشئ الغائبة، والبحثُ يُخفّف كلمةَ الموضوع",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "origins/tanzania/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/13fe27986e5ea171b6ed1a04a9d97f4a564dea9f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "origins/uganda/": {
@@ -473,19 +473,19 @@
    "approximate": false
   },
   "regions/cerrado-mineiro/": {
-   "date": "2026-10-30",
-   "sha": "fdcfcc4693dbe38bd0e2589468e7a1ee19decc03",
-   "subject": "سيرادو ميناس: أولُ منطقةٍ لها اسمٌ محميٌّ بالقانون",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "regions/cerrado-mineiro/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/fdcfcc4693dbe38bd0e2589468e7a1ee19decc03",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "regions/guji/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "regions/guji/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "roasting/first-crack/": {
@@ -505,19 +505,19 @@
    "approximate": false
   },
   "saudi-coffee/agriculture/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "saudi-coffee/agriculture/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "saudi-coffee/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "saudi-coffee/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "saudi-coffee/khawlani/": {
@@ -545,11 +545,11 @@
    "approximate": false
   },
   "saudi-coffee/standards/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "saudi-coffee/standards/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "science/acids/": {
@@ -601,11 +601,11 @@
    "approximate": false
   },
   "science/degassing/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "science/degassing/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "science/diseases/": {
@@ -729,11 +729,11 @@
    "approximate": false
   },
   "varieties/dega/": {
-   "date": "2026-10-27",
-   "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",
-   "subject": "صفحةٌ جامعةٌ للتحضير، وشريطُ التنقل إليها لا إلى V60",
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
    "url": "varieties/dega/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/e53eb576746819c92dd6cb46fe7c034905bd4115",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
    "approximate": false
   },
   "varieties/f1-hybrids/": {
@@ -770,6 +770,25 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-31",
+   "sha": "4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "subject": "شرطُ الرفع قسمًا موحَّدًا، وقوجي في الإحصاء الإثيوبي",
+   "commit": "https://github.com/msms11111-web/qatra/commit/4a3bb6c76af8c12c965de7c9506e17625176ba6a",
+   "pages": [
+    "crops/guji-dega-natural/",
+    "history/beginnings/",
+    "methodology/",
+    "origins/tanzania/",
+    "regions/cerrado-mineiro/",
+    "regions/guji/",
+    "saudi-coffee/",
+    "saudi-coffee/agriculture/",
+    "saudi-coffee/standards/",
+    "science/degassing/",
+    "varieties/dega/"
+   ]
+  },
   {
    "date": "2026-10-30",
    "sha": "fdcfcc4693dbe38bd0e2589468e7a1ee19decc03",
