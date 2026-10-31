@@ -266,10 +266,10 @@
   },
   "origins/colombia/": {
    "date": "2026-10-31",
-   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
-   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
+   "sha": "2475fe1c94e7d1eb47ec66ebb76ad62c346b33e1",
+   "subject": "هويلا: رقمُ الإنتاج بوحدتيه من تقرير لجنة الإقليم 2023، ومحسوبٌ بنصّه",
    "url": "origins/colombia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2475fe1c94e7d1eb47ec66ebb76ad62c346b33e1",
    "approximate": false
   },
   "origins/costa-rica/": {
@@ -498,10 +498,10 @@
   },
   "regions/huila/": {
    "date": "2026-10-31",
-   "sha": "601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
-   "subject": "هويلا: قائمةُ المرخَّص لهم قُرئت، ولائحةُ الاستعمال لم تُبلَغ — تصحيح",
+   "sha": "2475fe1c94e7d1eb47ec66ebb76ad62c346b33e1",
+   "subject": "هويلا: رقمُ الإنتاج بوحدتيه من تقرير لجنة الإقليم 2023، ومحسوبٌ بنصّه",
    "url": "regions/huila/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/601b8dc5a74e0f51cf669c4fcca1a214a948f8fd",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2475fe1c94e7d1eb47ec66ebb76ad62c346b33e1",
    "approximate": false
   },
   "roasting/first-crack/": {
@@ -957,6 +957,16 @@
     "saudi-coffee/standards/",
     "science/degassing/",
     "varieties/dega/"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "sha": "2475fe1c94e7d1eb47ec66ebb76ad62c346b33e1",
+   "subject": "هويلا: رقمُ الإنتاج بوحدتيه من تقرير لجنة الإقليم 2023، ومحسوبٌ بنصّه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/2475fe1c94e7d1eb47ec66ebb76ad62c346b33e1",
+   "pages": [
+    "origins/colombia/",
+    "regions/huila/"
    ]
   },
   {
