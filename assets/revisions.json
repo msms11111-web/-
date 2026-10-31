@@ -1,5 +1,11 @@
 {
  "pages": {
+  "about/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "brewing/cold-brew/": {
    "date": "2026-10-27",
    "sha": "e53eb576746819c92dd6cb46fe7c034905bd4115",

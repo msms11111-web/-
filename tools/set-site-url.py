@@ -112,6 +112,7 @@ PAGES = [
     ("brewing/turkish/", "القهوة التركية"),
     ("methodology/", "منهج قطرة"),
     ("changelog/", "سجل التغييرات"),
+    ("about/", "من نحن"),
     ("saudi-coffee/", "القهوة السعودية"),
     ("saudi-coffee/khawlani/", "البن الخولاني"),
     ("saudi-coffee/ritual/", "الدلة والفنجان"),
