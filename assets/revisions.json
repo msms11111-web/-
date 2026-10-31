@@ -618,10 +618,10 @@
   },
   "science/degassing/": {
    "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "sha": "b1eefbab848910139fc22bb9e939c32f7d3f965e",
+   "subject": "إزالة الغاز: نتيجةٌ سالبة — لا معيارَ لقياسه في سجلَّي ISO وSCA",
    "url": "science/degassing/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b1eefbab848910139fc22bb9e939c32f7d3f965e",
    "approximate": false
   },
   "science/diseases/": {
@@ -805,6 +805,15 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/bf3d3aa51454000cb558d7e53e18f5d2798ac010",
    "pages": [
     "regions/cerrado-mineiro/"
+   ]
+  },
+  {
+   "date": "2026-10-31",
+   "sha": "b1eefbab848910139fc22bb9e939c32f7d3f965e",
+   "subject": "إزالة الغاز: نتيجةٌ سالبة — لا معيارَ لقياسه في سجلَّي ISO وSCA",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b1eefbab848910139fc22bb9e939c32f7d3f965e",
+   "pages": [
+    "science/degassing/"
    ]
   },
   {
