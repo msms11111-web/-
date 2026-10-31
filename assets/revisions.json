@@ -82,10 +82,10 @@
   },
   "encyclopedia/": {
    "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -250,10 +250,10 @@
   },
   "methodology/": {
    "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
    "approximate": false
   },
   "origins/brazil/": {
@@ -266,10 +266,10 @@
   },
   "origins/colombia/": {
    "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
    "url": "origins/colombia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
    "approximate": false
   },
   "origins/costa-rica/": {
@@ -497,10 +497,12 @@
    "approximate": false
   },
   "regions/huila/": {
-   "date": "",
-   "sha": "",
-   "subject": "",
-   "approximate": true
+   "date": "2026-10-31",
+   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
+   "url": "regions/huila/",
+   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "approximate": false
   },
   "roasting/first-crack/": {
    "date": "2026-10-31",
@@ -784,6 +786,18 @@
   }
  },
  "history": [
+  {
+   "date": "2026-10-31",
+   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "pages": [
+    "encyclopedia/",
+    "methodology/",
+    "origins/colombia/",
+    "regions/huila/"
+   ]
+  },
   {
    "date": "2026-10-31",
    "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
