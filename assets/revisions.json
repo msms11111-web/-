@@ -249,11 +249,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-10-31",
-   "sha": "1906b898bf80d3a590ad9b55add11159c14b4e14",
-   "subject": "بدايات القهوة: قُرئ متنُ بابَي الجزيري، وثلاثةُ تصحيحات",
+   "date": "2026-11-01",
+   "sha": "1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
+   "subject": "المواصفات الخليجية: قائمةُ السجلّ في القهوة (23 من 35)، وتصحيحٌ وقاعدة",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/1906b898bf80d3a590ad9b55add11159c14b4e14",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
    "approximate": false
   },
   "origins/brazil/": {
@@ -561,11 +561,11 @@
    "approximate": false
   },
   "saudi-coffee/standards/": {
-   "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "date": "2026-11-01",
+   "sha": "1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
+   "subject": "المواصفات الخليجية: قائمةُ السجلّ في القهوة (23 من 35)، وتصحيحٌ وقاعدة",
    "url": "saudi-coffee/standards/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
    "approximate": false
   },
   "science/acids/": {
@@ -601,11 +601,11 @@
    "approximate": false
   },
   "science/cup-caffeine/": {
-   "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "date": "2026-11-01",
+   "sha": "1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
+   "subject": "المواصفات الخليجية: قائمةُ السجلّ في القهوة (23 من 35)، وتصحيحٌ وقاعدة",
    "url": "science/cup-caffeine/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
    "approximate": false
   },
   "science/decaffeination/": {
@@ -786,6 +786,17 @@
   }
  },
  "history": [
+  {
+   "date": "2026-11-01",
+   "sha": "1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
+   "subject": "المواصفات الخليجية: قائمةُ السجلّ في القهوة (23 من 35)، وتصحيحٌ وقاعدة",
+   "commit": "https://github.com/msms11111-web/qatra/commit/1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
+   "pages": [
+    "methodology/",
+    "saudi-coffee/standards/",
+    "science/cup-caffeine/"
+   ]
+  },
   {
    "date": "2026-10-31",
    "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
