@@ -57,11 +57,11 @@
    "approximate": false
   },
   "brewing/v60/": {
-   "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "date": "2026-11-01",
+   "sha": "8587abb2c6a16ddc6036d0ddfad186061b3a47f1",
+   "subject": "V60: محاكاةٌ مرئيةٌ للأداة وهي تعمل، موسومةٌ بما هي — رسمٌ ونموذج لا قياس",
    "url": "brewing/v60/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8587abb2c6a16ddc6036d0ddfad186061b3a47f1",
    "approximate": false
   },
   "changelog/": {
@@ -786,6 +786,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-11-01",
+   "sha": "8587abb2c6a16ddc6036d0ddfad186061b3a47f1",
+   "subject": "V60: محاكاةٌ مرئيةٌ للأداة وهي تعمل، موسومةٌ بما هي — رسمٌ ونموذج لا قياس",
+   "commit": "https://github.com/msms11111-web/qatra/commit/8587abb2c6a16ddc6036d0ddfad186061b3a47f1",
+   "pages": [
+    "brewing/v60/"
+   ]
+  },
   {
    "date": "2026-11-01",
    "sha": "1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
