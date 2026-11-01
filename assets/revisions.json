@@ -26,10 +26,10 @@
   },
   "brewing/french-press/": {
    "date": "2026-11-01",
-   "sha": "c4e1893616342c22aa6dbb475c96b973199848dd",
-   "subject": "المكبس الفرنسي: تتمّة التصحيح — موضعان مطلقان بقيا، ورسالةُ الالتزام السابق لم تصدق",
+   "sha": "20e55b32a090c0bffa489ee27c1d233139bcd9af",
+   "subject": "المكبس الفرنسي: مقطعٌ مرئيّ «ما يحجزه الفلتر»، بعد مراجعتين",
    "url": "brewing/french-press/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/c4e1893616342c22aa6dbb475c96b973199848dd",
+   "commit": "https://github.com/msms11111-web/qatra/commit/20e55b32a090c0bffa489ee27c1d233139bcd9af",
    "approximate": false
   },
   "brewing/grinding/": {
@@ -822,6 +822,15 @@
     "brewing/",
     "brewing/french-press/",
     "methodology/"
+   ]
+  },
+  {
+   "date": "2026-11-01",
+   "sha": "20e55b32a090c0bffa489ee27c1d233139bcd9af",
+   "subject": "المكبس الفرنسي: مقطعٌ مرئيّ «ما يحجزه الفلتر»، بعد مراجعتين",
+   "commit": "https://github.com/msms11111-web/qatra/commit/20e55b32a090c0bffa489ee27c1d233139bcd9af",
+   "pages": [
+    "brewing/french-press/"
    ]
   },
   {
