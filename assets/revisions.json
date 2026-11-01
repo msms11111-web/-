@@ -26,10 +26,10 @@
   },
   "brewing/french-press/": {
    "date": "2026-11-01",
-   "sha": "51e06543a4e675f6f3abd0d74a5d1b63550c18fe",
-   "subject": "المكبس الفرنسي: تصحيح «يحجزهما الورقُ فلا يصلان الكوب» — وفي الجدول 12 لا صفر",
+   "sha": "c4e1893616342c22aa6dbb475c96b973199848dd",
+   "subject": "المكبس الفرنسي: تتمّة التصحيح — موضعان مطلقان بقيا، ورسالةُ الالتزام السابق لم تصدق",
    "url": "brewing/french-press/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/51e06543a4e675f6f3abd0d74a5d1b63550c18fe",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c4e1893616342c22aa6dbb475c96b973199848dd",
    "approximate": false
   },
   "brewing/grinding/": {
@@ -786,6 +786,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-11-01",
+   "sha": "c4e1893616342c22aa6dbb475c96b973199848dd",
+   "subject": "المكبس الفرنسي: تتمّة التصحيح — موضعان مطلقان بقيا، ورسالةُ الالتزام السابق لم تصدق",
+   "commit": "https://github.com/msms11111-web/qatra/commit/c4e1893616342c22aa6dbb475c96b973199848dd",
+   "pages": [
+    "brewing/french-press/"
+   ]
+  },
   {
    "date": "2026-11-01",
    "sha": "b7e2a74c15c0ae32f192e8804a3e792155c5546d",
