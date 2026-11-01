@@ -250,10 +250,10 @@
   },
   "methodology/": {
    "date": "2026-11-01",
-   "sha": "1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
-   "subject": "المواصفات الخليجية: قائمةُ السجلّ في القهوة (23 من 35)، وتصحيحٌ وقاعدة",
+   "sha": "b7e2a74c15c0ae32f192e8804a3e792155c5546d",
+   "subject": "المنهج: قاعدةُ المقاطع المرئية — لا تحمل إلا ما في صفحتها",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/1d5e28571e2f78ed53c7d6b497d1860ef814bde2",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b7e2a74c15c0ae32f192e8804a3e792155c5546d",
    "approximate": false
   },
   "origins/brazil/": {
@@ -786,6 +786,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-11-01",
+   "sha": "b7e2a74c15c0ae32f192e8804a3e792155c5546d",
+   "subject": "المنهج: قاعدةُ المقاطع المرئية — لا تحمل إلا ما في صفحتها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b7e2a74c15c0ae32f192e8804a3e792155c5546d",
+   "pages": [
+    "methodology/"
+   ]
+  },
   {
    "date": "2026-11-01",
    "sha": "8587abb2c6a16ddc6036d0ddfad186061b3a47f1",
