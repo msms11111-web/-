@@ -369,11 +369,11 @@
    "approximate": false
   },
   "origins/tanzania/": {
-   "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "date": "2026-11-03",
+   "sha": "e430a98bdf0f630a33f9a57c9527265855446ff5",
+   "subject": "تنزانيا: وحدةُ جدول المجلس من وثيقةٍ للمجلس نفسِه، وما لا يستقيم فيها",
    "url": "origins/tanzania/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e430a98bdf0f630a33f9a57c9527265855446ff5",
    "approximate": false
   },
   "origins/uganda/": {
@@ -786,6 +786,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-11-03",
+   "sha": "e430a98bdf0f630a33f9a57c9527265855446ff5",
+   "subject": "تنزانيا: وحدةُ جدول المجلس من وثيقةٍ للمجلس نفسِه، وما لا يستقيم فيها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/e430a98bdf0f630a33f9a57c9527265855446ff5",
+   "pages": [
+    "origins/tanzania/"
+   ]
+  },
   {
    "date": "2026-11-03",
    "sha": "b9c2c244d3103fc045d5e5f382ee0659ab1dfcbd",
