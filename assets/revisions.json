@@ -489,11 +489,11 @@
    "approximate": false
   },
   "regions/guji/": {
-   "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "date": "2026-11-03",
+   "sha": "b9c2c244d3103fc045d5e5f382ee0659ab1dfcbd",
+   "subject": "قوجي: مديرياتُها في وثيقةٍ رسمية، وغربُ قوجي بين قولين للهيئة نفسِها",
    "url": "regions/guji/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b9c2c244d3103fc045d5e5f382ee0659ab1dfcbd",
    "approximate": false
   },
   "regions/huila/": {
@@ -786,6 +786,15 @@
   }
  },
  "history": [
+  {
+   "date": "2026-11-03",
+   "sha": "b9c2c244d3103fc045d5e5f382ee0659ab1dfcbd",
+   "subject": "قوجي: مديرياتُها في وثيقةٍ رسمية، وغربُ قوجي بين قولين للهيئة نفسِها",
+   "commit": "https://github.com/msms11111-web/qatra/commit/b9c2c244d3103fc045d5e5f382ee0659ab1dfcbd",
+   "pages": [
+    "regions/guji/"
+   ]
+  },
   {
    "date": "2026-11-03",
    "sha": "5e17eab9ec815a80206fb47c94e08d2c07a55699",
