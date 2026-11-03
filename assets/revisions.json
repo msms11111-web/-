@@ -249,11 +249,11 @@
    "approximate": false
   },
   "methodology/": {
-   "date": "2026-11-01",
-   "sha": "51e06543a4e675f6f3abd0d74a5d1b63550c18fe",
-   "subject": "المكبس الفرنسي: تصحيح «يحجزهما الورقُ فلا يصلان الكوب» — وفي الجدول 12 لا صفر",
+   "date": "2026-11-03",
+   "sha": "0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
+   "subject": "مراجعة الصفحة بعد التزام التغيير",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/51e06543a4e675f6f3abd0d74a5d1b63550c18fe",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
    "approximate": false
   },
   "origins/brazil/": {
@@ -745,11 +745,11 @@
    "approximate": false
   },
   "varieties/dega/": {
-   "date": "2026-10-31",
-   "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
-   "subject": "«من نحن»: مَن يكتب قطرة، وما لم يحدث بعد",
+   "date": "2026-11-03",
+   "sha": "0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
+   "subject": "مراجعة الصفحة بعد التزام التغيير",
    "url": "varieties/dega/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
    "approximate": false
   },
   "varieties/f1-hybrids/": {
@@ -813,6 +813,16 @@
     "brewing/espresso/",
     "brewing/grinding/",
     "processes/"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "sha": "0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
+   "subject": "مراجعة الصفحة بعد التزام التغيير",
+   "commit": "https://github.com/msms11111-web/qatra/commit/0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
+   "pages": [
+    "methodology/",
+    "varieties/dega/"
    ]
   },
   {
