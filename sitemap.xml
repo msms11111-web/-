@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https:///</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https:///encyclopedia/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https:///encyclopedia/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https:///origins/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///species/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///brewing/</loc><lastmod>2026-11-01</lastmod></url>
@@ -33,6 +33,17 @@
   <url><loc>https:///origins/honduras/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///origins/uganda/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///origins/tanzania/</loc><lastmod>2026-11-03</lastmod></url>
+  <url><loc>https:///origins/cote-divoire/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/china/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/malaysia/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/thailand/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/laos/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/philippines/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/papua-new-guinea/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/nicaragua/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/el-salvador/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/venezuela/</loc><lastmod>2026-11-04</lastmod></url>
+  <url><loc>https:///origins/ecuador/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https:///science/potato-defect/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///brewing/grinding/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https:///processes/monsooned/</loc><lastmod>2026-10-31</lastmod></url>
@@ -58,7 +69,7 @@
   <url><loc>https:///processes/water/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///roasting/first-crack/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///science/health/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https:///history/beginnings/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https:///history/beginnings/</loc><lastmod>2026-11-03</lastmod></url>
   <url><loc>https:///species/stenophylla/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///market/sustainability-code/</loc><lastmod>2026-10-31</lastmod></url>
   <url><loc>https:///market/robusta-contract/</loc><lastmod>2026-10-31</lastmod></url>

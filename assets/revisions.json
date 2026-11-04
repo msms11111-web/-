@@ -81,11 +81,11 @@
    "approximate": false
   },
   "encyclopedia/": {
-   "date": "2026-10-31",
-   "sha": "cb76f809bfa7aeca07928ffc1996e8d84f82503a",
-   "subject": "هويلا: تسميةُ منشأٍ كولومبية، وبحثٌ قاس ما وصفه قرارُها",
+   "date": "2026-11-04",
+   "sha": "f6ade15b0f63fad718ee1c86921478407c30c27d",
+   "subject": "المناشئ الأحد عشر الغائبة: صفحةٌ لكلٍّ ببطاقةٍ موحَّدة، وما لم نبلغه مكتوبٌ باسمه",
    "url": "encyclopedia/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/cb76f809bfa7aeca07928ffc1996e8d84f82503a",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f6ade15b0f63fad718ee1c86921478407c30c27d",
    "approximate": false
   },
   "evaluation/cva/": {
@@ -129,11 +129,11 @@
    "approximate": false
   },
   "history/beginnings/": {
-   "date": "2026-10-31",
-   "sha": "1906b898bf80d3a590ad9b55add11159c14b4e14",
-   "subject": "بدايات القهوة: قُرئ متنُ بابَي الجزيري، وثلاثةُ تصحيحات",
+   "date": "2026-11-03",
+   "sha": "d9c2deddd03e339b31ada974adf79bbea24d5ebf",
+   "subject": "مراجعة الصفحة بعد التزام التغيير",
    "url": "history/beginnings/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/1906b898bf80d3a590ad9b55add11159c14b4e14",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d9c2deddd03e339b31ada974adf79bbea24d5ebf",
    "approximate": false
   },
   "history/three-waves/": {
@@ -250,10 +250,10 @@
   },
   "methodology/": {
    "date": "2026-11-03",
-   "sha": "0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
+   "sha": "d9c2deddd03e339b31ada974adf79bbea24d5ebf",
    "subject": "مراجعة الصفحة بعد التزام التغيير",
    "url": "methodology/",
-   "commit": "https://github.com/msms11111-web/qatra/commit/0ed77ba2ff2f3a88ce47643e63f9a36b28de5a6c",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d9c2deddd03e339b31ada974adf79bbea24d5ebf",
    "approximate": false
   },
   "origins/brazil/": {
@@ -263,6 +263,12 @@
    "url": "origins/brazil/",
    "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
    "approximate": false
+  },
+  "origins/china/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "origins/colombia/": {
    "date": "2026-10-31",
@@ -279,6 +285,24 @@
    "url": "origins/costa-rica/",
    "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
    "approximate": false
+  },
+  "origins/cote-divoire/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "origins/ecuador/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "origins/el-salvador/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "origins/ethiopia/": {
    "date": "2026-10-31",
@@ -336,6 +360,18 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
    "approximate": false
   },
+  "origins/laos/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
+  "origins/malaysia/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/mexico/": {
    "date": "2026-10-31",
    "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
@@ -343,6 +379,12 @@
    "url": "origins/mexico/",
    "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
    "approximate": false
+  },
+  "origins/nicaragua/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "origins/panama/": {
    "date": "2026-10-31",
@@ -352,6 +394,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
    "approximate": false
   },
+  "origins/papua-new-guinea/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/peru/": {
    "date": "2026-10-31",
    "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
@@ -359,6 +407,12 @@
    "url": "origins/peru/",
    "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
    "approximate": false
+  },
+  "origins/philippines/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "origins/rwanda/": {
    "date": "2026-10-31",
@@ -376,6 +430,12 @@
    "commit": "https://github.com/msms11111-web/qatra/commit/e430a98bdf0f630a33f9a57c9527265855446ff5",
    "approximate": false
   },
+  "origins/thailand/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
+  },
   "origins/uganda/": {
    "date": "2026-10-31",
    "sha": "6accff6145f0f3a40a6bc4be5b7e90325921147f",
@@ -383,6 +443,12 @@
    "url": "origins/uganda/",
    "commit": "https://github.com/msms11111-web/qatra/commit/6accff6145f0f3a40a6bc4be5b7e90325921147f",
    "approximate": false
+  },
+  "origins/venezuela/": {
+   "date": "",
+   "sha": "",
+   "subject": "",
+   "approximate": true
   },
   "origins/vietnam/": {
    "date": "2026-10-31",
@@ -787,12 +853,31 @@
  },
  "history": [
   {
+   "date": "2026-11-04",
+   "sha": "f6ade15b0f63fad718ee1c86921478407c30c27d",
+   "subject": "المناشئ الأحد عشر الغائبة: صفحةٌ لكلٍّ ببطاقةٍ موحَّدة، وما لم نبلغه مكتوبٌ باسمه",
+   "commit": "https://github.com/msms11111-web/qatra/commit/f6ade15b0f63fad718ee1c86921478407c30c27d",
+   "pages": [
+    "encyclopedia/"
+   ]
+  },
+  {
    "date": "2026-11-03",
    "sha": "e430a98bdf0f630a33f9a57c9527265855446ff5",
    "subject": "تنزانيا: وحدةُ جدول المجلس من وثيقةٍ للمجلس نفسِه، وما لا يستقيم فيها",
    "commit": "https://github.com/msms11111-web/qatra/commit/e430a98bdf0f630a33f9a57c9527265855446ff5",
    "pages": [
     "origins/tanzania/"
+   ]
+  },
+  {
+   "date": "2026-11-03",
+   "sha": "d9c2deddd03e339b31ada974adf79bbea24d5ebf",
+   "subject": "مراجعة الصفحة بعد التزام التغيير",
+   "commit": "https://github.com/msms11111-web/qatra/commit/d9c2deddd03e339b31ada974adf79bbea24d5ebf",
+   "pages": [
+    "history/beginnings/",
+    "methodology/"
    ]
   },
   {
