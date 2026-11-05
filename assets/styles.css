@@ -216,6 +216,8 @@ html:not([data-theme="light"]) {
 .fig.narrow svg{max-width:420px;margin-inline:auto}
 /* فيديو داخل المقال: يتمدد بعرضه، وأبعادُه في الوسم تحفظ مكانه قبل التحميل فلا تقفز الصفحة */
 .fig video{display:block;width:100%;height:auto;border-radius:calc(var(--r) * .5);background:var(--card);border:1px solid var(--line)}
+/* أزرارُ المشغّل في ظلّ العنصر: التركيزُ فيها لا يُظهر إطارًا على الفيديو نفسِه، فيُرسم الإطارُ على المضيف */
+.fig video:focus-within{outline:3px solid var(--focus);outline-offset:3px}
 /* جدول عريض لا يدفع الصفحة: يمرّر داخل حاويته.
    وعنصر الشبكة أصله min-width:auto، فيأبى النزول تحت أعرض محتوياته ويجرّ
    الصفحة معه. الصفر هنا هو ما يجعل التمرير يعمل بدل أن يفيض. */

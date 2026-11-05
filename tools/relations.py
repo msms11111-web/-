@@ -117,6 +117,17 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("regions/yirgacheffe-sidama/", "الطريقُ الآخر: علامةٌ تجاريةٌ بلا حدود"),
         ("origins/", "الوحدةُ قبل الرقم: أكياسُ توليما مثالًا"),
     ],
+    "regions/antigua/": [
+        ("origins/guatemala/", "البلد، ومناطقُه الثماني"),
+        ("regions/tarrazu/", "تسميةٌ أخرى في أمريكا الوسطى، وتشترط التحميصَ في المنطقة"),
+        ("regions/huila/", "تسميةٌ بقرارٍ وحزامِ ارتفاع"),
+        ("methodology/", "يُنشر الخلافُ لا أحدُ طرفيه"),
+    ],
+    "regions/tarrazu/": [
+        ("origins/costa-rica/", "البلد، ومناطقُه الإحصائية"),
+        ("regions/antigua/", "تسميةٌ أخرى في أمريكا الوسطى، تُجيز التحميصَ خارجها"),
+        ("origins/", "الوحدةُ قبل الرقم: الفانيغا مثالًا"),
+    ],
     "regions/huila/": [
         ("regions/narino-tolima/", "تسميتان أخريان بالنسق نفسِه"),
         ("origins/colombia/", "البلد، والمساحةُ بثلاثة مقامات"),
@@ -598,6 +609,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("origins/tanzania/", "جارٌ تخرج إليه روبوستا كاغيرا عبر الحدود"),
     ],
     "origins/guatemala/": [
+        ("regions/antigua/", "أنتيغوا: تسميةُ منشأٍ بنصّين"),
         ("origins/peru/", "مقارنةٌ في الشكل المؤسسي للقطاع"),
         ("varieties/f1-hybrids/", "دورُ معهدها في هجائن الجيل الأول وتجاربها"),
         ("varieties/caturra/", "خرجت منه إلى كوستاريكا وهندوراس وبنما"),
@@ -645,6 +657,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("methodology/", "لماذا يُنشر الخلافُ خلافًا ولا يُرجَّح أحدُ رقمَيه"),
     ],
     "origins/costa-rica/": [
+        ("regions/tarrazu/", "تارازو: تسميةُ منشأٍ بثلاثة كانتونات"),
         ("origins/peru/", "منشأٌ بلا معهدٍ جامع: خطةٌ بمرسومٍ ومجلسُ متابعة"),
         ("varieties/f1-hybrids/", "بنكُ أصولها ومعهدُها في صناعة هجائن الجيل الأول"),
         ("varieties/caturra/", "أُدخلت إليها من غواتيمالا، وقابليتها للصدأ دفعت ما بعدها"),
