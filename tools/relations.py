@@ -81,6 +81,7 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("evaluation/", "لماذا لا يُقرأ حجم الإنتاج ولا المكننة حكمًا على الجودة"),
     ],
     "origins/colombia/": [
+        ("regions/narino-tolima/", "نارينيو وتوليما: تسميتا منشأٍ إقليميتان"),
         ("origins/brazil/", "منشأ مجاور في الحجم، ومختلف عنه في بنية الحيازة"),
         ("processes/washed/", "المعالجة السائدة فيه تاريخيًا"),
         ("varieties/typica-bourbon/", "المجموعتان التي تنحدر منهما سلالاته المطوَّرة"),
@@ -110,7 +111,14 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("varieties/dega/", "اسمٌ محليٌّ يتردّد على أكياسها"),
         ("methodology/", "الوحدةُ قبل الرقم: لماذا لا يُنشر رقمُ الإنتاج"),
     ],
+    "regions/narino-tolima/": [
+        ("regions/huila/", "تسميةٌ بالنسق نفسِه: قرارٌ وبلدياتٌ وارتفاع"),
+        ("origins/colombia/", "البلد، وإحصاؤه الوطني"),
+        ("regions/yirgacheffe-sidama/", "الطريقُ الآخر: علامةٌ تجاريةٌ بلا حدود"),
+        ("origins/", "الوحدةُ قبل الرقم: أكياسُ توليما مثالًا"),
+    ],
     "regions/huila/": [
+        ("regions/narino-tolima/", "تسميتان أخريان بالنسق نفسِه"),
         ("origins/colombia/", "البلد، والمساحةُ بثلاثة مقامات"),
         ("regions/cerrado-mineiro/", "تسميةُ منشأٍ أخرى: حدودٌ بخطوط الطول وشرطُ كوبٍ يُقاس"),
         ("processes/washed/", "المعالجةُ التي يشترطها القرار"),

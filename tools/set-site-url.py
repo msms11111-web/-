@@ -124,6 +124,7 @@ PAGES = [
     ("methodology/", "منهج قطرة"),
     ("regions/huila/", "هويلا"),
     ("regions/yirgacheffe-sidama/", "يرغاتشيفي وسيداما"),
+    ("regions/narino-tolima/", "نارينيو وتوليما"),
     ("changelog/", "سجل التغييرات"),
     ("about/", "من نحن"),
     ("saudi-coffee/", "القهوة السعودية"),
