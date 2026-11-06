@@ -97,6 +97,7 @@ PAGES = [
     ("saudi-coffee/standards/", "المواصفات الخليجية للقهوة"),
     ("processes/fermentation/", "التخمير"),
     ("science/acrylamide/", "الأكريلاميد في القهوة"),
+    ("science/furan/", "الفيوران في القهوة"),
     ("varieties/f1-hybrids/", "الهجائن من الجيل الأول"),
     ("varieties/caturra/", "كاتورا"),
     ("varieties/timor-catimor/", "هجين تيمور وكاتيمور"),
