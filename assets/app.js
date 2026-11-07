@@ -191,6 +191,8 @@
     ["هندوراس", "honduras"],
     ["ليمبيرا", "lempira"],
     ["بارانيما", "parainema"],
+    ["باكامارا", "pacamara"],
+    ["ماراغوجيبي", "maragogipe"],
     ["اوغندا", "uganda"],
     ["رواندا", "rwanda"],
     ["بيرازين", "pyrazine", "ipmp"],

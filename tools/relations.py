@@ -795,6 +795,27 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("varieties/caturra/", "طفرة خرجت من بوربون وغيّرت أمريكا اللاتينية"),
         ("varieties/dega/", "المشكلة نفسها: اسم يدل على أشياء مختلفة بحسب السياق"),
     ],
+    "varieties/sl28-sl34/": [
+        ("origins/kenya/", "البلد الذي انتُخبتا فيه، وسلالتاه المقاومتان بعدهما"),
+        ("varieties/typica-bourbon/", "المجموعتان اللتان تنتمي إليهما كلٌّ منهما"),
+        ("origins/uganda/", "حيث انتشرت SL28 في مناطق الأرابيكا"),
+        ("science/diseases/", "أنثراكنوز الحبّة الذي تضعف أمامه SL34"),
+        ("species/", "موضعهما في شجرة السلالات"),
+    ],
+    "varieties/mundo-novo-catuai/": [
+        ("origins/brazil/", "البلد الذي وُجدتا فيه، ومجموعتاهما أكثرُ أرابيكاه"),
+        ("varieties/caturra/", "الأبُ الآخر لكاتوايي، ومنه قِصَرُها"),
+        ("varieties/typica-bourbon/", "أبوا موندو نوفو"),
+        ("origins/guatemala/", "رقمان لحصّة كاتوايي لا يتّفقان"),
+        ("species/", "موضعهما في شجرة السلالات"),
+    ],
+    "varieties/pacamara/": [
+        ("origins/el-salvador/", "البلد الذي رُبّيت فيه، وباكاس أحدُ أبويها"),
+        ("varieties/typica-bourbon/", "بوربون الذي خرجت منه باكاس"),
+        ("varieties/geisha/", "السلالة الأخرى التي تتصدّر مسابقات الجودة معها"),
+        ("science/diseases/", "الصدأ وعين الديك اللذان تضعف أمامهما"),
+        ("species/", "موضعها في شجرة السلالات"),
+    ],
     "varieties/geisha/": [
         ("origins/ethiopia/", "المنشأ الحقيقي للسلالة قبل شهرتها البنمية"),
         ("varieties/dega/", "المشكلة نفسها: اسم محلي تعددت صوره وتفرّق ما يدل عليه"),
