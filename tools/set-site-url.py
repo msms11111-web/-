@@ -109,6 +109,8 @@ PAGES = [
     ("varieties/sl28-sl34/", "SL28 وSL34"),
     ("varieties/mundo-novo-catuai/", "موندو نوفو وكاتوايي"),
     ("varieties/pacamara/", "باكامارا"),
+    ("varieties/74110-74112/", "74110 و74112"),
+    ("varieties/pacas-villa-sarchi/", "باكاس وفيلا سارتشي"),
     ("processes/", "عائلة المعالجات"),
     ("processes/natural/", "المعالجة المجففة"),
     ("processes/washed/", "المعالجة المغسولة"),

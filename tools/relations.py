@@ -809,6 +809,20 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("origins/guatemala/", "رقمان لحصّة كاتوايي لا يتّفقان"),
         ("species/", "موضعهما في شجرة السلالات"),
     ],
+    "varieties/74110-74112/": [
+        ("origins/ethiopia/", "البلد، وسجلُّ عدد سلالاته المفتوح"),
+        ("science/diseases/", "أنثراكنوز الحبّة الذي انتُخبتا لمقاومته"),
+        ("varieties/dega/", "اسمٌ إثيوبيٌّ آخر على العبوات، لم يثبت وراثيًّا"),
+        ("regions/yirgacheffe-sidama/", "منطقتان أُطلقت لهما انتخاباتٌ خاصّة سنة 2010"),
+        ("species/", "موضعهما في شجرة السلالات"),
+    ],
+    "varieties/pacas-villa-sarchi/": [
+        ("varieties/caturra/", "الطفرةُ الثالثة بالجين نفسِه"),
+        ("varieties/pacamara/", "ابنةُ باكاس من ماراغوجيبي"),
+        ("varieties/timor-catimor/", "عائلةُ سارشيمور التي أخذت اسمَ فيلا سارتشي"),
+        ("origins/el-salvador/", "بلدُ باكاس، وحصّتُها بثلاثة أرقام"),
+        ("origins/costa-rica/", "بلدُ فيلا سارتشي"),
+    ],
     "varieties/pacamara/": [
         ("origins/el-salvador/", "البلد الذي رُبّيت فيه، وباكاس أحدُ أبويها"),
         ("varieties/typica-bourbon/", "بوربون الذي خرجت منه باكاس"),
