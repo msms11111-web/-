@@ -281,6 +281,29 @@ def page_schema(base: str, url: str, path: str, html: str, rev: dict | None = No
     )
 
 
+# السكربتُ المضمَّن الوحيد في الصفحات. سياسةُ الأمان في ‎_headers‎ تمنع كلَّ سكربتٍ مضمَّن
+# (script-src 'self')، فيُكتب تجزئتُه فيها بآلة — كي لا تحجبه إن تغيّر حرفٌ منه.
+THEME_JS = (
+    "try{var t=localStorage.getItem('qatra-theme');"
+    "if(t)document.documentElement.dataset.theme=t}catch(e){}"
+)
+
+
+def sync_csp() -> None:
+    """يُبقي تجزئةَ السكربت المضمَّن في ترويسة Content-Security-Policy مطابقةً لنصّه."""
+    import base64
+    import hashlib
+
+    digest = base64.b64encode(hashlib.sha256(THEME_JS.encode("utf-8")).digest()).decode()
+    path = ROOT / "_headers"
+    text = path.read_text(encoding="utf-8")
+    new = re.sub(r"script-src 'self'(?: 'sha256-[A-Za-z0-9+/=]+')*", f"script-src 'self' 'sha256-{digest}'", text)
+    if "script-src 'self' 'sha256-" not in new:
+        raise SystemExit("لم يُعثر على script-src في _headers.")
+    if new != text:
+        path.write_text(new, encoding="utf-8")
+
+
 def meta_block(
     base: str, url: str, prefix: str, home: bool = False, schema: str = "", noindex: bool = False
 ) -> str:
@@ -290,8 +313,7 @@ def meta_block(
         f"{json_ld(base) if home else schema}"
         f"{robots}"
         # يُطبَّق الاختيار المحفوظ قبل أول رسم، وإلا ومضت الصفحة بيضاء ثم أظلمت
-        f"<script>try{{var t=localStorage.getItem('qatra-theme');"
-        f"if(t)document.documentElement.dataset.theme=t}}catch(e){{}}</script>"
+        f"<script>{THEME_JS}</script>"
         f'<meta name="theme-color" content="#f7f1e7" media="(prefers-color-scheme: light)">'
         f'<meta name="theme-color" content="#14110d" media="(prefers-color-scheme: dark)">'
         f'<link rel="canonical" href="{url}">'
@@ -417,6 +439,7 @@ def main() -> int:
         "</urlset>\n",
         encoding="utf-8",
     )
+    sync_csp()
     (ROOT / "robots.txt").write_text(
         f"User-agent: *\nAllow: /\n\nSitemap: {base}sitemap.xml\n", encoding="utf-8"
     )
