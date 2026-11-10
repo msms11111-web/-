@@ -133,6 +133,7 @@ PAGES = [
     ("regions/narino-tolima/", "نارينيو وتوليما"),
     ("regions/antigua/", "أنتيغوا"),
     ("regions/tarrazu/", "تارازو"),
+    ("regions/gayo/", "غايو"),
     ("changelog/", "سجل التغييرات"),
     ("about/", "من نحن"),
     ("saudi-coffee/", "القهوة السعودية"),
