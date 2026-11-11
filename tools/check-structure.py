@@ -139,6 +139,8 @@ def aliases() -> list[list[str]]:
 
 # لاحقةُ الكلمة القصيرة — تُحاكي TAIL في assets/app.js حرفًا بحرف
 TAIL = re.compile(r"^(ا|ه|ي|ن|ت|ات|ان|ين|ون|يه|يا|ها|هم|نا|s)?$")
+# والكلمةُ من حرفين أضيقُ — تُحاكي TAIL2 في app.js: ألفُ التنوين وجمعُ اللاتينية فقط
+TAIL2 = re.compile(r"^(ا|s)?$")
 
 
 def at_word(hay: str, word: str) -> bool:
@@ -159,7 +161,7 @@ def at_word(hay: str, word: str) -> bool:
             end = i + len(word)
             while end < len(hay) and WORDCH.match(hay[end]):
                 end += 1
-            if TAIL.match(hay[i + len(word):end]):
+            if (TAIL2 if len(word) <= 2 else TAIL).match(hay[i + len(word):end]):
                 return True
         i = hay.find(word, i + 1)
     return False
