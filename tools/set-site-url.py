@@ -134,6 +134,7 @@ PAGES = [
     ("regions/antigua/", "أنتيغوا"),
     ("regions/tarrazu/", "تارازو"),
     ("regions/gayo/", "غايو"),
+    ("regions/doi-tung-doi-chaang/", "دوي تونغ ودوي تشانغ"),
     ("changelog/", "سجل التغييرات"),
     ("about/", "من نحن"),
     ("saudi-coffee/", "القهوة السعودية"),

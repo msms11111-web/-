@@ -130,6 +130,13 @@ RELATIONS: dict[str, list[tuple[str, str]]] = {
         ("processes/washed/", "الأصلُ الذي يتفرّع منه التقشيرُ الرطب"),
         ("origins/", "كيف يُقرأ اسمُ المنطقة على الكيس"),
     ],
+    "regions/doi-tung-doi-chaang/": [
+        ("origins/thailand/", "البلد، وجدولُ إنتاجه بالنوع والإقليم"),
+        ("regions/gayo/", "اسمُ بنٍّ آسيويٌّ آخر في السجلّ الأوروبي"),
+        ("regions/tarrazu/", "تسميةٌ أخرى تشترط التحميصَ في المنطقة"),
+        ("science/cup-caffeine/", "الكافيين بمقاماته، لا بحدٍّ في سجلّ"),
+        ("varieties/timor-catimor/", "كاتيمور الذي تُجيزه وثيقةُ دوي تونغ"),
+    ],
     "regions/tarrazu/": [
         ("origins/costa-rica/", "البلد، ومناطقُه الإحصائية"),
         ("regions/antigua/", "تسميةٌ أخرى في أمريكا الوسطى، تُجيز التحميصَ خارجها"),
