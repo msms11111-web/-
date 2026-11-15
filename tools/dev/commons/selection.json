@@ -92,15 +92,6 @@
    "name": "catimor-flowers",
    "what_page_states": "الوصف (بالفيتنامية): «Hoa cà phê catimor.» أي: زهر قهوة الكاتيمور. التصنيفات: Coffea؛ Dak Lak؛ Flora of Vietnam.",
    "identity_check": "الوصف يسمّي السلالة صريحًا: «catimor». التصنيف Category:Coffea لا يناقض. الصورة للكاتيمور وحدَه، لا هجين تيمور."
-  },
-  {
-   "batch": 2,
-   "target_page": "varieties/geisha",
-   "title": "File:Panama Gesha pourover coffee at Paradox Design & Coffee (50661522232).jpg",
-   "name": "gesha-pourover-cup",
-   "what_page_states": "الوصف: «Panama Gesha pourover coffee at Paradox Design & Coffee». التصنيف: Coffee shops in London.",
-   "identity_check": "الوصف يسمّي السلالة صريحًا: «Gesha». الصورة لكوب قهوةٍ مقطّرة في مقهى لا لنبتة، والتسميةُ تسميةُ المصوِّر (عن المقهى) — لا تحقُّقَ نباتيًّا منها.",
-   "note": "كوبٌ في مقهى: قد يظهر شعارٌ تجاري — تُعايَن قبل القبول"
   }
  ],
  "skipped": [
@@ -211,6 +202,12 @@
    "target_page": "species/arabica",
    "commons_title": "File:Coffee berries harvest in Anaimalai Hills, Southern Western Ghats P1110963.jpg",
    "reason": "الوصف نفسُه يقول «most likely coffea arabica»"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/geisha",
+   "commons_title": "File:Panama Gesha pourover coffee at Paradox Design & Coffee (50661522232).jpg",
+   "reason": "كوبُ قهوةٍ في مقهى: لا يُثبت السلالة؛ التسميةُ «Gesha» تسميةُ المصوِّر عن المقهى، والصورةُ لا تُظهر نبتةً ولا ثمرًا. لم تُنزَّل."
   }
  ],
  "not_found": [

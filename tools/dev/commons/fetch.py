@@ -2,7 +2,8 @@
 """جلبُ صورٍ موثّقة من Wikimedia Commons وتحويلُها إلى WebP، مع سجلٍّ كامل.
 
 المصدر: API الرسمي https://commons.wikimedia.org/w/api.php للبحث والبيانات،
-و upload.wikimedia.org لتنزيل الملفّ — ولا شيء غيرهما.
+و upload.wikimedia.org لتنزيل المصغَّرة التي يُرجعها API في thumburl (iiurlwidth=1280، ثم 960
+إن تكرّر 429) — لا الأصل، ولا رابطٌ مصوغٌ باليد، ولا مضيفٌ غيرهما.
 
 التشغيل (بالخيار -I لأن الملفّات المنزَّلة بياناتٌ غير موثوقة):
   python3 -I fetch.py search "<طلب بحث>" [العدد]      # مرشّحون مع بياناتهم
@@ -26,6 +27,13 @@ MIN_GAP = 1.2            # ثانيةٌ وزيادة بين كل طلبين من
 UPLOAD_GAP = 6.0         # وستُّ ثوانٍ بين كل تنزيلين من upload.wikimedia.org
 MAX_W, MAX_BYTES = 1200, 150000
 _last = [0.0]
+THUMB_WIDTHS = (1280, 960)   # مقاسان قياسيّان من https://w.wiki/GHai — الثاني بعد تكرّر 429 على الأول
+THUMB_HOST = "upload.wikimedia.org"
+
+class Upload429(Exception):
+    def __init__(self, retry_after, url):
+        super().__init__(retry_after, url)
+        self.retry_after, self.url = retry_after, url
 
 def _get(url, binary=False):
     host = urllib.parse.urlsplit(url).hostname
@@ -42,8 +50,8 @@ def _get(url, binary=False):
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code == 429 and host.startswith("upload."):
-                # رفضٌ من ويكيميديا لتنزيل الأصل: نتوقّف ولا نكرّر (التكرار يجدّد مهلة الحظر) ولا نلتفّ
-                raise SystemExit("رُفض التنزيل: HTTP 429 (Retry-After: %s) عند %s" % (e.headers.get("Retry-After"), url))
+                # لا يُكرَّر هنا: يقرّر المستدعي (build) انتظارَ Retry-After مرّةً واحدة أو النزولَ إلى مقاسٍ قياسيٍّ آخر
+                raise Upload429(e.headers.get("Retry-After"), url)
             if e.code == 429 and attempt < 3:      # تحديدُ معدّل API: ننتظر ولا نلتفّ
                 ra = e.headers.get("Retry-After", "")
                 time.sleep(min(int(ra) if ra.isdigit() else 30 * (attempt + 1), 120))
@@ -88,7 +96,7 @@ def meta(pg):
                 lic_url=em.get("LicenseUrl", ""), usage=em.get("UsageTerms", ""),
                 attr_req=em.get("AttributionRequired", ""), restr=em.get("Restrictions", ""),
                 desc=strip(em.get("ImageDescription")), date=strip(em.get("DateTimeOriginal")),
-                cats=cats)
+                cats=cats, thumburl=ii.get("thumburl"), thumbw=ii.get("thumbwidth"), thumbh=ii.get("thumbheight"))
 
 OK_LIC = re.compile(r"^(CC0( 1\.0)?|Public domain|PD.*|CC BY(-SA)? \d\.\d( [a-z-]+)?)$", re.I)
 BAD_LIC = re.compile(r"\b(NC|ND)\b|fair use", re.I)
@@ -150,6 +158,15 @@ def convert(src, dst):
     from PIL import Image, ImageOps
     im = Image.open(src); im.load()
     im = ImageOps.exif_transpose(im)
+    icc = im.info.get("icc_profile")
+    if icc:   # يُحوَّل إلى sRGB قبل حذف الملفّ اللوني كي لا تنحرف الألوان؛ ولا يُكتب في الخرج ملفٌّ لوني
+        from PIL import ImageCms
+        src_p = ImageCms.ImageCmsProfile(io.BytesIO(icc))
+        if im.mode not in ("RGB", "RGBA"):
+            im = ImageCms.profileToProfile(im, src_p, ImageCms.createProfile("sRGB"), outputMode="RGB")
+        else:
+            im = ImageCms.profileToProfile(im, src_p, ImageCms.createProfile("sRGB"))
+        im.info.pop("icc_profile", None)
     im = im.convert("RGBA" if im.mode in ("RGBA", "LA", "P") and "transparency" in im.info or im.mode == "RGBA" else "RGB")
     w0 = min(MAX_W, im.width)
     for w in [w0] + [x for x in (1100, 1000, 900, 800, 700, 600) if x < w0]:
@@ -189,45 +206,103 @@ def plan(sel_path, repo):
     with open(os.path.join(d, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(man, f, ensure_ascii=False, indent=1); f.write("\n")
 
+def _manifest(repo, sel, acc, pend, thumbs, prev):
+    man = {"retrieved": datetime.date.today().isoformat(), "thumbnails": thumbs}
+    if prev.get("download_blocked"):
+        man["originals_blocked_earlier"] = prev["download_blocked"]
+    man.update(accepted=acc, pending_download=pend,
+               skipped=sel.get("skipped", []), not_found=sel.get("not_found", []))
+    d = os.path.join(repo, "tools", "dev", "commons"); os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, "manifest.json"), "w", encoding="utf-8") as f:
+        json.dump(man, f, ensure_ascii=False, indent=1); f.write("\n")
+
+def _thumb_meta(title, width):
+    return meta(api(action="query", titles=title, iiurlwidth=str(width), **PROPS)[0])
+
 def build(sel_path, dl_dir, repo):
-    # dl_dir: مجلّدٌ خارج المستودع أُنشئ لهذا الغرض وحدَه؛ كلُّ أصلٍ في مجلّدٍ فرعيٍّ باسم sha1،
-    # ويُعاد استعمالُه إن طابق sha1 المعلَن في API (كي لا يُنزَّل الأصل مرّتين).
+    # تُنزَّل المصغّرةُ التي يُرجعها API في thumburl بمقاسٍ قياسيّ (iiurlwidth)، لا الأصل، ولا يُصاغ رابطٌ باليد.
+    # dl_dir: مجلّدٌ خارج المستودع أُنشئ لهذا الغرض وحدَه؛ كلُّ ملفٍّ في مجلّدٍ فرعيٍّ باسم sha1 الأصل.
+    rp, dp = os.path.realpath(repo), os.path.realpath(dl_dir)
+    if dp == rp or dp.startswith(rp + os.sep):
+        raise SystemExit("مجلّد التنزيل داخل المستودع: %s" % dl_dir)
     os.makedirs(dl_dir, exist_ok=True)
     sel = json.load(open(sel_path, encoding="utf-8"))
+    mpath = os.path.join(repo, "tools", "dev", "commons", "manifest.json")
+    prev = json.load(open(mpath, encoding="utf-8")) if os.path.exists(mpath) else {}
+    plans = {p["commons_title"]: p for p in prev.get("pending_download", [])}
     out_dir = os.path.join(repo, "assets", "images"); os.makedirs(out_dir, exist_ok=True)
-    acc = []
-    for i, s in enumerate(sel["accepted"]):
-        m = meta(api(action="query", titles=s["title"], **PROPS)[0])
+    wi = 0
+    thumbs = {"source": "thumburl من API (prop=imageinfo، iiurlwidth)", "widths_tried": [THUMB_WIDTHS[0]],
+              "required_host": THUMB_HOST, "host_seen": None, "events": []}
+    acc, todo = [], list(sel["accepted"])
+
+    def stop(msg):
+        thumbs["stopped"] = msg
+        _manifest(repo, sel, acc, [plans.get(s["title"], s) for s in todo], thumbs, prev)
+        raise SystemExit(msg)
+
+    while todo:
+        s = todo[0]
+        m = _thumb_meta(s["title"], THUMB_WIDTHS[wi])
         pr = problems(m)
         if pr:
-            raise SystemExit("مرفوضٌ آليًّا %s: %s" % (s["title"], pr))
-        sub = os.path.join(dl_dir, m["sha1"]); src = os.path.join(sub, "original.bin")
-        if not (os.path.exists(src) and hashlib.sha1(open(src, "rb").read()).hexdigest() == m["sha1"]):
-            raw = _get(m["url"].split("?")[0], True)
-            if hashlib.sha1(raw).hexdigest() != m["sha1"]:
-                raise SystemExit("sha1 لا يطابق: %s" % s["title"])
+            stop("مرفوضٌ آليًّا %s: %s" % (s["title"], pr))
+        turl = m["thumburl"]
+        host = urllib.parse.urlsplit(turl or "").hostname
+        if thumbs["host_seen"] is None:
+            print("thumburl (أول مرشَّح):", turl)
+            thumbs["host_seen"], thumbs["first_thumburl"] = host, turl
+        if host != THUMB_HOST:
+            stop("مضيفُ المصغّر %s لا %s: توقّفنا قبل أي تنزيل ولم نجرّب مضيفًا آخر ولا رابطًا مصوغًا باليد (%s)"
+                 % (host, THUMB_HOST, turl))
+        sub = os.path.join(dl_dir, m["sha1"]); src = os.path.join(sub, "thumb-%d.bin" % m["thumbw"])
+        if not os.path.exists(src):
+            raw, waited = None, False
+            while raw is None:
+                try:
+                    raw = _get(turl, True)
+                except Upload429 as e:
+                    ev = "HTTP 429 (Retry-After: %s) عند %s" % (e.retry_after, e.url)
+                    thumbs["events"].append(ev); print(ev)
+                    if not waited:
+                        waited = True
+                        ra = e.retry_after if (e.retry_after or "").isdigit() else "60"
+                        print("ننتظر Retry-After كاملًا:", ra, "ثانية"); time.sleep(int(ra))
+                        continue
+                    if wi + 1 < len(THUMB_WIDTHS):
+                        wi += 1; thumbs["widths_tried"].append(THUMB_WIDTHS[wi])
+                        print("تكرّر 429؛ ننتقل إلى iiurlwidth=%d" % THUMB_WIDTHS[wi])
+                        break
+                    stop("تكرّر HTTP 429 على المصغّرات بالمقاسين %s: توقّفنا" % (THUMB_WIDTHS,))
+            if raw is None:
+                continue          # يُعاد الطلب من API بالمقاس الجديد لهذا المرشَّح نفسِه
             os.makedirs(sub, exist_ok=True)
             with open(src, "wb") as f:
                 f.write(raw)
+        dsha = hashlib.sha1(open(src, "rb").read()).hexdigest()
         rel = "assets/images/%s.webp" % s["name"]
         w, h, n, q = convert(src, os.path.join(repo, rel))
-        ch = ("صُغِّرت إلى عرض %d بكسل وحُوِّلت" % w if w < m["w"] else "لم تُصغَّر (عرضها %d بكسل) وحُوِّلت" % w) \
-             + " إلى WebP بجودة %d، وأُزيلت بيانات EXIF" % q
+        dw = m["thumbw"]
+        ch = "نُزِّلت نسخةُ ويكيميديا المصغَّرة بعرض %d، و" % dw
+        ch += ("صُغِّرت إلى عرض %d بكسل وحُوِّلت" % w) if w < dw else ("لم تُصغَّر (عرضها %d بكسل) وحُوِّلت" % w)
+        ch += " إلى WebP بجودة %d" % q
+        if dw >= (m["w"] or 0):
+            ch += " — والمقاسُ المطلوب أكبرُ من الأصل، فالرابطُ الذي أرجعه API هو الأصلُ نفسُه"
         acc.append({"batch": s["batch"], "target_page": s["target_page"], "file": rel, "width": w, "height": h,
-                    "bytes": n, "commons_title": m["title"], "commons_url": m["descurl"], "original_url": m["url"],
+                    "bytes": n, "downloaded_from": turl, "downloaded_width": dw, "downloaded_height": m["thumbh"],
+                    "downloaded_sha1": dsha,
+                    "commons_title": m["title"], "commons_url": m["descurl"], "original_url": m["url"],
                     "original_width": m["w"], "original_height": m["h"], "original_sha1": m["sha1"],
                     "author": m["author"], "credit": m["credit"], "license_short": m["lic"],
                     "license_code": m["lic_code"], "license_url": m["lic_url"], "usage_terms": m["usage"],
                     "attribution_required": m["attr_req"], "restrictions": m["restr"],
                     "description": m["desc"], "date_original": m["date"], "categories": m["cats"],
                     "what_page_states": s["what_page_states"], "identity_check": s.get("identity_check", ""),
-                    "changes": ch})
-        print("ok", rel, w, h, n, "q", q)
-    man = {"retrieved": datetime.date.today().isoformat(), "accepted": acc,
-           "skipped": sel.get("skipped", []), "not_found": sel.get("not_found", [])}
-    d = os.path.join(repo, "tools", "dev", "commons"); os.makedirs(d, exist_ok=True)
-    with open(os.path.join(d, "manifest.json"), "w", encoding="utf-8") as f:
-        json.dump(man, f, ensure_ascii=False, indent=1); f.write("\n")
+                    "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+                    "visual_check": "", "changes": ch, "note": s.get("note", "")})
+        print("ok", rel, w, h, n, "q", q, "from", dw)
+        todo.pop(0)
+    _manifest(repo, sel, acc, [], thumbs, prev)
 
 if __name__ == "__main__":
     a = sys.argv[1:]
