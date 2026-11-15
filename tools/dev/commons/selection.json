@@ -1,0 +1,382 @@
+{
+ "accepted": [
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "title": "File:Finjan Arabic coffee.jpg",
+   "name": "finjan-arabic-coffee",
+   "what_page_states": "الوصف: «A cup Arabic coffee». التصنيف: Arabic coffee. لا تذكر الصفحةُ بلدًا ولا مكانًا."
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "title": "File:One dallah per guest (4569431037).jpg",
+   "name": "dallah-guest-hall",
+   "what_page_states": "الوصف: «The guest hall has a huge set of brass and silver Dallah (coffee pots). We were served with kahwa (Arabic coffee), tea, cold drinks and cakes». التصنيفات: Dallah؛ Men of Saudi Arabia. لا يسمّي الوصفُ نفسُه البلدَ؛ السعوديةُ واردةٌ في التصنيف وحدَه.",
+   "note": "تصنيفها Men of Saudi Arabia: قد يكون فيها أشخاص — تُعايَن قبل القبول"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "title": "File:A dallah of Arabic coffee.jpg",
+   "name": "dallah-arabic-coffee",
+   "what_page_states": "الوصف: «A dallah of Arabic coffee». التصنيف: Dallah. لا تذكر الصفحةُ بلدًا ولا مكانًا.",
+   "note": "بديلٌ للدلة إن ظهرت وجوهٌ معروفة في «One dallah per guest»"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee",
+   "title": "File:Mehmas iron jordan 2025 (2).jpg",
+   "name": "mihmas-coffee-roaster-jordan",
+   "what_page_states": "الوصف: «Metal Arabic Coffee Roaster in Jordan 2025». التصنيفات: Arab culture؛ Culture of Jordan؛ Images from Wiki Loves Folklore 2025 in Jordan. البلدُ بنصّ الصفحة: الأردن — لا السعودية.",
+   "note": "الأصل 8160×6120"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/agriculture",
+   "title": "File:صورة فوتوغرافية للمدرجات الزراعية الخضراء والقرى الجبلية المتناثرة في جبال فيفاء.jpg",
+   "name": "fayfa-terraces-jazan",
+   "what_page_states": "الوصف: «A photograph of the lush green terraced hillsides and scattered mountain villages in Fayfa Mountains». التصنيفات: Faifa', Jizan؛ Jazan Province. لا تذكر الصفحةُ البنَّ ولا أيَّ محصول."
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/khawlani",
+   "title": "File:Jazan's Fayfa Mountains (2025).jpg",
+   "name": "fayfa-mountains-jazan",
+   "what_page_states": "الوصف: «الطبيعة الخلَّابة بمحافظة فيفا بمنطقة جازان جنوب غربي السعودية (2025)». التصنيفات: Faifa', Jizan؛ Jazan Province؛ Photos from Saudi Photos platform. لا تذكر الصفحةُ البنَّ ولا المدرّجات ولا الخولاني."
+  },
+  {
+   "batch": 2,
+   "target_page": "species/arabica",
+   "title": "File:Coffea arabica 1DS-II 4-5105.jpg",
+   "name": "coffea-arabica-fruit",
+   "what_page_states": "الوصف: «Coffea arabica, fruit; coffee farm near Port Edward, KwaZulu-Natal, South Africa».",
+   "identity_check": "الوصف يسمّي النوع «Coffea arabica»، ووافقه التصنيف Category:Coffea arabica (fruit)."
+  },
+  {
+   "batch": 2,
+   "target_page": "species/canephora",
+   "title": "File:Coffea canephora Kawa kongijska 2024-02-29 Graz 02.jpg",
+   "name": "coffea-canephora-fruit",
+   "what_page_states": "الوصف: «Coffea canephora fruits, a plant cultivated in a greenhouse of the Botanical Garden of the University of Graz, Austria.»",
+   "identity_check": "الوصف يسمّي النوع «Coffea canephora»، ووافقه التصنيف Category:Coffea canephora."
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "title": "File:Coffee tree chary.jpg",
+   "name": "coffea-liberica-tree",
+   "what_page_states": "الوصف: «Tree of Coffea liberica in Lam Dong, Vietnam».",
+   "identity_check": "الوصف يسمّي النوع «Coffea liberica»، ووافقه التصنيف Category:Coffea liberica. لا تذكر الصفحةُ الإكسيلسا (dewevrei)."
+  },
+  {
+   "batch": 2,
+   "target_page": "species/stenophylla",
+   "title": "File:Coffea stenophylla kz02.jpg",
+   "name": "coffea-stenophylla",
+   "what_page_states": "الوصف: «Coffea stenophylla in the Botanischer Garten, Berlin-Dahlem».",
+   "identity_check": "الوصف يسمّي النوع «Coffea stenophylla»، ووافقه التصنيف Category:Coffea stenophylla."
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/mundo-novo-catuai",
+   "title": "File:CoffeeFruitsShow.jpg",
+   "name": "catuai-yellow-fruit",
+   "what_page_states": "الوصف: «Yellow Catuaí Coffee, a variety of COFFEA ARABICA - town of Manhuaçu - Minas Gerais State - Brazil.»",
+   "identity_check": "الوصف يسمّي السلالة صريحًا: «Yellow Catuaí Coffee, a variety of COFFEA ARABICA». التصنيف الموضوعي الوحيد: Coffee in Brazil (لا يناقض). الصورة للكاتواي الأصفر وحدَه، لا الموندو نوفو."
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/timor-catimor",
+   "title": "File:Hoacaphecatimo.jpg",
+   "name": "catimor-flowers",
+   "what_page_states": "الوصف (بالفيتنامية): «Hoa cà phê catimor.» أي: زهر قهوة الكاتيمور. التصنيفات: Coffea؛ Dak Lak؛ Flora of Vietnam.",
+   "identity_check": "الوصف يسمّي السلالة صريحًا: «catimor». التصنيف Category:Coffea لا يناقض. الصورة للكاتيمور وحدَه، لا هجين تيمور."
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/geisha",
+   "title": "File:Panama Gesha pourover coffee at Paradox Design & Coffee (50661522232).jpg",
+   "name": "gesha-pourover-cup",
+   "what_page_states": "الوصف: «Panama Gesha pourover coffee at Paradox Design & Coffee». التصنيف: Coffee shops in London.",
+   "identity_check": "الوصف يسمّي السلالة صريحًا: «Gesha». الصورة لكوب قهوةٍ مقطّرة في مقهى لا لنبتة، والتسميةُ تسميةُ المصوِّر (عن المقهى) — لا تحقُّقَ نباتيًّا منها.",
+   "note": "كوبٌ في مقهى: قد يظهر شعارٌ تجاري — تُعايَن قبل القبول"
+  }
+ ],
+ "skipped": [
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:By Bert Seal ph Weekend-at-a-Bedouin-Camp 02.jpg",
+   "reason": "الوصف «Weekend at a Bedouin Camp West of Abqaiq near Ain Dar» والتصنيف People of Saudi Arabia: الموضوع أشخاص"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:Secretary Kerry Observes Traditional Coffee Ceremony While Departing King Salman's Family Home in Saudi Arabia (16698783596).jpg",
+   "reason": "موضوعها الرئيس أشخاصٌ تُعرف وجوههم"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:Arabic coffee cups.png",
+   "reason": "PNG بوصفٍ من كلمتين «Arabic coffee cups» (2026)؛ لم يتأكّد أنها صورة فوتوغرافية لا تركيبٌ رقمي"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:دلة قهوة.jpg",
+   "reason": "صالحةُ الترخيص (CC BY-SA 4.0) لكن تصنيفها Beverages from Kuwait؛ قُدِّم عليها ما هو أوضح توثيقًا وأكبر"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee",
+   "commons_title": "File:أدوات تحميص القهوة العربية.jpg",
+   "reason": "صالحةُ الترخيص (CC0)، من متحف طراز في عمّان بالأردن، عموديةٌ؛ قُدِّمت عليها صورةُ المحماس الأفقية"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/geisha",
+   "commons_title": "File:Geisha Coffee.jpg",
+   "reason": "الوصف «Unspecified coffee beans»؛ السلالةُ في اسم الملفّ وحدَه"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/caturra",
+   "commons_title": "File:Caturra amarillo.JPG",
+   "reason": "الوصف «Mata de café con granos maduros» لا يسمّي السلالة؛ هي في اسم الملفّ وحدَه"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Bourbon Coffee.jpg",
+   "reason": "الوصف فارغ؛ السلالةُ في اسم الملفّ وحدَه"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Coffea arabica 'bourbon pointu' from Sliti farm in Reunion island.jpg",
+   "reason": "الوصف «Caféiers de la ferme Sliti, Saint Paul, Reunion» لا يسمّي السلالة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Coffea arabica cv. laurina ferme Sliti Saint Paul Réunion.jpg",
+   "reason": "الوصف يسمّي «Coffea arabica var. laurina» لا البوربون ولا التيبيكا"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Amy farms typica hybrid coffee beans.jpg",
+   "reason": "الوصف «typica hybrid coffee beans»: هجينٌ لا التيبيكا نفسها"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/mundo-novo-catuai",
+   "commons_title": "File:Coffee Berries.jpg",
+   "reason": "الوصف يسمّي «mundo novo» صريحًا والترخيص CC BY-SA 3.0، لكن الحدُّ صورةٌ واحدة للصفحة وتصنيفها Unidentified Coffea؛ تصلح بديلًا"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/mundo-novo-catuai",
+   "commons_title": "File:Maejantai Chiang Rai province 05.JPG",
+   "reason": "الوصف يكتب «Arabica Catuia variety» بإملاءٍ غير مطابق للكاتواي"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/pacamara",
+   "commons_title": "File:2019 02 AeroPress Pacamara Central Mall Korat.jpg",
+   "reason": "Pacamara هنا اسمُ مقهى لا سلالة"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "commons_title": "File:Coffea liberica (5597934575).jpg",
+   "reason": "مصنَّفةٌ في Coffea canephora و Coffea liberica معًا: التصنيفات لا توافق الوصف (ومثلها بقيّة صور Dinesh Valke بهذا الاسم)"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "commons_title": "File:大果咖啡 Coffea liberica -香港公園 Hong Kong Park- (9213308415).jpg",
+   "reason": "الوصف «Liberian Coffee» بلا الاسم العلمي؛ الاسمُ العلمي في اسم الملفّ وحقل Credit وحدَهما"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/canephora",
+   "commons_title": "File:CoffeaRobustaFlowers.jpg",
+   "reason": "الوصف نفسُه يشكّ: «Coffea canephora (syn. Coffea robusta) ?»"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/arabica",
+   "commons_title": "File:Coffee berries harvest in Anaimalai Hills, Southern Western Ghats P1110963.jpg",
+   "reason": "الوصف نفسُه يقول «most likely coffea arabica»"
+  }
+ ],
+ "not_found": [
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/agriculture",
+   "searched": [
+    "coffee Jazan",
+    "البن الخولاني",
+    "Khawlani coffee",
+    "coffee Fifa mountains",
+    "coffee tree Saudi Arabia",
+    "مزارع البن جازان",
+    "Al-Dayer coffee",
+    "شجرة البن",
+    "البن السعودي",
+    "بن خولاني",
+    "coffee Saudi Arabia farm",
+    "Coffea arabica Saudi Arabia",
+    "coffee Asir",
+    "coffee beans Jizan",
+    "Category:Coffee in Saudi Arabia",
+    "Category:Agriculture in Saudi Arabia",
+    "Category:Jizan Province",
+    "Category:Jazan Province"
+   ],
+   "reason": "لم تَرِد في نتائج البحث صورةٌ لأشجار بنٍّ أو ثماره أو مزارعه تقول صفحتُها إنها في السعودية؛ الموجود مدرّجاتُ فيفا ومناظرُها بلا ذكرٍ للبن"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/khawlani",
+   "searched": [
+    "البن الخولاني",
+    "Khawlani coffee",
+    "بن خولاني"
+   ],
+   "reason": "لا نتيجةَ تسمّي البنَّ الخولاني"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee",
+   "searched": [
+    "coffee roasting mihmas",
+    "محماس",
+    "تحميص القهوة",
+    "Bedouin roasting coffee fire",
+    "roasting coffee Arab pan fire",
+    "Bedouin coffee"
+   ],
+   "reason": "لا صورةَ تحميصٍ تقليديٍّ تقول صفحتُها إنها في السعودية؛ الموجود من الأردن"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "searched": [
+    "Coffea dewevrei",
+    "Coffea excelsa"
+   ],
+   "reason": "لا نتيجةَ يسمّي وصفُها الإكسيلسا (dewevrei)"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/caturra",
+   "searched": [
+    "Caturra",
+    "Caturra coffee",
+    "café caturra"
+   ],
+   "reason": "لا صورةَ يسمّي وصفُها الكاتورا (الموجودة مُتخطّاة)"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "searched": [
+    "Bourbon coffee variety",
+    "Typica coffee",
+    "Bourbon coffee tree",
+    "café Bourbon cafeto",
+    "Typica coffee tree",
+    "yellow bourbon coffee",
+    "Bourbon pointu"
+   ],
+   "reason": "لا صورةَ يسمّي وصفُها البوربون أو التيبيكا صريحًا"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/sl28-sl34",
+   "searched": [
+    "SL28 coffee",
+    "SL34",
+    "\"SL 28\" coffee",
+    "SL-28 coffee Kenya"
+   ],
+   "reason": "لا نتيجةَ عن القهوة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/pacamara",
+   "searched": [
+    "Pacamara",
+    "Pacamara coffee"
+   ],
+   "reason": "لا صورةَ للسلالة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/pacas-villa-sarchi",
+   "searched": [
+    "Villa Sarchi",
+    "\"Villa Sarchí\"",
+    "Pacas coffee variety"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/f1-hybrids",
+   "searched": [
+    "coffee F1 hybrid",
+    "Centroamericano coffee",
+    "Starmaya"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/74110-74112",
+   "searched": [
+    "74110 coffee",
+    "Jimma coffee variety 74110"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/dega",
+   "searched": [
+    "Dega coffee Ethiopia",
+    "Kurume coffee Ethiopia"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/timor-catimor",
+   "searched": [
+    "Timor hybrid coffee",
+    "Híbrido de Timor café"
+   ],
+   "reason": "لا صورةَ لهجين تيمور نفسِه (المرشَّحة للكاتيمور وحدَه)"
+  }
+ ],
+ "download_blocked": {
+  "host": "upload.wikimedia.org",
+  "status": "HTTP 429",
+  "retry_after_header": "600",
+  "message": "Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+  "attempts_utc": [
+   "2026-11-15 00:37–00:43 (أربعُ محاولاتٍ متتابعة من السكربت)",
+   "2026-11-15 00:43",
+   "2026-11-15 00:46",
+   "2026-11-15 00:55",
+   "2026-11-15 01:07 (بعد 674 ثانية بلا أي طلب)"
+  ],
+  "what_worked": "API على commons.wikimedia.org (بحثًا وبيانات)، وطلبٌ واحدٌ لملفٍّ مخزَّن في الواجهة (cache hit) على upload.wikimedia.org",
+  "not_done": "لم يُنزَّل أيُّ أصل، فلم تُحوَّل صورةٌ ولم تُعايَن بصريًّا. المصغّراتُ القياسية التي تقترحها ويكيميديا تُخدَم من thumb.wikimedia.org وهو خارج المضيفَين المسموحَين، فلم تُستعمل. ولم تُغيَّر ترويسة User-Agent.",
+  "to_resume": "python3 -I tools/dev/commons/fetch.py build tools/dev/commons/selection.json <مجلّد تنزيلٍ خارج المستودع> . — من شبكةٍ لا تحدّها ويكيميديا، ثم تُعايَن الصور"
+ }
+}

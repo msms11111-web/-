@@ -1,0 +1,710 @@
+{
+ "retrieved": "2026-11-15",
+ "download_blocked": {
+  "host": "upload.wikimedia.org",
+  "status": "HTTP 429",
+  "retry_after_header": "600",
+  "message": "Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+  "attempts_utc": [
+   "2026-11-15 00:37–00:43 (أربعُ محاولاتٍ متتابعة من السكربت)",
+   "2026-11-15 00:43",
+   "2026-11-15 00:46",
+   "2026-11-15 00:55",
+   "2026-11-15 01:07 (بعد 674 ثانية بلا أي طلب)"
+  ],
+  "what_worked": "API على commons.wikimedia.org (بحثًا وبيانات)، وطلبٌ واحدٌ لملفٍّ مخزَّن في الواجهة (cache hit) على upload.wikimedia.org",
+  "not_done": "لم يُنزَّل أيُّ أصل، فلم تُحوَّل صورةٌ ولم تُعايَن بصريًّا. المصغّراتُ القياسية التي تقترحها ويكيميديا تُخدَم من thumb.wikimedia.org وهو خارج المضيفَين المسموحَين، فلم تُستعمل. ولم تُغيَّر ترويسة User-Agent.",
+  "to_resume": "python3 -I tools/dev/commons/fetch.py build tools/dev/commons/selection.json <مجلّد تنزيلٍ خارج المستودع> . — من شبكةٍ لا تحدّها ويكيميديا، ثم تُعايَن الصور"
+ },
+ "accepted": [],
+ "pending_download": [
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "planned_file": "assets/images/finjan-arabic-coffee.webp",
+   "commons_title": "File:Finjan Arabic coffee.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Finjan_Arabic_coffee.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/63/Finjan_Arabic_coffee.jpg",
+   "original_width": 2048,
+   "original_height": 1360,
+   "original_sha1": "3d343468a6dd7f3cc41422bb1c295343ccc3f626",
+   "author": "أدوّن وأوثق أيامي بالصور",
+   "credit": "https://www.flickr.com/photos/rainsong/7421691598/in/photostream/",
+   "license_short": "CC BY 2.0",
+   "license_code": "cc-by-2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "usage_terms": "Creative Commons Attribution 2.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "A cup Arabic coffee",
+   "date_original": "2012-06-23 00:52:58",
+   "categories": [
+    "Category:Arabic coffee",
+    "Category:CC-BY-2.0",
+    "Category:Flickr images missing SDC published in",
+    "Category:Flickr images reviewed by FlickreviewR"
+   ],
+   "what_page_states": "الوصف: «A cup Arabic coffee». التصنيف: Arabic coffee. لا تذكر الصفحةُ بلدًا ولا مكانًا.",
+   "identity_check": "",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "planned_file": "assets/images/dallah-guest-hall.webp",
+   "commons_title": "File:One dallah per guest (4569431037).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:One_dallah_per_guest_(4569431037).jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/71/One_dallah_per_guest_%284569431037%29.jpg",
+   "original_width": 2863,
+   "original_height": 2295,
+   "original_sha1": "06c187dd30239434aff2e1c1ca3e90399f86cf1f",
+   "author": "Peter Dowley from Dubai, United Arab Emirates",
+   "credit": "One dallah per guest",
+   "license_short": "CC BY 2.0",
+   "license_code": "cc-by-2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "usage_terms": "Creative Commons Attribution 2.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "The guest hall has a huge set of brass and silver Dallah (coffee pots). We were served with kahwa (Arabic coffee), tea, cold drinks and cakes",
+   "date_original": "2010-04-22 10:58",
+   "categories": [
+    "Category:CC-BY-2.0",
+    "Category:Dallah",
+    "Category:Flickr images reviewed by FlickreviewR",
+    "Category:Men of Saudi Arabia",
+    "Category:Photographs by Peter Dowley",
+    "Category:Taken with Canon PowerShot SX100 IS"
+   ],
+   "what_page_states": "الوصف: «The guest hall has a huge set of brass and silver Dallah (coffee pots). We were served with kahwa (Arabic coffee), tea, cold drinks and cakes». التصنيفات: Dallah؛ Men of Saudi Arabia. لا يسمّي الوصفُ نفسُه البلدَ؛ السعوديةُ واردةٌ في التصنيف وحدَه.",
+   "identity_check": "",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": "تصنيفها Men of Saudi Arabia: قد يكون فيها أشخاص — تُعايَن قبل القبول"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "planned_file": "assets/images/dallah-arabic-coffee.webp",
+   "commons_title": "File:A dallah of Arabic coffee.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:A_dallah_of_Arabic_coffee.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/A_dallah_of_Arabic_coffee.jpg",
+   "original_width": 5472,
+   "original_height": 3648,
+   "original_sha1": "d77084ce31973c448e81c0aee40d2c53599f71ac",
+   "author": "Abdulla Al Muhairi",
+   "credit": "https://www.flickr.com/photos/serdal/14708039419/",
+   "license_short": "CC BY 2.0",
+   "license_code": "cc-by-2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "usage_terms": "Creative Commons Attribution 2.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "A dallah of Arabic coffee",
+   "date_original": "2014-08-12 09:27:33",
+   "categories": [
+    "Category:CC-BY-2.0",
+    "Category:Dallah",
+    "Category:Flickr images reviewed by FlickreviewR"
+   ],
+   "what_page_states": "الوصف: «A dallah of Arabic coffee». التصنيف: Dallah. لا تذكر الصفحةُ بلدًا ولا مكانًا.",
+   "identity_check": "",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": "بديلٌ للدلة إن ظهرت وجوهٌ معروفة في «One dallah per guest»"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee",
+   "planned_file": "assets/images/mihmas-coffee-roaster-jordan.webp",
+   "commons_title": "File:Mehmas iron jordan 2025 (2).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Mehmas_iron_jordan_2025_(2).jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mehmas_iron_jordan_2025_%282%29.jpg",
+   "original_width": 8160,
+   "original_height": 6120,
+   "original_sha1": "54e4e0026b68ff27d6ab119ec8c4e02e3fa26b67",
+   "author": "Justwiki",
+   "credit": "Own work",
+   "license_short": "CC0",
+   "license_code": "cc0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+   "attribution_required": "false",
+   "restrictions": "",
+   "description": "Metal Arabic Coffee Roaster in Jordan 2025",
+   "date_original": "2025-03-19 21:55:04",
+   "categories": [
+    "Category:Arab culture",
+    "Category:CC-Zero",
+    "Category:Culture of Jordan",
+    "Category:Images from Wiki Loves Folklore 2025",
+    "Category:Images from Wiki Loves Folklore 2025 in Jordan",
+    "Category:Self-published work"
+   ],
+   "what_page_states": "الوصف: «Metal Arabic Coffee Roaster in Jordan 2025». التصنيفات: Arab culture؛ Culture of Jordan؛ Images from Wiki Loves Folklore 2025 in Jordan. البلدُ بنصّ الصفحة: الأردن — لا السعودية.",
+   "identity_check": "",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": "الأصل 8160×6120"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/agriculture",
+   "planned_file": "assets/images/fayfa-terraces-jazan.webp",
+   "commons_title": "File:صورة فوتوغرافية للمدرجات الزراعية الخضراء والقرى الجبلية المتناثرة في جبال فيفاء.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:%D8%B5%D9%88%D8%B1%D8%A9_%D9%81%D9%88%D8%AA%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9_%D9%84%D9%84%D9%85%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA_%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9_%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1_%D9%88%D8%A7%D9%84%D9%82%D8%B1%D9%89_%D8%A7%D9%84%D8%AC%D8%A8%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%AA%D9%86%D8%A7%D8%AB%D8%B1%D8%A9_%D9%81%D9%8A_%D8%AC%D8%A8%D8%A7%D9%84_%D9%81%D9%8A%D9%81%D8%A7%D8%A1.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/%D8%B5%D9%88%D8%B1%D8%A9_%D9%81%D9%88%D8%AA%D9%88%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A9_%D9%84%D9%84%D9%85%D8%AF%D8%B1%D8%AC%D8%A7%D8%AA_%D8%A7%D9%84%D8%B2%D8%B1%D8%A7%D8%B9%D9%8A%D8%A9_%D8%A7%D9%84%D8%AE%D8%B6%D8%B1%D8%A7%D8%A1_%D9%88%D8%A7%D9%84%D9%82%D8%B1%D9%89_%D8%A7%D9%84%D8%AC%D8%A8%D9%84%D9%8A%D8%A9_%D8%A7%D9%84%D9%85%D8%AA%D9%86%D8%A7%D8%AB%D8%B1%D8%A9_%D9%81%D9%8A_%D8%AC%D8%A8%D8%A7%D9%84_%D9%81%D9%8A%D9%81%D8%A7%D8%A1.jpg",
+   "original_width": 1125,
+   "original_height": 1406,
+   "original_sha1": "a22a55f3c8d89542f685a743951976d0477ef6f1",
+   "author": "Ahmadalfaifi771",
+   "credit": "Own work",
+   "license_short": "CC0",
+   "license_code": "cc0",
+   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "usage_terms": "Creative Commons Zero, Public Domain Dedication",
+   "attribution_required": "false",
+   "restrictions": "",
+   "description": "A photograph of the lush green terraced hillsides and scattered mountain villages in Fayfa Mountains",
+   "date_original": "2025-08-02",
+   "categories": [
+    "Category:CC-Zero",
+    "Category:Faifa', Jizan",
+    "Category:Jazan Province",
+    "Category:Self-published work"
+   ],
+   "what_page_states": "الوصف: «A photograph of the lush green terraced hillsides and scattered mountain villages in Fayfa Mountains». التصنيفات: Faifa', Jizan؛ Jazan Province. لا تذكر الصفحةُ البنَّ ولا أيَّ محصول.",
+   "identity_check": "",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/khawlani",
+   "planned_file": "assets/images/fayfa-mountains-jazan.webp",
+   "commons_title": "File:Jazan's Fayfa Mountains (2025).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Jazan%27s_Fayfa_Mountains_(2025).jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Jazan%27s_Fayfa_Mountains_%282025%29.jpg",
+   "original_width": 3840,
+   "original_height": 2160,
+   "original_sha1": "08c1bc672e7e336bc5ced9c75ba07a4195efd6cb",
+   "author": "Saudi Press Agency (SPA)",
+   "credit": "Saudi Photo Hub",
+   "license_short": "CC BY-SA 4.0",
+   "license_code": "cc-by-sa-4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "الطبيعة الخلَّابة بمحافظة فيفا بمنطقة جازان جنوب غربي السعودية (2025)",
+   "date_original": "18 December 2025 (upload date)",
+   "categories": [
+    "Category:CC-BY-SA-4.0",
+    "Category:Faifa', Jizan",
+    "Category:Jazan Province",
+    "Category:Photos from Saudi Photos platform"
+   ],
+   "what_page_states": "الوصف: «الطبيعة الخلَّابة بمحافظة فيفا بمنطقة جازان جنوب غربي السعودية (2025)». التصنيفات: Faifa', Jizan؛ Jazan Province؛ Photos from Saudi Photos platform. لا تذكر الصفحةُ البنَّ ولا المدرّجات ولا الخولاني.",
+   "identity_check": "",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 2,
+   "target_page": "species/arabica",
+   "planned_file": "assets/images/coffea-arabica-fruit.webp",
+   "commons_title": "File:Coffea arabica 1DS-II 4-5105.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Coffea_arabica_1DS-II_4-5105.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Coffea_arabica_1DS-II_4-5105.jpg",
+   "original_width": 4992,
+   "original_height": 3328,
+   "original_sha1": "b30e782dc4a30f8aa28172ce9bfc57fc49661f74",
+   "author": "SAplants",
+   "credit": "Own work",
+   "license_short": "CC BY-SA 4.0",
+   "license_code": "cc-by-sa-4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "Coffea arabica, fruit; coffee farm near Port Edward, KwaZulu-Natal, South Africa",
+   "date_original": "2014-06-02",
+   "categories": [
+    "Category:CC-BY-SA-4.0",
+    "Category:Coffea arabica (fruit)",
+    "Category:Plants introduced into southern Africa (photographs by SAplants)",
+    "Category:Self-published work"
+   ],
+   "what_page_states": "الوصف: «Coffea arabica, fruit; coffee farm near Port Edward, KwaZulu-Natal, South Africa».",
+   "identity_check": "الوصف يسمّي النوع «Coffea arabica»، ووافقه التصنيف Category:Coffea arabica (fruit).",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 2,
+   "target_page": "species/canephora",
+   "planned_file": "assets/images/coffea-canephora-fruit.webp",
+   "commons_title": "File:Coffea canephora Kawa kongijska 2024-02-29 Graz 02.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Coffea_canephora_Kawa_kongijska_2024-02-29_Graz_02.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/59/Coffea_canephora_Kawa_kongijska_2024-02-29_Graz_02.jpg",
+   "original_width": 3096,
+   "original_height": 2322,
+   "original_sha1": "d461f2bca87f4e9f7e352b1af50951ac40de8d23",
+   "author": "Agnieszka Kwiecień, Nova",
+   "credit": "Own work",
+   "license_short": "CC BY-SA 4.0",
+   "license_code": "cc-by-sa-4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "Coffea canephora fruits, a plant cultivated in a greenhouse of the Botanical Garden of the University of Graz, Austria.",
+   "date_original": "2024-02-29",
+   "categories": [
+    "Category:CC-BY-SA-4.0",
+    "Category:Coffea canephora",
+    "Category:Graz photographs taken on 2024-02-29",
+    "Category:Plants in Botanical Garden of the University of Graz",
+    "Category:Plants in Botanical Garden of the University of Graz in February",
+    "Category:Self-published work"
+   ],
+   "what_page_states": "الوصف: «Coffea canephora fruits, a plant cultivated in a greenhouse of the Botanical Garden of the University of Graz, Austria.»",
+   "identity_check": "الوصف يسمّي النوع «Coffea canephora»، ووافقه التصنيف Category:Coffea canephora.",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "planned_file": "assets/images/coffea-liberica-tree.webp",
+   "commons_title": "File:Coffee tree chary.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Coffee_tree_chary.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/Coffee_tree_chary.jpg",
+   "original_width": 1350,
+   "original_height": 1840,
+   "original_sha1": "858d343099568f6362b305cc4e27bd8ebbfa706e",
+   "author": "DXLINH",
+   "credit": "Own work",
+   "license_short": "CC BY-SA 3.0",
+   "license_code": "cc-by-sa-3.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+   "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "Tree of Coffea liberica in Lam Dong, Vietnam",
+   "date_original": "2008-04-20",
+   "categories": [
+    "Category:CC-BY-SA-3.0",
+    "Category:Coffea liberica",
+    "Category:Coffee planting in Vietnam",
+    "Category:GFDL",
+    "Category:License migration redundant",
+    "Category:Pictures by DXLINH",
+    "Category:Self-published work",
+    "Category:Taken with Olympus FE-170 / X-760"
+   ],
+   "what_page_states": "الوصف: «Tree of Coffea liberica in Lam Dong, Vietnam».",
+   "identity_check": "الوصف يسمّي النوع «Coffea liberica»، ووافقه التصنيف Category:Coffea liberica. لا تذكر الصفحةُ الإكسيلسا (dewevrei).",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 2,
+   "target_page": "species/stenophylla",
+   "planned_file": "assets/images/coffea-stenophylla.webp",
+   "commons_title": "File:Coffea stenophylla kz02.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Coffea_stenophylla_kz02.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Coffea_stenophylla_kz02.jpg",
+   "original_width": 4608,
+   "original_height": 3072,
+   "original_sha1": "5aaa67bda9695d43e0a05377ceaa71ffcb701a99",
+   "author": "Krzysztof Ziarnek, Kenraiz",
+   "credit": "Own work",
+   "license_short": "CC BY-SA 4.0",
+   "license_code": "cc-by-sa-4.0",
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+   "usage_terms": "Creative Commons Attribution-Share Alike 4.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "Coffea stenophylla in the Botanischer Garten, Berlin-Dahlem",
+   "date_original": "2019-12-13 11:36:19",
+   "categories": [
+    "Category:CC-BY-SA-4.0",
+    "Category:Coffea stenophylla",
+    "Category:Files with coordinates missing SDC location of creation",
+    "Category:Rubiaceae in the Botanischer Garten, Berlin-Dahlem",
+    "Category:Self-published work"
+   ],
+   "what_page_states": "الوصف: «Coffea stenophylla in the Botanischer Garten, Berlin-Dahlem».",
+   "identity_check": "الوصف يسمّي النوع «Coffea stenophylla»، ووافقه التصنيف Category:Coffea stenophylla.",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/mundo-novo-catuai",
+   "planned_file": "assets/images/catuai-yellow-fruit.webp",
+   "commons_title": "File:CoffeeFruitsShow.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:CoffeeFruitsShow.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/CoffeeFruitsShow.jpg",
+   "original_width": 2048,
+   "original_height": 1536,
+   "original_sha1": "93caeb25505a663ba973f585fe916d85d8bf6c89",
+   "author": "Fernando Rebêlo",
+   "credit": "This photo was taken in May,13-2005 by Fernando Rebêlo",
+   "license_short": "CC BY-SA 3.0",
+   "license_code": "cc-by-sa-3.0",
+   "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "usage_terms": "Creative Commons Attribution-Share Alike 3.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "Yellow Catuaí Coffee, a variety of COFFEA ARABICA - town of Manhuaçu - Minas Gerais State - Brazil.",
+   "date_original": "2005-05-13",
+   "categories": [
+    "Category:CC-BY-SA-3.0-migrated",
+    "Category:Coffee in Brazil",
+    "Category:GFDL",
+    "Category:License migration completed",
+    "Category:Taken with Canon PowerShot A70"
+   ],
+   "what_page_states": "الوصف: «Yellow Catuaí Coffee, a variety of COFFEA ARABICA - town of Manhuaçu - Minas Gerais State - Brazil.»",
+   "identity_check": "الوصف يسمّي السلالة صريحًا: «Yellow Catuaí Coffee, a variety of COFFEA ARABICA». التصنيف الموضوعي الوحيد: Coffee in Brazil (لا يناقض). الصورة للكاتواي الأصفر وحدَه، لا الموندو نوفو.",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/timor-catimor",
+   "planned_file": "assets/images/catimor-flowers.webp",
+   "commons_title": "File:Hoacaphecatimo.jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Hoacaphecatimo.jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Hoacaphecatimo.jpg",
+   "original_width": 2048,
+   "original_height": 1536,
+   "original_sha1": "12357ed3d9cb6f0f5ae6cf594685d87f4b5b7d58",
+   "author": "DXLINH",
+   "credit": "Own work",
+   "license_short": "Public domain",
+   "license_code": "pd",
+   "license_url": "",
+   "usage_terms": "Public domain",
+   "attribution_required": "false",
+   "restrictions": "",
+   "description": "Hoa cà phê catimor.",
+   "date_original": "",
+   "categories": [
+    "Category:Coffea",
+    "Category:Dak Lak",
+    "Category:Flora of Vietnam",
+    "Category:PD-self",
+    "Category:Self-published work"
+   ],
+   "what_page_states": "الوصف (بالفيتنامية): «Hoa cà phê catimor.» أي: زهر قهوة الكاتيمور. التصنيفات: Coffea؛ Dak Lak؛ Flora of Vietnam.",
+   "identity_check": "الوصف يسمّي السلالة صريحًا: «catimor». التصنيف Category:Coffea لا يناقض. الصورة للكاتيمور وحدَه، لا هجين تيمور.",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": ""
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/geisha",
+   "planned_file": "assets/images/gesha-pourover-cup.webp",
+   "commons_title": "File:Panama Gesha pourover coffee at Paradox Design & Coffee (50661522232).jpg",
+   "commons_url": "https://commons.wikimedia.org/wiki/File:Panama_Gesha_pourover_coffee_at_Paradox_Design_%26_Coffee_(50661522232).jpg",
+   "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Panama_Gesha_pourover_coffee_at_Paradox_Design_%26_Coffee_%2850661522232%29.jpg",
+   "original_width": 3781,
+   "original_height": 2836,
+   "original_sha1": "db17b2eb3a5dd940934a3a00efe13242cb7c903b",
+   "author": "Bex Walton from London, England",
+   "credit": "Panama Gesha pourover coffee at Paradox Design & Coffee",
+   "license_short": "CC BY 2.0",
+   "license_code": "cc-by-2.0",
+   "license_url": "https://creativecommons.org/licenses/by/2.0",
+   "usage_terms": "Creative Commons Attribution 2.0",
+   "attribution_required": "true",
+   "restrictions": "",
+   "description": "Panama Gesha pourover coffee at Paradox Design & Coffee",
+   "date_original": "2020-11-28 13:05",
+   "categories": [
+    "Category:CC-BY-2.0",
+    "Category:Coffee shops in London",
+    "Category:Files with coordinates missing SDC location of creation (51° N, 1° W)",
+    "Category:Flickr images reviewed by FlickreviewR 2"
+   ],
+   "what_page_states": "الوصف: «Panama Gesha pourover coffee at Paradox Design & Coffee». التصنيف: Coffee shops in London.",
+   "identity_check": "الوصف يسمّي السلالة صريحًا: «Gesha». الصورة لكوب قهوةٍ مقطّرة في مقهى لا لنبتة، والتسميةُ تسميةُ المصوِّر (عن المقهى) — لا تحقُّقَ نباتيًّا منها.",
+   "automatic_checks": "سليم (الترخيص والتنبيهات ودلالات التوليد)",
+   "not_yet_checked": "لم تُعايَن الصورةُ بصريًّا: الوجوه والعلامات المائية والشعارات لم تُفحص",
+   "note": "كوبٌ في مقهى: قد يظهر شعارٌ تجاري — تُعايَن قبل القبول"
+  }
+ ],
+ "skipped": [
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:By Bert Seal ph Weekend-at-a-Bedouin-Camp 02.jpg",
+   "reason": "الوصف «Weekend at a Bedouin Camp West of Abqaiq near Ain Dar» والتصنيف People of Saudi Arabia: الموضوع أشخاص"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:Secretary Kerry Observes Traditional Coffee Ceremony While Departing King Salman's Family Home in Saudi Arabia (16698783596).jpg",
+   "reason": "موضوعها الرئيس أشخاصٌ تُعرف وجوههم"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:Arabic coffee cups.png",
+   "reason": "PNG بوصفٍ من كلمتين «Arabic coffee cups» (2026)؛ لم يتأكّد أنها صورة فوتوغرافية لا تركيبٌ رقمي"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/ritual",
+   "commons_title": "File:دلة قهوة.jpg",
+   "reason": "صالحةُ الترخيص (CC BY-SA 4.0) لكن تصنيفها Beverages from Kuwait؛ قُدِّم عليها ما هو أوضح توثيقًا وأكبر"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee",
+   "commons_title": "File:أدوات تحميص القهوة العربية.jpg",
+   "reason": "صالحةُ الترخيص (CC0)، من متحف طراز في عمّان بالأردن، عموديةٌ؛ قُدِّمت عليها صورةُ المحماس الأفقية"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/geisha",
+   "commons_title": "File:Geisha Coffee.jpg",
+   "reason": "الوصف «Unspecified coffee beans»؛ السلالةُ في اسم الملفّ وحدَه"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/caturra",
+   "commons_title": "File:Caturra amarillo.JPG",
+   "reason": "الوصف «Mata de café con granos maduros» لا يسمّي السلالة؛ هي في اسم الملفّ وحدَه"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Bourbon Coffee.jpg",
+   "reason": "الوصف فارغ؛ السلالةُ في اسم الملفّ وحدَه"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Coffea arabica 'bourbon pointu' from Sliti farm in Reunion island.jpg",
+   "reason": "الوصف «Caféiers de la ferme Sliti, Saint Paul, Reunion» لا يسمّي السلالة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Coffea arabica cv. laurina ferme Sliti Saint Paul Réunion.jpg",
+   "reason": "الوصف يسمّي «Coffea arabica var. laurina» لا البوربون ولا التيبيكا"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "commons_title": "File:Amy farms typica hybrid coffee beans.jpg",
+   "reason": "الوصف «typica hybrid coffee beans»: هجينٌ لا التيبيكا نفسها"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/mundo-novo-catuai",
+   "commons_title": "File:Coffee Berries.jpg",
+   "reason": "الوصف يسمّي «mundo novo» صريحًا والترخيص CC BY-SA 3.0، لكن الحدُّ صورةٌ واحدة للصفحة وتصنيفها Unidentified Coffea؛ تصلح بديلًا"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/mundo-novo-catuai",
+   "commons_title": "File:Maejantai Chiang Rai province 05.JPG",
+   "reason": "الوصف يكتب «Arabica Catuia variety» بإملاءٍ غير مطابق للكاتواي"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/pacamara",
+   "commons_title": "File:2019 02 AeroPress Pacamara Central Mall Korat.jpg",
+   "reason": "Pacamara هنا اسمُ مقهى لا سلالة"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "commons_title": "File:Coffea liberica (5597934575).jpg",
+   "reason": "مصنَّفةٌ في Coffea canephora و Coffea liberica معًا: التصنيفات لا توافق الوصف (ومثلها بقيّة صور Dinesh Valke بهذا الاسم)"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "commons_title": "File:大果咖啡 Coffea liberica -香港公園 Hong Kong Park- (9213308415).jpg",
+   "reason": "الوصف «Liberian Coffee» بلا الاسم العلمي؛ الاسمُ العلمي في اسم الملفّ وحقل Credit وحدَهما"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/canephora",
+   "commons_title": "File:CoffeaRobustaFlowers.jpg",
+   "reason": "الوصف نفسُه يشكّ: «Coffea canephora (syn. Coffea robusta) ?»"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/arabica",
+   "commons_title": "File:Coffee berries harvest in Anaimalai Hills, Southern Western Ghats P1110963.jpg",
+   "reason": "الوصف نفسُه يقول «most likely coffea arabica»"
+  }
+ ],
+ "not_found": [
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/agriculture",
+   "searched": [
+    "coffee Jazan",
+    "البن الخولاني",
+    "Khawlani coffee",
+    "coffee Fifa mountains",
+    "coffee tree Saudi Arabia",
+    "مزارع البن جازان",
+    "Al-Dayer coffee",
+    "شجرة البن",
+    "البن السعودي",
+    "بن خولاني",
+    "coffee Saudi Arabia farm",
+    "Coffea arabica Saudi Arabia",
+    "coffee Asir",
+    "coffee beans Jizan",
+    "Category:Coffee in Saudi Arabia",
+    "Category:Agriculture in Saudi Arabia",
+    "Category:Jizan Province",
+    "Category:Jazan Province"
+   ],
+   "reason": "لم تَرِد في نتائج البحث صورةٌ لأشجار بنٍّ أو ثماره أو مزارعه تقول صفحتُها إنها في السعودية؛ الموجود مدرّجاتُ فيفا ومناظرُها بلا ذكرٍ للبن"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee/khawlani",
+   "searched": [
+    "البن الخولاني",
+    "Khawlani coffee",
+    "بن خولاني"
+   ],
+   "reason": "لا نتيجةَ تسمّي البنَّ الخولاني"
+  },
+  {
+   "batch": 1,
+   "target_page": "saudi-coffee",
+   "searched": [
+    "coffee roasting mihmas",
+    "محماس",
+    "تحميص القهوة",
+    "Bedouin roasting coffee fire",
+    "roasting coffee Arab pan fire",
+    "Bedouin coffee"
+   ],
+   "reason": "لا صورةَ تحميصٍ تقليديٍّ تقول صفحتُها إنها في السعودية؛ الموجود من الأردن"
+  },
+  {
+   "batch": 2,
+   "target_page": "species/liberica",
+   "searched": [
+    "Coffea dewevrei",
+    "Coffea excelsa"
+   ],
+   "reason": "لا نتيجةَ يسمّي وصفُها الإكسيلسا (dewevrei)"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/caturra",
+   "searched": [
+    "Caturra",
+    "Caturra coffee",
+    "café caturra"
+   ],
+   "reason": "لا صورةَ يسمّي وصفُها الكاتورا (الموجودة مُتخطّاة)"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/typica-bourbon",
+   "searched": [
+    "Bourbon coffee variety",
+    "Typica coffee",
+    "Bourbon coffee tree",
+    "café Bourbon cafeto",
+    "Typica coffee tree",
+    "yellow bourbon coffee",
+    "Bourbon pointu"
+   ],
+   "reason": "لا صورةَ يسمّي وصفُها البوربون أو التيبيكا صريحًا"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/sl28-sl34",
+   "searched": [
+    "SL28 coffee",
+    "SL34",
+    "\"SL 28\" coffee",
+    "SL-28 coffee Kenya"
+   ],
+   "reason": "لا نتيجةَ عن القهوة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/pacamara",
+   "searched": [
+    "Pacamara",
+    "Pacamara coffee"
+   ],
+   "reason": "لا صورةَ للسلالة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/pacas-villa-sarchi",
+   "searched": [
+    "Villa Sarchi",
+    "\"Villa Sarchí\"",
+    "Pacas coffee variety"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/f1-hybrids",
+   "searched": [
+    "coffee F1 hybrid",
+    "Centroamericano coffee",
+    "Starmaya"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/74110-74112",
+   "searched": [
+    "74110 coffee",
+    "Jimma coffee variety 74110"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/dega",
+   "searched": [
+    "Dega coffee Ethiopia",
+    "Kurume coffee Ethiopia"
+   ],
+   "reason": "لا نتيجة"
+  },
+  {
+   "batch": 2,
+   "target_page": "varieties/timor-catimor",
+   "searched": [
+    "Timor hybrid coffee",
+    "Híbrido de Timor café"
+   ],
+   "reason": "لا صورةَ لهجين تيمور نفسِه (المرشَّحة للكاتيمور وحدَه)"
+  }
+ ]
+}
